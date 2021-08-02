@@ -18,7 +18,7 @@ class Navbar extends Component {
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <img src="./logo.png" width="144" height="144" alt="Logo" className={this.state.clicked ? 'alt-logo-none' : 'alt-logo'} style={{ marginTop: "20px"}} href="/"></img>
+                <img src="./logo.png" width="144" height="144" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
 
             {/* The Gallery */}
@@ -45,7 +45,7 @@ class Navbar extends Component {
 	        <div class="dropdown">
 				<button class="dropbtn">Artists</button>
 				<div class="dropdown-content">
-				  <a href="">Our Artists</a>
+				  <a href="/artists">Our Artists</a>
 				  <a href="">Aparna Banerjee</a>
 				  <a href="">Link 3</a>
 				</div>

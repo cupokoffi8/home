@@ -236,7 +236,8 @@ a:hover {
     text-decoration: none;
   }
 
-  .dropbtn:hover {
+  .dropbtn:active {
+    background: none;
     display: block; 
     margin-left: auto; 
     margin-right: auto;
@@ -247,7 +248,8 @@ a:hover {
     color: black; 
   } 
 
-  .dropdown:hover {
+  .dropdown:active {
+    background: none;
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
