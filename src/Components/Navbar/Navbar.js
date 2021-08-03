@@ -1,72 +1,113 @@
-import React, {Component} from 'react'; 
-import "./Navbar.css"
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+import TgDropdown from './TG-Dropdown';
+import EDropdown from './E-Dropdown';
 
-class Navbar extends Component {
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
-    state = { 
-        clicked: false 
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
     }
+  };
 
-    handleClick = () => {
-        this.setState({ clicked: !this.state.clicked })
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
     }
+  };
 
-    render() {
-        return(
-        <nav className="NavbarItems">
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                <img src="./logo.png" width="144" height="144" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+  return (
+    <>
+      <nav className='navbar'>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src="./logo.png" width="144" height="144" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
+        </Link>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        </div>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-            {/* The Gallery */}
-	        <div class="dropdown">
-				<button class="dropbtn">The Gallery</button>
-				<div class="dropdown-content">
-				  <a href="">Link 1</a>
-				  <a href="">Link 2</a>
-				  <a href="">Link 3</a>
-				</div>
-			  </div>
+          {/* The Gallery */}
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <Link
+              to='/the-gallery'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              The Gallery <i className='fas fa-caret-down' />
+            </Link>
+            {dropdown && <TgDropdown />}
+          </li>
 
-			{/* Exhibitions */}
-	        <div class="dropdown">
-				<button class="dropbtn">Exhibitions</button>
-				<div class="dropdown-content">
-				  <a href="">Link 1</a>
-				  <a href="">Link 2</a>
-				  <a href="">Link 3</a>
-				</div>
-			  </div>
+          {/* Exhibitions */}
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <Link
+              to='/the-gallery'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Exhibitions <i className='fas fa-caret-down' />
+            </Link>
+            {dropdown && <TgDropdown />}
+          </li>
 
-			{/* Artists */}
-	        <div class="dropdown">
-				<button class="dropbtn">Artists</button>
-				<div class="dropdown-content">
-				  <a href="/artists">Our Artists</a>
-				  <a href="">Aparna Banerjee</a>
-				  <a href="">Link 3</a>
-				</div>
-			  </div>
+          {/* Exhibitions */}
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <Link
+              to='/the-gallery'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Exhibitions <i className='fas fa-caret-down' />
+            </Link>
+            {dropdown && <EDropdown />}
+          </li>
 
-			{/* Logo */}
-			<img src="./logo.png" width="144" height="144" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/"></img>
+          {/* News and Events */}
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              News and Events
+            </Link>
+          </li>
 
-			{/* News and Events */}
-	        <button class="dropbtn2"><a href="">News and Events</a></button>
+          {/* Art Service */}
+          <li className='nav-item'>
+            <Link
+              to='/products'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Art Service
+            </Link>
+          </li>
 
-			{/* Art Service */}
-	        <button class="dropbtn2"><a href="">Art Service</a></button>
-
-			{/* Contact Us */}
-	        <button class="dropbtn2"><a href="">Contact Us</a></button>
-                </ul>
-                </div>
-            </nav>
-        )
-    }
+        </ul>
+      </nav>
+    </>
+  );
 }
 
-export default Navbar; 
+export default Navbar;
