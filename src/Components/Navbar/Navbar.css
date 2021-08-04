@@ -122,8 +122,12 @@
     transition: all 0.5s ease;
   }
 
+  .logo {
+    display: none; 
+  }
+
   .nav-menu.active {
-    background: #3f3f3f;
+    background: #ffffff;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
