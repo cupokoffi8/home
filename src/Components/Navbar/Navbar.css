@@ -1,5 +1,5 @@
 .navbar {
-  background: #3f3f3f; 
+  background: #ffffff; 
   height: 80px;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
 
 .nav-menu {
   display: grid;
-  background: #3f3f3f;
+  background: #ffffff;
   grid-template-columns: repeat(7, auto);
   grid-gap: 10px;
   list-style: none;
@@ -40,13 +40,14 @@
 }
 
 .nav-links {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
   background-color: #1888ff;
+  color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -58,13 +59,14 @@
 }
 
 .nav-links-2 {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links-2:hover {
   background-color: #1888ff;
+  color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -76,13 +78,14 @@
 }
 
 .nav-links-3 {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links-3:hover {
   background-color: #1888ff;
+  color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
