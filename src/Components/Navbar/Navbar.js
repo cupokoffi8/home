@@ -95,9 +95,6 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./logo.png" width="144" height="144" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
-        </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
@@ -151,6 +148,10 @@ function Navbar() {
             {dropdown3 && <ADropdown />}
           </li>
 
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src="./logo.png" width="80" height="80" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
+          </Link>
+
           {/* News and Events */}
           <li className='nav-item'>
             <Link 
@@ -170,6 +171,17 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               Art Service
+            </Link>
+          </li>
+
+          {/* Contact Us */}
+          <li className='nav-item'>
+            <Link
+              to='/products'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Contact Us
             </Link>
           </li>
 
