@@ -118,13 +118,13 @@ function Navbar() {
 
           {/* Exhibitions */}
           <li
-            className='nav-item-3'
+            className='nav-item'
             onMouseEnter={onMouseEnter2}
             onMouseLeave={onMouseLeave2}
           >
             <Link
               to='/the-gallery'
-              className='nav-links-3'
+              className='nav-links'
               onClick={closeMobileMenu}
             >
               Exhibitions <i className='fas fa-caret-down' />
@@ -134,13 +134,13 @@ function Navbar() {
 
           {/* Exhibitions */}
           <li
-            className='nav-item-2'
+            className='nav-item'
             onMouseEnter={onMouseEnter3}
             onMouseLeave={onMouseLeave3}
           >
             <Link
               to='/the-gallery'
-              className='nav-links-2'
+              className='nav-links'
               onClick={closeMobileMenu}
             >
               Artists <i className='fas fa-caret-down' />
@@ -149,7 +149,7 @@ function Navbar() {
           </li>
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./logo.png" width="100" height="100" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
+          <img src="./logo.png" width="140" height="140" alt="Logo" className='alt-logo' style={{ marginTop: "20px"}} href="/"></img>
           </Link>
 
           {/* News and Events */}
