@@ -149,7 +149,7 @@ function Navbar() {
           </li>
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./logo.png" width="140" height="140" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/"></img>
+          <img src="./logo.png" width="140" height="140" alt="Logo" className='logo' style={{ marginTop: "40px"}} href="/"></img>
           </Link>
 
           {/* News and Events */}
