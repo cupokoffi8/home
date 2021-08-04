@@ -45,6 +45,42 @@
 }
 
 .nav-links:hover {
+  background-color: #9b9b9b;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-item-2 {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links-2 {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links-2:hover {
+  background-color: #1888ff;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-item-3 {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links-3 {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links-3:hover {
   background-color: #1888ff;
   border-radius: 4px;
   transition: all 0.2s ease-out;

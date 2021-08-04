@@ -12,13 +12,13 @@ function EDropdown() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={click ? 'e-dropdown-menu clicked' : 'e-dropdown-menu'}
       >
         {EMenuItems.map((item, index) => {
           return (
             <li key={index}>
               <Link
-                className={item.cName}
+                className="e-dropdown-link"
                 to={item.path}
                 onClick={() => setClick(false)}
               >

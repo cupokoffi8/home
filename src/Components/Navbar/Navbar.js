@@ -3,27 +3,92 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import TgDropdown from './TG-Dropdown';
 import EDropdown from './E-Dropdown';
+import ADropdown from './A-Dropdown';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [dropdown2, setDropdown2] = useState(false);
+  const [dropdown3, setDropdown3] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const onMouseEnter = () => {
+  // Start 1
+
+  const onMouseEnter1 = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
     } else {
       setDropdown(true);
+      setDropdown2(false);
+      setDropdown3(false);
     }
   };
 
-  const onMouseLeave = () => {
+  const onMouseLeave1 = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
     } else {
       setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
+    }
+  };
+
+  // Start 2
+
+  const onMouseEnter2 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
+    } else {
+      setDropdown(false);
+      setDropdown2(true);
+      setDropdown3(false);
+    }
+  };
+
+  const onMouseLeave2 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
+    } else {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
+    }
+  };
+
+  // Start 3
+
+  const onMouseEnter3 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
+    } else {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(true);
+    }
+  };
+
+  const onMouseLeave3 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
+    } else {
+      setDropdown(false);
+      setDropdown2(false);
+      setDropdown3(false);
     }
   };
 
@@ -41,8 +106,8 @@ function Navbar() {
           {/* The Gallery */}
           <li
             className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            onMouseEnter={onMouseEnter1}
+            onMouseLeave={onMouseLeave1}
           >
             <Link
               to='/the-gallery'
@@ -56,39 +121,43 @@ function Navbar() {
 
           {/* Exhibitions */}
           <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            className='nav-item-3'
+            onMouseEnter={onMouseEnter2}
+            onMouseLeave={onMouseLeave2}
           >
             <Link
               to='/the-gallery'
-              className='nav-links'
+              className='nav-links-3'
               onClick={closeMobileMenu}
             >
               Exhibitions <i className='fas fa-caret-down' />
             </Link>
-            {dropdown && <TgDropdown />}
+            {dropdown2 && <EDropdown />}
           </li>
 
           {/* Exhibitions */}
           <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            className='nav-item-2'
+            onMouseEnter={onMouseEnter3}
+            onMouseLeave={onMouseLeave3}
           >
             <Link
               to='/the-gallery'
-              className='nav-links'
+              className='nav-links-2'
               onClick={closeMobileMenu}
             >
-              Exhibitions <i className='fas fa-caret-down' />
+              Artists <i className='fas fa-caret-down' />
             </Link>
-            {dropdown && <EDropdown />}
+            {dropdown3 && <ADropdown />}
           </li>
 
           {/* News and Events */}
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link 
+              to='/' 
+              className='nav-links' 
+              onClick={closeMobileMenu}
+              >
               News and Events
             </Link>
           </li>

@@ -18,7 +18,7 @@ function ADropdown() {
           return (
             <li key={index}>
               <Link
-                className={item.cName}
+                className="a-dropdown-link"
                 to={item.path}
                 onClick={() => setClick(false)}
               >

@@ -2,21 +2,21 @@ export const EMenuItems = [
   {
     title: 'Marketing',
     path: '/marketing',
-    cName: 'dropdown-link'
+    cName: 'e-dropdown-link'
   },
   {
     title: 'Consulting',
     path: '/consulting',
-    cName: 'dropdown-link'
+    cName: 'e-dropdown-link'
   },
   {
     title: 'Design',
     path: '/design',
-    cName: 'dropdown-link'
+    cName: 'e-dropdown-link'
   },
   {
     title: 'Development',
     path: '/development',
-    cName: 'dropdown-link'
+    cName: 'e-dropdown-link'
   }
 ];
