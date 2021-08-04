@@ -38,7 +38,7 @@
   display: flex;
   align-items: center;
   height: 80px;
-  margin-top: 4rem;
+  margin-top: 4.5rem;
 }
 
 .nav-links {
@@ -192,6 +192,10 @@
     background: #fff;
     color: #1888ff;
     transition: 250ms;
+  }
+
+  .nav-item {
+    margin-top: 1rem;
   }
 
   button {
