@@ -42,7 +42,7 @@
   display: flex;
   align-items: center;
   height: 80px;
-  margin-top: 4.4rem;
+  margin-top: 4.45rem;
 }
 
 .nav-links {
@@ -187,8 +187,8 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
-    padding: 1.5rem;
-    margin: 2rem auto;
+    padding: .5rem;
+    margin: 1rem auto;
     border-radius: 4px;
     width: 80%;
     background: #1888ff;
