@@ -129,6 +129,7 @@
   }
 
   .mobile-logo {
+    margin-top: 5rem; 
     display: block; 
     color: black; 
   }
