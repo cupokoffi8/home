@@ -55,7 +55,7 @@
 }
 
 .nav-links:hover {
-  background-color: #1e3272;
+  background-color: #1e327280;
   color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
@@ -74,7 +74,7 @@
 }
 
 .nav-links-2:hover {
-  background-color: #1888ff;
+  background-color: #1e327280;
   color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
@@ -93,7 +93,7 @@
 }
 
 .nav-links-3:hover {
-  background-color: #1e3272;
+  background-color: #1e327280;
   color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
@@ -155,7 +155,7 @@
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: #1e3272;
     border-radius: 0;
   }
 
@@ -193,7 +193,7 @@
     margin: 1rem auto;
     border-radius: 4px;
     width: 100%;
-    background: #1888ff;
+    background: #1e3272;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -201,7 +201,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #1888ff;
+    color: #1e3272;
     transition: 250ms;
   }
 
