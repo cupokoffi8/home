@@ -148,7 +148,7 @@ function Navbar() {
             {dropdown3 && <ADropdown />}
           </li>
 
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/home/' className='navbar-logo' onClick={closeMobileMenu}>
           <img src="./logo.png" width="140" height="140" alt="Logo" className='logo' style={{ marginTop: "40px"}} href="/"></img>
           </Link>
 
