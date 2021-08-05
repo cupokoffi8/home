@@ -119,10 +119,10 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: 100vh;
     position: absolute;
-    top: 40px;
+    /* top: 40px; */
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -148,7 +148,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     width: 100%;
     display: table;
   }
@@ -191,7 +191,7 @@
     padding: .5rem;
     margin: 1rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 100%;
     background: #1888ff;
     text-decoration: none;
     color: #fff;
