@@ -118,6 +118,7 @@
 
   .nav-menu {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 110%;
     height: 90vh;
