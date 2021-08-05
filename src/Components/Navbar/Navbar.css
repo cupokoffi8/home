@@ -130,6 +130,7 @@
 
   .mobile-logo {
     display: block; 
+    color: black; 
   }
 
   .logo {
@@ -203,7 +204,7 @@
   }
 
   .nav-item {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
   }
 
   button {
