@@ -119,10 +119,10 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 110%;
     height: 100vh;
     position: absolute;
-    top: 40px;
+    top: 10px;
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
