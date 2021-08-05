@@ -123,7 +123,7 @@
     width: 110%;
     height: 80vh;
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: -120%;
     opacity: 1;
     transition: all 0.5s ease;
