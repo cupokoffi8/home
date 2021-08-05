@@ -32,6 +32,10 @@
   width: 100vw;
   justify-content: center;
   /* margin-right: 2rem; */
+} 
+
+.mobile-logo {
+  display: none; 
 }
 
 .nav-item {
@@ -122,6 +126,10 @@
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
+  }
+
+  .mobile-logo {
+    display: block; 
   }
 
   .logo {

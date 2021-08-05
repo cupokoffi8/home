@@ -95,6 +95,9 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
+      <Link to='/home/' className='mobile-logo' onClick={closeMobileMenu}>
+          <h1 className='logo' style={{ marginTop: "40px"}} href="/home/">American Dragon International Fine Art</h1>
+          </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
