@@ -15,7 +15,7 @@ function App() {
         <Switch>
 
             <Route path="/home" component={Home} />
-            <Route path="/artists" component={Artists} />
+            <Route path="/artists/" component={Artists} />
 
         </Switch>
     </Router>
