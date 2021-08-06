@@ -1,7 +1,7 @@
 export const AMenuItems = [
   {
-    title: 'Marketing',
-    path: '/marketing',
+    title: 'Our Artists',
+    path: '/artists',
     cName: 'a-dropdown-link'
   },
   {
