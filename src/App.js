@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'; 
-import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
+import { HashRouter, Switch, Route } from 'react-router-dom'; 
 
 // Import Components 
 
@@ -10,15 +10,15 @@ import Artists from './Components/Artists/Artists/Artists';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
         <Switch>
 
-            <Route path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/artists/" component={Artists} />
 
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 } 
 
