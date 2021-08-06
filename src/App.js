@@ -11,11 +11,29 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
-        <Route path="/artists" component={Artists} />
+        <Switch>
+          <Navbar />
+
+            <Route path="/home" component={Home} />
+            <Route path="/artists" component={Artists} />
+
+
+
+
+
+
+        </Switch>
       </div>
     </Router>
   );
-}
+} 
+
+const Home = () => (
+    <div>
+      <h1>Welcome to American Dragon Fine Art</h1>
+    </div>
+); 
+
+
 
 export default App;
