@@ -5,7 +5,6 @@ import './Artists.css';
 function Aritists() {
     return (
         <div>
-          <Navbar />
           <div className="Aritists">
             <h1 className="welcome">Artists</h1>
           </div>
