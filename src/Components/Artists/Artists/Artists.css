@@ -5,3 +5,11 @@
 .header {
     display: block; 
 }
+
+.welcome {
+    display: block; 
+    color: black; 
+    margin-top: 4rem; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
