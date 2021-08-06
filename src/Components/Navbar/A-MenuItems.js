@@ -10,8 +10,8 @@ export const AMenuItems = [
     cName: 'a-dropdown-link'
   },
   {
-    title: 'Design',
-    path: '/design',
+    title: 'Apelles Zhou',
+    path: '/apelles-zhou',
     cName: 'a-dropdown-link'
   },
   {
