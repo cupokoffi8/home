@@ -17,13 +17,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/artists" component={Artists} />
 
-
-
-
-
-
         </Switch>
-      </div>
     </Router>
   );
 } 
