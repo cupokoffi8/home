@@ -4,9 +4,9 @@ import './Artists.css';
 
 function Aritists() {
     return (
-        <div className="Aritists">
+        <div>
           <Navbar />
-          <div>
+          <div className="Aritists">
             <h1 className="welcome">Artists</h1>
           </div>
         </div>
