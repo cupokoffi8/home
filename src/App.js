@@ -30,7 +30,7 @@ function App() {
 
 const Home = () => (
     <div>
-      <h1>Welcome to American Dragon Fine Art</h1>
+      <h1 className="welcome">Welcome to American Dragon Fine Art</h1>
     </div>
 ); 
 
