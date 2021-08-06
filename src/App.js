@@ -5,16 +5,16 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Import Components 
 
+import Home from './Components/Home/Home';
 import Artists from './Components/Artists/Artists/Artists'; 
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <Navbar />
         <Switch>
-          <Navbar />
 
-            <Route path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/artists" component={Artists} />
 
 
@@ -27,12 +27,6 @@ function App() {
     </Router>
   );
 } 
-
-const Home = () => (
-    <div>
-      <h1 className="welcome">Welcome to American Dragon Fine Art</h1>
-    </div>
-); 
 
 
 
