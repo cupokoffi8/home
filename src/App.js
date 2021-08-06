@@ -10,7 +10,7 @@ import Artists from './Components/Artists/Artists/Artists';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
         <Switch>
 
@@ -18,7 +18,7 @@ function App() {
             <Route path="/artists/" component={Artists} />
 
         </Switch>
-    </Router>
+    </BrowserRouter>
   );
 } 
 
