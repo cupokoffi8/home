@@ -6,7 +6,9 @@ function Aritists() {
     return (
         <div className="Aritists">
           <Navbar />
-          <h1 className="welcome">Artists</h1>
+          <div>
+            <h1 className="welcome">Artists</h1>
+          </div>
         </div>
     );
   }
