@@ -18,5 +18,33 @@
     margin-left: auto; 
     margin-right: auto; 
     color: red; 
+  } 
+
+  .magAndMyst {
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-style: italic; 
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  .currentExhibition {
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-style: italic; 
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
   }
 
