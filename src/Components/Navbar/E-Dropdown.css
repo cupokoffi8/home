@@ -5,6 +5,7 @@
   top: 80px;
   list-style: none;
   text-align: start;
+  text-rendering: auto;
 }
 
 .e-dropdown-menu li {
@@ -21,8 +22,7 @@
 }
 
 .e-dropdown-link {
-  display: block;
-  text-overflow: inherit;
+  display: block; 
   height: 100%;
   width: 100%;
   text-decoration: none;
