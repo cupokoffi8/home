@@ -66,9 +66,8 @@ export default function Map() {
               origin: new window.google.maps.Point(0, 0), 
               anchor: new window.google.maps.Point(20, 20) 
             }}
-          > 
+          /> 
           <button className="buutON" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483379,-76.3080947,17z/data=!3m1!4b1!4m5!3m4!1s0x89c62518e5cd1419:0x4c549ed6537c2a4!8m2!3d40.0483338!4d-76.3059007" />
-          </Marker>
       </GoogleMap>
     </div>
   );
