@@ -22,6 +22,7 @@
 
 .e-dropdown-link {
   display: block; 
+  flex-direction: column;
   height: 100%;
   width: 100%;
   text-decoration: none;
