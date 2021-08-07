@@ -29,12 +29,21 @@ import VictoryOfLight from './Components/Exhibitions/Victory-Of-Light/Victory-Of
 import Works from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei'; 
 import PleaseWork from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition'; 
 
+import HomeGallery from './Components/The-Gallery/Home/Home-Gallery'; 
+import OurFounder from './Components/The-Gallery/Our-Founder/Our-Founder';
+import TheGallery from './Components/The-Gallery/The-Gallery/The-Gallery'; 
+
+import ArtService from './Components/Art-Service/Art-Service'; 
+
+import News from './Components/News-And-Events/News-And-Events'; 
+
+import Contact from './Components/Contact-Us/Contact-Us'; 
+
 function App() {
   return (
     <HashRouter>
       <Navbar />
         <Switch>
-
             
             <Route exact path="/" component={Home} />
 
@@ -63,7 +72,18 @@ function App() {
             <Route path="/oil-painting-exhibition" component={PleaseWork} /> 
 
             {/* The Gallery */} 
-            
+            <Route path="/home" component={HomeGallery} /> 
+            <Route path="/our-founder" component={OurFounder} />
+            <Route path="/the-gallery" component={TheGallery} /> 
+
+            {/* Art Service */}
+            <Route path="/art-service" component={ArtService} /> 
+
+            {/* News And Events */} 
+            <Route path="/news-and-events" component={News} /> 
+
+            {/* Contact Us */}
+            <Route path="/contact-us" component={Contact} /> 
 
         </Switch>
     </HashRouter>

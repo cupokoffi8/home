@@ -1,7 +1,7 @@
-import './App.css';
-import Navbar from './Components/Navbar/Navbar'
+import React from 'react';
+import './Contact-Us.css';
 
-function ContactUs() {
+function Contact() {
   return (
     <div className="contact-us">
       <Navbar />
@@ -9,4 +9,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default Contact;
