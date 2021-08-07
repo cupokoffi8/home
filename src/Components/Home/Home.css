@@ -8,7 +8,7 @@
   }
 
   #uh {
-      color: red; 
+      color: red !important; 
       margin-top: 100px; 
   }
 
