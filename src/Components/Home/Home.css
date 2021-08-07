@@ -33,7 +33,6 @@
       hsl(98 100% 62%), 
       hsl(204 100% 59%)
     );
-    -webkit-text-fill-color: transparent;
     text-align: center;
   }
 
@@ -44,12 +43,6 @@
     text-transform: uppercase; 
     font-weight: bold; 
     font-style: italic; 
-    color: linear-gradient(
-      to right, 
-      hsl(98 100% 62%), 
-      hsl(204 100% 59%)
-    );
-    -webkit-text-fill-color: transparent;
     text-align: center;
   }
 
