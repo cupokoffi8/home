@@ -26,7 +26,6 @@ const center = {
 export default function Map() {
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: API_KEY,
-    libraries,
   });
 
   const mapRef = React.useRef();
@@ -53,7 +52,6 @@ export default function Map() {
         options={options}
         onLoad={onMapLoad}
       >
-        {projectData.projects.map(project => (
           <Marker 
             href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483379,-76.3080947,17z/data=!3m1!4b1!4m5!3m4!1s0x89c62518e5cd1419:0x4c549ed6537c2a4!8m2!3d40.0483338!4d-76.3059007"
             className="markerIcon" 
@@ -68,8 +66,6 @@ export default function Map() {
               anchor: new window.google.maps.Point(20, 20) 
             }}
           />  
-        ))}
-
       </GoogleMap>
     </div>
   );
