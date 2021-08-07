@@ -28,6 +28,10 @@
   .gm-style-iw {
     padding: 0 0 0 0 !important;
   }
+
+  .buttON {
+    color: transparent; 
+  }
   
   #map {
     max-width: 98.5%;
