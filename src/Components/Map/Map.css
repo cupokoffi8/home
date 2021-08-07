@@ -1,0 +1,45 @@
+.map-h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 20px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  
+  .marker-container {
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 15px;
+    color: #01203a;
+  }
+  
+  #markerName {
+    font-weight: 600;
+  }
+  .marker-container button {
+    padding: 10px 15px;
+    margin-top: 4px;
+  }
+  
+  .gm-style-iw-d {
+    overflow: visible !important;
+  }
+  
+  .gm-style-iw {
+    padding: 0 0 0 0 !important;
+  }
+  
+  #map {
+    max-width: 98.5%;
+    max-height: 70vh;
+    margin-bottom: 20px;
+  }
+  
+  .gmnoprint div {
+    visibility: hidden;
+  }
+  
+  #markerName,
+  #markerAddress {
+    max-width: 100%;
+  }

@@ -1,6 +1,6 @@
 import React from "react"; 
 import mapStyles from "./mapStyles"; 
-
+import "./Map.css"; 
 import {
   GoogleMap,
   useLoadScript,
