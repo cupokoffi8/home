@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './Works-At-Hefei.css'; 
 
-function WorksAtHefei() {
+function Works() {
     return (
         <div>
           <div className="Works-At-Hefei">
@@ -11,4 +11,4 @@ function WorksAtHefei() {
     );
   }
   
-  export default WorksAtHefei;
+  export default Works;

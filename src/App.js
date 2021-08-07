@@ -24,10 +24,8 @@ import ArtTherapy from './Components/Exhibitions/Art-Therapy/Art-Therapy';
 import Headless from './Components/Exhibitions/Headless/Headless';
 import MagAndMyst from './Components/Exhibitions/Mag-And-Myst/Mag-And-Myst'; 
 import Magnificent from './Components/Exhibitions/Magnificent/Magnificent'; 
-import OilPainting from "./Components/Exhibitions/Oil-Painting-Exhibition"; 
 import SanDiego from './Components/Exhibitions/San-Diego/San-Diego';
 import VictoryOfLight from './Components/Exhibitions/Victory-Of-Light/Victory-Of-Light'; 
-import WorksAtHefei from './Components/Exhibitions/Works-At-Hefei'; 
 
 function App() {
   return (
@@ -57,10 +55,8 @@ function App() {
             <Route path="/headless" component={Headless} /> 
             <Route path="/mag-and-myst" component={MagAndMyst} /> 
             <Route path="/magnificent" component={Magnificent} /> 
-            <Route path="/oil-painting-exhibition" component={OilPainting} /> 
             <Route path="/san-diego" component={SanDiego} /> 
             <Route path="/victory-of-light" component={VictoryOfLight} /> 
-            <Route path="/works-at-hefei" component={WorksAtHefei} /> 
 
         </Switch>
     </HashRouter>
