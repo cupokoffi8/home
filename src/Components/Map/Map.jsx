@@ -7,7 +7,7 @@ import {
   Marker
 } from "@react-google-maps/api"; 
 
-const API_KEY = "AIzaSyAyoThkfbTBPjfmdZtXVFFF2X3fs7kiWEs"; 
+const API_KEY = "AIzaSyBawcqAK6VVEhjll05YASsIrt9wDoMXppg"; 
 
 const mapContainerStyle = {
   height: "50vh",
