@@ -33,6 +33,8 @@
     max-width: 98.5%;
     max-height: 70vh;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .gmnoprint div {
