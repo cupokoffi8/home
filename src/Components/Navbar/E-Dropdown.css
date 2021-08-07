@@ -32,7 +32,7 @@
 
   text-overflow: ellipsis;
   white-space: normal; 
-  overflow-wrap: break-word;
+  overflow: auto;
 }
 
 @media screen and (max-width: 960px) {
