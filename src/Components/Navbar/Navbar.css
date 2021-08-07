@@ -124,7 +124,7 @@
     height: 80vh;
     position: absolute;
     top: 35px;
-    left: -120%;
+    left: -130%;
     opacity: 1;
     transition: all 0.5s ease;
   }
