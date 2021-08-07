@@ -95,7 +95,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-      <Link to='/home/' className='mobile-logo' onClick={closeMobileMenu}>
+      <Link to='/' className='mobile-logo'>
           <h1 className='logo' style={{ marginTop: "40px"}} href="/home/">American Dragon International Fine Art</h1>
           </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -158,7 +158,7 @@ function Navbar() {
           {/* News and Events */}
           <li className='nav-item'>
             <Link 
-              to='/' 
+              to='/news-and-events' 
               className='nav-links' 
               onClick={closeMobileMenu}
               >
