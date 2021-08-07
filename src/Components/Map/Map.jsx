@@ -1,19 +1,11 @@
 import React from "react"; 
 import mapStyles from "./mapStyles"; 
-import { Link } from "react-router-dom"; 
 
 import {
   GoogleMap,
   useLoadScript,
-  Marker,
-  InfoWindow,
-} from "@react-google-maps/api";
-import usePlacesAutocomplete, {
-  getGeocode,
-  getLatLng,
-} from "use-places-autocomplete";
-import "@reach/combobox/styles.css";
-import * as FaIcons from "react-icons/fa";   
+  Marker
+} from "@react-google-maps/api"; 
 
 const API_KEY = "AIzaSyAyoThkfbTBPjfmdZtXVFFF2X3fs7kiWEs"; 
 
