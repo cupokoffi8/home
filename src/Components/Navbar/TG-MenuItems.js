@@ -1,22 +1,17 @@
 export const TGMenuItems = [
   {
-    title: 'Art',
-    path: '/Art',
+    title: 'Home',
+    path: '/home',
     cName: 'tg-dropdown-link'
   },
   {
-    title: 'Consulting',
+    title: 'Founders Column',
     path: '/consulting',
     cName: 'tg-dropdown-link'
   },
   {
-    title: 'Design',
-    path: '/design',
+    title: 'The Gallery',
+    path: '/the-gallery',
     cName: 'tg-dropdown-link'
-  },
-  {
-    title: 'Development',
-    path: '/development',
-    cName: 'tg-dropdown-link'
-  }
+  } 
 ];

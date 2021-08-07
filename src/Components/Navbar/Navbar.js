@@ -126,7 +126,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave2}
           >
             <Link
-              to='/the-gallery'
+              to='/exhibitions'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -169,7 +169,7 @@ function Navbar() {
           {/* Art Service */}
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/art-service'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -180,7 +180,7 @@ function Navbar() {
           {/* Contact Us */}
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/contact-us'
               className='nav-links'
               onClick={closeMobileMenu}
             >
