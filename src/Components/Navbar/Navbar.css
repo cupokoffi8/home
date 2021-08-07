@@ -152,6 +152,7 @@
     padding: 1rem;
     width: 100%;
     display: table;
+    margin-right: 2rem;
   }
 
   .nav-links:hover {
