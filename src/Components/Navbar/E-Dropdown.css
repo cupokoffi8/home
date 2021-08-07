@@ -31,7 +31,8 @@
   font-weight: bold;
 
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: nowrap; 
+  overflow-wrap: break-word;
 }
 
 @media screen and (max-width: 960px) {
