@@ -135,14 +135,14 @@ function Navbar() {
             {dropdown2 && <EDropdown />}
           </li>
 
-          {/* Exhibitions */}
+          {/* Artists */}
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter3}
             onMouseLeave={onMouseLeave3}
           >
             <Link
-              to='/the-gallery'
+              to='/artists'
               className='nav-links'
               onClick={closeMobileMenu}
             >

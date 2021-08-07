@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './Oil-Painting-Exhibition.css'; 
 
-function OilPainting() {
+function PleaseWork() {
     return (
         <div>
           <div className="Oil-Painting-Exhibition">
@@ -11,4 +11,4 @@ function OilPainting() {
     );
   }
   
-  export default OilPainting;
+  export default PleaseWork; 

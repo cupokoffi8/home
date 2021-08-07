@@ -26,6 +26,8 @@ import MagAndMyst from './Components/Exhibitions/Mag-And-Myst/Mag-And-Myst';
 import Magnificent from './Components/Exhibitions/Magnificent/Magnificent'; 
 import SanDiego from './Components/Exhibitions/San-Diego/San-Diego';
 import VictoryOfLight from './Components/Exhibitions/Victory-Of-Light/Victory-Of-Light'; 
+import Works from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei'; 
+import PleaseWork from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition'; 
 
 function App() {
   return (
@@ -39,7 +41,7 @@ function App() {
             {/* Artists */}
             <Route path="/apelles-zhou" component={ApellesZhou} /> 
             <Route path="/aparna-banerjee" component={AparnaBanerjee} /> 
-            <Route path="/artists/" component={Artists} />
+            <Route path="/artists" component={Artists} />
             <Route path="/cai-jiang" component={CaiJiang} /> 
             <Route path="/chiu-pai" component={ChiuPai} /> 
             <Route path="/qui-huade" component={QuiHuade} /> 
@@ -57,6 +59,11 @@ function App() {
             <Route path="/magnificent" component={Magnificent} /> 
             <Route path="/san-diego" component={SanDiego} /> 
             <Route path="/victory-of-light" component={VictoryOfLight} /> 
+            <Route path="/works-at-hefei" component={Works} /> 
+            <Route path="/oil-painting-exhibition" component={PleaseWork} /> 
+
+            {/* The Gallery */} 
+            
 
         </Switch>
     </HashRouter>
