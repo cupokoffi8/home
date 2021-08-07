@@ -22,7 +22,7 @@
 
 .e-dropdown-link {
   display: block;
-  word-wrap: break-word;
+  text-overflow: inherit;
   height: 100%;
   width: 100%;
   text-decoration: none;
