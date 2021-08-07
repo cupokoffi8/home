@@ -6,7 +6,7 @@ export const TGMenuItems = [
   },
   {
     title: 'Founders Column',
-    path: '/consulting',
+    path: '/our-founder',
     cName: 'tg-dropdown-link'
   },
   {
