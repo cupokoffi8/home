@@ -7,3 +7,11 @@
     text-align: center;
   }
 
+  .american {
+    display: block; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    color: red; 
+  }
+
