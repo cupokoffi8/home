@@ -130,9 +130,10 @@
   }
 
   .mobile-logo {
-    margin-top: 5rem; 
+    margin-top: 20px; 
     display: block; 
-    color: black; 
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .logo {
