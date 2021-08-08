@@ -21,18 +21,20 @@
   } 
 
   .magAndMyst {
+    color: #1e3272 !important; 
     display: block; 
     justify-content: center;
     margin-top: 100px; 
     margin-left: auto; 
     margin-right: auto; 
     text-transform: uppercase; 
-    font-weight: bold; 
+    font-weight: bolder; 
     font-style: italic; 
     text-align: center;
   }
 
   #please h1{
+    color: #1e3272 !important; 
     display: block; 
     justify-content: center !important;
     margin-left: auto; 
