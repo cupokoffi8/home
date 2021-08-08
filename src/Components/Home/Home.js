@@ -12,7 +12,6 @@ export default function Home() {
 
         <div className="reachOut">
           <link id="addy">614 N Duke Street, Lancaster, PA 17602</link>
-          <p className="number">| 917-886-1701 |</p> 
           <link id="addy" href="info@americandragonfineart.com">info@americandragonfineart.com</link>
         </div>
 
