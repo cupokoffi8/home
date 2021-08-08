@@ -108,7 +108,7 @@ export default
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#193a55"
+                "color": "#225177"
             }
         ]
     },
