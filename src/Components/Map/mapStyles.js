@@ -66,7 +66,7 @@ export default
                 "saturation": "9"
             },
             {
-                "color": "#29446b"
+                "color": "#6b91c7"
             }
         ]
     },
