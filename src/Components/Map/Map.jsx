@@ -48,7 +48,7 @@ export default function Map() {
       <GoogleMap
         id="map"
         mapContainerStyle={mapContainerStyle}
-        zoom={15}
+        zoom={20}
         center={center}
         options={options}
         onLoad={onMapLoad}
@@ -62,7 +62,7 @@ export default function Map() {
             }}
             icon={{
               url: "https://lh3.googleusercontent.com/pw/ACtC-3eoIMEHvHhFrEnGjWsWYKk4bD8TY09mCUBZzBlb_erlpah5zoL710O_u2u_u5jb9e-S1B-uLXALiSlbR5bVhFO2WpkudlwXZg-74-ZRQYp7OQW5NpPIdTNCccg_pl2iAO8xU9grdN8-iWeohnW8NtJK=w95-h127-no?authuser=2", 
-              scaledSize: new window.google.maps.Size(25, 30),
+              scaledSize: new window.google.maps.Size(30, 35),
               origin: new window.google.maps.Point(0, 0), 
               anchor: new window.google.maps.Point(20, 20) 
             }}
