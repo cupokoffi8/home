@@ -61,7 +61,7 @@
     font-size: 1.5rem;
   }
 
-  #number {
+  #number p{
     background: none;
     color: black; 
     text-align: center; 
