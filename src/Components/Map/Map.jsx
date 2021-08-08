@@ -48,7 +48,7 @@ export default function Map() {
       <GoogleMap
         id="map"
         mapContainerStyle={mapContainerStyle}
-        zoom={16}
+        zoom={16.5}
         center={center}
         options={options}
         onLoad={onMapLoad}
