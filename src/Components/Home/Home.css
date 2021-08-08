@@ -43,3 +43,14 @@
     text-align: center;
   }
 
+  #please {
+    display: block; 
+    justify-content: center !important;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-style: italic; 
+    text-align: center;
+  }
+
