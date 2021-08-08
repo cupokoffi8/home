@@ -44,16 +44,3 @@
     font-style: italic; 
     text-align: center;
   }
-
-  .welcome {
-    color: #1e3272 !important; 
-    display: block; 
-    justify-content: center !important;
-    margin-left: auto; 
-    margin-right: auto; 
-    text-transform: uppercase; 
-    font-weight: bold; 
-    font-style: italic; 
-    text-align: center;
-  }
-
