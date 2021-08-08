@@ -10,10 +10,6 @@ export default function Home() {
         <h1 className='welcome' id="uh">Welcome To</h1>
         <h1 className='american'>American Dragon International Fine Art Gallery</h1>
 
-        <div className="reachOut">
-          <link className="addy">614 N Duke Street, Lancaster, PA 17602</link>
-          <link className="addy">info@americandragonfineart.com</link>
-        </div>
 
 
 
