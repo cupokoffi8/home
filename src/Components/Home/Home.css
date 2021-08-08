@@ -32,18 +32,7 @@
     text-align: center;
   }
 
-  .currentExhibition {
-    display: block; 
-    justify-content: center !important;
-    margin-left: auto; 
-    margin-right: auto; 
-    text-transform: uppercase; 
-    font-weight: bold; 
-    font-style: italic; 
-    text-align: center;
-  }
-
-  #please {
+  #please h1{
     display: block; 
     justify-content: center !important;
     margin-left: auto; 
