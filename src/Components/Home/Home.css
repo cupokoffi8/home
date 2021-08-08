@@ -61,9 +61,7 @@
     font-size: 1.5rem;
   }
 
-  #number {
-    background: none;
-    justify-content: center !important;
+  .number {
     color: black; 
     text-align: center; 
     display: block; 
