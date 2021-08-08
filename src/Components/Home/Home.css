@@ -33,7 +33,7 @@
     text-align: center;
   }
 
-  #please h1{
+  #please {
     color: #1e3272 !important; 
     display: block; 
     justify-content: center !important;
@@ -45,7 +45,7 @@
     text-align: center;
   }
 
-  .welcome h1{
+  .welcome {
     color: #1e3272 !important; 
     display: block; 
     justify-content: center !important;
