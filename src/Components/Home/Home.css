@@ -44,3 +44,16 @@
     font-style: italic; 
     text-align: center;
   }
+
+  .reachOut {
+    display: block; 
+    justify-content: center; 
+  }
+
+  #addy {
+    background: none;
+    color: black; 
+    text-align: center; 
+  }
+
+  
