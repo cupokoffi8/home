@@ -15,7 +15,7 @@ export default function Home() {
             614 N. Duke Street, Suite One, Lancaster, PA 17602
             </a>
             <a id="addy">
-              |    917-886-1701    |
+                   917-886-1701      
             </a>
             <a id="addy" href="info@americandragonfineart.com"> 
               info@americandragonfineart.com
