@@ -62,6 +62,14 @@
     line-height: 2rem; 
   }
 
-  #theDiv {
+  #theDiv1 {
+    display: inline-block; 
+  }
+
+  #theDiv2 {
+    display: inline-block; 
+  }
+
+  #theDiv3 {
     display: inline-block; 
   }
