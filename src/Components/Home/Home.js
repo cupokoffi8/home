@@ -10,9 +10,7 @@ export default function Home() {
         <h1 className='welcome' id="uh">Welcome To</h1>
         <h1 className='american'>American Dragon International Fine Art Gallery</h1>
 
-        <form action="www.youtube.com">
-          <button id="addy" type="submit">614 North Duke Street, Lancaster, PA 17602</button>
-        </form>
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 
 
         <Map /> 
