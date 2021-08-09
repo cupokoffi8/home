@@ -17,7 +17,7 @@ export default function Home() {
             <a id="addy">
                    917-886-1701      
             </a>
-            <a id="addy" href="info@americandragonfineart.com"> 
+            <a id="addy"> 
               info@americandragonfineart.com
             </a>
           </div>
