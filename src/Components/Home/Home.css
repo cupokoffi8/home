@@ -58,4 +58,6 @@
     color: black; 
   }
 
-  
+  #info {
+    line-height: .5rem; 
+  }
