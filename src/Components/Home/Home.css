@@ -49,3 +49,10 @@
     display: block; 
     justify-content: center; 
   }
+
+  #addy {
+    display: block; 
+    justify-content: center; 
+    text-decoration: none; 
+    text-align: center; 
+  }
