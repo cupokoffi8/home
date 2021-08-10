@@ -55,7 +55,7 @@ export default function Home() {
         <div id="blue-down"/>
 
         <div>
-          {/* Add image here */} 
+          <img src="./fung-shway.jpeg"id="fung-shway" />  
         </div>
         
       </>
