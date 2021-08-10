@@ -124,3 +124,8 @@
     height: 55vh; 
     margin-bottom: 225px;
   }
+
+  #iconStuff {
+    display: inline-block; 
+    justify-content: center; 
+  }
