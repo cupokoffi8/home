@@ -62,19 +62,11 @@
     line-height: 2rem; 
   }
 
-  .hours p{
+  .hours h3, p{
     display: block; 
     justify-content: center !important; 
-    text-align: center; 
-    color: #1e3272; 
-  }
-
-  .hours h3 {
-    font-weight: bold; 
-    text-align: center;
-    display: block;
-    justify-content: center;
-    align-items: center; 
+    text-align: center !important; 
+    align-items: center !important; 
     color: #1e3272; 
   }
 
