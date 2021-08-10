@@ -68,6 +68,7 @@
     text-align: center !important; 
     align-items: center !important; 
     color: #fff; 
+    background-color: #1e3272 !important;
     /* color: #1e3272;  */ 
   }
 
@@ -78,6 +79,7 @@
     text-align: center !important; 
     align-items: center !important; 
     color: #fff;
+    background-color: #1e3272 !important;
     /* color: #1e3272 !important;  */
     font-weight: bold; 
   }
