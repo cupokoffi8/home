@@ -42,6 +42,10 @@ export default function Home() {
           </div>
 
         <div id="blue-down"/>
+
+        <div>
+          
+        </div>
         
       </>
     );
