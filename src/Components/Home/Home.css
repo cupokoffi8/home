@@ -144,9 +144,11 @@
   } 
 
   #instagram img{
-    margin-right: 10px; 
+    justify-content: center;
+    margin-right: 8px; 
   }
 
   #linkedin img{
-    margin-left: 10px; 
+    justify-content: center; 
+    margin-left: 8px; 
   }
