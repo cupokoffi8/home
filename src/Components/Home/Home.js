@@ -54,7 +54,7 @@ export default function Home() {
 
         <div id="blue-down"/>
 
-        <div>
+        <div id="bottom">
           <img src="./fung-shway.jpeg"id="fung-shway" />  
         </div>
         

@@ -140,3 +140,8 @@
   #linkedin img{
     margin-left: 8px; 
   }
+
+  #bottom {
+    height: 50px; 
+    background-color: #fff; 
+  }
