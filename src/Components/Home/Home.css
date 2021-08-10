@@ -93,7 +93,7 @@
   }
 
   #blue {
-    background: #1e3272 !important; 
-    margin-top: 50px; 
-    margin-bottom: 50px; 
+    top: 50px; 
+    bottom: 50px; 
+    background-color: #1e3272 !important; 
   }
