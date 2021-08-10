@@ -161,8 +161,8 @@
     margin-bottom: 10px; 
     margin-left: 20px; 
     margin-right: 20px; 
-    background-color: #fff; 
-    color: black; 
+    background-color: #fff !important; 
+    color: black !important; 
   }
 
   #p-bottom {
@@ -171,6 +171,6 @@
     margin-top: 10px; 
     margin-left: 20px; 
     margin-right: 20px; 
-    background-color: #fff; 
-    color: black; 
+    background-color: #fff !important; 
+    color: black !important; 
   }
