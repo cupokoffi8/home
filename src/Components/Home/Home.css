@@ -142,6 +142,13 @@
   }
 
   #bottom {
-    height: 50px; 
     background-color: #fff; 
+  } 
+
+  #fung-shway {
+    display: block; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
   }
