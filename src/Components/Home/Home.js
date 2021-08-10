@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="blue"/>
+        <div id="blue-up"/>
         
           <div id="blue">
             <h3 className="title">Our Weekly Hours</h3> 
@@ -41,7 +41,7 @@ export default function Home() {
             <p className="hours">Sunday:  Closed</p>
           </div>
 
-        <div id="blue"/>
+        <div id="blue-down"/>
         
       </>
     );

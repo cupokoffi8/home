@@ -86,6 +86,16 @@
     background-color: #1e3272 !important;  
   } 
 
+  #blue-up {
+    background-color: #1e3272 !important;
+    height: 5rem; 
+  }
+
+  #blue-down {
+    background-color: #1e3272 !important;
+    height: 5rem; 
+  }
+
   #top {
     height: 90vh; 
   }
