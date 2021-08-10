@@ -159,10 +159,18 @@
     display: flex; 
     justify-content: center; 
     margin-bottom: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    background-color: #fff; 
+    color: black; 
   }
 
   #p-bottom {
     display: flex; 
     justify-content: center; 
     margin-top: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    background-color: #fff; 
+    color: black; 
   }
