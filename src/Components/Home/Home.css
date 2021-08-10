@@ -153,4 +153,16 @@
     margin-bottom: 50px; 
     margin-left: auto !important; 
     margin-right: auto !important; 
+  } 
+
+  #p-top {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 10px; 
+  }
+
+  #p-bottom {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
   }

@@ -56,6 +56,27 @@ export default function Home() {
 
         <div id="bottom">
           <img src="./fung-shway.jpeg"id="fung-shway" />  
+
+          <p id="p-top">
+          American Dragon International Fine Art has partnerships with galleries in a wide range of 
+          cities and countries. Our founder, Lena Liu, through years of experience, realized that different 
+          countries and regions have various artistic styles and tastes in art. Some works of art do not 
+          have a positive acceptance in a given region, but the same art would be considered an exceptional 
+          creation in another area of the world. This can diminish the interest of an artist’s talents, and 
+          as a result, regional exhibitions can be a weak venue for the artist. In order to obtain a strong 
+          interest in the art, we have our galleries located in China, Japan, Korea, Italy, France, the 
+          United Kingdom, and the United States. The museums and galleries of many cities located in these 
+          countries, have established a long term relationship with American Dragon. This allows the artist 
+          to have the ability to showcase their creative talent through our professional partnerships.
+          </p>
+
+          <p id="p-bottom">
+          We also offer many other services to our artists and those interested in the arts in China and the 
+          United States. Artist visits, summer camps, art education, and tourism coordination are some of the 
+          various services we can provide. Each service provided to the artist would be customized for the 
+          artist’s individual exhibition and other business collaborations. Please contact us for additional 
+          information today! 
+          </p>
         </div>
         
       </>
