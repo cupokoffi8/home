@@ -26,16 +26,16 @@ export default function Home() {
             </a>
           </div>
 
-        <hr /> 
-          <div id="hours">
-            <h3 id="hours">Our Weekly Hours</h3> 
-            <p id="hours">Monday:  By Appointment Only</p>
-            <p id="hours">Tuesday:  By Appointment Only</p>
-            <p id="hours">Wednesday:  By Appointment Only</p>
-            <p id="hours">Thursday:  By Appointment Only</p>
-            <p id="hours">Friday:  By Appointment Only</p>
-            <p id="hours">Saturday:  By Appointment Only</p>
-            <p id="hours">Sunday:  By Appointment Only</p>
+        <hr id="line"/> 
+          <div >
+            <h3 className="hours">Our Weekly Hours</h3> 
+            <p className="hours">Monday:  By Appointment Only</p>
+            <p className="hours">Tuesday:  By Appointment Only</p>
+            <p className="hours">Wednesday:  By Appointment Only</p>
+            <p className="hours">Thursday:  By Appointment Only</p>
+            <p className="hours">Friday:  By Appointment Only</p>
+            <p className="hours">Saturday:  By Appointment Only</p>
+            <p className="hours">Sunday:  By Appointment Only</p>
           </div>
         <hr />
       </>
