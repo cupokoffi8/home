@@ -38,7 +38,7 @@ export default function Home() {
             <p className="hours">Thursday:  Noon - 8:00 p.m.</p>
             <p className="hours">Friday:  Noon - 8:00 p.m.</p>
             <p className="hours">Saturday:  10:00 a.m. - 5:00 p.m.</p>
-            <p className="hours">Sunday:  Closed</p>
+            <p className="hoursUH">Sunday:  Closed</p>
           </div>
 
         <div id="blue-down"/>
