@@ -31,6 +31,7 @@
     margin-right: auto; 
     text-transform: uppercase; 
     font-weight: 2200; 
+    font-size: 42px;
     font-style: italic; 
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -73,6 +74,7 @@
 
   #info {
     line-height: 2rem; 
+    margin-bottom: 100px !important; 
   }
 
   .hours h3, p{
