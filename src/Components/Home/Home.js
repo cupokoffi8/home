@@ -3,7 +3,6 @@ import "./Home.css";
 import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
-import "../../Components/Home/instagram.png";
 
 export default function Home() {
     return (
@@ -28,7 +27,7 @@ export default function Home() {
             </a>
 
             <a id="instagram" href="https://www.instagram.com">
-            <img src="../../Components/Home/instagram.png" />
+            <img src="https://photos.app.goo.gl/ofz37PyHFyiyJzvQ8" />
             </a>
 
           </div>
