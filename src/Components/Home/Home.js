@@ -37,6 +37,7 @@ export default function Home() {
             <p>Saturday:  By Appointment Only</p>
             <p>Sunday:  By Appointment Only</p>
           </div>
+        <hr />
       </>
     );
   }

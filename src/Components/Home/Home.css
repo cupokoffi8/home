@@ -62,14 +62,7 @@
     line-height: 2rem; 
   }
 
-  #theDiv1 {
-    display: inline-block; 
-  }
-
-  #theDiv2 {
-    display: inline-block; 
-  }
-
-  #theDiv3 {
-    display: inline-block; 
+  #hours {
+    display: block; 
+    justify-content: center; 
   }
