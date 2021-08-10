@@ -163,7 +163,7 @@
     margin-right: 40px; 
     background-color: #fff !important; 
     color: black !important; 
-    text-align: left; 
+    text-align: left !important; 
   }
 
   #p-bottom {
@@ -174,5 +174,5 @@
     margin-right: 40px; 
     background-color: #fff !important; 
     color: black !important; 
-    text-align: left; 
+    text-align: left !important; 
   }
