@@ -97,8 +97,9 @@
   #blue-down {
     background-color: #1e3272 !important;
     height: 5rem; 
+    margin-top: 0px; 
   }
 
   #top {
-    height: 90vh; 
+    height: 75vh; 
   }
