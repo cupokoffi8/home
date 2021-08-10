@@ -27,7 +27,7 @@ export default function Home() {
             </a>
 
             <a id="instagram" href="https://www.instagram.com">
-            <img src="https://photos.app.goo.gl/ofz37PyHFyiyJzvQ8" />
+            <i src="https://photos.app.goo.gl/ofz37PyHFyiyJzvQ8" />
             </a>
 
           </div>
