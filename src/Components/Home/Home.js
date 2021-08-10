@@ -7,6 +7,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 export default function Home() {
     return (
       <>
+      <div id="top">
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
         <h1 className='welcome' id="uh">Welcome To</h1>
@@ -25,21 +26,20 @@ export default function Home() {
               info@americandragonfineart.com
             </a>
           </div>
+        </div>
 
-        <container>
-        <hr id="line"/> 
+        
           <div id="blue">
             <h3 className="title">Our Weekly Hours</h3> 
             <p className="hours">Monday:  By Appointment Only</p>
             <p className="hours">Tuesday:  By Appointment Only</p>
             <p className="hours">Wednesday:  By Appointment Only</p>
-            <p className="hours">Thursday:  By Appointment Only</p>
-            <p className="hours">Friday:  By Appointment Only</p>
-            <p className="hours">Saturday:  By Appointment Only</p>
-            <p className="hours">Sunday:  By Appointment Only</p>
+            <p className="hours">Thursday:  Noon - 8:00 p.m.</p>
+            <p className="hours">Friday:  Noon - 8:00 p.m.</p>
+            <p className="hours">Saturday:  10:00 a.m. - 5:00 p.m.</p>
+            <p className="hours">Sunday:  Closed</p>
           </div>
-        <hr id="other-line"/>
-        </container>
+        
       </>
     );
   }

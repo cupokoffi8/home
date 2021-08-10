@@ -82,19 +82,12 @@
     font-weight: bold; 
   }
 
-  #line {
-    margin-top: 50px; 
-    margin-bottom: 50px; 
-  }
-
-  #other-line {
-    margin-top: 50px; 
-    margin-bottom: 50px; 
-  }
-
   #blue {
     top: 50px; 
     bottom: 50px; 
-    background-color: #1e3272 !important; 
-    color: #1e3272 !important; 
+    background-color: #1e3272 !important;  
+  } 
+
+  #top {
+    height: 100vh; 
   }
