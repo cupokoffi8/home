@@ -164,6 +164,8 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
+    font-size: 18px !important;
+    line-height: 1.4rem !important; 
   }
 
   #p-bottom {
@@ -175,4 +177,6 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
+    font-size: 18px !important;
+    line-height: 1.4rem !important; 
   }
