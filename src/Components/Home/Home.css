@@ -159,8 +159,8 @@
     display: flex; 
     justify-content: center; 
     margin-bottom: 20px; 
-    margin-left: 40px; 
-    margin-right: 40px; 
+    margin-left: 80px; 
+    margin-right: 80px; 
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
@@ -172,8 +172,8 @@
     display: flex; 
     justify-content: center; 
     margin-top: 20px; 
-    margin-left: 40px; 
-    margin-right: 40px; 
+    margin-left: 80px; 
+    margin-right: 80px; 
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
