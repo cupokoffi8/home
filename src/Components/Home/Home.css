@@ -5,6 +5,7 @@
     margin-left: auto; 
     margin-right: auto; 
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   #uh {
@@ -18,6 +19,7 @@
     margin-left: auto; 
     margin-right: auto; 
     color: red; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
 
   .magAndMyst {
@@ -30,7 +32,8 @@
     text-transform: uppercase; 
     font-weight: bolder; 
     font-style: italic; 
-    text-align: center;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   #please {
@@ -42,7 +45,8 @@
     text-transform: uppercase; 
     font-weight: bold; 
     font-style: italic; 
-    text-align: center;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .reachOut {
@@ -159,24 +163,24 @@
     display: flex; 
     justify-content: center; 
     margin-bottom: 20px; 
-    margin-left: 80px; 
-    margin-right: 80px; 
+    margin-left: 120px; 
+    margin-right: 120px; 
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
     font-size: 18px !important;
-    line-height: 1.4rem !important; 
+    line-height: 1.7rem !important; 
   }
 
   #p-bottom {
     display: flex; 
     justify-content: center; 
     margin-top: 20px; 
-    margin-left: 80px; 
-    margin-right: 80px; 
+    margin-left: 120px; 
+    margin-right: 120px; 
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
     font-size: 18px !important;
-    line-height: 1.4rem !important; 
+    line-height: 1.7rem !important; 
   }
