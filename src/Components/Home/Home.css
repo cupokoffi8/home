@@ -30,7 +30,7 @@
     margin-left: auto; 
     margin-right: auto; 
     text-transform: uppercase; 
-    font-weight: bolder; 
+    font-weight: 400; 
     font-style: italic; 
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -44,7 +44,7 @@
     margin-right: auto; 
     text-transform: uppercase; 
     font-weight: bold; 
-    font-style: italic; 
+    /* font-style: italic;  */
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
@@ -139,10 +139,12 @@
 
   #instagram img{
     margin-right: 8px; 
+    margin-bottom: 40px;
   }
 
   #linkedin img{
     margin-left: 8px; 
+    margin-bottom: 40px;
   }
 
   #bottom {
