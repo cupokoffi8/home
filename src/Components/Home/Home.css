@@ -83,11 +83,10 @@
   }
 
   #blue {
-    top: 50px; 
-    bottom: 50px; 
+    height: 8rem; 
     background-color: #1e3272 !important;  
   } 
 
   #top {
-    height: 100vh; 
+    height: 90vh; 
   }
