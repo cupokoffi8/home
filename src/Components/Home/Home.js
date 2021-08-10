@@ -26,8 +26,9 @@ export default function Home() {
             </a>
           </div>
 
+        <container>
         <hr id="line"/> 
-          <div >
+          <div id="blue">
             <h3 className="title">Our Weekly Hours</h3> 
             <p className="hours">Monday:  By Appointment Only</p>
             <p className="hours">Tuesday:  By Appointment Only</p>
@@ -38,6 +39,7 @@ export default function Home() {
             <p className="hours">Sunday:  By Appointment Only</p>
           </div>
         <hr id="other-line"/>
+        </container>
       </>
     );
   }

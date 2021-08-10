@@ -67,7 +67,8 @@
     justify-content: center !important; 
     text-align: center !important; 
     align-items: center !important; 
-    color: #1e3272; 
+    color: #fff; 
+    /* color: #1e3272;  */ 
   }
 
   .title {
@@ -76,7 +77,8 @@
     justify-content: center !important; 
     text-align: center !important; 
     align-items: center !important; 
-    color: #1e3272 !important; 
+    color: #fff;
+    /* color: #1e3272 !important;  */
     font-weight: bold; 
   }
 
@@ -88,4 +90,8 @@
   #other-line {
     margin-top: 50px; 
     margin-bottom: 50px; 
+  }
+
+  #blue {
+    background: #1e3272 !important; 
   }
