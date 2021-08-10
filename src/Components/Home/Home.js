@@ -28,14 +28,14 @@ export default function Home() {
 
         <hr /> 
           <div id="hours">
-            <h3>Our Weekly Hours</h3> 
-            <p>Monday:  By Appointment Only</p>
-            <p>Tuesday:  By Appointment Only</p>
-            <p>Wednesday:  By Appointment Only</p>
-            <p>Thursday:  By Appointment Only</p>
-            <p>Friday:  By Appointment Only</p>
-            <p>Saturday:  By Appointment Only</p>
-            <p>Sunday:  By Appointment Only</p>
+            <h3 id="hours">Our Weekly Hours</h3> 
+            <p id="hours">Monday:  By Appointment Only</p>
+            <p id="hours">Tuesday:  By Appointment Only</p>
+            <p id="hours">Wednesday:  By Appointment Only</p>
+            <p id="hours">Thursday:  By Appointment Only</p>
+            <p id="hours">Friday:  By Appointment Only</p>
+            <p id="hours">Saturday:  By Appointment Only</p>
+            <p id="hours">Sunday:  By Appointment Only</p>
           </div>
         <hr />
       </>
