@@ -28,11 +28,11 @@ export default function Home() {
 
           <div id="iconStuff">
             <a id="instagram" href="https://www.instagram.com">
-            <img src="./instagram.png" width="20" height="20"/>
+            <img src="./instagram.png" width="50" height="50"/>
             </a>
 
             <a id="linkedin" href="https://www.linkedin.com">
-            <img src="./linkedin.png" width="20" height="20"/>
+            <img src="./linkedin.png" width="50" height="50"/>
             </a>
           </div>
 
