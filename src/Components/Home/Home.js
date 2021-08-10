@@ -25,6 +25,11 @@ export default function Home() {
             <a id="addyBottom"> 
               info@americandragonfineart.com
             </a>
+
+            <a id="instagram" href="www.instagram.com">
+            <img src="./instagram.png" />
+            </a>
+            
           </div>
         </div>
 
