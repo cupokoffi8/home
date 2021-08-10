@@ -22,7 +22,7 @@ export default function Home() {
                    917-886-1701      
             </a>
 
-            <a id="addy"> 
+            <a id="addyBottom"> 
               info@americandragonfineart.com
             </a>
           </div>

@@ -58,6 +58,15 @@
     color: black; 
   }
 
+  #addyBottom {
+    display: block; 
+    justify-content: center; 
+    text-decoration: none; 
+    text-align: center; 
+    color: black; 
+    margin-bottom: 50px;
+  }
+
   #info {
     line-height: 2rem; 
   }
