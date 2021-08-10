@@ -62,13 +62,19 @@
     line-height: 2rem; 
   }
 
-  .hours {
+  .hours h3, p{
     display: block; 
     justify-content: center !important; 
-    align-items: center;
+    text-align: center; 
     color: #1e3272; 
   }
 
   #line {
-    margin-top: 40px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+  }
+
+  #other-line {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
   }
