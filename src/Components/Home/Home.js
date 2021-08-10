@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.css"; 
 import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
+import "../../Components/Home/instagram.png";
 
 export default function Home() {
     return (
@@ -26,10 +27,10 @@ export default function Home() {
               info@americandragonfineart.com
             </a>
 
-            <a id="instagram" href="www.instagram.com">
+            <a id="instagram" href="https://www.instagram.com">
             <img src="./instagram.png" />
             </a>
-            
+
           </div>
         </div>
 
