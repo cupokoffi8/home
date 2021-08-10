@@ -134,12 +134,19 @@
     align-content: center !important; 
   } 
 
-  #instagram img{
+  #iconStuff img{
+    display: inline-block; 
+    justify-content: center !important; 
     margin-left: auto; 
-    margin-right: 20px; 
+    margin-right: auto; 
+    align-items: center !important; 
+    align-content: center !important; 
+  } 
+
+  #instagram img{
+    margin-right: 10px; 
   }
 
   #linkedin img{
-    margin-right: auto; 
-    margin-left: 20px; 
+    margin-left: 10px; 
   }
