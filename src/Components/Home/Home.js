@@ -26,8 +26,17 @@ export default function Home() {
             </a>
           </div>
 
-
-        <Map /> 
+        <hr /> 
+          <div id="hours">
+            <h3>Our Weekly Hours</h3> 
+            <p>Monday:  By Appointment Only</p>
+            <p>Tuesday:  By Appointment Only</p>
+            <p>Wednesday:  By Appointment Only</p>
+            <p>Thursday:  By Appointment Only</p>
+            <p>Friday:  By Appointment Only</p>
+            <p>Saturday:  By Appointment Only</p>
+            <p>Sunday:  By Appointment Only</p>
+          </div>
       </>
     );
   }
