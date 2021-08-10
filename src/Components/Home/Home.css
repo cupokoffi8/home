@@ -143,12 +143,14 @@
 
   #bottom {
     background-color: #fff; 
+    margin-top: 20px;
+    margin-bottom: 20px;
   } 
 
-  #fung-shway {
+  #fung-shway img{
     display: block; 
     margin-top: 50px; 
     margin-bottom: 50px; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
   }
