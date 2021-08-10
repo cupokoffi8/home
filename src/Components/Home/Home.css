@@ -70,6 +70,14 @@
     color: #1e3272; 
   }
 
+  .title {
+    display: block; 
+    justify-content: center !important; 
+    text-align: center !important; 
+    align-items: center !important; 
+    color: #1e3272 !important; 
+  }
+
   #line {
     margin-top: 50px; 
     margin-bottom: 50px; 
