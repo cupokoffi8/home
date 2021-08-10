@@ -28,7 +28,7 @@ export default function Home() {
             </a>
 
             <a id="instagram" href="https://www.instagram.com">
-            <img src="./instagram.png" />
+            <img src="../../Components/Home/instagram.png" />
             </a>
 
           </div>
