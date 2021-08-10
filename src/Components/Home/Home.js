@@ -44,7 +44,7 @@ export default function Home() {
         <div id="blue-down"/>
 
         <div>
-          
+          {/* Add image here */} 
         </div>
         
       </>
