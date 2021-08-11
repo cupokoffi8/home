@@ -119,6 +119,7 @@
   #blue-up {
     background-color: #1e3272 !important;
     height: 5rem; 
+    margin-top: 150px !important;
     position: static;
   }
 
@@ -131,6 +132,7 @@
 
   #top {
     height: 75vh; 
+    margin-bottom: 225px;
     position: static;
   }
 
@@ -139,15 +141,18 @@
     display: flex; 
     justify-content: center !important; 
     align-items: center !important; 
-    align-content: center !important;   
+    align-content: center !important; 
+    margin-bottom: 100px !important;  
   } 
 
   #instagram img{
     margin-right: 8px; 
+    margin-bottom: 100px !important;
   }
 
   #linkedin img{
     margin-left: 8px; 
+    margin-bottom: 100px !important;
   }
 
   #bottom {
