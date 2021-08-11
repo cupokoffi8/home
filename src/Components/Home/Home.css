@@ -113,21 +113,21 @@
 
   #blue { 
     background-color: #1e3272 !important;  
-    position: fixed;
+    position: static;
   } 
 
   #blue-up {
     background-color: #1e3272 !important;
     height: 5rem; 
     margin-top: 150px !important;
-    position: fixed;
+    position: static;
   }
 
   #blue-down {
     background-color: #1e3272 !important;
     height: 5rem; 
     margin-top: 0px; 
-    position: fixed;
+    position: static;
   }
 
   #top {
