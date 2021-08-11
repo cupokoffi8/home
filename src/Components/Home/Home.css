@@ -162,6 +162,10 @@
   } 
 
   @media only screen and (max-height: 645px) {
+    #top{
+      margin-bottom: 225px; 
+    }
+
     #instagram img{
       display: none;
     }
