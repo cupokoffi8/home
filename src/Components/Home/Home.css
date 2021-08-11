@@ -191,4 +191,8 @@
       margin-right: 5px; 
       justify-content: center !important; 
     }
+
+    #fung-shway {
+      width: fit-content;
+    }
   }
