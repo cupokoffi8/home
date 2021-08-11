@@ -35,4 +35,9 @@
   #hours {
       display: flexbox; 
       background: #1e3272; 
+  } 
+
+  #space {
+    background: #1e3272; 
+    height: 20px; 
   }
