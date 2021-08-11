@@ -34,7 +34,7 @@
 
   #hours {
       display: flexbox; 
-      line-height: 0.8rem; 
+      line-height: 0.5rem; 
       background: #1e3272; 
   } 
 
