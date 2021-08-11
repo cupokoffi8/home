@@ -137,7 +137,7 @@
 
   #iconStuff {
     display: inline-block;
-    display: block;
+    display: flex; 
     justify-content: center !important; 
     align-items: center !important; 
     align-content: center !important; 
