@@ -3,9 +3,9 @@ import './Hours.css';
 
 function Hours() {
     return (
-        <div id="hours">
-          <h3 className="title">Our Weekly Hours</h3> 
+        <div id="hours"> 
           <div id="space" />
+          <h3 className="title">Our Weekly Hours</h3>
             <p className="hours">Monday:  By Appointment Only</p>
             <p className="hours">Tuesday:  By Appointment Only</p>
             <p className="hours">Wednesday:  By Appointment Only</p>
