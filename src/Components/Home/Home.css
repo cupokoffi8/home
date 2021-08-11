@@ -98,7 +98,7 @@
 
   #top {
     height: 75vh; 
-    margin-bottom: 225px;
+    /* margin-bottom: 225px; */
     position: static;
   }
 
