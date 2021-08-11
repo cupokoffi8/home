@@ -139,6 +139,7 @@
     align-items: center !important; 
     align-content: center !important; 
     margin-bottom: 100px !important;  
+    flex-wrap: wrap;
   } 
 
   #instagram img{
