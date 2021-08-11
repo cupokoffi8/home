@@ -3,6 +3,7 @@ import "./Home.css";
 import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
+import Hours from "./Hours"; 
 
 export default function Home() {
     return (
@@ -39,7 +40,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="blue-up"/>
+        <Hours /> 
+
+        {/* <div id="blue-up"/>
         
           <div id="blue">
             <h3 className="title">Our Weekly Hours</h3> 
@@ -50,9 +53,9 @@ export default function Home() {
             <p className="hours">Friday:  Noon - 8:00 p.m.</p>
             <p className="hours">Saturday:  10:00 a.m. - 5:00 p.m.</p>
             <p className="hoursUH">Sunday:  Closed</p>
-          </div>
+          </div> */}
 
-        <div id="blue-down"/>
+        {/* <div id="blue-down"/> */}
 
         <div id="bottom">
           <img src="./fung-shway.jpeg"id="fung-shway" />  
