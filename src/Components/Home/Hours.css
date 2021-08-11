@@ -31,3 +31,8 @@
     margin-bottom: 40px; 
     /* color: #1e3272;  */ 
   }
+
+  #hours {
+      display: flexbox; 
+      background: #1e3272; 
+  }
