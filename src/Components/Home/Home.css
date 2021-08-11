@@ -119,7 +119,7 @@
   #blue-up {
     background-color: #1e3272 !important;
     height: 5rem; 
-    margin-top: 150px !important;
+    /* margin-top: 150px !important; */
     position: static;
   }
 
