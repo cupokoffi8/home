@@ -113,18 +113,21 @@
 
   #blue { 
     background-color: #1e3272 !important;  
+    position: relative;
   } 
 
   #blue-up {
     background-color: #1e3272 !important;
     height: 5rem; 
-    margin-top: 100px !important;
+    margin-top: 150px !important;
+    position: relative;
   }
 
   #blue-down {
     background-color: #1e3272 !important;
     height: 5rem; 
     margin-top: 0px; 
+    position: relative;
   }
 
   #top {
@@ -143,12 +146,12 @@
 
   #instagram img{
     margin-right: 8px; 
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
   }
 
   #linkedin img{
     margin-left: 8px; 
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
   }
 
   #bottom {
