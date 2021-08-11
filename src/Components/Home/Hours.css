@@ -18,6 +18,8 @@
     align-items: center !important; 
     color: #fff; 
     background-color: #1e3272 !important;
+    margin-top: 0px;
+    margin-bottom: 0px; 
     /* color: #1e3272;  */ 
   }
 
