@@ -74,7 +74,7 @@
 
   #info {
     line-height: 2rem; 
-    margin-bottom: 200px !important; 
+    /* margin-bottom: 200px !important;  */
   }
 
   .hours h3, p{
@@ -120,7 +120,7 @@
     background-color: #1e3272 !important;
     height: 5rem; 
     /* margin-top: 150px !important; */
-    position: static;
+    position: static; 
   }
 
   #blue-down {
