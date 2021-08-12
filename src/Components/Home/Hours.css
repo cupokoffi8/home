@@ -1,4 +1,5 @@
 .title {
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 26px;
     display: block; 
     justify-content: center !important; 
@@ -13,9 +14,11 @@
   }
 
   .hours h3, p{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
     display: block; 
     justify-content: center !important; 
-    text-align: center !important; 
+    text-align: left !important; 
     align-items: center !important; 
     color: #fff; 
     background-color: #1e3272 !important;
@@ -25,9 +28,11 @@
   }
 
   .hoursUH h3, p{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
     display: block; 
     justify-content: center !important; 
-    text-align: center !important; 
+    text-align: left !important; 
     align-items: center !important; 
     color: #fff; 
     background-color: #1e3272 !important;
