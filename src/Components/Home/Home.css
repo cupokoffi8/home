@@ -167,7 +167,7 @@
     line-height: 1.7rem !important; 
   } 
 
-  @media only screen and (max-height: 700px) {
+  @media only screen and (max-height: 645px) {
     #top{
       margin-bottom: 225px; 
     }
@@ -205,5 +205,11 @@
       margin-right: 5px; 
       max-width: 70%;
       max-height: 85%; 
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    #top{
+      margin-bottom: 150px; 
     }
   }
