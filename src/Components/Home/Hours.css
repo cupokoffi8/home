@@ -41,8 +41,7 @@
   }
 
   #hours {
-      display: flex; 
-      justify-content: center; 
+      align-items: center;  
       line-height: 0.5rem; 
       background: #1e3272; 
   } 
