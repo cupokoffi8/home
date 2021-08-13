@@ -7,7 +7,7 @@ function ZenFrescos() {
 
             {/* Artist Name */} 
 
-            <h1 className="artist">Aparna Banerjee</h1>
+            <h1 className="artist">Zen Frescos</h1>
             <hr /> 
 
             {/* Artist Summary */}
