@@ -28,7 +28,7 @@
   #art-paragraph-other {
     display: flex; 
     justify-content: center; 
-    margin-top: 30px;  
+    margin-top: 15px;  
     margin-left: 120px; 
     margin-right: 120px; 
     background-color: #fff !important; 
@@ -42,7 +42,7 @@
   #art-paragraph-bottom {
     display: flex; 
     justify-content: left !important; 
-    margin-top: 30px;  
+    margin-top: 15px;  
     margin-left: 120px !important; 
     /* margin-right: 120px;  */
     background-color: #fff !important; 
