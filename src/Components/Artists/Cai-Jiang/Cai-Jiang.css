@@ -88,10 +88,18 @@
     }
 
     #art-paragraph-bottom {
+        display: flex; 
+        justify-content: center; 
+        margin-top: 15px;  
         margin-left: 15px; 
         margin-right: 15px; 
-        text-align: center; 
-        justify-content: center;
+        background-color: #fff !important; 
+        color: black !important; 
+        text-align: left !important; 
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 18px !important;
+        line-height: 1.7rem !important; 
+          } 
     }
 
 }
