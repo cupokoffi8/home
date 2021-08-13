@@ -1,0 +1,25 @@
+.artist {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 26px;
+    display: block; 
+    justify-content: center !important; 
+    text-align: center !important; 
+    align-items: center !important; 
+    color: rgb(0, 0, 0); 
+    /* color: #1e3272 !important;  */
+    font-weight: bold; 
+  }
+
+#art-paragraph {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  }
