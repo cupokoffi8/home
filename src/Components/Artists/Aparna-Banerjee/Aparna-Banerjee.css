@@ -24,4 +24,13 @@
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
+  } 
+
+  #painting {
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      margin-top: 20px; 
+      width: 341px; 
+      height: 450px; 
   }

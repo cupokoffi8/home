@@ -22,7 +22,10 @@ function AparnaBanerjee() {
               </p>
 
               {/* List of Paintings */} 
+
               <img src="./twitter.png" id="painting"></img>
+
+              <img src="./instagram" id="painting"></img> 
 
           </div>
     );
