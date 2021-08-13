@@ -115,6 +115,11 @@
     margin-bottom: 100px !important;  
   } 
 
+  #twitter {
+    margin-right: 8px;
+    margin-bottom: 100px;
+    }
+
   #instagram img{
     margin-right: 8px; 
     margin-bottom: 100px !important;
@@ -170,7 +175,11 @@
   @media only screen and (max-height: 645px) {
     #top{
       margin-bottom: 225px; 
-    }
+    } 
+
+    #twitter {
+      display: none; 
+      }
 
     #instagram img{
       display: none;

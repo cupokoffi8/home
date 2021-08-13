@@ -28,6 +28,10 @@ export default function Home() {
             </a>
 
           <div id="iconStuff">
+            <a id="twitter" href="https://twitter.com/ameridragonart">
+            <img src="./twitter.png" width="50" height="50" />
+            </a>
+
             <a id="instagram" href="https://www.instagram.com/american.dragon.art/">
             <img src="./instagram.png" width="50" height="50"/>
             </a>
