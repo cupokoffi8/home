@@ -43,8 +43,8 @@
     display: flex; 
     justify-content: left !important; 
     margin-top: 40px;  
-    /* margin-left: 120px; 
-    margin-right: 120px;  */
+    margin-left: 120px; 
+    /* margin-right: 120px;  */
     background-color: #fff !important; 
     color: black !important; 
     font-family: 'Times New Roman', Times, serif; 
