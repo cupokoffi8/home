@@ -65,6 +65,31 @@ function CaiJiang() {
               from technology to  art, from promising to inaction.
               </p>
 
+              {/* ------------------------------------------------------------- */}
+
+              <p id="art-paragraph-bottom-mobile">
+              The artistic experience is divided into three major stages:
+              </p>
+
+              <p id="art-paragraph-bottom-mobile">
+              1. Innovative Pope Wandering Goddess and Landscape series.
+              </p>
+
+              <p id="art-paragraph-bottom-mobile">
+              2. Innovative ink landscapes, flowers, and bird series.
+              </p>
+
+              <p id="art-paragraph-bottom-mobile">
+              3. Original contemporary blind wisdom art, painting, and sculpture series.
+              </p>
+
+              <p id="art-paragraph-bottom-mobile">
+              It is from outside to inside, from far to near, from complex to concise, 
+              from technology to  art, from promising to inaction.
+              </p>
+
+
+
               {/* List of Paintings */} 
 
               <img src="./beauty_1.jpeg" id="painting"></img>

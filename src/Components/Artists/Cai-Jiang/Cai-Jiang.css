@@ -52,6 +52,10 @@
     line-height: 1.7rem !important; 
   } 
 
+  #art-paragraph-bottom-mobile {
+      display: none; 
+  }
+
   #painting {
       display: block; 
       margin-left: auto; 
@@ -87,7 +91,7 @@
         text-align: center; 
     }
 
-    #art-paragraph-bottom {
+    #art-paragraph-bottom-mobile {
         display: flex; 
         justify-content: left; 
         margin-top: 15px;  
@@ -100,5 +104,9 @@
         font-size: 18px !important;
         line-height: 1.7rem !important; 
           } 
+
+    #art-paragraph-bottom {
+        display: none; 
+    }
 
 }
