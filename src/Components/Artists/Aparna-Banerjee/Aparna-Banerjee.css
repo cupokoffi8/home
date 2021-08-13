@@ -30,7 +30,19 @@
       display: block; 
       margin-left: auto; 
       margin-right: auto; 
-      margin-top: 20px; 
+      margin-top: 80px; 
       width: 341px; 
       height: 450px; 
   }
+
+  #caption {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+}

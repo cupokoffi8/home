@@ -24,8 +24,10 @@ function AparnaBanerjee() {
               {/* List of Paintings */} 
 
               <img src="./twitter.png" id="painting"></img>
+              <h5 id="caption">Name</h5> 
 
-              <img src="./instagram" id="painting"></img> 
+              <img src="./instagram.png" id="painting"></img> 
+              <h5 id="caption">Name</h5> 
 
           </div>
     );
