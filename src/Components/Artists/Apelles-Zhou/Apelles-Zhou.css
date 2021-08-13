@@ -41,7 +41,7 @@
 
   #art-paragraph-bottom {
     display: flex; 
-    /* justify-content: left;  */
+    justify-content: left; 
     margin-top: 40px;  
     /* margin-left: 120px; 
     margin-right: 120px;  */
