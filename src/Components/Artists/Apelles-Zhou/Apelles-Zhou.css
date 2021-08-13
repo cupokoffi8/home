@@ -41,7 +41,10 @@
 
   #art-paragraph-bottom {
     display: flex; 
+    /* justify-content: left;  */
     margin-top: 40px;  
+    /* margin-left: 120px; 
+    margin-right: 120px;  */
     background-color: #fff !important; 
     color: black !important; 
     font-family: 'Times New Roman', Times, serif; 

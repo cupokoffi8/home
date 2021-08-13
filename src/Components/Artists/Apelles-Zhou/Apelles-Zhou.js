@@ -29,7 +29,7 @@ function ApellesZhou() {
               Aquatics Center, and other notable galleries.
               </p> 
 
-              <p id="art-paragraph-other">
+              <p id="art-paragraph-bottom">
               Zhou is also a curator of contemporary art and has organized exhibitions in 
               both Beijing and New York City. 
               </p>
