@@ -26,6 +26,15 @@ function AparnaBanerjee() {
 
               <img id="painting" src=""/> 
 
+              <figure>
+                <img 
+                src="https://images.squarespace-cdn.com/content/v1/5d55df31eaca5e00018cde6c/1572979012246-DNGRI7ICV1XX626RLYYX/beauty_1.jpg?format=750w" 
+                alt="" 
+                style="width:100%" 
+                />
+                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+              </figure>
+
 
           </div>
         </div>
