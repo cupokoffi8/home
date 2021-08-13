@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './Aparna-Banerjee.css'; 
-import Map from '../../Map/Map'; 
 
 function AparnaBanerjee() {
     return (

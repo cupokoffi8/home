@@ -1,0 +1,57 @@
+.artist {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 26px;
+    display: block; 
+    justify-content: center !important; 
+    text-align: center !important; 
+    align-items: center !important; 
+    color: rgb(0, 0, 0); 
+    /* color: #1e3272 !important;  */
+    font-weight: bold; 
+    margin-top: 100px; 
+  }
+
+#art-paragraph {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 80px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
+  #painting {
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      margin-top: 80px; 
+      width: 341px; 
+      height: 450px; 
+  }
+
+  #caption {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+}
+
+@media only screen and (max-width: 600px) {
+
+    #art-paragraph {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    }
+
+}
