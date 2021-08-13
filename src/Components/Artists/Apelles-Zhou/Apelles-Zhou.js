@@ -13,11 +13,25 @@ function ApellesZhou() {
             {/* Artist Summary */}
 
             <p id="art-paragraph">
-              The work of the outstanding Indian female artist Aparna Banerjee 
-              perfectly combines Eastern traditional art with Western modern genre. 
-              In her paintings, she can trace the footprints of contemporary genre 
-              masters and the Dunhuang aftertaste!  The source is naturally the 
-              traditional Buddhist culture of India!
+            Apelles Zhou merges traditional Old Master techniques with motifs from pop art, 
+            cubism, abstract expressionism, and other modern movements.  Zhou’s paintings 
+            also explore contemporary issues in spirituality and metaphysics.
+              </p>
+
+              <p id="art-paragraph-other">
+              Apelles Zhou was born in 1992 in Jinan-Shandong, China.  He currently lives 
+              and works in New York City.  He holds a BFA and MFA from The China Central 
+              Academy of Fine Arts in Beijing, China.  Since earning his MFA in 2017, Zhou 
+              has traveled throughout Europe to learn firsthand the techniques of painters 
+              such as Elisabeth Vigee Le Brun, Hilma af Klint, Raphael, and Michelangelo.  
+              In New York City, he has exhibited with The Amsterdam Whitney Gallery.  
+              In Beijing, he has exhibited at the CAFA Arts Museum, The Beijing National 
+              Aquatics Center, and other notable galleries.
+              </p> 
+
+              <p id="art-paragraph-other">
+              Zhou is also a curator of contemporary art and has organized exhibitions in 
+              both Beijing and New York City. 
               </p>
 
               {/* List of Paintings */} 
