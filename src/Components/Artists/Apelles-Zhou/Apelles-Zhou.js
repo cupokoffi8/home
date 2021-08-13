@@ -34,6 +34,11 @@ function ApellesZhou() {
               both Beijing and New York City. 
               </p>
 
+              <p id="art-paragraph-bottom-mobile">
+              Zhou is also a curator of contemporary art and has organized exhibitions in 
+              both Beijing and New York City. 
+              </p>
+
               {/* List of Paintings */} 
 
               <img src="./beauty_1.jpeg" id="painting"></img>
