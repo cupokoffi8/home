@@ -4,7 +4,6 @@ import Map from '../../Map/Map';
 
 function AparnaBanerjee() {
     return (
-        <div>
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -23,14 +22,9 @@ function AparnaBanerjee() {
               </p>
 
               {/* List of Paintings */} 
-
-              <img id="painting" 
-              src="https://images.squarespace-cdn.com/content/v1/5d55df31eaca5e00018cde6c/1572979012246-DNGRI7ICV1XX626RLYYX/beauty_1.jpg?format=750w"
-              /> 
-
+              <img src="./twitter.png" id="painting"></img>
 
           </div>
-        </div>
     );
   }
   
