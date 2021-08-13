@@ -3,7 +3,7 @@ import './Hours.css';
 
 function Hours() {
     return (
-        <div id="hours"> 
+        <div id="hours-div"> 
           <div id="space" />
           <h3 className="title">Our Weekly Hours</h3>
             <p className="hours">Monday:  By Appointment Only</p>
