@@ -5,9 +5,15 @@ import Map from '../../Map/Map';
 function AparnaBanerjee() {
     return (
         <div>
-          <div className="AparnaBanerjee">
+          <div className="artist-section"> 
+
+            {/* Artist Name */} 
+
             <h1 className="artist">Aparna Banerjee</h1>
             <hr /> 
+
+            {/* Artist Summary */}
+
             <p id="art-paragraph">
               The work of the outstanding Indian female artist Aparna Banerjee 
               perfectly combines Eastern traditional art with Western modern genre. 
@@ -16,7 +22,11 @@ function AparnaBanerjee() {
               traditional Buddhist culture of India!
               </p>
 
-              <Map /> 
+              {/* List of Paintings */} 
+
+              <img id="painting" src=""/> 
+
+
           </div>
         </div>
     );
