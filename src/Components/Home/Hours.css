@@ -13,7 +13,7 @@
     margin-bottom: 60px;
   }
 
-  .hours h3, p{
+  .hours{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px;
     display: block; 
@@ -29,7 +29,7 @@
     /* color: #1e3272;  */ 
   }
 
-  .hoursUH h3, p{
+  .hoursUH{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px;
     display: block; 
