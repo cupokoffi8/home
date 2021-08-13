@@ -25,6 +25,33 @@
     line-height: 1.7rem !important; 
   } 
 
+  #art-paragraph-other {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 40px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
+  #art-paragraph-bottom {
+    display: flex; 
+    justify-content: left !important; 
+    margin-top: 40px;  
+    margin-left: 120px !important; 
+    /* margin-right: 120px;  */
+    background-color: #fff !important; 
+    color: black !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
   #painting {
       display: block; 
       margin-left: auto; 

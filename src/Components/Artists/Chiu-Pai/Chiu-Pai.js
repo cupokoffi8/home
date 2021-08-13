@@ -7,7 +7,7 @@ function ChiuPai() {
 
             {/* Artist Name */} 
 
-            <h1 className="artist">Aparna Banerjee</h1>
+            <h1 className="artist">Chiu Pai</h1>
             <hr /> 
 
             {/* Artist Summary */}
