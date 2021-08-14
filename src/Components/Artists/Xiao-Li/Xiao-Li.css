@@ -123,4 +123,8 @@
         display: none; 
     }
 
+    #bullet {
+      margin-left: 15px; 
+    }
+
 }
