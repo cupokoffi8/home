@@ -13,16 +13,17 @@
 
   #bullet {
     display: flex; 
-    justify-content: center; 
+    justify-content: left; 
     margin-top: 5px;  
     margin-left: 120px; 
-    margin-right: 120px; 
+    margin-right: auto; 
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
+    text-decoration-style: dotted; 
   } 
 
 #art-paragraph {
