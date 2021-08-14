@@ -22,9 +22,9 @@ function ZhenZhongDuan() {
               </p> 
 
               <p id="art-paragraph-other">
-              In 1989 he was awarded the “ Golden Rooster ”, which is equivalent to the American Academy Award, for 
-              his set design for the movie “ Waiting for Daybreak ”.  Mr. Duan also collaborated with Ann Hu, a world 
-              renowned director, on the internationally acclaimed film “ Dream and Memory ”. 
+              In 1989 he was awarded the “Golden Rooster”, which is equivalent to the American Academy Award, for 
+              his set design for the movie “Waiting for Daybreak”.  Mr. Duan also collaborated with Ann Hu, a world 
+              renowned director, on the internationally acclaimed film “Dream and Memory”. 
               </p> 
 
               <p id="art-paragraph-other">

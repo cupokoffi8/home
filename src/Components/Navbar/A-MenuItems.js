@@ -1,10 +1,5 @@
 export const AMenuItems = [
   {
-    title: 'Our Artists',
-    path: '/artists',
-    cName: 'a-dropdown-link'
-  },
-  {
     title: 'Aparna Banerjee',
     path: '/aparna-banerjee',
     cName: 'a-dropdown-link'
