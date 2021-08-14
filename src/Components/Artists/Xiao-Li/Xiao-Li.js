@@ -17,7 +17,7 @@ function XiaoLi() {
             Sculpture Department of the Central Academy of Fine Arts. 
             He has participated in the following venues:
               </p> 
-              <ul>
+              <ul id="venues">
                 <li id="bullet">
                 Paris International Art City Exhibition in France
                 </li>

@@ -25,6 +25,10 @@
     line-height: 1.7rem !important; 
   } 
 
+  #venues {
+    list-style: square; 
+  }
+
 #art-paragraph {
     display: flex; 
     justify-content: center; 
