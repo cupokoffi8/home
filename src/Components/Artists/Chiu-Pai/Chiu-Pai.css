@@ -6,7 +6,6 @@
     text-align: center !important; 
     align-items: center !important; 
     color: rgb(0, 0, 0); 
-    /* color: #1e3272 !important;  */
     font-weight: bold; 
     margin-top: 100px; 
   }
@@ -17,9 +16,7 @@
     justify-content: left !important; 
     text-align: left !important; 
     align-items: center !important; 
-    color: rgb(0, 0, 0); 
-    /* color: #1e3272 !important;  */
-    font-weight: bold; 
+    color: rgb(0, 0, 0);  
     margin-top: 40px; 
     margin-left: 120px !important; 
   }
