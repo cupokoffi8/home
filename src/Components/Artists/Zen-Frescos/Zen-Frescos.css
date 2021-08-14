@@ -69,7 +69,22 @@
 
   #art-paragraph-bottom-mobile {
       display: none; 
-  }
+  } 
+
+  .translator {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 15px;  
+    margin-left: 120px; 
+    margin-right: auto; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    font-weight: bold; 
+    line-height: 1.7rem !important; 
+  } 
 
   #painting {
       display: block; 
@@ -133,6 +148,10 @@
 
     #art-paragraph-bottom {
         display: none; 
+    } 
+
+    .translator {
+      margin-left: 15px; 
     }
 
 }

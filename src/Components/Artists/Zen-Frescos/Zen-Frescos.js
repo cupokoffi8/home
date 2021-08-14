@@ -614,6 +614,8 @@ function ZenFrescos() {
               </p>
               {/* -- */}
 
+              <hr /> 
+
               {/* Number Points */} 
 
               <p id="art-paragraph-other">
@@ -674,11 +676,6 @@ function ZenFrescos() {
               <img src="./beauty_1.jpeg" id="painting"></img>
               <img src="./beauty_1.jpeg" id="painting"></img>
               <h5 id="caption">Family Version</h5> 
-
-
-
-              <hr /> 
-
 
           </div>
     );
