@@ -268,7 +268,11 @@ function ZenFrescos() {
               painting to gain techniques and to probe the essential qualities of a past master's style. 
               </p> 
 
-              <p id="art-paragraph-other">
+              <p id="art-paragraph-bottom">
+              Since the period of Shuhong Chang, Wenjie Duan, there are three popular methods in mural copy painting.
+              </p> 
+
+              <p id="art-paragraph-bottom-mobile">
               Since the period of Shuhong Chang, Wenjie Duan, there are three popular methods in mural copy painting.
               </p> 
 
