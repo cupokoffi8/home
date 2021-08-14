@@ -13,12 +13,25 @@ function ZhenZhongDuan() {
             {/* Artist Summary */}
 
             <p id="art-paragraph">
-              The work of the outstanding Indian female artist Aparna Banerjee 
-              perfectly combines Eastern traditional art with Western modern genre. 
-              In her paintings, she can trace the footprints of contemporary genre 
-              masters and the Dunhuang aftertaste!  The source is naturally the 
-              traditional Buddhist culture of India!
-              </p>
+            Zhen-Zhong Duan was born in Anhui, China in 1944.  In 1969, he graduated from the Central Academy 
+            of Arts and Design, where he majored in Decorative Arts and Architecture.  From 1969 until 1973 
+            he worked as an Art Designer for the Song and Dance Ensemble Central Troup. He then took a position 
+            at the Beijing Film Studio, where he became their Senior Art Designer.  His set designs have appeared 
+            in over 20 major film and television productions, and he has received many special honors and awards 
+            for his contributions to the Chinese Moving Picture Industry. 
+              </p> 
+
+              <p id="art-paragraph-other">
+              In 1989 he was awarded the “ Golden Rooster ”, which is equivalent to the American Academy Award, for 
+              his set design for the movie “ Waiting for Daybreak ”.  Mr. Duan also collaborated with Ann Hu, a world 
+              renowned director, on the internationally acclaimed film “ Dream and Memory ”. 
+              </p> 
+
+              <p id="art-paragraph-other">
+              Mr. Duan is an accomplished watercolor and oil landscape painter.  His work has been exhibited internationally, 
+              in Beijing, Hong Kong, Europe, and the United States.  He is member of the Oil Painters of America, and his oil 
+              paintings have been displayed and sold by Sotheby’s. 
+              </p> 
 
               {/* List of Paintings */} 
 
