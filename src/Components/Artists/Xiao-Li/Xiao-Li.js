@@ -19,25 +19,25 @@ function XiaoLi() {
               </p> 
               <ul id="venues">
                 <li id="bullet">
-                Paris International Art City Exhibition in France
+                •Paris International Art City Exhibition in France
                 </li>
                 <li id="bullet">
-                The French AUBAZINE City Sculpture
+                •The French AUBAZINE City Sculpture
                 </li>
                 <li id="bullet">
-                The French Paris Autumn Alon Exhibition
+                •The French Paris Autumn Alon Exhibition
                 </li>
                 <li id="bullet">
-                The Chinese Contemporary Sculpture Exhibition
+                •The Chinese Contemporary Sculpture Exhibition
                 </li>
                 <li id="bullet">
-                The French Paris LA BIENNALE D’ISSY Biennial Exhibition
+                •The French Paris LA BIENNALE D’ISSY Biennial Exhibition
                 </li>
                 <li id="bullet">
-                2nd National Youth Art Exhibition, winner of Bronze Prize
+                •2nd National Youth Art Exhibition, winner of Bronze Prize
                 </li>
                 <li id="bullet">
-                Central Academy of Fine Arts Exhibition, winner of First Prize
+                •Central Academy of Fine Arts Exhibition, winner of First Prize
                 </li>
               </ul> 
 
