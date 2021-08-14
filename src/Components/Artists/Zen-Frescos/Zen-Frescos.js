@@ -52,6 +52,29 @@ function ZenFrescos() {
 
               {/* Bullet Points */} 
 
+              <ul id="list">
+                <li id="bullet">
+                • The Avalokitesvara with Water and Moon
+                </li>
+                <li id="bullet">
+                • Portrait of Manjusra
+                </li>
+                <li id="bullet">
+                • Portrait of Samantabhadra
+                </li>
+                <li id="bullet">
+                • Indra and Brahma Prostrating Buddha and Protecting Dharma
+                </li>
+                <li id="bullet">
+                • Buddhist Families Heading to Dharma Teaching
+                </li>
+                <li id="bullet">
+                • Auspicious Cloud, and more
+                </li>
+              </ul> 
+
+              {/* -- */} 
+
               <p id="art-paragraph-other">
               Among them, the “The Avalokitesvara with Water and Moon” and the “indra and Brahma 
               Prostrating Buddha and Protecting Dharma” are the most representative masterpieces. 
@@ -263,6 +286,32 @@ function ZenFrescos() {
 
               {/* Bullet Points */} 
 
+              <ul id="list">
+                <li id="bullet">
+                • Heavenly King 
+                </li>
+                <li id="bullet">
+                • Bestowing Boy
+                </li>
+                <li id="bullet">
+                • Han Xizai Evening Banquet
+                </li>
+                <li id="bullet">
+                • Celestial Beings Worship The Purest Ones
+                </li>
+                <li id="bullet">
+                • Along the River During the Qingming Festival
+                </li>
+                <li id="bullet">
+                • Thousand Buddha 
+                </li>
+                <li id="bullet">
+                • Dwelling in the Fuchun Mountain 
+                </li>
+              </ul> 
+
+              {/* -- */} 
+
               <p id="art-paragraph-other">
               The connotations of copy painting changed in Yuan Dynasty. Many famous painters practiced copy 
               painting to gain techniques and to probe the essential qualities of a past master's style. 
@@ -278,6 +327,20 @@ function ZenFrescos() {
 
               {/* Number Points */} 
 
+              <ul id="list">
+                <li id="bullet">
+                1. Exactly replicate the existing state of condition , is called “Objectively Replicating Method”
+                </li>
+                <li id="bullet">
+                2. Complement to the original state, based on the existing state of condition, is called  “Complement based on existing state of Condition”
+                </li>
+                <li id="bullet">
+                3. Copy exactly to the original, new condition, is called “Copy As The Original New”. 
+                </li> 
+              </ul> 
+
+              {/* -- */} 
+
               <p id="art-paragraph-other">
               The“ Beijing Fahai Zen Monastery Mural Paintings”were copy painted by using the third method 
               “Copy as Original New”, are the most representative copy paintings of Fahai Zen Monastery 
@@ -285,6 +348,20 @@ function ZenFrescos() {
               </p> 
 
               {/* Number Points */} 
+
+              <ul id="list">
+                <li id="bullet">
+                1. The original murals were painted on wall, the replicas were painted on rice paper. 
+                </li>
+                <li id="bullet">
+                2. Individually, the sizes of replicas are one fourth and half of the original murals.
+                </li>
+                <li id="bullet">
+                3. Beijing Fahai Monastery Mural Paintings lift the 600 years mystical veil of marvelousness.  
+                </li> 
+              </ul> 
+
+              {/* -- */} 
 
               <p id="art-paragraph-other">
               The painter’s solid background in mural painting, his knowledge in mineral material selection, education 
@@ -370,7 +447,28 @@ function ZenFrescos() {
               Buddha and Protecting Dharma” ( The West of Northern Wall). They have following features: 
               </p> 
 
-              {/* Number Points */}
+              {/* Number Points */} 
+
+              <ul id="list">
+                <li id="bullet">
+                1. The resolution accuracy in image information acquisition is greater than 20G per square meter. The number is far higher than the industrial standard of giclee printing.
+                </li>
+                <li id="bullet">
+                2. In order to make the printing never faded and to reconcile with the original drawings in both texture and colors, especially the traits of materials and the subtle micro features of colors, several efforts are implemented, like using no acid acid-free rice paper, coating spread, mineral colors and much more .
+                </li>
+                <li id="bullet">
+                3. From customized rice paper making to silk brocade making, anti-forgery techniques are used in each step of reproduction. Each printing has its unique anti-fraud universal barcode distinguishing its limited edition printout and its worldwide copyright registration numbers. An IC chip embedding universally unique identifier, which is unchangeable, uncopiable, duplicable, irreplaceable with numerous digital data , is inserted in each printing with its unique electronic DNA identity barcode.
+                  By using cellphone’s NFC function, authorized collectors on the Fahai Zen Monastery Frescoes’ website can get into the customer database management system to attain the DNA anti-forgery barcode for each printing.
+                </li> 
+                <li id="bullet">
+                4. In order to make the printing never faded, no acid rice paper and mineral colors are applied in production.
+                </li> 
+                <li id="bullet">
+                5. Measurements: 
+                </li>
+              </ul> 
+
+              {/* -- */} 
 
               <hr /> 
 
@@ -621,6 +719,20 @@ function ZenFrescos() {
               <hr /> 
 
               {/* Number Points */} 
+
+              <ul id="list">
+                <li id="bullet">
+                6. The original drawing of “Beijing Fahai Zen Monastery Mural Paintings” is  registered with the National Copyright Administration of The Peoples Republic of China and is honored the certificate of copyright registration for “ Beijing Fahai Zen Monastery Mural Paintings”The registration number is : 國作登字-2013-F-00092999. Its copyright is worldwide protected.
+                </li>
+                <li id="bullet">
+                7. In order to feature the accent of both colorful elegance and sophistication in Chinese meticulous painting, and the majesty, grandeur, magnificence, meticulousness of Song Dynasty Court mural paintings, the patented techniques and the unique craftsman's skills are used in production to break through the limitations of giclee printing,  specifically in the resolution accuracy of image information acquisition, image processing technique of high pixel density, color restoration technique, integration of primary colors, traits of colors and texture, ultrafine particles processing.
+                </li>
+                <li id="bullet">
+                8. In order to keep with the cultural essences of Ming Dynasty, the ancient simplicity,  and eco-friendly conscious living are buried in mind during the stages of mounting   and scroll storage box making. Adorned with elaborated metal parts, scroll storage boxes are made from highly qualified Chinese parasol tree wood and camphorwood  in the traditional way following ancient people’s taste and habits. It approaches        lightweight and simplicity without loss of its classical genre. It is consistent with the theme of applying modern materials in traditional methods. Ideally preserving the integrity of intriguing scenarios and displaying without flamboyance is the  Indispensable quintessence in decoration and packaging of “ Beijing Fahai Zen  Monastery Mural Paintings”.
+                </li> 
+              </ul> 
+
+              {/* -- */} 
 
               <p id="art-paragraph-other">
               There are two print versions, display version and family version. Totally there are 3,333 sets. Each printing has 

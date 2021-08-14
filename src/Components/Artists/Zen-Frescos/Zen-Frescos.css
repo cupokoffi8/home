@@ -105,7 +105,21 @@
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
-}
+} 
+
+#bullet {
+  display: flex; 
+  justify-content: left; 
+  margin-top: 5px;  
+  margin-left: 120px; 
+  margin-right: auto; 
+  background-color: #fff !important; 
+  color: black !important; 
+  text-align: left !important; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 18px !important;
+  line-height: 1.7rem !important; 
+} 
 
 #little-title { 
   display: block; 
