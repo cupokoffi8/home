@@ -124,7 +124,8 @@
     }
 
     #bullet {
-      margin-left: 15px; 
+      margin-left: 20px; 
+      margin-right: auto; 
     }
 
 }

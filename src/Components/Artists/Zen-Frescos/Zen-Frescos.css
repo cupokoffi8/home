@@ -172,6 +172,11 @@
 
     .translator {
       margin-left: 15px; 
+    } 
+
+    #bullet {
+      margin-left: 20px; 
+      margin-right: auto; 
     }
 
 }
