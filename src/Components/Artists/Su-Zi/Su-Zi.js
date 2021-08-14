@@ -13,12 +13,36 @@ function SuZi() {
             {/* Artist Summary */}
 
             <p id="art-paragraph">
-              The work of the outstanding Indian female artist Aparna Banerjee 
-              perfectly combines Eastern traditional art with Western modern genre. 
-              In her paintings, she can trace the footprints of contemporary genre 
-              masters and the Dunhuang aftertaste!  The source is naturally the 
-              traditional Buddhist culture of India!
-              </p>
+            Su Zi is a professional painter, a member of Beijing Woman Artist Sodality 
+            and member of Beijing Oil Painting Society. She loves painting since childhood. 
+            Su Zi has studied bold freehand traditional Chinese painting in a systemic way 
+            and pursued further study of western oil painting at the China Central Academy 
+            Of Fine Arts. 
+              </p> 
+
+              <p id="art-paragraph-other">
+              In recent years, Su Zi has fully devoted herself to the study of 
+              nationalization of oil painting, which integrates both western 
+              culture and Chinese culture. Her painting style has adopted expressionism, 
+              but in essence it is still bold freehand traditional Chinese painting 
+              which borrows the formal language of characters in Chinese opera. Possessing 
+              such an original and distinctive painting style, Su Zi has entered a new 
+              artistic state.
+              </p> 
+
+              <p id="art-paragraph-other">
+              Looking at Su Zi' s paintings, you can easily get the feeling that heroes, 
+              warriors and beauties, which are the most recurrent themes in her work. 
+              They might arise from her love for these themes. Naturally, she is quite 
+              good at these kinds of artistic creations. 
+              </p> 
+
+              <p id="art-paragraph-other">
+              It is remarkable that the painter's unique, exaggerated portrait of the 
+              characters have perfectly captured the connotation of her artistic creations. 
+              Su Zi's oil paintings exude an illusory and unrestrained feel and reveal 
+              some vaguely discernible mythological color. 
+              </p> 
 
               {/* List of Paintings */} 
 
