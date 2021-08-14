@@ -11,6 +11,19 @@
     margin-top: 100px; 
   }
 
+  #header {
+    font-family: 'Times New Roman', Times, serif; 
+    display: block; 
+    justify-content: left !important; 
+    text-align: left !important; 
+    align-items: center !important; 
+    color: rgb(0, 0, 0); 
+    /* color: #1e3272 !important;  */
+    font-weight: bold; 
+    margin-top: 100px; 
+    margin-left: 120px !important; 
+  }
+
 #art-paragraph {
     display: flex; 
     justify-content: center; 
@@ -24,6 +37,37 @@
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   } 
+
+  #art-paragraph-other {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 15px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
+  #art-paragraph-bottom {
+    display: flex; 
+    justify-content: left !important; 
+    margin-top: 15px;  
+    margin-left: 120px !important; 
+    /* margin-right: 120px;  */
+    background-color: #fff !important; 
+    color: black !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
+  #art-paragraph-bottom-mobile {
+      display: none; 
+  }
 
   #painting {
       display: block; 
@@ -52,6 +96,30 @@
         margin-left: 15px; 
         margin-right: 15px; 
         text-align: center; 
+    }
+
+    #art-paragraph-other {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    }
+
+    #art-paragraph-bottom-mobile {
+        display: flex; 
+        justify-content: left; 
+        margin-top: 15px;  
+        margin-left: 15px; 
+        margin-right: 15px; 
+        background-color: #fff !important; 
+        color: black !important; 
+        text-align: left !important; 
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 18px !important;
+        line-height: 1.7rem !important; 
+          } 
+
+    #art-paragraph-bottom {
+        display: none; 
     }
 
 }
