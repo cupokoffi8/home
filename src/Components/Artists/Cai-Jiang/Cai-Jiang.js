@@ -2,6 +2,9 @@ import React from 'react';
 import './Cai-Jiang.css'; 
 
 function CaiJiang() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

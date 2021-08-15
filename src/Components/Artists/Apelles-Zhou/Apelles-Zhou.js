@@ -2,6 +2,9 @@ import React from 'react';
 import './Apelles-Zhou.css'; 
 
 function ApellesZhou() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

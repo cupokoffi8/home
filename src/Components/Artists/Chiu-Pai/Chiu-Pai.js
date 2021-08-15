@@ -2,6 +2,9 @@ import React from 'react';
 import './Chiu-Pai.css'; 
 
 function ChiuPai() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

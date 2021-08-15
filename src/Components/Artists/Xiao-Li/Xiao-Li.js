@@ -2,6 +2,9 @@ import React from 'react';
 import './Xiao-Li.css'; 
 
 function XiaoLi() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

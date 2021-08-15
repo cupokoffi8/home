@@ -2,6 +2,9 @@ import React from 'react';
 import './Zen-Frescos.css'; 
 
 function ZenFrescos() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

@@ -2,6 +2,9 @@ import React from 'react';
 import './Qui-Huade.css'; 
 
 function QuiHuade() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

@@ -2,6 +2,9 @@ import React from 'react';
 import './Su-Zi.css'; 
 
 function SuZi() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

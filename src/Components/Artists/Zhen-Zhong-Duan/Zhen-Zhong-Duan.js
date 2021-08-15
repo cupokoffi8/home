@@ -1,7 +1,10 @@
 import React from 'react'; 
 import './Zhen-Zhong-Duan.css'; 
 
-function ZhenZhongDuan() {
+function ZhenZhongDuan() { 
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

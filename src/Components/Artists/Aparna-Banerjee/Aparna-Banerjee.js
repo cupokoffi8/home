@@ -2,6 +2,9 @@ import React from 'react';
 import './Aparna-Banerjee.css'; 
 
 function AparnaBanerjee() {
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 

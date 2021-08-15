@@ -1,7 +1,10 @@
 import React from 'react'; 
 import './Zhao-Qing.css'; 
 
-function ZhaoQing() {
+function ZhaoQing() { 
+
+  window.scrollTo(0, 0)
+
     return (
           <div className="artist-section"> 
 
