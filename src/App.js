@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'; 
+import Copyright from './Copyright'; 
 import { HashRouter, Switch, Route } from 'react-router-dom'; 
 
 // Import Components 
@@ -86,6 +87,7 @@ function App() {
             <Route path="/contact-us" component={Contact} /> 
 
         </Switch>
+      <Copyright />
     </HashRouter>
   );
 } 
