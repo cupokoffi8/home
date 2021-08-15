@@ -35,10 +35,40 @@
     font-style: italic; 
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+
+  .magAndMyst:hover {
+    color: #fff; 
+    background-color: #1e3272 !important; 
+    display: block; 
+    justify-content: center;
+    margin-top: 100px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: 2200; 
+    font-size: 42px;
+    font-style: italic; 
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   #please {
     color: #1e3272 !important; 
+    display: block; 
+    justify-content: center !important;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    /* font-style: italic;  */
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #please:hover { 
+    color: #fff; 
+    background-color: #1e3272 !important; 
     display: block; 
     justify-content: center !important;
     margin-left: auto; 
@@ -63,7 +93,28 @@
     text-decoration: none; 
     text-align: center; 
     color: black; 
-  }
+  } 
+
+  #addy-click {
+    display: block; 
+    justify-content: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+    text-decoration: none; 
+    text-align: center; 
+    color: black; 
+  } 
+
+  #addy-click:hover { 
+    display: block; 
+    justify-content: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+    text-decoration: none; 
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    background-color: black; 
+  } 
 
   #addyBottom {
     display: block; 
