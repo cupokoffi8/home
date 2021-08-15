@@ -1,0 +1,41 @@
+.header-none {
+    display: none; 
+}
+
+.header {
+    display: block; 
+}
+
+.exhibition {
+    display: block; 
+    color: black; 
+    margin-top: 4rem; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } 
+
+  #caption {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#link {
+    text-decoration: none; 
+}
+
+#image {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px; 
+    width: 341px; 
+    height: 450px; 
+}

@@ -5,7 +5,7 @@ function Works() {
     return (
         <div>
           <div className="Works-At-Hefei">
-            <h1 className="welcome">Works at Hefei</h1>
+            <h1 className="exhibition">Works at Hefei</h1>
           </div>
         </div>
     );

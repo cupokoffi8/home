@@ -5,7 +5,7 @@ function SanDiego() {
     return (
         <div>
           <div className="SanDiego">
-            <h1 className="welcome">San Diego</h1>
+            <h1 className="exhibition">San Diego</h1>
           </div>
         </div>
     );

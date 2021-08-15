@@ -5,7 +5,7 @@ function Magnificent() {
     return (
         <div>
           <div className="Magnificent">
-            <h1 className="welcome">Magnificent Murals</h1>
+            <h1 className="exhibition">Magnificent Murals</h1>
           </div>
         </div>
     );

@@ -5,7 +5,7 @@ function ArtTherapy() {
     return (
         <div>
           <div className="Art-Therapy">
-            <h1 className="welcome">Art Therapy</h1>
+            <h1 className="exhibition">Art Therapy</h1>
           </div>
         </div>
     );

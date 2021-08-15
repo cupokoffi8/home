@@ -5,7 +5,7 @@ function Headless() {
     return (
         <div>
           <div className="Headless">
-            <h1 className="welcome">Headless and Unintentional</h1>
+            <h1 className="exhibition">Headless and Unintentional</h1>
           </div>
         </div>
     );
