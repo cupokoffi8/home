@@ -27,7 +27,11 @@
     color: black !important; 
 } 
 
-#painting {
+#link {
+    text-decoration: none; 
+}
+
+#image {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
