@@ -8,14 +8,14 @@ function MagAndMyst() {
             <h1 className="exhibition">Magnificent and Mysterious Art Exhibition</h1> 
             <hr /> 
 
-            <img src="./1.jpeg" id="image" /> 
+            <img src="./1.jpeg" id="image-thing" /> 
 
             <p id="paragraph" >
             On July 24th of 2021, American Dragon International Fine Art Gallery held the opening reception of the 
             "Magnificent and Mysterious” art exhibition. 
             </p> 
 
-            <img src="./2.jpeg" id="image" /> 
+            <img src="./2.jpeg" id="image-thing" /> 
 
           </div>
         </div>
