@@ -79,12 +79,11 @@
     display: block; 
     justify-content: center; 
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
-    color: rgb(255, 255, 255); 
-    background-color: black; 
-    width: 50vw; 
+    color: black; 
   } 
 
   #addyBottom {
