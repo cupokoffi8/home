@@ -54,6 +54,34 @@
     color: black !important; 
 } 
 
+#art-paragraph {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 80px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
+#art-paragraph-other {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 15px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
 #link {
     text-decoration: none; 
 }
