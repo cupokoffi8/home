@@ -58,6 +58,48 @@ function VictoryOfLight() {
               the event with our cultural values, as well as help to attract more clients and collectors. The 
               exhibition will include 40 works from the talented artists. 
               </p> 
+
+              <img src="./Vol1.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5> 
+
+              <img src="./Vol2.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol3.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol4.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol5.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol6.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol7.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol8.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol9.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol10.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol11.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol12.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol13.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5>
+
+              <img src="./Vol14.jpeg" id="image-thing"></img>
+              <h5 id="caption">Beauty 1</h5> 
               
           </div>
         </div>
