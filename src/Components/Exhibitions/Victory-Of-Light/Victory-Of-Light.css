@@ -14,6 +14,32 @@
     margin-right: auto; 
   } 
 
+  #head {
+    display: block; 
+    color: black; 
+    margin-top: 80px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    text-decoration: underline; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 22px !important; 
+    color: black !important; 
+  } 
+
+  #points {
+    display: block; 
+    color: black; 
+    margin-top: 40px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    color: black !important; 
+  }
+
   #caption {
     display: block; 
     margin-left: auto; 
