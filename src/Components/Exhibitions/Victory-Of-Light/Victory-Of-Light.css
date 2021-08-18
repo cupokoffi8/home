@@ -2,7 +2,7 @@
     display: none; 
 }
 
-#header {
+.header {
     display: block;   
 }
 
@@ -106,13 +106,5 @@
         margin-right: 15px; 
         text-align: center; 
     } 
-
-    #header {
-        display: flex; 
-        justify-content: center !important; 
-        margin-left: auto; 
-        margin-right: auto; 
-        text-align: center; 
-    }
 
 }
