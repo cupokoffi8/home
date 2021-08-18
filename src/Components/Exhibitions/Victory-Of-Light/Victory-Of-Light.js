@@ -118,11 +118,11 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol8.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Full Moon II</h5> 
+              <h5 id="caption-thing">Acrylic on Panel</h5> 
+              <h5 id="caption-thing">24" x 18"</h5> 
+              <h5 id="caption-thing">$1,800.00</h5> 
+              <h5 id="caption-thing">Calli Moore</h5> 
               <br /> 
 
               <img src="./Vol9.jpeg" id="image-thing"></img>
