@@ -6,6 +6,7 @@ function VictoryOfLight() {
         <div>
           <div className="Victory-Of-Light">
             <h1 className="exhibition">Victory of Light Exhibition</h1> 
+            <hr /> 
 
             <h6 id="head">
               Organizers: 
