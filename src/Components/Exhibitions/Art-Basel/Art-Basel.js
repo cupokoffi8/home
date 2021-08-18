@@ -28,6 +28,8 @@ function ArtBasel() {
               in enjoying works of paintings and melodies. 
               </p> 
 
+              <br /> 
+
               <p id="art-paragraph-other">
               Chinese artists at Art Basel Miami 2019: 
               </p> 
