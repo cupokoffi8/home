@@ -49,6 +49,7 @@
     text-align: center; 
     text-decoration: none; 
     font-family: 'Times New Roman', Times, serif; 
+    font-weight: normal !important; 
     font-size: 18px !important;  
     color: black !important; 
 } 

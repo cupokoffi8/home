@@ -34,6 +34,7 @@ function VictoryOfLight() {
             <p id="points">
               Apelles Zhou 
             </p> 
+            <br></br>
 
             <h2 id="header">
               OPENING RECEPTION, FEBRUARY 8, 2020; 3:30 P.M. 
@@ -65,84 +66,98 @@ function VictoryOfLight() {
               <h5 id="caption-thing">29" x 50"</h5> 
               <h5 id="caption-thing">$7,300.00</h5> 
               <h5 id="caption-thing">Aparna Banerjee</h5> 
+              <br /> 
 
               <img src="./Vol2.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol3.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5>
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol4.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol5.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol6.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol7.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol8.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol9.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol10.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol11.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol12.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol13.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
 
               <img src="./Vol14.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <br /> 
               
           </div>
         </div>
