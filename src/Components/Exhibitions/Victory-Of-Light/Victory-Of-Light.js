@@ -60,6 +60,7 @@ function VictoryOfLight() {
               the event with our cultural values, as well as help to attract more clients and collectors. The 
               exhibition will include 40 works from the talented artists. 
               </p> 
+              <br /> 
 
               <img src="./Vol1.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Oil on Canvas</h5> 
@@ -93,11 +94,11 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol5.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5>
+              <h5 id="caption-thing">Paint Can Mouse</h5> 
+              <h5 id="caption-thing">Acrylic on Wood Panel</h5> 
+              <h5 id="caption-thing">36" x 48"</h5> 
+              <h5 id="caption-thing">$4,000.00</h5> 
+              <h5 id="caption-thing">Pitch Blac</h5> 
               <br /> 
 
               <img src="./Vol6.jpeg" id="image-thing"></img>
