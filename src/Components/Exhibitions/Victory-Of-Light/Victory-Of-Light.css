@@ -6,6 +6,10 @@
     display: block;   
 }
 
+#header-thing {
+    display: flex; 
+}
+
 .exhibition {
     display: block; 
     color: black; 
@@ -108,7 +112,6 @@
     } 
 
     #header-thing {
-        display: flex; 
         justify-content: center !important; 
         text-align: center !important; 
     }
