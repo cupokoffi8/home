@@ -36,7 +36,7 @@ function VictoryOfLight() {
             </p> 
             <br></br>
 
-            <h2 id="header">
+            <h2 id="header-thing"> 
               OPENING RECEPTION, FEBRUARY 8, 2020; 3:30 P.M. 
               </h2> 
               <p id="art-paragraph-other">
