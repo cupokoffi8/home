@@ -2,8 +2,8 @@
     display: none; 
 }
 
-.header {
-    display: block; 
+#header {
+    display: block;   
 }
 
 .exhibition {
