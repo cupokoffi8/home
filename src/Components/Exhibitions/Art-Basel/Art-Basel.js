@@ -29,7 +29,7 @@ function ArtBasel() {
               </p> 
 
               <p id="art-paragraph-other">
-              Chinese artists at Art Basel Miami 2019
+              Chinese artists at Art Basel Miami 2019: 
               </p> 
 
               <a href="https://news.artron.net/20191214/n1067043.html">
