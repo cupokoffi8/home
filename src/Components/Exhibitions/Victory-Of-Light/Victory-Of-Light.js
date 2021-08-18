@@ -102,19 +102,19 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol6.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Offerings</h5> 
+              <h5 id="caption-thing">Oil on Canvas</h5> 
+              <h5 id="caption-thing">30" x 30"</h5> 
+              <h5 id="caption-thing">$1,600.00</h5> 
+              <h5 id="caption-thing">Imaing Clyde</h5> 
               <br /> 
 
               <img src="./Vol7.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Silver Water</h5> 
+              <h5 id="caption-thing">Mixed Media Paper, Ink, Heavy Gloss Acrylic Varnish, Glass, Wood Framing</h5> 
+              <h5 id="caption-thing">13” x 16” X 0.75"</h5> 
+              <h5 id="caption-thing">$975.00</h5> 
+              <h5 id="caption-thing">Denise Cummings</h5> 
               <br /> 
 
               <img src="./Vol8.jpeg" id="image-thing"></img>
