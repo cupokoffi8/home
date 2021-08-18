@@ -3,7 +3,14 @@
 }
 
 .header {
-    display: block; 
+    display: block;   
+}
+
+#header-thing {
+    display: flex; 
+    margin-left: 120px; 
+    margin-right: auto; 
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 .exhibition {
@@ -14,7 +21,34 @@
     margin-right: auto; 
   } 
 
-  #caption {
+  #head {
+    display: block; 
+    color: black; 
+    margin-top: 80px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: underline; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 22px !important; 
+    color: black !important; 
+  } 
+
+  #points {
+    display: block; 
+    color: black; 
+    margin-top: 40px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    color: black !important; 
+  }
+
+  #caption-thing {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
@@ -22,10 +56,38 @@
     text-align: center; 
     text-decoration: none; 
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px !important; 
-    font-weight: bold !important;  
+    font-weight: normal !important; 
+    font-size: 18px !important;  
     color: black !important; 
 } 
+
+#art-paragraph {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 80px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
+
+#art-paragraph-other {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 15px;  
+    margin-left: 120px; 
+    margin-right: 120px; 
+    background-color: #fff !important; 
+    color: black !important; 
+    text-align: left !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important;
+    line-height: 1.7rem !important; 
+  } 
 
 #link {
     text-decoration: none; 
@@ -35,5 +97,27 @@
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 40px;  
+    margin-top: 80px; 
+}
+
+@media only screen and (max-width: 600px) {
+
+    #art-paragraph {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    }
+
+    #art-paragraph-other {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    } 
+
+    #header-thing {
+        justify-content: center !important; 
+        text-align: center !important; 
+        margin-left: auto; 
+    }
+
 }
