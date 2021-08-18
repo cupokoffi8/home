@@ -62,21 +62,23 @@ function VictoryOfLight() {
               </p> 
 
               <img src="./Vol1.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Oil on Canvas</h5> 
               <h5 id="caption-thing">29" x 50"</h5> 
               <h5 id="caption-thing">$7,300.00</h5> 
               <h5 id="caption-thing">Aparna Banerjee</h5> 
               <br /> 
 
               <img src="./Vol2.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">The Age of Aquarius</h5> 
+              <h5 id="caption-thing">Oil and Acrylic on Canvas</h5> 
+              <h5 id="caption-thing">18" x 24"</h5> 
+              <h5 id="caption-thing">$1,500.00</h5> 
+              <h5 id="caption-thing">Apelles Zhou</h5> 
               <br /> 
 
               <img src="./Vol3.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5>
+              <h5 id="caption-thing">Beauty 1</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
