@@ -8,6 +8,8 @@
 
 #header-thing {
     display: flex; 
+    margin-left: 120px; 
+    margin-right: auto; 
 }
 
 .exhibition {
