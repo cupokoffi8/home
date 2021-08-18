@@ -41,7 +41,7 @@
     color: black !important; 
   }
 
-  #caption {
+  #caption-thing {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
@@ -49,8 +49,7 @@
     text-align: center; 
     text-decoration: none; 
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px !important; 
-    font-weight: bold !important;  
+    font-size: 18px !important;  
     color: black !important; 
 } 
 
