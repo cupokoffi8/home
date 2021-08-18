@@ -134,43 +134,42 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol10.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Acrylic on Canvas</h5> 
+              <h5 id="caption-thing">36" x 35"</h5> 
+              <h5 id="caption-thing">$4,500.00</h5> 
+              <h5 id="caption-thing">Chadwick</h5> 
               <br /> 
 
               <img src="./Vol11.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">12 Arch Angels of The Central Sun</h5> 
+              <h5 id="caption-thing">Oil on Canvas</h5> 
+              <h5 id="caption-thing">48" x 48"</h5> 
+              <h5 id="caption-thing">$5,000.00</h5> 
+              <h5 id="caption-thing">Ryan Michael Ford</h5> 
               <br /> 
 
               <img src="./Vol12.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">The Light of My Life</h5> 
+              <h5 id="caption-thing">Acrylic on Canvas</h5> 
+              <h5 id="caption-thing">30" x 30"</h5> 
+              <h5 id="caption-thing">$2,499.00</h5> 
+              <h5 id="caption-thing">Barbara Muir</h5> 
               <br /> 
 
               <img src="./Vol13.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">A Mouthful</h5> 
+              <h5 id="caption-thing">Mixed Media Paper, Ink, Heavy Gloss Acrylic Varnish, Glass, Wood Framing</h5> 
+              <h5 id="caption-thing">12” x 15” x 0.75”</h5> 
+              <h5 id="caption-thing">$775.00</h5> 
+              <h5 id="caption-thing">Denise Cummings</h5> 
               <br /> 
 
               <img src="./Vol14.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">L'uccello Maria</h5> 
+              <h5 id="caption-thing">Textured Acrylic on Unframed Stretched Canvas</h5> 
+              <h5 id="caption-thing">24" x 30"</h5> 
+              <h5 id="caption-thing">$3,000.00</h5> 
+              <h5 id="caption-thing">Lightning Yumeku</h5> 
               <br /> 
               
           </div>
