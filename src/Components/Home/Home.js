@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
 import Hours from "./Hours"; 
 
-export default function Home() {
+export default function Home() { 
+  
+  window.scrollTo(0, 0)
+
     return (
       <>
       <div id="top">
