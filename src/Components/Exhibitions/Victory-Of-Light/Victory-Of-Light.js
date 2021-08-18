@@ -126,11 +126,11 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol9.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Travel Around the World Dreaming</h5> 
+              <h5 id="caption-thing">Mixed Media on Paper</h5> 
+              <h5 id="caption-thing">28" x 32"</h5> 
+              <h5 id="caption-thing">$2,900.00</h5> 
+              <h5 id="caption-thing">Hyelim Chang</h5> 
               <br /> 
 
               <img src="./Vol10.jpeg" id="image-thing"></img>
