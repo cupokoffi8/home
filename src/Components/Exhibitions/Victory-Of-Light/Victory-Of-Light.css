@@ -117,6 +117,7 @@
     #header-thing {
         justify-content: center !important; 
         text-align: center !important; 
+        margin-left: auto; 
     }
 
 }
