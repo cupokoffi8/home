@@ -77,11 +77,11 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol3.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Through the Picture</h5> 
+              <h5 id="caption-thing">Oil on Canvas</h5> 
+              <h5 id="caption-thing">39" x 39"</h5> 
+              <h5 id="caption-thing">$10,000.00</h5> 
+              <h5 id="caption-thing">Rosana Largo Rodriguez</h5> 
               <br /> 
 
               <img src="./Vol4.jpeg" id="image-thing"></img>
