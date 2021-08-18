@@ -85,10 +85,11 @@ function VictoryOfLight() {
               <br /> 
 
               <img src="./Vol4.jpeg" id="image-thing"></img>
-              <h5 id="caption-thing">Beauty 1</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
-              <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Sky Dust</h5> 
+              <h5 id="caption-thing">Hand Jacquard Woven Cotton, Hand Dyed Kid Mohair, Silk, Metallic, Plastic, and Holographic Yarns</h5> 
+              <h5 id="caption-thing">18" x 21" x 1"</h5> 
+              <h5 id="caption-thing">$3,500.00</h5> 
+              <h5 id="caption-thing">Robin Kang</h5> 
               <br /> 
 
               <img src="./Vol5.jpeg" id="image-thing"></img>
@@ -96,10 +97,12 @@ function VictoryOfLight() {
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5>
               <br /> 
 
               <img src="./Vol6.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
@@ -110,10 +113,12 @@ function VictoryOfLight() {
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <br /> 
 
               <img src="./Vol8.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
@@ -124,10 +129,12 @@ function VictoryOfLight() {
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <br /> 
 
               <img src="./Vol10.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
@@ -138,10 +145,12 @@ function VictoryOfLight() {
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <br /> 
 
               <img src="./Vol12.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
@@ -152,10 +161,12 @@ function VictoryOfLight() {
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <br /> 
 
               <img src="./Vol14.jpeg" id="image-thing"></img>
               <h5 id="caption-thing">Beauty 1</h5> 
+              <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
               <h5 id="caption-thing">Oil on canvas</h5> 
