@@ -27,6 +27,14 @@ function SanDiego() {
             a more vivid perception and experience, while enjoying paintings and music melody at the same 
             time. 
             </p> 
+
+            <img src="./SD1.jpeg" id="image-thing-sd" /> 
+
+            <img src="./SD2.jpeg" id="image-thing-sd" /> 
+
+            <img src="./SD3.jpeg" id="image-thing-sd" /> 
+
+            <img src="./SD4.jpeg" id="image-thing-sd" /> 
           </div>
         </div>
     );

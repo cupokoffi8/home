@@ -31,9 +31,33 @@
     text-decoration: none; 
 }
 
-#image-thing {
+#image-thing-sd {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 40px; 
+    width: 500px; 
+    height: 100%; 
+} 
+
+@media only screen and (max-width: 600px) {
+
+    #art-paragraph {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    }
+
+    #art-paragraph-other {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    } 
+
+    #header-thing-sd {
+        justify-content: center !important; 
+        text-align: center !important; 
+        margin-left: auto; 
+    }
+
 }
