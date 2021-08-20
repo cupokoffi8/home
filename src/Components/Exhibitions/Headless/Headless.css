@@ -26,6 +26,13 @@
     color: black !important; 
   } 
 
+  #header-thing-hu {
+    display: flex; 
+    margin-left: 120px; 
+    margin-right: auto; 
+    font-family: 'Times New Roman', Times, serif; 
+} 
+
   #caption {
     display: block; 
     margin-left: auto; 

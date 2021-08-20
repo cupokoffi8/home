@@ -29,6 +29,14 @@ function Headless() {
             Artists: Shen Jin Dong, Jon Tsoi 
             </h5> 
 
+            <img src="./HU2.jpeg" id="image-thing-hu" /> 
+
+            <br /> 
+
+            <h2 id="header-thing-hu">
+            Curator Lena Liu stated: 
+            </h2>
+
 
           </div>
         </div>
