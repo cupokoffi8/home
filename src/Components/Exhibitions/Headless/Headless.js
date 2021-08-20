@@ -10,6 +10,8 @@ function Headless() {
 
             <img src="./HU1.jpeg" id="image-thing-hu" /> 
 
+            <br /> 
+
             <h6 id="head-hu">
             “Shen Jingdong and Cai Jiang: Headless and Unintentional” Exhibition 
             </h6> 
@@ -28,6 +30,8 @@ function Headless() {
             <h5 id="caption">
             Artists: Shen Jin Dong, Jon Tsoi 
             </h5> 
+
+            <br /> 
 
             <img src="./HU2.jpeg" id="image-thing-hu" /> 
 
@@ -73,6 +77,8 @@ function Headless() {
               </p> 
 
               <img id="image-thing" src="HU3.jpeg" /> 
+
+              <br /> 
 
               <h2 id="header-thing-hu">
               About the Artists:  
