@@ -5,7 +5,32 @@ function Headless() {
     return (
         <div>
           <div className="Headless">
-            <h1 className="exhibition">Headless and Unintentional</h1>
+            <h1 className="exhibition">Headless and Unintentional</h1> 
+            <hr /> 
+
+            <img src="./HU1.jpeg" id="image-thing-hu" /> 
+
+            <h6 id="head-hu">
+            “Shen Jingdong and Cai Jiang: Headless and Unintentional” Exhibition 
+            </h6>
+            <br />
+            <h5 id="caption">
+            Date: Opening night, September 7, 2016
+            </h5> 
+            <h5 id="caption">
+            September 7 to September 30, 2016 
+            </h5>
+            <h5 id="caption">
+            Exhibition: WhiteBox Gallery, 329 Broome Street, New York, NY 10002 
+            </h5>
+            <h5 id="caption">
+            Collaboration: Curator, Lena Liu 
+            </h5>
+            <h5 id="caption">
+            Artists: Shen Jin Dong, Jon Tsoi 
+            </h5> 
+            
+
           </div>
         </div>
     );
