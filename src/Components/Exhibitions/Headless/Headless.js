@@ -12,8 +12,7 @@ function Headless() {
 
             <h6 id="head-hu">
             “Shen Jingdong and Cai Jiang: Headless and Unintentional” Exhibition 
-            </h6>
-            <br />
+            </h6> 
             <h5 id="caption">
             Date: Opening night, September 7, 2016
             </h5> 
@@ -29,7 +28,7 @@ function Headless() {
             <h5 id="caption">
             Artists: Shen Jin Dong, Jon Tsoi 
             </h5> 
-            
+
 
           </div>
         </div>
