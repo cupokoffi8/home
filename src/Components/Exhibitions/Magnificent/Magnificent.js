@@ -14,6 +14,10 @@ function Magnificent() {
             </h5> 
 
             <img id="image-thing" src="M1.jpeg" /> 
+
+            <h1 id="big-name">
+              Senior Curator: Lena Liu 
+            </h1>
           </div>
         </div>
     );
