@@ -17,7 +17,11 @@ function Magnificent() {
 
             <h1 id="big-name">
               Senior Curator: Lena Liu 
-            </h1>
+            </h1> 
+
+            <h1 id="ndot"> 
+              The Collection and Appreciation of Fahai Zen Monastery Frescoes 
+            </h1> 
           </div>
         </div>
     );
