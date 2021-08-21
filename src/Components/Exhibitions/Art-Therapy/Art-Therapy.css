@@ -103,4 +103,8 @@
         margin-left: auto; 
     } 
 
+    #image-thing-at {
+        width: 90vw !important; 
+    } 
+
 }
