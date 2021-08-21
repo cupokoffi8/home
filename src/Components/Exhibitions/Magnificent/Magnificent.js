@@ -13,7 +13,7 @@ function Magnificent() {
               June 26 - July 3, 2016 
             </h5> 
 
-            <img id="image-thing" src="M1.jpeg" /> 
+            <img id="image-thing" src="M1.jpg" /> 
 
             <h1 id="big-name">
               Senior Curator: Lena Liu 
@@ -32,7 +32,14 @@ function Magnificent() {
             to make an appointment for the next exhibition. The exhibition of Nagasaki, Japan’s Fahai Temple Mural, 
             will be opened in late July. The “ China Cultural Center “ exhibition in Tokyo, “ Exhibition of Beijing 
             Fahai Temple Murals”, was exhibited at the end of the year. 
-            </p>
+            </p> 
+
+            <img id="image-thing" src="M2.jpg" /> 
+
+            <img id="image-thing" src="M3.jpg" /> 
+
+            <br /> 
+
           </div>
         </div>
     );
