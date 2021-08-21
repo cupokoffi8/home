@@ -13,7 +13,7 @@ function Magnificent() {
               June 26 - July 3, 2016 
             </h5> 
 
-            <img id="image-thing" src="M1.jpg" /> 
+            <img id="image-thing-m" src="M1.jpg" /> 
 
             <h1 id="big-name">
               Senior Curator: Lena Liu 
@@ -34,9 +34,9 @@ function Magnificent() {
             Fahai Temple Murals”, was exhibited at the end of the year. 
             </p> 
 
-            <img id="image-thing" src="M2.jpg" /> 
+            <img id="image-thing-m" src="M2.jpg" /> 
 
-            <img id="image-thing" src="M3.jpg" /> 
+            <img id="image-thing-m" src="M3.jpg" /> 
 
             <br /> 
 

@@ -75,11 +75,12 @@
     text-decoration: none; 
 }
 
-#image-thing {
+#image-thing-m {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 40px; 
+    width: auto; 
 } 
 
 @media only screen and (max-width: 600px) {
