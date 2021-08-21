@@ -53,6 +53,19 @@
     color: black !important; 
 } 
 
+#caption-small {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16.5px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
 #link {
     text-decoration: none; 
 }
