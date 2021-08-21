@@ -12,7 +12,7 @@ function ArtTherapy() {
               April 29 – May 27, 2016 
             </h5> 
 
-            <img id="image-thing-m" src="AT1.jpg" /> 
+            <img id="image-thing-m" src="AT1.jpeg" /> 
 
             <h5 id="caption">
               Artist: Cai Jiang 
