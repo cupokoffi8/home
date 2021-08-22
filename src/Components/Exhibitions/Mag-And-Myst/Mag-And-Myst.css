@@ -40,8 +40,7 @@
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 40px; 
-    width: 732px; 
-    height: 732px; 
+    width: 50vw; 
 } 
 
 #paragraph {
@@ -70,8 +69,7 @@
         margin-left: auto; 
         margin-right: auto; 
         margin-top: 40px; 
-        width: 341px; 
-        height: 341px; 
+        width: 80vw;  
     } 
 
 }
