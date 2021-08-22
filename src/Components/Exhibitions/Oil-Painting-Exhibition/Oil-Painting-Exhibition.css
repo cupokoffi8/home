@@ -88,7 +88,7 @@
 } 
 
 #image-thing-at-uh {
-    display: block; 
+    display: inline-block; 
     margin-right: 20px; 
     width: 450px; 
     height: 340px; 
@@ -96,7 +96,7 @@
 } 
 
 #image-thing-at-uhh {
-    display: block; 
+    display: inline-block; 
     margin-left: 20px; 
     margin-top: 40px; 
     width: 450px; 
