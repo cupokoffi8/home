@@ -13,27 +13,27 @@ function TheGallery() {
               Lancaster, Pennsylvania 
             </h5>
 
-            <img id="image-thing-at" src="TG2.jpeg" /> 
+            <img id="image-thing-at" src="TG2.png" /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>
 
-            <img id="image-thing-at" src="TG3.jpeg" /> 
+            <img id="image-thing-at" src="TG3.png" /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>
 
-            <img id="image-thing-at" src="TG4.jpeg" /> 
+            <img id="image-thing-at" src="TG4.png" /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>
 
-            <img id="image-thing-at" src="TG5.jpeg" /> 
+            <img id="image-thing-at" src="TG5.png" /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>
 
-            <img id="image-thing-at" src="TG6.jpeg" /> 
+            <img id="image-thing-at" src="TG6.png" /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>
