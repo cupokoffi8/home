@@ -32,6 +32,7 @@ function Contact() {
     <div className="contact-us">
       <h1 id="contact-head">Contact Us</h1>
       <hr /> 
+      <br /> 
 
       <form action="" onSubmit={sendEmail}> 
         <div className="formWord">
