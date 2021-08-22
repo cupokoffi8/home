@@ -38,7 +38,7 @@ function ArtService() {
             <h5 id="caption">
             Day 1: Arrive in Beijing
             </h5>
-            <p id="art-paragraph-other">
+            <p id="art-paragraph-bottom">
             Upon arrival, the tour representative will meet you at the airport and escort you to your hotel. 
             </p>
             <br /> 
@@ -94,7 +94,7 @@ function ArtService() {
             <h5 id="caption">
             Day 5:  Beijing
             </h5>
-            <p id="art-paragraph-other">
+            <p id="art-paragraph-bottom">
             Retrieve gallery works, receive money from free sales or free activities, and enjoy a free day in Beijing. 
             </p> 
             <br /> 
