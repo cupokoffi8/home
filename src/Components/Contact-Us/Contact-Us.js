@@ -13,7 +13,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_l4ft49h', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -43,7 +43,7 @@ function Contact() {
           <input 
             className="input100" 
             type="text" 
-            name="fullname" 
+            name="fullName" 
             required 
             /> 
 
