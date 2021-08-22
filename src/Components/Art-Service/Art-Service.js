@@ -30,11 +30,11 @@ function ArtService() {
             Email: info@americandragonfineart.com 
             </p> 
 
+            <br />
             <hr /> 
-            <br /> 
-
+             
             <h1 className="artist">Chinese Art Tour</h1> 
-            
+
 
 
           </div>
