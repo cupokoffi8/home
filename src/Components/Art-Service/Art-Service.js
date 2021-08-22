@@ -42,6 +42,9 @@ function ArtService() {
             <p id="art-paragraph-bottom">
             Upon arrival, the tour representative will meet you at the airport and escort you to your hotel. 
             </p>
+            <p id="art-paragraph-bottom-mobile">
+            Upon arrival, the tour representative will meet you at the airport and escort you to your hotel. 
+            </p>
             <br /> 
 
             <h5 id="caption-uh">
