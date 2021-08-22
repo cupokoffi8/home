@@ -73,4 +73,12 @@ input[type=text], select, textarea {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     border-radius: 8px; 
+  } 
+
+  #submit:hover {
+    background-color: rgb(58, 58, 58); /* Not Black */ 
+  }
+
+  #the-span {
+    font-family: 'Times New Roman', Times, serif; 
   }
