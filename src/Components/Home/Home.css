@@ -194,7 +194,7 @@
     line-height: 1.7rem !important; 
   } 
 
-  @media only screen and (max-height: 645px) {
+  @media only screen and (max-height: 750px) { 
     #top{
       margin-bottom: 225px; 
     } 
