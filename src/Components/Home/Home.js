@@ -47,6 +47,8 @@ export default function Home() {
           </div>
         </div>
 
+        <br /> 
+
         <Hours /> 
 
         <div id="bottom">
