@@ -1,0 +1,110 @@
+.header-none {
+    display: none; 
+}
+
+.header {
+    display: block; 
+}
+
+.the-gallery {
+    display: block; 
+    color: black; 
+    margin-top: 4rem; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } 
+
+  #big-name {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 24px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+  } 
+
+  #ndot {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: normal !important; 
+    font-size: 24px !important;  
+    color: black !important; 
+  }
+
+  #caption {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#art-paragraph-other {
+    font-size: 18px !important;  
+    text-align: center; 
+} 
+
+#caption-small {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16.5px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#link {
+    text-decoration: none; 
+}
+
+#image-thing-at {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px; 
+    width: 60vw !important; 
+} 
+
+@media only screen and (max-width: 600px) {
+
+    #art-paragraph {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    }
+
+    #art-paragraph-other {
+        margin-left: 15px; 
+        margin-right: 15px; 
+        text-align: center; 
+    } 
+
+    #header-thing {
+        justify-content: center !important; 
+        text-align: center !important; 
+        margin-left: auto; 
+    } 
+
+    #image-thing-at {
+        width: 90vw !important; 
+    } 
+
+}
