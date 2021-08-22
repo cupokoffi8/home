@@ -35,12 +35,12 @@ export const EMenuItems = [
     cName: 'e-dropdown-link'
   }, 
   {
-    title: 'Works at Hefei',
+    title: 'Works at Hefei', 
     path: '/works-at-hefei',
     cName: 'e-dropdown-link'
   }, 
   {
-    title: 'Oil Painting Exhibition',
+    title: 'Oil Painting Exhibition', 
     path: '/oil-painting-exhibition',
     cName: 'e-dropdown-link'
   } 
