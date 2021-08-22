@@ -32,7 +32,7 @@ function Exhibitions() {
             </a>
 
             <a id="link" href="/home/#/headless">
-            <img id="image" src="./HU1.jpeg"/> 
+            <img id="image" src="./HUT.jpg"/> 
             <h5 id="caption">Headless and Unintentional</h5> 
             </a>
 
@@ -47,7 +47,7 @@ function Exhibitions() {
             </a>
 
             <a id="link" href="/home/#/works-at-hefei">
-            <img id="image" src="./WaH1.jpeg"/>
+            <img id="image" src="./WaHT.jpg"/>
             <h5 id="caption">Works at Hefei</h5> 
             </a> 
 
