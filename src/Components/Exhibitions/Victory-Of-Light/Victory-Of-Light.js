@@ -102,7 +102,7 @@ function VictoryOfLight() {
               <h5 id="caption-thing">Pitch Blac</h5> 
               <br /> 
 
-              <img src="./Vol6.jpeg" id="image-thing"></img>
+              <img src="./Vol6.jpeg" id="image-thing"></img> 
               <h5 id="caption-thing">Offerings</h5> 
               <h5 id="caption-thing">Oil on Canvas</h5> 
               <h5 id="caption-thing">30" x 30"</h5> 
