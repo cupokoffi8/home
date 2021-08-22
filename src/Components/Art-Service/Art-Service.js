@@ -41,6 +41,7 @@ function ArtService() {
             <p id="art-paragraph-other">
             Upon arrival, the tour representative will meet you at the airport and escort you to your hotel. 
             </p>
+            <br /> 
 
             <h5 id="caption">
             Day 2: Beijing
@@ -59,9 +60,10 @@ function ArtService() {
                 3. Enjoy a free day in Beijing. Explore the capital of China alone. 
                 </li> 
               </ul> 
-            <p id="art-paragraph-other">
+            <p id="art-paragraph-bottom">
             Overnight in Beijing 
             </p>
+            <br /> 
 
             <h5 id="caption">
             Day 3:  Beijing
@@ -74,6 +76,7 @@ function ArtService() {
             most of the buildings you can see today date back to the 1700s. Then, visit the Pearl Factory to gain some knowledge 
             about fresh pearls. 
             </p>
+            <br /> 
 
             <h5 id="caption">
             Day 4:  Beijing 
@@ -86,13 +89,15 @@ function ArtService() {
             most crowded areas. The Great Wall winds through the mountains of northern China, from the Yellow Sea to the Gobi 
             Desert, more than 3,500 miles! 
             </p>
+            <br /> 
 
             <h5 id="caption">
             Day 5:  Beijing
             </h5>
             <p id="art-paragraph-other">
             Retrieve gallery works, receive money from free sales or free activities, and enjoy a free day in Beijing. 
-            </p>
+            </p> 
+            <br /> 
 
             <h5 id="caption">
             Day 6: Beijing / Hangzhou 
@@ -101,7 +106,8 @@ function ArtService() {
             On this day we fly to Hangzhou, where The China Academy of Art is, and home to many galleries and collectors 
             who greatly appreciate art. We will go to the gallery to prepare for the opening reception for your art work 
             that night, or a free event 
-            </p>
+            </p> 
+            <br /> 
 
             <h5 id="caption">
             Day 7: Hangzhou 
@@ -115,6 +121,7 @@ function ArtService() {
             and tasting tea leaves. Afterwards, take a boat cruise on the West Lake, a UNESCO World Heritage Site, which 
             reveals the ethereal beauty of Hangzhou's willow and weeping willow islands. 
             </p> 
+            <br /> 
 
             <h5 id="caption">
             Day 8: Hangzhou
@@ -124,7 +131,8 @@ function ArtService() {
             beautiful mountains and water and natural woods, you will visit the artist's free studio, and you can also 
             apply for the future Free studio to paint and sketch in this beautiful nature rnvironment. In the evening, 
             we will stay at a hotel in Hangzhou or the artist's base. 
-            </p>
+            </p> 
+            <br /> 
 
             <h5 id="caption">
             Day 9: Hangzhou / Shanghai 
@@ -135,7 +143,8 @@ function ArtService() {
             can be seen in the west. The Bund is a five-block waterfront promenade with many banks and trading houses in 
             Shanghai. China is famous for silk, so to be sure, we will take you to a silk mill. Then escort you to the 
             hotel to rest. 
-            </p>
+            </p> 
+            <br /> 
             
             <h5 id="caption">
             Day 10: Shanghai
@@ -148,13 +157,15 @@ function ArtService() {
             "Old Street". It refers to an ancient neighborhood with more than 100 temples, restaurants and shops. The area 
             contains narrow driveways and small squares in an "old China" environment. 
             </p> 
+            <br /> 
 
             <h5 id="caption">
             Day 11: Departure from Shanghai 
             </h5>
             <p id="art-paragraph-other">
             After breakfast, you will be transferred to the airport for your flight home. 
-            </p>
+            </p> 
+            <br /> 
 
             <br /> 
 
