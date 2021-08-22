@@ -8,7 +8,7 @@
     color: rgb(0, 0, 0); 
     /* color: #1e3272 !important;  */
     font-weight: bold; 
-    margin-top: 25px; 
+    margin-top: 30px; 
 } 
 
 #fill-out {
@@ -76,7 +76,7 @@ input[type=text], select, textarea {
   } 
 
   #submit:hover {
-    background-color: rgb(58, 58, 58); /* Not Black */ 
+    background-color: rgb(83, 83, 83); /* Not Black */ 
   }
 
   #the-span {
