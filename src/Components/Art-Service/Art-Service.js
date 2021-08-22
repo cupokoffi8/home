@@ -35,7 +35,7 @@ function ArtService() {
              
             <h1 className="artist-uh">Chinese Art Tour</h1> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 1: Arrive in Beijing
             </h5>
             <p id="art-paragraph-bottom">
@@ -43,7 +43,7 @@ function ArtService() {
             </p>
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 2: Beijing
             </h5>
             <p id="art-paragraph-bottom">
@@ -65,7 +65,7 @@ function ArtService() {
             </p>
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 3:  Beijing
             </h5>
             <p id="art-paragraph-other">
@@ -78,7 +78,7 @@ function ArtService() {
             </p>
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 4:  Beijing 
             </h5>
             <p id="art-paragraph-other">
@@ -91,7 +91,7 @@ function ArtService() {
             </p>
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 5:  Beijing
             </h5>
             <p id="art-paragraph-bottom">
@@ -99,7 +99,7 @@ function ArtService() {
             </p> 
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 6: Beijing / Hangzhou 
             </h5>
             <p id="art-paragraph-other">
@@ -109,7 +109,7 @@ function ArtService() {
             </p> 
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 7: Hangzhou 
             </h5>
             <p id="art-paragraph-other">
@@ -123,7 +123,7 @@ function ArtService() {
             </p> 
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 8: Hangzhou
             </h5>
             <p id="art-paragraph-other">
@@ -134,7 +134,7 @@ function ArtService() {
             </p> 
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 9: Hangzhou / Shanghai 
             </h5>
             <p id="art-paragraph-other">
@@ -146,7 +146,7 @@ function ArtService() {
             </p> 
             <br /> 
             
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 10: Shanghai
             </h5>
             <p id="art-paragraph-other">
@@ -159,7 +159,7 @@ function ArtService() {
             </p> 
             <br /> 
 
-            <h5 id="caption">
+            <h5 id="caption-uh">
             Day 11: Departure from Shanghai 
             </h5>
             <p id="art-paragraph-other">

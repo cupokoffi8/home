@@ -120,6 +120,18 @@
     color: black !important; 
 } 
 
+#caption-uh {
+  display: block; 
+  margin-left: 120px; 
+  margin-right: auto; 
+  margin-top: 20px; 
+  text-align: center; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: black !important; 
+} 
+
 #bullet {
   display: flex; 
   justify-content: left; 
@@ -163,6 +175,11 @@
       margin-left: 15px; 
       margin-right: 15px; 
       text-align: center; 
+  }
+
+  #caption-uh {
+    margin-left: auto; 
+    margin-right: auto; 
   }
 
     #art-paragraph-bottom-mobile {
