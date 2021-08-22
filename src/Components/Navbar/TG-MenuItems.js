@@ -1,7 +1,7 @@
 export const TGMenuItems = [
   {
     title: 'Home',
-    path: '/home',
+    path: '/',
     cName: 'tg-dropdown-link'
   },
   {

@@ -81,7 +81,6 @@ function App() {
             <Route path="/oil-painting-exhibition" component={PleaseWork} /> 
 
             {/* The Gallery */} 
-            <Route path="/home" component={HomeGallery} /> 
             <Route path="/our-founder" component={OurFounder} />
             <Route path="/the-gallery" component={TheGallery} /> 
 
