@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React, {useState} from 'react'; 
 import emailjs from 'emailjs-com'; 
 import './Contact-Us.css'; 
 
@@ -27,7 +27,7 @@ function Contact() {
   setTimeout(() => {
     showResult(false); 
   }, 5000); 
-  
+
   return (
     <div className="contact-us">
       <h1>Contact Us</h1>
