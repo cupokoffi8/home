@@ -1,5 +1,5 @@
 import React from 'react'; 
-import './Artists.css'; 
+import '../Artists/Artists/Artists.css'; 
 
 function Exhibitions() {
     return (
