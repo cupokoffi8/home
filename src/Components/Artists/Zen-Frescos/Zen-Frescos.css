@@ -121,9 +121,9 @@
 } 
 
 #caption-uh {
-  display: block; 
+  display: flex; 
+  justify-content: left;  
   margin-left: 120px; 
-  margin-right: auto; 
   margin-top: 20px; 
   text-align: center; 
   font-family: 'Times New Roman', Times, serif; 
@@ -178,8 +178,7 @@
   }
 
   #caption-uh {
-    margin-left: auto; 
-    margin-right: auto; 
+    justify-content: center; 
   }
 
     #art-paragraph-bottom-mobile {
