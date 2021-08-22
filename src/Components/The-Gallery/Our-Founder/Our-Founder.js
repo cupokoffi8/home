@@ -34,7 +34,9 @@ function OurFounder() {
             and media presentation are just a few of the areas associated with the sales plan that is presented to 
             each artist. Lena’s resources around the world give the artist the ability to establish many new connections 
             within the international art community. 
-            </p>
+            </p> 
+
+            <img id="image-thing-at" src="Uh.png" /> 
 
           </div>
         </div>
