@@ -36,7 +36,7 @@ function Contact() {
       <form action="" onSubmit={sendEmail}> 
         <div className="formWord">
 
-          <h2>Please fill out the form below</h2>
+          <h2 id="fill-out">Please fill out the form below</h2>
 
           <span id="the-span">Full Name</span> 
           <br /> 

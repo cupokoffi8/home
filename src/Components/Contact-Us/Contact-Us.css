@@ -8,6 +8,19 @@
     color: rgb(0, 0, 0); 
     /* color: #1e3272 !important;  */
     font-weight: bold; 
+    margin-top: 10px; 
+} 
+
+#fill-out {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 22px;
+    display: block; 
+    justify-content: center !important; 
+    text-align: center !important; 
+    align-items: center !important; 
+    color: rgb(0, 0, 0); 
+    /* color: #1e3272 !important;  */
+    font-weight: bold; 
     margin-top: 100px; 
 }
 
