@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <div className="contact-us">
-      <h1>Contact Us</h1>
+      <h1 id="contact-head">Contact Us</h1>
       <hr /> 
 
       <form action="" onSubmit={sendEmail}> 
