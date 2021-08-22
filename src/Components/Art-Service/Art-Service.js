@@ -182,7 +182,7 @@ function ArtService() {
 
             <br /> 
 
-            <p id="art-paragraph-other">
+            <p id="art-paragraph-poem">
             *The above itinerary is for your reference, or if you have other ideas, we can meet your wishes, help you and your 
             work get more attention, and the best success.*
             </p>
