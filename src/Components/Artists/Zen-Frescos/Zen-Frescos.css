@@ -11,6 +11,19 @@
     margin-top: 100px; 
   }
 
+  .artist-uh {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 26px;
+    display: block; 
+    justify-content: center !important; 
+    text-align: center !important; 
+    align-items: center !important; 
+    color: rgb(0, 0, 0); 
+    /* color: #1e3272 !important;  */
+    font-weight: bold; 
+    margin-top: 10px; 
+  }
+
 #art-paragraph {
     display: flex; 
     justify-content: center; 
