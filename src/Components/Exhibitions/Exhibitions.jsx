@@ -1,5 +1,5 @@
 import React from 'react'; 
-import '../Artists/Artists/Artists.css'; 
+import '../The-Gallery/The-Gallery/The-Gallery.css';  
 
 function Exhibitions() { 
 
