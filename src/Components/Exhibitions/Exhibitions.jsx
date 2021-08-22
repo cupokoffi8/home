@@ -5,7 +5,7 @@ function Exhibitions() {
     return (
         <div>
           <div className="Aritists">
-            <h1 className="artist">Artists</h1> 
+            <h1 className="artist">Exhibitions</h1> 
             <hr /> 
 
             <a id="link" href="/home/#/mag-and-myst">
