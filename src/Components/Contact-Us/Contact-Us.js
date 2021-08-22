@@ -1,13 +1,39 @@
-import React from 'react';
-import './Contact-Us.css';
+import React from 'react'; 
+import emailjs from 'emailjs-com'; 
+import './Contact-Us.css'; 
+
+const Result = () => {
+  return (
+    <p>Your message has been submitted!</p>
+  )
+}
 
 function Contact() {
+  const [result, showResult] = useState(false); 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      }); 
+      e.target.reset(); 
+      showResult(true); 
+  }; 
+
+  // Hide result 
+  setTimeout(() => {
+    showResult(false); 
+  }, 5000); 
+  
   return (
     <div className="contact-us">
       <h1>Contact Us</h1>
       <hr /> 
 
-      <form action="" onSubmit="">
+      <form action="" onSubmit={sendEmail}> 
         <div className="formWord">
 
           <h2>Say Hello!</h2>
@@ -52,6 +78,8 @@ function Contact() {
             <br /> 
             <button>Submit</button> 
         </div>
+
+        <div className="row">{result ? <Result /> : null}</div> 
 
       </form>
     </div>
