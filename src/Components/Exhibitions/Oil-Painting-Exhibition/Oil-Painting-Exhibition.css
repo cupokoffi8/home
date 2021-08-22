@@ -91,8 +91,8 @@
 #image-thing-at-uh {
     display: inline-block; 
     margin-right: 20px; 
-    width: 450px; 
-    height: 340px; 
+    width: 30vw; 
+    height: 20vw; 
     margin-top: 40px; 
 } 
 
@@ -100,8 +100,8 @@
     display: inline-block; 
     margin-left: 20px; 
     margin-top: 40px; 
-    width: 450px; 
-    height: 340px;  
+    width: 20vw; 
+    height: 30vw; 
 } 
 
 
