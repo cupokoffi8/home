@@ -32,6 +32,7 @@ function ArtService() {
 
             <br />
             <hr /> 
+            <br /> 
              
             <h1 className="artist-uh">Chinese Art Tour</h1> 
 
