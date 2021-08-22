@@ -48,20 +48,18 @@ function ArtService() {
             <p id="art-paragraph-other">
             Opening reception or free event day for your exhibition at Beijing Gallery 
             </p>
-            <ul id="list">
-                <li id="bullet">
-                1. Your personal or group exhibition at the opening ceremony of the Beijing Gallery (signing an exhibition contract before traveling to China)
-                </li>
-                <li id="bullet">
-                2. Visit the Beijing Art District 
-                </li>
-                <li id="bullet">
-                3. Enjoy a free day in Beijing. Explore the capital of China alone. 
-                </li> 
-              </ul> 
+            <p id="art-paragraph-other">
+            1. Your personal or group exhibition at the opening ceremony of the Beijing Gallery (signing an exhibition contract before traveling to China)
+            </p>
+            <p id="art-paragraph-other">
+            2. Visit the Beijing Art District 
+            </p>
+            <p id="art-paragraph-other">
+            3. Enjoy a free day in Beijing. Explore the capital of China alone.
+            </p>
             <p id="art-paragraph-other">
             Overnight in Beijing 
-            </p>
+            </p> 
 
             <h5 id="caption">
             Day 3:  Beijing
@@ -159,8 +157,8 @@ function ArtService() {
             <br /> 
 
             <p id="art-paragraph-other">
-            The above itinerary is for your reference, or if you have other ideas, we can meet your wishes, help you and your 
-            work get more attention, and the best success. 
+            *The above itinerary is for your reference, or if you have other ideas, we can meet your wishes, help you and your 
+            work get more attention, and the best success.*
             </p>
 
           </div>
