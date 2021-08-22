@@ -1,5 +1,6 @@
 #hours-div {
   background-color: #1e3272; 
+  justify-content: center !important; 
 }
 
 .title {
@@ -22,7 +23,7 @@
     font-size: 18px;
     display: block; 
     justify-content: center !important; 
-    text-align: justify !important; 
+    text-align: left !important; 
     align-self: center !important; 
     color: #fff; 
     background-color: #1e3272 !important; 
@@ -38,7 +39,7 @@
     font-size: 18px;
     display: block; 
     justify-content: center !important; 
-    text-align: justify !important; 
+    text-align: left !important; 
     align-self: center !important; 
     color: #fff; 
     background-color: #1e3272 !important; 
