@@ -45,21 +45,23 @@ function ArtService() {
             <h5 id="caption">
             Day 2: Beijing
             </h5>
-            <p id="art-paragraph-other">
+            <p id="art-paragraph-bottom">
             Opening reception or free event day for your exhibition at Beijing Gallery 
             </p>
-            <p id="art-paragraph-other">
-            1. Your personal or group exhibition at the opening ceremony of the Beijing Gallery (signing an exhibition contract before traveling to China)
-            </p>
-            <p id="art-paragraph-other">
-            2. Visit the Beijing Art District 
-            </p>
-            <p id="art-paragraph-other">
-            3. Enjoy a free day in Beijing. Explore the capital of China alone.
-            </p>
+            <ul id="list">
+                <li id="bullet">
+                1. Your personal or group exhibition at the opening ceremony of the Beijing Gallery (signing an exhibition contract before traveling to China)
+                </li>
+                <li id="bullet">
+                2. Visit the Beijing Art District 
+                </li>
+                <li id="bullet">
+                3. Enjoy a free day in Beijing. Explore the capital of China alone. 
+                </li> 
+              </ul> 
             <p id="art-paragraph-other">
             Overnight in Beijing 
-            </p> 
+            </p>
 
             <h5 id="caption">
             Day 3:  Beijing
