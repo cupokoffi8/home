@@ -88,6 +88,21 @@
     width: 60vw !important; 
 } 
 
+#image-thing-at-uh {
+    display: block; 
+    margin-right: 20px; 
+    margin-top: 40px; 
+    width: 60vw !important; 
+} 
+
+#image-thing-at-uh {
+    display: block; 
+    margin-left: 20px; 
+    margin-top: 40px; 
+    width: 60vw !important; 
+} 
+
+
 @media only screen and (max-width: 600px) {
 
     #art-paragraph {

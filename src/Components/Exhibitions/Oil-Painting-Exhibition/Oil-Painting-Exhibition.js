@@ -9,8 +9,8 @@ function PleaseWork() {
             <hr /> 
 
             <div id="the-pictures">
-              <img id="image-thing-at" src="./OP1.jpeg" /> 
-              <img id="image-thing-at" src="./OP2.jpeg" /> 
+              <img id="image-thing-at-uh" src="./OP1.jpeg" /> 
+              <img id="image-thing-at-uhh" src="./OP2.jpeg" /> 
             </div>
           </div>
         </div>
