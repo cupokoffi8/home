@@ -76,7 +76,7 @@ function Contact() {
             >
             </textarea>
             <br /> 
-            <button>Submit</button> 
+            <button id="submit">Submit</button> 
         </div>
 
         <div className="row">{result ? <Result /> : null}</div> 
