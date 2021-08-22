@@ -15,8 +15,7 @@
   } 
 
   #the-pictures {
-      display: flex; 
-      display: inline;  
+      display: inline-block; 
   }
 
   #big-name {
