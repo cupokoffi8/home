@@ -37,7 +37,7 @@ function Exhibitions() {
             </a>
 
             <a id="link" href="/home/#/magnificent">
-            <img id="image" src="./M3.jpeg"/>
+            <img id="image" src="./M3.jpg"/>
             <h5 id="caption">Magnificent Murals</h5> 
             </a>
 
