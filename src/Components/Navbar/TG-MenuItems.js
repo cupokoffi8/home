@@ -8,10 +8,5 @@ export const TGMenuItems = [
     title: 'Founders Column',
     path: '/our-founder',
     cName: 'tg-dropdown-link'
-  },
-  {
-    title: 'The Gallery',
-    path: '/the-gallery',
-    cName: 'tg-dropdown-link'
   } 
 ];
