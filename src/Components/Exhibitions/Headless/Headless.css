@@ -75,6 +75,8 @@
         justify-content: center !important; 
         text-align: center !important; 
         margin-left: auto; 
+        width: 80vw; 
+        height: auto; 
     }
 
 } 
