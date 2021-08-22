@@ -5,7 +5,13 @@ function PleaseWork() {
     return (
         <div>
           <div className="Oil-Painting-Exhibition">
-            <h1 className="exhibition">Oil Painting Exhibition</h1>
+            <h1 className="exhibition">Oil Painting Exhibition</h1> 
+            <hr /> 
+
+            <div id="the-pictures">
+              <img id="image-thing-at" src="./OP1.jpeg" /> 
+              <img id="image-thing-at" src="./OP2.jpeg" /> 
+            </div>
           </div>
         </div>
     );

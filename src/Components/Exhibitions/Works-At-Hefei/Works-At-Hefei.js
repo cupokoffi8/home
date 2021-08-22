@@ -15,7 +15,7 @@ function Works() {
             <img id="image-thing-at" src="./WaH1.jpeg" /> 
 
             <h5 id="caption">
-              Curators:  Wei Liu  ( Lena Liu ) and Wu Zu Hong 
+              Curators:  Wei Liu  (Lena Liu) and Wu Zu Hong 
             </h5> 
 
             <h5 id="caption">
