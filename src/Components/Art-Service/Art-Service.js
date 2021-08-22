@@ -50,6 +50,9 @@ function ArtService() {
             <p id="art-paragraph-bottom">
             Opening reception or free event day for your exhibition at Beijing Gallery 
             </p>
+            <p id="art-paragraph-bottom-mobile">
+            Opening reception or free event day for your exhibition at Beijing Gallery 
+              </p>
             <ul id="list">
                 <li id="bullet">
                 1. Your personal or group exhibition at the opening ceremony of the Beijing Gallery (signing an exhibition contract before traveling to China)
@@ -64,6 +67,9 @@ function ArtService() {
             <p id="art-paragraph-bottom">
             Overnight in Beijing 
             </p>
+            <p id="art-paragraph-bottom-mobile">
+            Overnight in Beijing 
+              </p>
             <br /> 
 
             <h5 id="caption-uh">
@@ -96,6 +102,9 @@ function ArtService() {
             Day 5:  Beijing
             </h5>
             <p id="art-paragraph-bottom">
+            Retrieve gallery works, receive money from free sales or free activities, and enjoy a free day in Beijing. 
+            </p> 
+            <p id="art-paragraph-bottom-mobile">
             Retrieve gallery works, receive money from free sales or free activities, and enjoy a free day in Beijing. 
             </p> 
             <br /> 
