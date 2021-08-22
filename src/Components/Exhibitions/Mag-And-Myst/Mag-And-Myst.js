@@ -11,6 +11,8 @@ function MagAndMyst() {
 
             <img src="./1.jpeg" id="image-thing" /> 
 
+            <br /> 
+
             <p id="paragraph" >
             On July 24th of 2021, American Dragon International Fine Art Gallery held the opening reception of the 
             "Magnificent and Mysterious” art exhibition. 
@@ -19,6 +21,8 @@ function MagAndMyst() {
             <img src="./2.jpeg" id="image-thing" /> 
 
             <img src="./3.jpeg" id="image-thing" /> 
+
+            <br /> 
 
             <p id="paragraph" >
             Senior international curator Lena Liu introduced 87 works of art for the exhibition. The art is from various 
@@ -30,6 +34,8 @@ function MagAndMyst() {
             </p> 
 
             <img src="./6.jpeg" id="image-thing" /> 
+
+            <br /> 
 
             <p id="paragraph" >
             The opening reception began with guitar and vocal talents performed by American artist Jeff Moore.
@@ -43,6 +49,8 @@ function MagAndMyst() {
             <img src="./4.jpeg" id="image-thing" /> 
 
             <img src="./5.jpeg" id="image-thing" /> 
+
+            <br /> 
 
             <p id="paragraph" >
             The exhibition is co-sponsored by Asian American Culture Media Group and American Dragon International 
