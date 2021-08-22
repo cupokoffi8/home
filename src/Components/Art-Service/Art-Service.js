@@ -175,7 +175,10 @@ function ArtService() {
             <h5 id="caption-uh">
             Day 11: Departure from Shanghai 
             </h5>
-            <p id="art-paragraph-other">
+            <p id="art-paragraph-bottom">
+            After breakfast, you will be transferred to the airport for your flight home. 
+            </p> 
+            <p id="art-paragraph-bottom-mobile">
             After breakfast, you will be transferred to the airport for your flight home. 
             </p> 
             <br /> 
