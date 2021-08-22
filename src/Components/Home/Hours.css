@@ -21,7 +21,7 @@
   .hours{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px;
-    display: block; 
+    display: flex; 
     justify-content: center !important; 
     text-align: left !important; 
     align-self: center !important; 
@@ -37,7 +37,7 @@
   .hoursUH{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px;
-    display: block; 
+    display: flex; 
     justify-content: center !important; 
     text-align: left !important; 
     align-self: center !important; 
