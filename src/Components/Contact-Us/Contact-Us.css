@@ -8,7 +8,7 @@
     color: rgb(0, 0, 0); 
     /* color: #1e3272 !important;  */
     font-weight: bold; 
-    margin-top: 20px; 
+    margin-top: 25px; 
 } 
 
 #fill-out {
@@ -63,4 +63,11 @@ input[type=text], select, textarea {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
+    background-color: #000000; /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; 
   }
