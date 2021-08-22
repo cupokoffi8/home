@@ -2,6 +2,7 @@ import React from 'react';
 import './Works-At-Hefei.css'; 
 
 function Works() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Works-At-Hefei">
@@ -15,7 +16,7 @@ function Works() {
             <img id="image-thing-at" src="./WaH1.jpeg" /> 
 
             <h5 id="caption">
-              Curators:  Wei Liu  (Lena Liu) and Wu Zu Hong 
+              Curators: Wei Liu (Lena Liu) and Wu Zu Hong 
             </h5> 
 
             <h5 id="caption">

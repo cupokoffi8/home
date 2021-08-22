@@ -1,7 +1,10 @@
 import React from 'react'; 
 import '../Artists/Artists/Artists.css'; 
 
-function Exhibitions() {
+function Exhibitions() { 
+
+    window.scrollTo(0, 0); 
+
     return (
         <div>
           <div className="Aritists">

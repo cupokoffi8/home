@@ -2,6 +2,7 @@ import React from 'react';
 import './Art-Therapy.css'; 
 
 function ArtTherapy() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Art-Therapy">

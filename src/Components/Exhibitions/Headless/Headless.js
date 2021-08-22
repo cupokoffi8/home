@@ -2,6 +2,7 @@ import React from 'react';
 import './Headless.css'; 
 
 function Headless() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Headless">

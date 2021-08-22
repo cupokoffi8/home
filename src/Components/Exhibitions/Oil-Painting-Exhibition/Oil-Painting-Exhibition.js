@@ -2,6 +2,7 @@ import React from 'react';
 import './Oil-Painting-Exhibition.css'; 
 
 function PleaseWork() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Oil-Painting-Exhibition">

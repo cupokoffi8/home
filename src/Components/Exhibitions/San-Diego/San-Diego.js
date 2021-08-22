@@ -2,6 +2,7 @@ import React from 'react';
 import './San-Diego.css'; 
 
 function SanDiego() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="SanDiego">

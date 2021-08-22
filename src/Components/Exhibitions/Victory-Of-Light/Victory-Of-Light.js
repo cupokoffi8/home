@@ -2,6 +2,7 @@ import React from 'react';
 import './Victory-Of-Light.css'; 
 
 function VictoryOfLight() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Victory-Of-Light">

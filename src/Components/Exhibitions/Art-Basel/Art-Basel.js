@@ -1,7 +1,8 @@
 import React from 'react'; 
 import './Art-Basel.css'; 
 
-function ArtBasel() {
+function ArtBasel() { 
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Art-Basel">

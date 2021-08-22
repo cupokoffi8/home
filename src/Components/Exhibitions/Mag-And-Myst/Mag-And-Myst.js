@@ -2,6 +2,7 @@ import React from 'react';
 import './Mag-And-Myst.css'; 
 
 function MagAndMyst() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Mag-And-Myst">

@@ -2,6 +2,7 @@ import React from 'react';
 import './Magnificent.css'; 
 
 function Magnificent() {
+  window.scrollTo(0, 0);
     return (
         <div>
           <div className="Magnificent">
