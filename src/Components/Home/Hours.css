@@ -26,8 +26,8 @@
     align-self: center !important; 
     color: #fff; 
     background-color: #1e3272 !important; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
     margin-top: 0px;
     margin-bottom: 10px; 
     /* color: #1e3272;  */ 
