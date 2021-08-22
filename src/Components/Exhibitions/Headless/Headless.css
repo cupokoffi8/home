@@ -74,9 +74,12 @@
     #header-thing-hu {
         justify-content: center !important; 
         text-align: center !important; 
-        margin-left: auto; 
+        margin-left: auto;  
+    }
+
+    #image-thing-hu {
         width: 80vw; 
-        height: 60vw; 
+        height: auto; 
     }
 
 } 
