@@ -19,7 +19,8 @@ function PleaseWork() {
             </div> 
 
             <br /> 
-
+            <br /> 
+            
             <p id="art-paragraph-other">
             The famous curator, Lena Liu, said: The Oil Painting Exhibition of Zhao Qing, at Jeju Island, 
             South Korea,  attracted the attention of many collectors.  The famous artist Zhao Quing is the 
