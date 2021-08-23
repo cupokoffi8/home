@@ -14,7 +14,7 @@ function Aritists() {
             </a>
 
             <a id="link" href="/home/#/apelles-zhou">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./Eye-of-Horus.png"/>
             <h5 id="caption">Apelles Zhou</h5> 
             </a>
 
