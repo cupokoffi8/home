@@ -70,13 +70,13 @@
       display: none; 
   }
 
-  #painting {
+  #painting-xl {
       display: block; 
       margin-left: auto; 
       margin-right: auto; 
       margin-top: 80px; 
-      width: 341px; 
-      height: 450px; 
+      width: 40vw; 
+      height: auto; 
   }
 
   #caption {
@@ -126,6 +126,10 @@
     #bullet {
       margin-left: 20px; 
       margin-right: auto; 
+    } 
+
+    #painting-xl {
+      width: 70vw; 
     }
 
 }
