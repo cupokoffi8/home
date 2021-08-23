@@ -44,32 +44,26 @@ function ApellesZhou() {
 
               {/* List of Paintings */} 
 
-              <img src="./beauty_1.jpeg" id="painting"></img>
-              <h5 id="caption">Beauty 1</h5> 
+              <img src="./Eye-of-Horus.png" id="painting"></img>
+              <h5 id="caption">Eye of Horus</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./Age-of-Aquarius.png" id="painting"></img> 
+              <h5 id="caption">Age of Aquarius</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./Back-to-Pleiade.png" id="painting"></img> 
+              <h5 id="caption">Back to Pleiade</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./Portrait-of-Thoth.png" id="painting"></img> 
+              <h5 id="caption">Portrait of Thoth</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./Purple-Flame.png" id="painting"></img> 
+              <h5 id="caption">Purple Flame</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./The-Grey.png" id="painting"></img> 
+              <h5 id="caption">The Grey</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
-
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
-
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./Sirian-Girl.png" id="painting-wide"></img> 
+              <h5 id="caption">Sirian Girl</h5> 
 
           </div>
     );
