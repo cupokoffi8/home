@@ -81,4 +81,11 @@ input[type=text], select, textarea {
 
   #the-span {
     font-family: 'Times New Roman', Times, serif; 
+  } 
+
+  .row {
+    font-family: 'Times New Roman', Times, serif; 
+    color: green; 
+    display: flex; 
+    justify-content: center; 
   }
