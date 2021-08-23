@@ -8,6 +8,8 @@ function ArtService() {
             <h1 className="artist">Art Service</h1> 
             <hr /> 
 
+            <br /> 
+
             <p id="art-paragraph-other">
             The American Dragon Gallery has a strong team of art consultants. The consultants have senior qualifications 
             related to various international art fields.  They try their best to recommend some of the most talented potential 
