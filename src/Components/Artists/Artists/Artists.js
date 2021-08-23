@@ -34,7 +34,7 @@ function Aritists() {
             </a>
 
             <a id="link" href="/home/#/su-zi">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./Su-Zi.png"/> 
             <h5 id="caption">Su Zi</h5> 
             </a>
 

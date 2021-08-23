@@ -49,11 +49,20 @@ function SuZi() {
 
               {/* List of Paintings */} 
 
-              <img src="./beauty_1.jpeg" id="painting"></img>
-              <h5 id="caption">Beauty 1</h5> 
+              <img src="./Sing.png" id="painting"></img>
+              <h5 id="caption">Sing</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./Love-by-the-River.png" id="painting"></img> 
+              <h5 id="caption">Love by the River</h5> 
+
+              <img src="./Listened.png" id="painting"></img> 
+              <h5 id="caption">Listened</h5> 
+
+              <img src="./Red-Age.png" id="painting"></img> 
+              <h5 id="caption">Red Age</h5> 
+
+              <img src="./Cherry-Blossom-Season.png" id="painting"></img> 
+              <h5 id="caption">Cherry Blossom Season</h5> 
 
           </div>
     );
