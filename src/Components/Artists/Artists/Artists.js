@@ -29,7 +29,7 @@ function Aritists() {
             </a>
 
             <a id="link" href="/home/#/qui-huade">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./Howard.png"/>
             <h5 id="caption">Qui Huade</h5> 
             </a>
 

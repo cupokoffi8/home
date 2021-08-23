@@ -68,11 +68,19 @@ function QuiHuade() {
 
               {/* List of Paintings */} 
 
-              <img src="./beauty_1.jpeg" id="painting"></img>
-              <h5 id="caption">Beauty 1</h5> 
+              <img src="./H1.jpeg" id="painting"></img> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./H1!.jpeg" id="painting"></img> 
+
+              <img src="./H2.png" id="painting"></img> 
+
+              <img src="./H2!.png" id="painting"></img> 
+
+              <img src="./H3.jpeg" id="painting"></img> 
+
+              <img src="./H3!.jpeg" id="painting"></img> 
+
+              <img src="./H4.jpeg" id="painting"></img> 
 
           </div>
     );
