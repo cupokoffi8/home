@@ -43,11 +43,20 @@ function ChiuPai() {
 
               {/* List of Paintings */} 
 
-              <img src="./beauty_1.jpeg" id="painting"></img>
-              <h5 id="caption">Beauty 1</h5> 
+              <img src="./CP1.png" id="painting"></img>
+              <h5 id="caption">Vernal Gardens</h5> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./CP2.jpeg" id="painting"></img> 
+              <h5 id="caption">Field Of Gold</h5> 
+
+              <img src="./CP3.png" id="painting"></img> 
+              <h5 id="caption">Shadow of Autumn</h5> 
+
+              <img src="./CP4.jpeg" id="painting"></img>  
+
+              <img src="./CP5.jpeg" id="painting"></img>  
+
+              <img src="./CP6.jpeg" id="painting"></img>  
 
           </div>
     );

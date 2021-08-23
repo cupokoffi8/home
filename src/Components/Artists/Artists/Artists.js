@@ -24,7 +24,7 @@ function Aritists() {
             </a>
 
             <a id="link" href="/home/#/chiu-pai">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./Chiu-Pai.png"/>
             <h5 id="caption">Chiu Pai</h5> 
             </a>
 
