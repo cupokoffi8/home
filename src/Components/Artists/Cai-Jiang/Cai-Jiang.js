@@ -95,11 +95,13 @@ function CaiJiang() {
 
               {/* List of Paintings */} 
 
-              <img src="./beauty_1.jpeg" id="painting"></img>
-              <h5 id="caption">Beauty 1</h5> 
+              <img src="./CJ1.jpeg" id="painting"></img> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./CJ2.jpeg" id="painting"></img> 
+
+              <img src="./CJ3.jpeg" id="painting"></img> 
+
+              <img src="./CJ4.jpeg" id="painting"></img> 
 
           </div>
     );

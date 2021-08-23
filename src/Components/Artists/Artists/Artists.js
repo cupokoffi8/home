@@ -19,7 +19,7 @@ function Aritists() {
             </a>
 
             <a id="link" href="/home/#/cai-jiang">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./Cai-Jiang.png"/>
             <h5 id="caption">Cai Jiang</h5> 
             </a>
 
