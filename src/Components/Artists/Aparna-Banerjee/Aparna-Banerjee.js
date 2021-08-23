@@ -79,9 +79,6 @@ function AparnaBanerjee() {
               <img src="./AB18.jpeg" id="painting"></img> 
               <h5 id="caption">Beauty 18</h5> 
 
-              <img src="./AB19.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 19</h5> 
-
               <img src="./F1.jpeg" id="painting"></img> 
               <h5 id="caption">Flowers 1</h5> 
 

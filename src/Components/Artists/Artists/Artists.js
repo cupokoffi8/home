@@ -9,7 +9,7 @@ function Aritists() {
             <hr /> 
 
             <a id="link" href="/home/#/aparna-banerjee">
-            <img id="image" src="./beauty_2.jpeg"/> 
+            <img id="image" src="./Maiden-in-Color.jpeg"/> 
             <h5 id="caption">Aparna Banerjee</h5> 
             </a>
 
