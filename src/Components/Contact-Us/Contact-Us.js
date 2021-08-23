@@ -39,7 +39,7 @@ function Contact() {
 
           <h2 id="fill-out">Please fill out the form below</h2>
 
-          <span id="the-span">Full Name</span> 
+          <span id="the-span">Full Name*</span> 
           <br /> 
           <input 
             className="input100" 
@@ -48,7 +48,7 @@ function Contact() {
             required 
             /> 
 
-          <span id="the-span">Phone Number</span> 
+          <span id="the-span">Phone Number*</span> 
           <br /> 
           <input 
             className="input100" 
@@ -57,7 +57,7 @@ function Contact() {
             required 
             /> 
 
-          <span id="the-span">Enter Email</span> 
+          <span id="the-span">Email*</span> 
           <br /> 
           <input 
             className="input100" 
@@ -69,7 +69,7 @@ function Contact() {
         </div>
 
         <div className="formWord">
-          <span id="the-span">Message</span> 
+          <span id="the-span">Message*</span> 
           <br /> 
           <textarea 
             name="message"
