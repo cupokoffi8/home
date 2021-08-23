@@ -50,6 +50,27 @@ function ApellesZhou() {
               <img src="./beauty_2.jpeg" id="painting"></img> 
               <h5 id="caption">Beauty 2</h5> 
 
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
+              <img src="./beauty_2.jpeg" id="painting"></img> 
+              <h5 id="caption">Beauty 2</h5> 
+
           </div>
     );
   }
