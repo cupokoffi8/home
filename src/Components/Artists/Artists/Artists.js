@@ -44,17 +44,17 @@ function Aritists() {
             </a>
 
             <a id="link" href="/home/#/zen-frescos">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./ZF.jpeg"/>
             <h5 id="caption">Zen Frescos</h5> 
             </a>
 
             <a id="link" href="/home/#/zhao-qing">
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./ZQ.jpeg"/>
             <h5 id="caption">Zhao Qing</h5>
             </a> 
 
             <a id="link" href="/home/#/zhen-zhong-duan"> 
-            <img id="image" src="./beauty_2.jpeg"/>
+            <img id="image" src="./ZZD.jpeg"/>
             <h5 id="caption">Zhen-Zhong Duan</h5> 
             </a>
 
