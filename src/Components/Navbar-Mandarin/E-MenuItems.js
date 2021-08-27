@@ -10,37 +10,37 @@ export const EMenuItems = [
       cName: 'e-dropdown-link'
     },
     {
-      title: 'Art Basel Exhibition in Miami',
+      title: '佛羅里達州邁阿密市巴塞爾藝術博覽會',
       path: '/art-basel-mandarin',
       cName: 'e-dropdown-link'
     },
     {
-      title: 'San Diego Contemporary Art Exhibition',
+      title: '圣地亚哥当代艺术展-2019', 
       path: '/san-diego-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
-      title: 'Headless and Unintentional',
+      title: '“沉京東，蔡江：無頭無心”展覽', 
       path: '/headless-mandarin', 
       cName: 'e-dropdown-link'
     }, 
     {
-      title: 'Magnificent Murals',
+      title: '宏伟的壁画', 
       path: '/magnificent-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
-      title: 'Art Therapy',
+      title: '艺术疗法', 
       path: '/art-therapy-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
-      title: 'Works at Hefei', 
+      title: '在合肥工作', 
       path: '/works-at-hefei-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
-      title: 'Oil Painting Exhibition', 
+      title: '韩国济州岛油画展 ', 
       path: '/oil-painting-exhibition-mandarin', 
       cName: 'e-dropdown-link'
     } 
