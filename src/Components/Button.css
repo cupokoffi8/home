@@ -1,6 +1,5 @@
 #the-button {
-    display: flex;
-    justify-content: right; 
+    display: inline-block; 
     width: 100px; 
     height: 60px; 
     padding: 0.3em 1em;
