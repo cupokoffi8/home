@@ -35,11 +35,13 @@ function ZhaoQing() {
 
               {/* List of Paintings */} 
 
-              <img src="./beauty_1.jpeg" id="painting"></img>
-              <h5 id="caption">Beauty 1</h5> 
+              <img src="./ZQ1.jpeg" id="painting"></img> 
 
-              <img src="./beauty_2.jpeg" id="painting"></img> 
-              <h5 id="caption">Beauty 2</h5> 
+              <img src="./ZQ2.jpeg" id="painting"></img>  
+
+              <img src="./ZQ3.jpeg" id="painting"></img> 
+
+              <img src="./ZQ4.jpeg" id="painting"></img> 
 
           </div>
     );
