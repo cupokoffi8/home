@@ -1,47 +1,47 @@
 export const EMenuItems = [
     {
-      title: 'Magnificent and Mysterious Art Exhibition',
-      path: '/mag-and-myst',
+      title: '"華麗與神秘"藝術展',
+      path: '/mag-and-myst-mandarin',
       cName: 'e-dropdown-link'
     },
     {
-      title: 'The Victory of Light Exhibition CHINESE',
-      path: '/victory-of-light',
+      title: 'The Victory of Light Exhibition',
+      path: '/victory-of-light-mandarin',
       cName: 'e-dropdown-link'
     },
     {
       title: 'Art Basel Exhibition in Miami',
-      path: '/art-basel',
+      path: '/art-basel-mandarin',
       cName: 'e-dropdown-link'
     },
     {
       title: 'San Diego Contemporary Art Exhibition',
-      path: '/san-diego',
+      path: '/san-diego-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
       title: 'Headless and Unintentional',
-      path: '/headless', 
+      path: '/headless-mandarin', 
       cName: 'e-dropdown-link'
     }, 
     {
       title: 'Magnificent Murals',
-      path: '/magnificent',
+      path: '/magnificent-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
       title: 'Art Therapy',
-      path: '/art-therapy',
+      path: '/art-therapy-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
       title: 'Works at Hefei', 
-      path: '/works-at-hefei',
+      path: '/works-at-hefei-mandarin',
       cName: 'e-dropdown-link'
     }, 
     {
       title: 'Oil Painting Exhibition', 
-      path: '/oil-painting-exhibition',
+      path: '/oil-painting-exhibition-mandarin', 
       cName: 'e-dropdown-link'
     } 
   ];

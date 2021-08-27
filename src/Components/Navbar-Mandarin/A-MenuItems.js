@@ -1,6 +1,6 @@
 export const AMenuItems = [
     {
-      title: 'Aparna Banerjee Chinese lol',
+      title: 'Aparna Banerjee',
       path: '/aparna-banerjee',
       cName: 'a-dropdown-link'
     },

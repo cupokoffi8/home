@@ -95,8 +95,8 @@ function NavbarMandarin() {
   return (
     <>
       <nav className='navbar'>
-      <Link to='/' className='mobile-logo'>
-        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}} href="/"></img>
+      <Link to='/mandarin' className='mobile-logo'>
+        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}} href="/mandarin"></img>
           </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -110,7 +110,7 @@ function NavbarMandarin() {
             onMouseLeave={onMouseLeave1}
           >
             <Link
-              to='/the-gallery'
+              to='/the-gallery-mandarin'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -126,7 +126,7 @@ function NavbarMandarin() {
             onMouseLeave={onMouseLeave2}
           >
             <Link
-              to='/exhibitions'
+              to='/exhibitions-mandarin'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -142,7 +142,7 @@ function NavbarMandarin() {
             onMouseLeave={onMouseLeave3}
           >
             <Link
-              to='/artists'
+              to='/artists-mandarin'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -158,7 +158,7 @@ function NavbarMandarin() {
           {/* News and Events */}
           <li className='nav-item'>
             <Link 
-              to='/news-and-events' 
+              to='/news-and-events-mandarin' 
               className='nav-links' 
               onClick={closeMobileMenu}
               >
@@ -180,7 +180,7 @@ function NavbarMandarin() {
           {/* Contact Us */}
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/contact-us-mandarin'
               className='nav-links'
               onClick={closeMobileMenu}
             >
