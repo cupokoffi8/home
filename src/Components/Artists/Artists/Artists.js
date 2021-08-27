@@ -3,6 +3,7 @@ import './Artists.css';
 import Navbar from '../../Navbar/Navbar'; 
 
 function Aritists() {
+  window.scrollTo(0, 0); 
     return (
       <>
         <Navbar /> 
