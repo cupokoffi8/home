@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Magnificent.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function Magnificent() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Magnificent">
             <h1 className="exhibition">Chinese Murals at the Tokyo Exhibition in Japan
               Reproduction of the Magnificent Murals of 600 Years Ago</h1> 
@@ -42,7 +44,7 @@ function Magnificent() {
             <br /> 
 
           </div>
-        </div>
+        </>
     );
   }
   

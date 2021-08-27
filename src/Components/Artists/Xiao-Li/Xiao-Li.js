@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Xiao-Li.css'; 
+import Navbar from'../../Navbar/Navbar'; 
 
 function XiaoLi() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -82,7 +85,8 @@ function XiaoLi() {
               <img src="./XL6.jpeg" id="painting-xl"></img> 
               <h5 id="caption">Zen Masters</h5> 
 
-          </div>
+          </div> 
+          </> 
     );
   }
   

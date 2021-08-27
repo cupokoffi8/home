@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Cai-Jiang.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function CaiJiang() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -103,7 +106,8 @@ function CaiJiang() {
 
               <img src="./CJ4.jpeg" id="painting"></img> 
 
-          </div>
+          </div> 
+          </> 
     );
   }
   

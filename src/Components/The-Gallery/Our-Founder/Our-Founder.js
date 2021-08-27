@@ -1,9 +1,11 @@
 import React from 'react'; 
 import '../../Exhibitions/Art-Therapy/Art-Therapy.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function OurFounder() {
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Our-Founder">
             <h1 className="exhibition">American Dragon Fine Art and AACMG</h1> 
             <hr /> 
@@ -39,7 +41,7 @@ function OurFounder() {
             <img id="image-thing-at" src="Uh.png" /> 
 
           </div>
-        </div>
+        </>
     );
   }
   

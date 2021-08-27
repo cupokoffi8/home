@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Zhao-Qing.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ZhaoQing() { 
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -44,6 +47,7 @@ function ZhaoQing() {
               <img src="./ZQ4.jpeg" id="painting-zq"></img> 
 
           </div>
+          </>
     );
   }
   

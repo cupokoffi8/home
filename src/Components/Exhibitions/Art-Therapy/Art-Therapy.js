@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Art-Therapy.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ArtTherapy() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Art-Therapy">
             <h1 className="exhibition">Art Therapy</h1> 
             <hr /> 
@@ -97,7 +99,7 @@ function ArtTherapy() {
             </p> 
 
           </div>
-        </div>
+        </> 
     );
   }
   

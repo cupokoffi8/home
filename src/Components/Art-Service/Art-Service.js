@@ -1,9 +1,11 @@
 import React from 'react'; 
-import '../Artists/Zen-Frescos/Zen-Frescos.css';  
+import '../Artists/Zen-Frescos/Zen-Frescos.css'; 
+import Navbar from '../Navbar/Navbar'; 
 
 function ArtService() {
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Art-Service">
             <h1 className="artist">Art Service</h1> 
             <hr /> 
@@ -193,7 +195,7 @@ function ArtService() {
             </p>
 
           </div>
-        </div>
+        </> 
     );
   }
   

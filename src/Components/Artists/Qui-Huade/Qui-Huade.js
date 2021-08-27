@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Qui-Huade.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function QuiHuade() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -82,7 +85,8 @@ function QuiHuade() {
 
               <img src="./H4.jpeg" id="painting"></img> 
 
-          </div>
+          </div> 
+          </> 
     );
   }
   

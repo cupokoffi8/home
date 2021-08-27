@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Oil-Painting-Exhibition.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function PleaseWork() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar />
           <div className="Oil-Painting-Exhibition">
             <h1 className="exhibition">Oil Painting Exhibition in Jeju Island, South Korea</h1> 
             <hr /> 
@@ -46,7 +48,7 @@ function PleaseWork() {
             </p> 
 
           </div>
-        </div>
+        </> 
     );
   }
   

@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Headless.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function Headless() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar />
           <div className="Headless">
             <h1 className="exhibition">Headless and Unintentional</h1> 
             <hr /> 
@@ -112,7 +114,7 @@ function Headless() {
               </p> 
 
           </div>
-        </div>
+        </> 
     );
   }
   

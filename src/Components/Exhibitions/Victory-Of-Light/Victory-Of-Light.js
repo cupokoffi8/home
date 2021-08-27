@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Victory-Of-Light.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function VictoryOfLight() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Victory-Of-Light">
             <h1 className="exhibition">Victory of Light Exhibition</h1> 
             <hr /> 
@@ -174,7 +176,7 @@ function VictoryOfLight() {
               <br /> 
               
           </div>
-        </div>
+        </> 
     );
   }
   

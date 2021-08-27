@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Apelles-Zhou.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ApellesZhou() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar /> 
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -65,7 +68,8 @@ function ApellesZhou() {
               <img src="./Sirian-Girl.png" id="painting-wide"></img> 
               <h5 id="caption">Sirian Girl</h5> 
 
-          </div>
+          </div> 
+          </> 
     );
   }
   

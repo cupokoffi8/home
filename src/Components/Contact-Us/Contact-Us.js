@@ -1,6 +1,7 @@
 import React, {useState} from 'react'; 
 import emailjs from 'emailjs-com'; 
 import './Contact-Us.css'; 
+import Navbar from '../Navbar/Navbar'; 
 
 const Result = () => {
   return (
@@ -29,6 +30,8 @@ function Contact() {
   }, 5000); 
 
   return (
+    <>
+    <Navbar />
     <div className="contact-us">
       <h1 id="contact-head">Contact Us</h1>
       <hr /> 
@@ -84,6 +87,7 @@ function Contact() {
 
       </form>
     </div>
+    </> 
   );
 }
 

@@ -1,9 +1,11 @@
 import React from 'react'; 
 import './Artists.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function Aritists() {
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Aritists">
             <h1 className="artist">Artists</h1> 
             <hr /> 
@@ -59,7 +61,7 @@ function Aritists() {
             </a>
 
           </div>
-        </div>
+        </>
     );
   }
   

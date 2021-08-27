@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Su-Zi.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function SuZi() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -65,6 +68,7 @@ function SuZi() {
               <h5 id="caption">Cherry Blossom Season</h5> 
 
           </div>
+          </> 
     );
   }
   

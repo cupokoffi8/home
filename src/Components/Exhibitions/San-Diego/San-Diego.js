@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './San-Diego.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function SanDiego() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="SanDiego">
             <h1 className="exhibition">San Diego Contemporary Art Exhibition - 2019</h1> 
             <hr /> 
@@ -37,7 +39,7 @@ function SanDiego() {
 
             <img src="./SD4.jpeg" id="image-thing-sd" /> 
           </div>
-        </div>
+        </> 
     );
   }
   

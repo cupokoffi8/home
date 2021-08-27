@@ -1,9 +1,11 @@
 import React from 'react'; 
 import './The-Gallery.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function TheGallery() {
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="The-Gallery">
             <h1 className="the-gallery">The Gallery</h1> 
             <hr /> 
@@ -62,7 +64,7 @@ function TheGallery() {
             </p>
 
           </div>
-        </div>
+        </> 
     );
   }
   

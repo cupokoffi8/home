@@ -1,12 +1,14 @@
 import React from 'react'; 
-import './Exhibitions.css';  
+import './Exhibitions.css'; 
+import Navbar from '../Navbar/Navbar'; 
 
 function Exhibitions() { 
 
     window.scrollTo(0, 0); 
 
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Aritists">
             <h1 className="exhibition">Exhibitions</h1> 
             <hr /> 
@@ -57,7 +59,7 @@ function Exhibitions() {
             </a>
 
           </div>
-        </div>
+        </> 
     );
   }
   

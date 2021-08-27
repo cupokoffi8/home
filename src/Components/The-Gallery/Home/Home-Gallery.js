@@ -1,13 +1,15 @@
 import React from 'react'; 
 import './Home-Gallery.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function HomeGallery() {
     return (
-        <div>
+      <>
+        <Navbar />
           <div className="Home-Gallery">
             <h1 className="welcome">Home</h1>
           </div>
-        </div>
+        </> 
     );
   }
   

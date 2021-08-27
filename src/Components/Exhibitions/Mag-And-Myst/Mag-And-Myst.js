@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Mag-And-Myst.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function MagAndMyst() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Mag-And-Myst">
             <h1 className="exhibition">Magnificent and Mysterious Art Exhibition</h1> 
             <hr /> 
@@ -58,7 +60,7 @@ function MagAndMyst() {
             </p> 
 
           </div>
-        </div>
+        </> 
     );
   }
   

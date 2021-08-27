@@ -1,9 +1,11 @@
 import React from 'react'; 
 import './News-And-Events.css'; 
+import Navbar from '../Navbar/Navbar'; 
 
 function News() {
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="News">
             <h1 className="exhibition">News And Events</h1> 
             <hr /> 
@@ -14,7 +16,7 @@ function News() {
             <img id="image-thing-at" src="N4.jpeg" /> 
 
           </div>
-        </div>
+        </> 
     );
   }
   

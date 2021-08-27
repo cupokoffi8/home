@@ -49,8 +49,7 @@ import Contact from './Components/Contact-Us/Contact-Us';
 
 function App() {
   return (
-    <HashRouter>
-      <Navbar />
+    <HashRouter> 
         <Switch>
             
             <Route exact path="/" component={Home} />

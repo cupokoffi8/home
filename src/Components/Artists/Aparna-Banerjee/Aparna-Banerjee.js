@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Aparna-Banerjee.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function AparnaBanerjee() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar /> 
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -103,7 +106,8 @@ function AparnaBanerjee() {
               <img src="./Maiden-in-Color.jpeg" id="painting"></img> 
               <h5 id="caption">Maiden in Color</h5> 
 
-          </div>
+          </div> 
+          </> 
     );
   }
   

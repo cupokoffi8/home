@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Works-At-Hefei.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function Works() {
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar /> 
           <div className="Works-At-Hefei">
             <h1 className="exhibition">Beijing Art Academy Works At Hefei Exhibition</h1> 
             <hr /> 
@@ -60,7 +62,7 @@ function Works() {
             <img id="image-thing-at" src="./WaH3.jpeg" /> 
 
           </div>
-        </div>
+        </> 
     );
   }
   

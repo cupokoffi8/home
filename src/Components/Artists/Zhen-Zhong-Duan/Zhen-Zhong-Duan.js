@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Zhen-Zhong-Duan.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ZhenZhongDuan() { 
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -84,6 +87,7 @@ function ZhenZhongDuan() {
               {/* <h5 id="caption">Beauty 2</h5>  */} 
 
           </div>
+          </>
     );
   }
   

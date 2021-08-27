@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Chiu-Pai.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ChiuPai() {
 
   window.scrollTo(0, 0)
 
-    return (
+    return ( 
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -58,7 +61,8 @@ function ChiuPai() {
 
               <img src="./CP6.jpeg" id="painting"></img>  
 
-          </div>
+          </div> 
+          </> 
     );
   }
   

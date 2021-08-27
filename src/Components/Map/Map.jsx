@@ -6,7 +6,8 @@ import {
   useLoadScript,
   Marker
 } from "@react-google-maps/api"; 
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
+import Navbar from '../Navbar/Navbar'; 
 
 const API_KEY = "AIzaSyBawcqAK6VVEhjll05YASsIrt9wDoMXppg"; 
 
@@ -43,6 +44,8 @@ export default function Map() {
   if (!isLoaded) return "Loading...";
 
   return (
+    <>
+    <Navbar /> 
     <div>
 
       <GoogleMap
@@ -68,6 +71,7 @@ export default function Map() {
           /> 
       </GoogleMap>
     </div>
+    </> 
   );
 }
 

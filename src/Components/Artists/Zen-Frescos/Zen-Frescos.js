@@ -1,11 +1,14 @@
 import React from 'react'; 
 import './Zen-Frescos.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ZenFrescos() {
 
   window.scrollTo(0, 0)
 
     return (
+      <>
+        <Navbar />
           <div className="artist-section"> 
 
             {/* Artist Name */} 
@@ -797,6 +800,7 @@ function ZenFrescos() {
               <h5 id="caption">Family Version</h5> 
 
           </div>
+          </> 
     );
   }
   

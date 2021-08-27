@@ -1,10 +1,12 @@
 import React from 'react'; 
 import './Art-Basel.css'; 
+import Navbar from '../../Navbar/Navbar'; 
 
 function ArtBasel() { 
   window.scrollTo(0, 0);
     return (
-        <div>
+      <>
+        <Navbar />
           <div className="Art-Basel">
             <h1 className="exhibition">Art Basel Exhibition, Miami, Florida</h1> 
             <hr /> 
@@ -42,7 +44,7 @@ function ArtBasel() {
               </a> 
               
           </div>
-        </div>
+        </> 
     );
   }
   
