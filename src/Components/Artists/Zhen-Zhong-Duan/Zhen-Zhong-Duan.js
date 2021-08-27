@@ -38,49 +38,49 @@ function ZhenZhongDuan() {
 
               {/* List of Paintings */} 
 
-              <img src="./ZZD1.jpeg" id="painting"></img>
+              <img src="./ZZD1.jpeg" id="painting-zzd"></img>
               {/* <h5 id="caption">Beauty 1</h5>  */}
 
-              <img src="./ZZD2.jpeg" id="painting"></img> 
+              <img src="./ZZD2.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD3.jpeg" id="painting"></img> 
+              <img src="./ZZD3.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD4.jpeg" id="painting"></img> 
+              <img src="./ZZD4.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD5.jpeg" id="painting"></img> 
+              <img src="./ZZD5.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD6.jpeg" id="painting"></img> 
+              <img src="./ZZD6.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD7.jpeg" id="painting"></img> 
+              <img src="./ZZD7.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD8.jpeg" id="painting"></img> 
+              <img src="./ZZD8.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD9.jpeg" id="painting"></img> 
+              <img src="./ZZD9.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD10.jpeg" id="painting"></img> 
+              <img src="./ZZD10.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD11.jpeg" id="painting"></img> 
+              <img src="./ZZD11.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD12.jpeg" id="painting"></img> 
+              <img src="./ZZD12.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD13.jpeg" id="painting"></img> 
+              <img src="./ZZD13.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD14.jpeg" id="painting"></img> 
+              <img src="./ZZD14.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */}
 
-              <img src="./ZZD15.jpeg" id="painting"></img> 
+              <img src="./ZZD15.jpeg" id="painting-zzd"></img> 
               {/* <h5 id="caption">Beauty 2</h5>  */} 
 
           </div>
