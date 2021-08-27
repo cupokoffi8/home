@@ -61,6 +61,9 @@ import CaiJiangMandarin from './Components/Artists/Cai-Jiang/Cai-Jiang-Mandarin'
 import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin'; 
 import QuiHuadeMandarin from './Components/Artists/Qui-Huade/Qui-Huade-Mandarin'; 
 import SuZiMandarin from './Components/Artists/Su-Zi/Su-Zi-Mandarin'; 
+import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin'; 
+import ZenFrescosMandarin from './Components/Artists/Zen-Frescos/Zen-Frescos-Mandarin'; 
+import ZhaoQingMandarin from './Components/Artists/Zhao-Qing/Zhao-Qing-Mandarin'; 
 
 // News and Events 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
@@ -122,9 +125,9 @@ function App() {
             <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
             <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} />  
             <Route path="/su-zi-mandarin" component={SuZiMandarin} /> 
-            <Route path="/xiao-li-mandarin" component={XiaoLi} /> 
-            <Route path="/zen-frescos-mandarin" component={ZenFrescos} /> 
-            <Route path="/zhao-qing-mandarin" component={ZhaoQing} /> 
+            <Route path="/xiao-li-mandarin" component={XiaoLiMandarin} /> 
+            <Route path="/zen-frescos-mandarin" component={ZenFrescosMandarin} />  
+            <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} />  
             <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuan} /> 
 
             {/* Exhibitions-M */} 
