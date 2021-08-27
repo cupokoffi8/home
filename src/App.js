@@ -65,6 +65,9 @@ import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin';
 import ZenFrescosMandarin from './Components/Artists/Zen-Frescos/Zen-Frescos-Mandarin'; 
 import ZhaoQingMandarin from './Components/Artists/Zhao-Qing/Zhao-Qing-Mandarin'; 
 
+// Exhibitions 
+import MagAndMystMandarin from './Components/Exhibitions/Mag-And-Myst/Mag-And-Myst-Mandarin'; 
+
 // News and Events 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
 function App() {
@@ -136,7 +139,7 @@ function App() {
             <Route path="/art-basel-mandarin" component={ArtBasel} /> 
             <Route path="/art-therapy-mandarin" component={ArtTherapy} /> 
             <Route path="/headless-mandarin" component={Headless} /> 
-            <Route path="/mag-and-myst-mandarin" component={MagAndMyst} /> 
+            <Route path="/mag-and-myst-mandarin" component={MagAndMystMandarin} />  
             <Route path="/magnificent-mandarin" component={Magnificent} /> 
             <Route path="/san-diego-mandarin" component={SanDiego} /> 
             <Route path="/victory-of-light-mandarin" component={VictoryOfLight} /> 
