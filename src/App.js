@@ -60,10 +60,10 @@ import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-
 import CaiJiangMandarin from './Components/Artists/Cai-Jiang/Cai-Jiang-Mandarin';
 import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin'; 
 import QuiHuadeMandarin from './Components/Artists/Qui-Huade/Qui-Huade-Mandarin'; 
+import SuZiMandarin from './Components/Artists/Su-Zi/Su-Zi-Mandarin'; 
 
 // News and Events 
-import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin';
-
+import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
 function App() {
   return (
     <HashRouter> 
@@ -121,7 +121,7 @@ function App() {
             <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} />   
             <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
             <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} />  
-            <Route path="/su-zi-mandarin" component={SuZi} /> 
+            <Route path="/su-zi-mandarin" component={SuZiMandarin} /> 
             <Route path="/xiao-li-mandarin" component={XiaoLi} /> 
             <Route path="/zen-frescos-mandarin" component={ZenFrescos} /> 
             <Route path="/zhao-qing-mandarin" component={ZhaoQing} /> 
