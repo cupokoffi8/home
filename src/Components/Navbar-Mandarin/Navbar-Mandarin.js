@@ -169,7 +169,7 @@ function NavbarMandarin() {
           {/* Art Service */}
           <li className='nav-item'>
             <Link
-              to='/art-service'
+              to='/art-service-mandarin'
               className='nav-links'
               onClick={closeMobileMenu}
             >

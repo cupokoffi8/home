@@ -2,7 +2,7 @@ import React from 'react';
 import '../Artists/Zen-Frescos/Zen-Frescos.css'; 
 import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';  
 
-function ArtService() {
+function ArtServiceMandarin() {
     return (
       <>
         <NavbarMandarin /> 
@@ -178,4 +178,4 @@ function ArtService() {
     );
   }
   
-  export default ArtService;
+  export default ArtServiceMandarin;

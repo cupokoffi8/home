@@ -50,7 +50,10 @@ import Contact from './Components/Contact-Us/Contact-Us';
 // ----------------------------- Chinese ----------------------------- 
 
 // Import Components-M 
-import HomeMandarin from './Components/Home/Home-Mandarin';
+import HomeMandarin from './Components/Home/Home-Mandarin'; 
+
+// Art Service-M 
+import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin';
 
 function App() {
   return (
@@ -135,7 +138,7 @@ function App() {
 
             {/* Art Service-M */}
 
-            {/* <Route path="/art-service" component={ArtService} />  */}
+            <Route path="/art-service-mandarin" component={ArtServiceMandarin} /> 
 
             {/* News And Events-M */} 
 
