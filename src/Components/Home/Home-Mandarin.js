@@ -3,7 +3,7 @@ import "./Home.css";
 import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
-import Hours from "./Hours"; 
+import HoursMandarin from "./Hours-Mandarin"; 
 import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';  
 import '../Button.css'; 
 
@@ -57,7 +57,7 @@ export default function HomeMandarin() {
 
         <br /> 
 
-        <Hours /> 
+        <HoursMandarin /> 
 
         <div id="bottom">
           <img src="./fung-shway.jpeg"id="fung-shway" />  
