@@ -56,14 +56,14 @@
       display: none; 
   }
 
-  #painting {
+  #painting-zzd {
       display: block; 
       margin-left: auto; 
       margin-right: auto; 
       margin-top: 80px; 
-      width: 341px; 
-      height: 450px; 
-  }
+      width: 70vw; 
+      height: auto; 
+  } 
 
   #caption {
     display: block; 
@@ -89,7 +89,12 @@
         margin-left: 15px; 
         margin-right: 15px; 
         text-align: center; 
-    }
+    } 
+
+    #painting-zzd { 
+      width: 75vw; 
+      height: auto; 
+  }
 
     #art-paragraph-bottom-mobile {
         display: flex; 
