@@ -33,11 +33,13 @@ function Contact() {
   return (
     <>
     <Navbar />
-    <div className="contact-us"> 
+    <div>
 
     <form method="get" action="/home/#/contact-us-mandarin"> 
       <button id="the-button" type='btn'>普通話</button> 
       </form> 
+
+    <div className="contact-us"> 
 
       <h1 id="contact-head">Contact Us</h1>
       <hr /> 
@@ -92,6 +94,7 @@ function Contact() {
         <div className="row">{result ? <Result /> : null}</div> 
 
       </form>
+    </div>
     </div>
     </> 
   );
