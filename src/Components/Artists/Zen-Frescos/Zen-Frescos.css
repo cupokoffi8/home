@@ -99,14 +99,14 @@
     line-height: 1.7rem !important; 
   } 
 
-  #painting {
+  #painting-zf {
       display: block; 
       margin-left: auto; 
       margin-right: auto; 
       margin-top: 80px; 
-      width: 341px; 
-      height: 450px; 
-  }
+      width: 50vw; 
+      height: auto; 
+  } 
 
   #caption {
     display: block; 
@@ -179,7 +179,12 @@
       margin-left: 15px; 
       margin-right: 15px; 
       text-align: center; 
-  }
+  } 
+
+  #painting-zf { 
+    width: 75vw; 
+    height: auto; 
+}
 
     #art-paragraph-bottom-mobile {
         display: flex; 

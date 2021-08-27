@@ -37,7 +37,7 @@ function ZenFrescos() {
               </p> 
 
               {/* -------------- */}
-              <img src="./ZF1.jpeg" id="painting"></img>
+              <img src="./ZF1.jpeg" id="painting-zf"></img>
               <h5 id="caption">The Avalokitesvara with Water and Moon</h5> 
               {/* -------------- */} 
 
@@ -133,7 +133,7 @@ function ZenFrescos() {
               </p> 
 
               {/* -------------- */}
-              <img src="./ZF2.jpeg" id="painting"></img>
+              <img src="./ZF2.jpeg" id="painting-zf"></img>
               <h5 id="caption">Portrait of Manjusri</h5> 
               {/* -------------- */} 
 
@@ -209,7 +209,7 @@ function ZenFrescos() {
               </p> 
 
               {/* -------------- */}
-              <img src="./ZF3.jpeg" id="painting"></img>
+              <img src="./ZF3.jpeg" id="painting-zf"></img>
               <h5 id="caption">Portrait of Samantabhadra</h5> 
               {/* -------------- */} 
 
@@ -274,10 +274,10 @@ function ZenFrescos() {
               veil of marvelousness. They miraculously reincarnate the frescoes of the ancient court monastery.
               </p> 
 
-              <img src="./ZF4.jpeg" id="painting"></img>
+              <img src="./ZF4.jpeg" id="painting-zf"></img>
               <h5 id="caption">Indra and Brahma Prostrating Buddha</h5> 
 
-              <img src="./ZF5.jpeg" id="painting"></img> 
+              <img src="./ZF5.jpeg" id="painting-zf"></img> 
               <h5 id="caption">Protecting Dharma</h5> 
 
               <p id="art-paragraph-other">
@@ -788,12 +788,12 @@ function ZenFrescos() {
 
               <h6 className="translator">Translator: Pingping Huang</h6> 
 
-              <img src="./ZF6.jpeg" id="painting"></img>
-              {/* <img src="./ZF.jpeg" id="painting"></img> */}
+              <img src="./ZF6.jpeg" id="painting-zf"></img>
+              {/* <img src="./ZF.jpeg" id="painting-zf"></img> */}
               <h5 id="caption">Display Version</h5> 
 
-              <img src="./ZF7.jpeg" id="painting"></img> 
-              {/* <img src="./ZF.jpeg" id="painting"></img> */} 
+              <img src="./ZF7.jpeg" id="painting-zf"></img> 
+              {/* <img src="./ZF.jpeg" id="painting-zf"></img> */} 
               <h5 id="caption">Family Version</h5> 
 
           </div>
