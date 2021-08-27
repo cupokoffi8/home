@@ -17,7 +17,7 @@ export default function Home() {
       <div id="top">
 
       <form method="get" action="/home/#/mandarin">
-      <button id="the-button" type='btn' href="/home/#/mag-and-myst">普通話</button> 
+      <button id="the-button" type='btn'>普通話</button> 
       </form> 
       
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
