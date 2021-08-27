@@ -58,7 +58,6 @@ import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin';
 // Artists 
 import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
 
-
 function App() {
   return (
     <HashRouter> 
@@ -113,7 +112,7 @@ function App() {
             <Route path="/apelles-zhou-mandarin" component={ApellesZhou} /> 
             <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
             <Route path="/artists-mandarin" component={Artists} />
-            <Route path="/cai-jiang-mandarin" component={CaiJiang} /> 
+            <Route path="/cai-jiang-mandarin" component={} />  
             <Route path="/chiu-pai-mandarin" component={ChiuPai} /> 
             <Route path="/qui-huade-mandarin" component={QuiHuade} /> 
             <Route path="/su-zi-mandarin" component={SuZi} /> 
