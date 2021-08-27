@@ -106,30 +106,30 @@ function App() {
 
             {/* Artists-M */}
 
-            <Route path="/apelles-zhou-mandarin" component={ApellesZhouMandarin} /> 
-            <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} /> 
-            <Route path="/artists-mandarin" component={ArtistsMandarin} />
-            <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} /> 
-            <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} /> 
-            <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} /> 
-            <Route path="/su-zi-mandarin" component={SuZiMandarin} /> 
-            <Route path="/xiao-li-mandarin" component={XiaoLiMandarin} /> 
-            <Route path="/zen-frescos-mandarin" component={ZenFrescosMandarin} /> 
-            <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} /> 
-            <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuanMandarin} /> 
+            <Route path="/apelles-zhou-mandarin" component={ApellesZhou} /> 
+            <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjee} /> 
+            <Route path="/artists-mandarin" component={Artists} />
+            <Route path="/cai-jiang-mandarin" component={CaiJiang} /> 
+            <Route path="/chiu-pai-mandarin" component={ChiuPai} /> 
+            <Route path="/qui-huade-mandarin" component={QuiHuade} /> 
+            <Route path="/su-zi-mandarin" component={SuZi} /> 
+            <Route path="/xiao-li-mandarin" component={XiaoLi} /> 
+            <Route path="/zen-frescos-mandarin" component={ZenFrescos} /> 
+            <Route path="/zhao-qing-mandarin" component={ZhaoQing} /> 
+            <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuan} /> 
 
             {/* Exhibitions-M */} 
 
-            <Route path="/exhibitions-mandarin" component={ExhibitionsMandarin} /> 
-            <Route path="/art-basel-mandarin" component={ArtBaselMandarin} /> 
-            <Route path="/art-therapy-mandarin" component={ArtTherapyMandarin} /> 
-            <Route path="/headless-mandarin" component={HeadlessMandarin} /> 
-            <Route path="/mag-and-myst-mandarin" component={MagAndMystMandarin} /> 
-            <Route path="/magnificent-mandarin" component={MagnificentMandarin} /> 
-            <Route path="/san-diego-mandarin" component={SanDiegoMandarin} /> 
-            <Route path="/victory-of-light-mandarin" component={VictoryOfLightMandarin} /> 
-            <Route path="/works-at-hefei-mandarin" component={WorksMandarin} /> 
-            <Route path="/oil-painting-exhibition-mandarin" component={PleaseWorkMandarin} /> 
+            <Route path="/exhibitions-mandarin" component={Exhibitions} /> 
+            <Route path="/art-basel-mandarin" component={ArtBasel} /> 
+            <Route path="/art-therapy-mandarin" component={ArtTherapy} /> 
+            <Route path="/headless-mandarin" component={Headless} /> 
+            <Route path="/mag-and-myst-mandarin" component={MagAndMyst} /> 
+            <Route path="/magnificent-mandarin" component={Magnificent} /> 
+            <Route path="/san-diego-mandarin" component={SanDiego} /> 
+            <Route path="/victory-of-light-mandarin" component={VictoryOfLight} /> 
+            <Route path="/works-at-hefei-mandarin" component={Works} /> 
+            <Route path="/oil-painting-exhibition-mandarin" component={PleaseWork} /> 
 
             {/* The Gallery-M */} 
 
