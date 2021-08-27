@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Cai-Jiang.css'; 
-import Navbar from '../../Navbar/Navbar'; 
+import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
 function CaiJiangMandarin() {
@@ -9,7 +9,7 @@ function CaiJiangMandarin() {
 
     return (
       <>
-        <Navbar />
+        <NavbarMandarin />
           <div className="artist-section"> 
 
           <form method="get" action="/home/#/cai-jiang"> 
