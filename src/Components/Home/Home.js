@@ -15,9 +15,11 @@ export default function Home() {
       <>
       <Navbar /> 
       <div id="top">
+
       <form method="get" action="/home/#/mag-and-myst">
       <button id="the-button" type='btn' href="/home/#/mag-and-myst">普通話</button> 
       </form> 
+      
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
         <h1 className='welcome' id="uh">Welcome To</h1>
