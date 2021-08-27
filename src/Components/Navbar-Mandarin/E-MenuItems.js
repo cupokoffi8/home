@@ -1,11 +1,11 @@
 export const EMenuItems = [
     {
-      title: '"華麗與神秘"藝術展',
+      title: '"華麗與神秘" 藝術展',
       path: '/mag-and-myst-mandarin',
       cName: 'e-dropdown-link'
     },
     {
-      title: 'The Victory of Light Exhibition',
+      title: '光的光輝', 
       path: '/victory-of-light-mandarin',
       cName: 'e-dropdown-link'
     },
