@@ -47,6 +47,11 @@ import News from './Components/News-And-Events/News-And-Events';
   // Contact Us 
 import Contact from './Components/Contact-Us/Contact-Us'; 
 
+// ----------------------------- Chinese ----------------------------- 
+
+// Import Components-M 
+import HomeMandarin from './Components/Home/Home-Mandarin';
+
 function App() {
   return (
     <HashRouter> 
@@ -91,6 +96,54 @@ function App() {
 
             {/* Contact Us */}
             <Route path="/contact-us" component={Contact} /> 
+
+            {/* -------------------------------- Chinese -------------------------------- */} 
+
+            <Route exact path="/mandarin" component={HomeMandarin} />
+
+            {/* Artists-M */}
+
+            {/* <Route path="/apelles-zhou" component={ApellesZhou} /> 
+            <Route path="/aparna-banerjee" component={AparnaBanerjee} /> 
+            <Route path="/artists" component={Artists} />
+            <Route path="/cai-jiang" component={CaiJiang} /> 
+            <Route path="/chiu-pai" component={ChiuPai} /> 
+            <Route path="/qui-huade" component={QuiHuade} /> 
+            <Route path="/su-zi" component={SuZi} /> 
+            <Route path="/xiao-li" component={XiaoLi} /> 
+            <Route path="/zen-frescos" component={ZenFrescos} /> 
+            <Route path="/zhao-qing" component={ZhaoQing} /> 
+            <Route path="/zhen-zhong-duan" component={ZhenZhongDuan} />  */}
+
+            {/* Exhibitions-M */} 
+
+            {/* <Route path="/exhibitions" component={Exhibitions} /> 
+            <Route path="/art-basel" component={ArtBasel} /> 
+            <Route path="/art-therapy" component={ArtTherapy} /> 
+            <Route path="/headless" component={Headless} /> 
+            <Route path="/mag-and-myst" component={MagAndMyst} /> 
+            <Route path="/magnificent" component={Magnificent} /> 
+            <Route path="/san-diego" component={SanDiego} /> 
+            <Route path="/victory-of-light" component={VictoryOfLight} /> 
+            <Route path="/works-at-hefei" component={Works} /> 
+            <Route path="/oil-painting-exhibition" component={PleaseWork} />  */}
+
+            {/* The Gallery-M */} 
+
+            {/* <Route path="/our-founder" component={OurFounder} />
+            <Route path="/the-gallery" component={TheGallery} />  */}
+
+            {/* Art Service-M */}
+
+            {/* <Route path="/art-service" component={ArtService} />  */}
+
+            {/* News And Events-M */} 
+
+            {/* <Route path="/news-and-events" component={News} />  */}
+
+            {/* Contact Us-M */}
+
+            {/* <Route path="/contact-us" component={Contact} />  */} 
 
         </Switch>
       <Copyright />

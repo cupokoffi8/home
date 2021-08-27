@@ -4,25 +4,25 @@ import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
 import Hours from "./Hours"; 
-import Navbar from '../Navbar/Navbar'; 
+import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';  
 import '../Button.css'; 
 
-export default function Home() { 
+export default function HomeMandarin() { 
   
   window.scrollTo(0, 0)
 
     return (
       <>
-      <Navbar /> 
+      <NavbarMandarin /> 
       <div id="top">
 
-      <form method="get" action="/home/#/mandarin">
-      <button id="the-button" type='btn' href="/home/#/mag-and-myst">普通話</button> 
+      <form method="get" action="/home/#/">
+      <button id="the-button" type='btn' href="/home/#/mag-and-myst">English</button> 
       </form> 
       
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
-        <h1 className='welcome' id="uh">Welcome To</h1>
+        <h1 className='welcome' id="uh">Welcome To Uh Chinese</h1>
         <h1 className='american'>American Dragon International Fine Art Gallery</h1>
 
         <div id="info">
