@@ -15,7 +15,7 @@ export default function Home() {
       <>
       <Navbar /> 
       <div id="top">
-      <button id="the-button" href="/home/#/mag-and-myst">普通話</button> 
+      <a href="/home/#/mag-and-myst"><button id="the-button">普通話</button></a> 
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
         <h1 className='welcome' id="uh">Welcome To</h1>
