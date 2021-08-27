@@ -73,7 +73,7 @@ function XiaoLi() {
               <img src="./XL3.jpeg" id="painting-xl"></img> 
               <h5 id="caption">The Conversion of Night - A Small Draft</h5> 
 
-              <img src="./XL4.jpeg" id="painting-xl"></img> 
+              <img src="./XL.jpeg" id="painting-xl"></img> 
               <h5 id="caption">Long Ago</h5> 
 
               <img src="./XL5.jpeg" id="painting-xl"></img> 
