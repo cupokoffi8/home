@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Aparna-Banerjee.css'; 
-import Navbar from '../../Navbar/Navbar'; 
+import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
 function AparnaBanerjeeMandarin() {
@@ -9,10 +9,10 @@ function AparnaBanerjeeMandarin() {
 
     return (
       <>
-        <Navbar /> 
+        <NavbarMandarin /> 
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/aparna-banerjee-mandarin"> 
+          <form method="get" action="/home/#/aparna-banerjee"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 
