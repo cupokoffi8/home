@@ -58,6 +58,7 @@ import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin';
 // Artists 
 import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
 import CaiJiangMandarin from './Components/Artists/Cai-Jiang/Cai-Jiang-Mandarin';
+import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin';
 
 function App() {
   return (
@@ -114,7 +115,7 @@ function App() {
             <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
             <Route path="/artists-mandarin" component={Artists} />
             <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} />   
-            <Route path="/chiu-pai-mandarin" component={ChiuPai} /> 
+            <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
             <Route path="/qui-huade-mandarin" component={QuiHuade} /> 
             <Route path="/su-zi-mandarin" component={SuZi} /> 
             <Route path="/xiao-li-mandarin" component={XiaoLi} /> 
