@@ -1,6 +1,7 @@
 #the-button {
     display: inline-block; 
     margin-left: 100px; 
+    margin-top: 40px; 
     width: 90px; 
     height: 40px; 
     padding: 0.3em 1em;
