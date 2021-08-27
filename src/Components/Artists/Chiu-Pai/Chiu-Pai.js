@@ -55,7 +55,7 @@ function ChiuPai() {
               <h5 id="caption">Vernal Gardens</h5> 
 
               <img src="./CP2.jpeg" id="painting"></img> 
-              <h5 id="caption">Field Of Gold</h5> 
+              <h5 id="caption">Field of Gold</h5> 
 
               <img src="./CP3.png" id="painting"></img> 
               <h5 id="caption">Shadow of Autumn</h5> 

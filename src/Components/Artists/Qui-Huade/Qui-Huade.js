@@ -95,4 +95,4 @@ function QuiHuade() {
     );
   }
   
-  export default QuiHuade;
+  export default QuiHuade; 

@@ -55,10 +55,14 @@ import HomeMandarin from './Components/Home/Home-Mandarin';
 // Art Service-M 
 import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin'; 
 
-// Artists 
+// Artists-M 
 import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
 import CaiJiangMandarin from './Components/Artists/Cai-Jiang/Cai-Jiang-Mandarin';
-import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin';
+import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin'; 
+import QuiHuadeMandarin from './Components/Artists/Qui-Huade/Qui-Huade-Mandarin'; 
+
+// News and Events 
+import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin';
 
 function App() {
   return (
@@ -116,7 +120,7 @@ function App() {
             <Route path="/artists-mandarin" component={Artists} />
             <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} />   
             <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
-            <Route path="/qui-huade-mandarin" component={QuiHuade} /> 
+            <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} />  
             <Route path="/su-zi-mandarin" component={SuZi} /> 
             <Route path="/xiao-li-mandarin" component={XiaoLi} /> 
             <Route path="/zen-frescos-mandarin" component={ZenFrescos} /> 
@@ -147,7 +151,7 @@ function App() {
 
             {/* News And Events-M */} 
 
-            <Route path="/news-and-events-mandarin" component={News} /> 
+            <Route path="/news-and-events-mandarin" component={NewsMandarin} />  
 
             {/* Contact Us-M */}
 
