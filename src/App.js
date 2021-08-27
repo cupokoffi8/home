@@ -10,7 +10,7 @@ import Home from './Components/Home/Home';
 
   // Artists
 import Artists from './Components/Artists/Artists/Artists'; 
-import AparnaBanerjee from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee';
+import AparnaBanerjee from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee'; 
 import ApellesZhou from './Components/Artists/Apelles-Zhou/Apelles-Zhou'; 
 import CaiJiang from './Components/Artists/Cai-Jiang/Cai-Jiang';
 import ChiuPai from './Components/Artists/Chiu-Pai/Chiu-Pai';
@@ -53,7 +53,11 @@ import Contact from './Components/Contact-Us/Contact-Us';
 import HomeMandarin from './Components/Home/Home-Mandarin'; 
 
 // Art Service-M 
-import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin';
+import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin'; 
+
+// Artists 
+import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
+
 
 function App() {
   return (
@@ -107,7 +111,7 @@ function App() {
             {/* Artists-M */}
 
             <Route path="/apelles-zhou-mandarin" component={ApellesZhou} /> 
-            <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjee} /> 
+            <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
             <Route path="/artists-mandarin" component={Artists} />
             <Route path="/cai-jiang-mandarin" component={CaiJiang} /> 
             <Route path="/chiu-pai-mandarin" component={ChiuPai} /> 
