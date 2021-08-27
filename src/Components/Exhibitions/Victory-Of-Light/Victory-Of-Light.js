@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Victory-Of-Light.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function VictoryOfLight() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar /> 
-          <div className="Victory-Of-Light">
+          <div className="Victory-Of-Light"> 
+
+          <form method="get" action="/home/#/victory-of-light-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Victory of Light Exhibition</h1> 
             <hr /> 
 

@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Art-Therapy.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ArtTherapy() {
   window.scrollTo(0, 0);
@@ -8,6 +9,11 @@ function ArtTherapy() {
       <>
         <Navbar /> 
           <div className="Art-Therapy">
+
+          <form method="get" action="/home/#/art-therapy-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Art Therapy</h1> 
             <hr /> 
 

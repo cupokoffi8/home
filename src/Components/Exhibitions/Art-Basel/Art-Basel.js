@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Art-Basel.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ArtBasel() { 
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar />
-          <div className="Art-Basel">
+          <div className="Art-Basel"> 
+
+          <form method="get" action="/home/#/art-basel-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Art Basel Exhibition, Miami, Florida</h1> 
             <hr /> 
 

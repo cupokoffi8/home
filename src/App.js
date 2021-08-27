@@ -106,35 +106,35 @@ function App() {
 
             {/* Artists-M */}
 
-            {/* <Route path="/apelles-zhou" component={ApellesZhou} /> 
-            <Route path="/aparna-banerjee" component={AparnaBanerjee} /> 
-            <Route path="/artists" component={Artists} />
-            <Route path="/cai-jiang" component={CaiJiang} /> 
-            <Route path="/chiu-pai" component={ChiuPai} /> 
-            <Route path="/qui-huade" component={QuiHuade} /> 
-            <Route path="/su-zi" component={SuZi} /> 
-            <Route path="/xiao-li" component={XiaoLi} /> 
-            <Route path="/zen-frescos" component={ZenFrescos} /> 
-            <Route path="/zhao-qing" component={ZhaoQing} /> 
-            <Route path="/zhen-zhong-duan" component={ZhenZhongDuan} />  */}
+            <Route path="/apelles-zhou-mandarin" component={ApellesZhouMandarin} /> 
+            <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} /> 
+            <Route path="/artists-mandarin" component={ArtistsMandarin} />
+            <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} /> 
+            <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} /> 
+            <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} /> 
+            <Route path="/su-zi-mandarin" component={SuZiMandarin} /> 
+            <Route path="/xiao-li-mandarin" component={XiaoLiMandarin} /> 
+            <Route path="/zen-frescos-mandarin" component={ZenFrescosMandarin} /> 
+            <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} /> 
+            <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuanMandarin} /> 
 
             {/* Exhibitions-M */} 
 
-            {/* <Route path="/exhibitions" component={Exhibitions} /> 
-            <Route path="/art-basel" component={ArtBasel} /> 
-            <Route path="/art-therapy" component={ArtTherapy} /> 
-            <Route path="/headless" component={Headless} /> 
-            <Route path="/mag-and-myst" component={MagAndMyst} /> 
-            <Route path="/magnificent" component={Magnificent} /> 
-            <Route path="/san-diego" component={SanDiego} /> 
-            <Route path="/victory-of-light" component={VictoryOfLight} /> 
-            <Route path="/works-at-hefei" component={Works} /> 
-            <Route path="/oil-painting-exhibition" component={PleaseWork} />  */}
+            <Route path="/exhibitions-mandarin" component={ExhibitionsMandarin} /> 
+            <Route path="/art-basel-mandarin" component={ArtBaselMandarin} /> 
+            <Route path="/art-therapy-mandarin" component={ArtTherapyMandarin} /> 
+            <Route path="/headless-mandarin" component={HeadlessMandarin} /> 
+            <Route path="/mag-and-myst-mandarin" component={MagAndMystMandarin} /> 
+            <Route path="/magnificent-mandarin" component={MagnificentMandarin} /> 
+            <Route path="/san-diego-mandarin" component={SanDiegoMandarin} /> 
+            <Route path="/victory-of-light-mandarin" component={VictoryOfLightMandarin} /> 
+            <Route path="/works-at-hefei-mandarin" component={WorksMandarin} /> 
+            <Route path="/oil-painting-exhibition-mandarin" component={PleaseWorkMandarin} /> 
 
             {/* The Gallery-M */} 
 
-            {/* <Route path="/our-founder" component={OurFounder} />
-            <Route path="/the-gallery" component={TheGallery} />  */}
+            <Route path="/our-founder-mandarin" component={OurFounderMandarin} />
+            <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
 
             {/* Art Service-M */}
 
@@ -142,11 +142,11 @@ function App() {
 
             {/* News And Events-M */} 
 
-            {/* <Route path="/news-and-events" component={News} />  */}
+            <Route path="/news-and-events-mandarin" component={NewsMandarin} /> 
 
             {/* Contact Us-M */}
 
-            {/* <Route path="/contact-us" component={Contact} />  */} 
+            <Route path="/contact-us-mandarin" component={ContactMandarin} /> 
 
         </Switch>
       <Copyright />

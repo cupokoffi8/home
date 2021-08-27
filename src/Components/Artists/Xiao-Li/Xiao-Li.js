@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Xiao-Li.css'; 
 import Navbar from'../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function XiaoLi() {
 
@@ -10,6 +11,10 @@ function XiaoLi() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/xiao-li-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Oil-Painting-Exhibition.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function PleaseWork() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar />
-          <div className="Oil-Painting-Exhibition">
+          <div className="Oil-Painting-Exhibition"> 
+
+          <form method="get" action="/home/#/oil-painting-exhibition-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Oil Painting Exhibition in Jeju Island, South Korea</h1> 
             <hr /> 
 

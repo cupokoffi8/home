@@ -1,12 +1,18 @@
 import React from 'react'; 
 import '../../Exhibitions/Art-Therapy/Art-Therapy.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function OurFounder() {
     return (
       <>
         <Navbar /> 
-          <div className="Our-Founder">
+          <div className="Our-Founder"> 
+
+          <form method="get" action="/home/#/our-founder-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">American Dragon Fine Art and AACMG</h1> 
             <hr /> 
 

@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Exhibitions.css'; 
 import Navbar from '../Navbar/Navbar'; 
+import '../Button.css'; 
 
 function Exhibitions() { 
 
@@ -9,7 +10,12 @@ function Exhibitions() {
     return (
       <>
         <Navbar /> 
-          <div className="Aritists">
+          <div className="Aritists"> 
+
+          <form method="get" action="/home/#/exhibitions-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Exhibitions</h1> 
             <hr /> 
 

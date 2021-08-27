@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './San-Diego.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function SanDiego() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar /> 
-          <div className="SanDiego">
+          <div className="SanDiego"> 
+
+          <form method="get" action="/home/#/san-diego-mandarin">
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">San Diego Contemporary Art Exhibition - 2019</h1> 
             <hr /> 
 

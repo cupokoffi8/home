@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import emailjs from 'emailjs-com'; 
 import './Contact-Us.css'; 
 import Navbar from '../Navbar/Navbar'; 
+import '../Button.css'; 
 
 const Result = () => {
   return (
@@ -32,7 +33,12 @@ function Contact() {
   return (
     <>
     <Navbar />
-    <div className="contact-us">
+    <div className="contact-us"> 
+
+    <form method="get" action="/home/#/contact-us-mandarin"> 
+      <button id="the-button" type='btn'>普通話</button> 
+      </form> 
+
       <h1 id="contact-head">Contact Us</h1>
       <hr /> 
       <br /> 

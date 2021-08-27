@@ -1,12 +1,18 @@
 import React from 'react'; 
 import './News-And-Events.css'; 
 import Navbar from '../Navbar/Navbar'; 
+import '../Button.css'; 
 
 function News() {
     return (
       <>
         <Navbar /> 
-          <div className="News">
+          <div className="News"> 
+
+          <form method="get" action="/home/#/news-and-events-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">News And Events</h1> 
             <hr /> 
 

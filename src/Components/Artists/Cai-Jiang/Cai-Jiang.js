@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Cai-Jiang.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function CaiJiang() {
 
@@ -10,6 +11,10 @@ function CaiJiang() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/cai-jiang-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

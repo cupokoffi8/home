@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Headless.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function Headless() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar />
-          <div className="Headless">
+          <div className="Headless"> 
+
+          <form method="get" action="/home/#/headless-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Headless and Unintentional</h1> 
             <hr /> 
 

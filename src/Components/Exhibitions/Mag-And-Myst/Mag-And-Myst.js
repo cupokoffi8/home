@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Mag-And-Myst.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function MagAndMyst() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar /> 
-          <div className="Mag-And-Myst">
+          <div className="Mag-And-Myst"> 
+
+          <form method="get" action="/home/#/mag-and-myst-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Magnificent and Mysterious Art Exhibition</h1> 
             <hr /> 
 

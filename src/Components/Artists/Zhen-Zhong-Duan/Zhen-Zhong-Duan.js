@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Zhen-Zhong-Duan.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ZhenZhongDuan() { 
 
@@ -10,6 +11,10 @@ function ZhenZhongDuan() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/zhen-zhong-duan-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

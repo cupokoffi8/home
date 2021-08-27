@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Apelles-Zhou.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ApellesZhou() {
 
@@ -10,6 +11,10 @@ function ApellesZhou() {
       <>
         <Navbar /> 
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/apelles-zhou-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

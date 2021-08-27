@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Works-At-Hefei.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function Works() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar /> 
-          <div className="Works-At-Hefei">
+          <div className="Works-At-Hefei"> 
+
+          <form method="get" action="/home/#/works-at-hefei-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Beijing Art Academy Works At Hefei Exhibition</h1> 
             <hr /> 
 

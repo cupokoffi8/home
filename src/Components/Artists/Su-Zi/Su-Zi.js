@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Su-Zi.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function SuZi() {
 
@@ -10,6 +11,10 @@ function SuZi() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/su-zi-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

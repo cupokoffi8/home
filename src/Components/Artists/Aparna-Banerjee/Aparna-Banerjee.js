@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Aparna-Banerjee.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function AparnaBanerjee() {
 
@@ -10,6 +11,10 @@ function AparnaBanerjee() {
       <>
         <Navbar /> 
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/aparna-banerjee-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

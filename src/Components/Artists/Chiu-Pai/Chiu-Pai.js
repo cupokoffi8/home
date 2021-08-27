@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Chiu-Pai.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ChiuPai() {
 
@@ -10,6 +11,10 @@ function ChiuPai() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/chiu-pai-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

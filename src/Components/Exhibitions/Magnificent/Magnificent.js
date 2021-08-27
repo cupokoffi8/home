@@ -1,13 +1,19 @@
 import React from 'react'; 
 import './Magnificent.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function Magnificent() {
   window.scrollTo(0, 0);
     return (
       <>
         <Navbar /> 
-          <div className="Magnificent">
+          <div className="Magnificent"> 
+
+          <form method="get" action="/home/#/magnificent-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="exhibition">Chinese Murals at the Tokyo Exhibition in Japan
               Reproduction of the Magnificent Murals of 600 Years Ago</h1> 
               <hr /> 

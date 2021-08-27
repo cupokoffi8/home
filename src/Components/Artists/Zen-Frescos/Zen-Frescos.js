@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Zen-Frescos.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ZenFrescos() {
 
@@ -10,6 +11,10 @@ function ZenFrescos() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/zen-frescos-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 

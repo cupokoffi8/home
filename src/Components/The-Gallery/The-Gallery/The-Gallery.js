@@ -1,12 +1,18 @@
 import React from 'react'; 
 import './The-Gallery.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function TheGallery() {
     return (
       <>
         <Navbar /> 
-          <div className="The-Gallery">
+          <div className="The-Gallery"> 
+
+          <form method="get" action="/home/#/the-gallery-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
+
             <h1 className="the-gallery">The Gallery</h1> 
             <hr /> 
 

@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Zhao-Qing.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import '../../Button.css'; 
 
 function ZhaoQing() { 
 
@@ -10,6 +11,10 @@ function ZhaoQing() {
       <>
         <Navbar />
           <div className="artist-section"> 
+
+          <form method="get" action="/home/#/zhao-qing-mandarin"> 
+            <button id="the-button" type='btn'>普通話</button> 
+          </form> 
 
             {/* Artist Name */} 
 
