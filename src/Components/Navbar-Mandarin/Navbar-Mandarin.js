@@ -96,7 +96,7 @@ function NavbarMandarin() {
     <>
       <nav className='navbar'>
       <Link to='/mandarin' className='mobile-logo'>
-        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}} href="/mandarin"></img>
+        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}}></img>
           </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
