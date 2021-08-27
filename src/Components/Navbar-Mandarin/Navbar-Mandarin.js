@@ -95,7 +95,9 @@ function NavbarMandarin() {
   return (
     <>
       <nav className='navbar'>
-      <Link to='/mandarin' className='mobile-logo'>
+      <Link 
+        to='/mandarin' 
+        className='mobile-logo'>
         <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}}></img>
           </Link>
         <div className='menu-icon' onClick={handleClick}>

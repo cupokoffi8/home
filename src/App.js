@@ -102,7 +102,7 @@ function App() {
 
             {/* -------------------------------- Chinese -------------------------------- */} 
 
-            <Route exact path="/mandarin" component={HomeMandarin} />
+            <Route path="/mandarin" component={HomeMandarin} /> 
 
             {/* Artists-M */}
 
