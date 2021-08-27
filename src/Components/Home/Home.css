@@ -10,7 +10,7 @@
 
   #uh {
       color: red !important; 
-      margin-top: 100px; 
+      margin-top: 20px; 
   }
 
   .american {
@@ -26,7 +26,7 @@
     color: #1e3272 !important; 
     display: block; 
     justify-content: center;
-    margin-top: 100px; 
+    margin-top: 20px; 
     margin-left: auto; 
     margin-right: auto; 
     text-transform: uppercase; 
