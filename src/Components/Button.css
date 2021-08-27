@@ -1,0 +1,15 @@
+#the-button {
+    display: inline-block;
+    margin-right: 60px; 
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #000000;
+    border: solid 2px #000000;
+    border-radius: 3px;
+    transition: .4s;
+} 
+
+#the-button:hover { 
+    background: #000000; 
+    color: white;
+}

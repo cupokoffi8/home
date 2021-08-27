@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
 import Hours from "./Hours"; 
 import Navbar from '../Navbar/Navbar'; 
+import '../Button.css'; 
 
 export default function Home() { 
   
@@ -13,6 +14,7 @@ export default function Home() {
     return (
       <>
       <Navbar /> 
+      <button id="the-button" href="" /> 
       <div id="top">
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
