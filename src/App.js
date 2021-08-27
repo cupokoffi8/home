@@ -133,8 +133,8 @@ function App() {
 
             {/* The Gallery-M */} 
 
-            <Route path="/our-founder-mandarin" component={OurFounderMandarin} />
-            <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
+            <Route path="/our-founder-mandarin" component={OurFounder} />
+            <Route path="/the-gallery-mandarin" component={TheGallery} /> 
 
             {/* Art Service-M */}
 
@@ -142,11 +142,11 @@ function App() {
 
             {/* News And Events-M */} 
 
-            <Route path="/news-and-events-mandarin" component={NewsMandarin} /> 
+            <Route path="/news-and-events-mandarin" component={News} /> 
 
             {/* Contact Us-M */}
 
-            <Route path="/contact-us-mandarin" component={ContactMandarin} /> 
+            <Route path="/contact-us-mandarin" component={Contact} /> 
 
         </Switch>
       <Copyright />
