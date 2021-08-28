@@ -53,9 +53,7 @@ export default function HomeMandarin() {
           </div>
 
           </div>
-        </div>
-
-        <br /> 
+        </div> 
 
         <HoursMandarin /> 
 
