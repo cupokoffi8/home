@@ -18,7 +18,7 @@ function AparnaBanerjeeMandarin() {
 
             {/* Artist Name */} 
 
-            <h1 className="artist">Aparna Banerjee</h1>
+            <h1 className="artist">阿帕娜·班纳吉</h1> 
             <hr /> 
 
             {/* Artist Summary */}
