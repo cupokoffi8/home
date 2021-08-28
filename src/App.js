@@ -70,6 +70,7 @@ import MagAndMystMandarin from './Components/Exhibitions/Mag-And-Myst/Mag-And-My
 import VictoryOfLightMandarin from './Components/Exhibitions/Victory-Of-Light/Victory-Of-Light-Mandarin'; 
 import ArtBaselMandarin from './Components/Exhibitions/Art-Basel/Art-Basel-Mandarin'; 
 import SanDiegoMandarin from './Components/Exhibitions/San-Diego/San-Diego-Mandarin'; 
+import HeadlessMandarin from './Components/Exhibitions/Headless/Headless-Mandarin'; 
 
 // News and Events 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
@@ -141,7 +142,7 @@ function App() {
             <Route path="/exhibitions-mandarin" component={Exhibitions} /> 
             <Route path="/art-basel-mandarin" component={ArtBaselMandarin} /> 
             <Route path="/art-therapy-mandarin" component={ArtTherapy} /> 
-            <Route path="/headless-mandarin" component={Headless} /> 
+            <Route path="/headless-mandarin" component={HeadlessMandarin} />  
             <Route path="/mag-and-myst-mandarin" component={MagAndMystMandarin} />  
             <Route path="/magnificent-mandarin" component={Magnificent} /> 
             <Route path="/san-diego-mandarin" component={SanDiegoMandarin} />  
