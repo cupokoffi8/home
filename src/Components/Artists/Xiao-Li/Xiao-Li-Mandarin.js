@@ -12,7 +12,7 @@ function XiaoLiMandarin( ) {
         <NavbarMandarin /> 
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/xiao-li">  
+          <form method="get" action="/xiao-li"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

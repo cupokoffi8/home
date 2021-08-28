@@ -35,7 +35,7 @@ function Contact() {
     <Navbar />
     <div>
 
-    <form method="get" action="/home/#/contact-us-mandarin"> 
+    <form method="get" action="/contact-us-mandarin"> 
       <button id="the-button" type='btn'>普通話</button> 
       </form> 
 

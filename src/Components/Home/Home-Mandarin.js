@@ -16,8 +16,8 @@ export default function HomeMandarin() {
       <NavbarMandarin /> 
       <div id="top">
 
-      <form method="get" action="/home/#/">
-      <button id="the-button" type='btn' href="/home/#/mag-and-myst">English</button> 
+      <form method="get" action="/">
+      <button id="the-button" type='btn'>English</button> 
       </form> 
       
         <h1 className="magAndMyst">"宏伟而神秘"</h1>

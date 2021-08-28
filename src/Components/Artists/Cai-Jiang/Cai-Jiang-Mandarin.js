@@ -12,7 +12,7 @@ function CaiJiangMandarin() {
         <NavbarMandarin />
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/cai-jiang"> 
+          <form method="get" action="/cai-jiang"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

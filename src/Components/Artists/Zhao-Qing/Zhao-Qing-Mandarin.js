@@ -12,7 +12,7 @@ function ZhaoQingMandarin() {
         <NavbarMandarin />
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/zhao-qing"> 
+          <form method="get" action="/zhao-qing"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

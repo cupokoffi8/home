@@ -10,7 +10,7 @@ function Magnificent() {
         <Navbar /> 
           <div className="Magnificent"> 
 
-          <form method="get" action="/home/#/magnificent-mandarin"> 
+          <form method="get" action="/magnificent-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

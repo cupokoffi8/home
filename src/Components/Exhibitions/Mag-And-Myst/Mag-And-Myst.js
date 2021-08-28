@@ -10,7 +10,7 @@ function MagAndMyst() {
         <Navbar /> 
           <div className="Mag-And-Myst"> 
 
-          <form method="get" action="/home/#/mag-and-myst-mandarin"> 
+          <form method="get" action="/mag-and-myst-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

@@ -10,7 +10,7 @@ function VictoryOfLightMandarin() {
         <NavbarMandarin />  
           <div className="Victory-Of-Light"> 
 
-          <form method="get" action="/home/#/victory-of-light"> 
+          <form method="get" action="/victory-of-light"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

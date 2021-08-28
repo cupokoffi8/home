@@ -9,7 +9,7 @@ function News() {
         <Navbar /> 
           <div className="News"> 
 
-          <form method="get" action="/home/#/news-and-events-mandarin"> 
+          <form method="get" action="/news-and-events-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

@@ -10,7 +10,7 @@ function Headless() {
         <Navbar />
           <div className="Headless"> 
 
-          <form method="get" action="/home/#/headless-mandarin"> 
+          <form method="get" action="/headless-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

@@ -38,7 +38,7 @@ function ContactMandarin() {
     <NavbarMandarin /> 
     <div>
 
-    <form method="get" action="/home/#/contact-us"> 
+    <form method="get" action="/contact-us"> 
       <button id="the-button" type='btn'>English</button> 
       </form> 
 

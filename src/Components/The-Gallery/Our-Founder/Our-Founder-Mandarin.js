@@ -9,7 +9,7 @@ function OurFounderMandarin() {
         <NavbarMandarin /> 
           <div className="Our-Founder"> 
 
-          <form method="get" action="/home/#/our-founder"> 
+          <form method="get" action="/our-founder"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

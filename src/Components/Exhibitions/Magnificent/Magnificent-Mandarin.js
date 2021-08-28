@@ -10,7 +10,7 @@ function MagnificentMandarin() {
         <NavbarMandarin /> 
           <div className="Magnificent"> 
 
-          <form method="get" action="/home/#/magnificent"> 
+          <form method="get" action="/magnificent"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

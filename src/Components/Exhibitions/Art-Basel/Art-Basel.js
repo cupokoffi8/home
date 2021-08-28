@@ -10,7 +10,7 @@ function ArtBasel() {
         <Navbar />
           <div className="Art-Basel"> 
 
-          <form method="get" action="/home/#/art-basel-mandarin"> 
+          <form method="get" action="/art-basel-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

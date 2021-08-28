@@ -7,7 +7,7 @@ function ArtServiceMandarin() {
       <>
         <NavbarMandarin /> 
           <div className="Art-Service">
-          <form method="get" action="/home/#/art-service">
+          <form method="get" action="/art-service">
             <button id="the-button" type='btn'>English</button> 
           </form> 
             <h1 className="artist">藝術服務</h1> 

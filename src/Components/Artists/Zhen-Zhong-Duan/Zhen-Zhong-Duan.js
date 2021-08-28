@@ -12,7 +12,7 @@ function ZhenZhongDuan() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/zhen-zhong-duan-mandarin"> 
+          <form method="get" action="/zhen-zhong-duan-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

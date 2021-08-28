@@ -10,7 +10,7 @@ function VictoryOfLight() {
         <Navbar /> 
           <div className="Victory-Of-Light"> 
 
-          <form method="get" action="/home/#/victory-of-light-mandarin"> 
+          <form method="get" action="/victory-of-light-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

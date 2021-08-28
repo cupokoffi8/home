@@ -12,7 +12,7 @@ function AparnaBanerjeeMandarin() {
         <NavbarMandarin /> 
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/aparna-banerjee"> 
+          <form method="get" action="/aparna-banerjee"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

@@ -12,7 +12,7 @@ function ApellesZhou() {
         <Navbar /> 
           <div className="artist-section"> 
 
-          <form method="get" action="/home/#/apelles-zhou-mandarin"> 
+          <form method="get" action="/apelles-zhou-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

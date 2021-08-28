@@ -10,7 +10,7 @@ function SanDiego() {
         <Navbar /> 
           <div className="SanDiego"> 
 
-          <form method="get" action="/home/#/san-diego-mandarin">
+          <form method="get" action="/san-diego-mandarin">
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 
