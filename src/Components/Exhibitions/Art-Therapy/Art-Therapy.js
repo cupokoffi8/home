@@ -27,7 +27,7 @@ function ArtTherapy() {
               Artist: Cai Jiang 
             </h5> 
             <h5 id="caption">
-              Curator: Liu Wei ( Lena Liu ) 
+              Curator: Liu Wei (Lena Liu) 
             </h5> 
             <h5 id="caption">
               Academic Support: Juan Punt in Collaboration with WhiteBox Gallery, NY 
@@ -109,4 +109,4 @@ function ArtTherapy() {
     );
   }
   
-  export default ArtTherapy;
+  export default ArtTherapy; 

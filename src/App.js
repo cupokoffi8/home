@@ -72,6 +72,8 @@ import ArtBaselMandarin from './Components/Exhibitions/Art-Basel/Art-Basel-Manda
 import SanDiegoMandarin from './Components/Exhibitions/San-Diego/San-Diego-Mandarin'; 
 import HeadlessMandarin from './Components/Exhibitions/Headless/Headless-Mandarin'; 
 import MagnificentMandarin from './Components/Exhibitions/Magnificent/Magnificent-Mandarin'; 
+import ArtTherapyMandarin from './Components/Exhibitions/Art-Therapy/Art-Therapy-Mandarin'; 
+import WorksMandarin from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei-Mandarin'; 
 
 // News and Events 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
@@ -142,13 +144,13 @@ function App() {
 
             <Route path="/exhibitions-mandarin" component={Exhibitions} /> 
             <Route path="/art-basel-mandarin" component={ArtBaselMandarin} /> 
-            <Route path="/art-therapy-mandarin" component={ArtTherapy} /> 
+            <Route path="/art-therapy-mandarin" component={ArtTherapyMandarin} />  
             <Route path="/headless-mandarin" component={HeadlessMandarin} />  
             <Route path="/mag-and-myst-mandarin" component={MagAndMystMandarin} />  
             <Route path="/magnificent-mandarin" component={MagnificentMandarin} />  
             <Route path="/san-diego-mandarin" component={SanDiegoMandarin} />  
             <Route path="/victory-of-light-mandarin" component={VictoryOfLightMandarin} />  
-            <Route path="/works-at-hefei-mandarin" component={Works} /> 
+            <Route path="/works-at-hefei-mandarin" component={WorksMandarin} /> 
             <Route path="/oil-painting-exhibition-mandarin" component={PleaseWork} /> 
 
             {/* The Gallery-M */} 
