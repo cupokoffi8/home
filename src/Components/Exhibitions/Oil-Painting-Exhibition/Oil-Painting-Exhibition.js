@@ -10,7 +10,7 @@ function PleaseWork() {
         <Navbar />
           <div className="Oil-Painting-Exhibition"> 
 
-          <form method="get" action="/oil-painting-exhibition-mandarin"> 
+          <form method="get" action="#/oil-painting-exhibition-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

@@ -12,7 +12,7 @@ function QuiHuade() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/qui-huade-mandarin"> 
+          <form method="get" action="#/qui-huade-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

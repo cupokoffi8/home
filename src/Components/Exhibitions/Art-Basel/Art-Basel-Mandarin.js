@@ -10,7 +10,7 @@ function ArtBaselMandarin() {
         <NavbarMandarin />
           <div className="Art-Basel"> 
 
-          <form method="get" action="/art-basel"> 
+          <form method="get" action="#/art-basel"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

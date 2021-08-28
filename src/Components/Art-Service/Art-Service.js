@@ -7,7 +7,7 @@ function ArtService() {
       <>
         <Navbar /> 
           <div className="Art-Service">
-          <form method="get" action="/art-service-mandarin">
+          <form method="get" action="#/art-service-mandarin">
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
             <h1 className="artist">Art Service</h1> 

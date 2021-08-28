@@ -10,7 +10,7 @@ function WorksMandarin() {
         <NavbarMandarin /> 
           <div className="Works-At-Hefei"> 
 
-          <form method="get" action="/works-at-hefei"> 
+          <form method="get" action="#/works-at-hefei"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

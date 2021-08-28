@@ -12,7 +12,7 @@ function ZenFrescos() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/zen-frescos-mandarin"> 
+          <form method="get" action="#/zen-frescos-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

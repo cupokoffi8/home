@@ -12,7 +12,7 @@ function XiaoLi() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/xiao-li-mandarin"> 
+          <form method="get" action="#/xiao-li-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

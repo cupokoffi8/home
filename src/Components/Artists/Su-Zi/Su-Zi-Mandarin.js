@@ -12,7 +12,7 @@ function SuZiMandarin() {
         <NavbarMandarin />
           <div className="artist-section"> 
 
-          <form method="get" action="/su-zi"> 
+          <form method="get" action="#/su-zi"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

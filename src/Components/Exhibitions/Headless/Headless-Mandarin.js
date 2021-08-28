@@ -10,7 +10,7 @@ function HeadlessMandarin() {
         <NavbarMandarin /> 
           <div className="Headless"> 
 
-          <form method="get" action="/headless"> 
+          <form method="get" action="#/headless"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

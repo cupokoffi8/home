@@ -10,7 +10,7 @@ function ArtTherapy() {
         <Navbar /> 
           <div className="Art-Therapy">
 
-          <form method="get" action="/art-therapy-mandarin"> 
+          <form method="get" action="#/art-therapy-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

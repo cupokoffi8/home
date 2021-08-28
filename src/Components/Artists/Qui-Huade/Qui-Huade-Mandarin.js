@@ -12,7 +12,7 @@ function QuiHuadeMandarin( ) {
         <NavbarMandarin />
           <div className="artist-section"> 
 
-          <form method="get" action="/qui-huade"> 
+          <form method="get" action="#/qui-huade"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

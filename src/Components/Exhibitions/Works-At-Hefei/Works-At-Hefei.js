@@ -10,7 +10,7 @@ function Works() {
         <Navbar /> 
           <div className="Works-At-Hefei"> 
 
-          <form method="get" action="/works-at-hefei-mandarin"> 
+          <form method="get" action="#/works-at-hefei-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

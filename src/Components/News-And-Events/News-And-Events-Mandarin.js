@@ -9,7 +9,7 @@ function NewsMandarin() {
         <NavbarMandarin /> 
           <div className="News"> 
 
-          <form method="get" action="/home/#/news-and-events"> 
+          <form method="get" action="#/news-and-events"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

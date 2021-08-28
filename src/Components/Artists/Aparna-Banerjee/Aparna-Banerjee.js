@@ -12,7 +12,7 @@ function AparnaBanerjee() {
         <Navbar /> 
           <div className="artist-section"> 
 
-          <form method="get" action="/aparna-banerjee-mandarin"> 
+          <form method="get" action="#/aparna-banerjee-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

@@ -12,7 +12,7 @@ function SuZi() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/su-zi-mandarin"> 
+          <form method="get" action="#/su-zi-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

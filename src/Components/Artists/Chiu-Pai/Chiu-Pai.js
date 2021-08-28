@@ -12,7 +12,7 @@ function ChiuPai() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/chiu-pai-mandarin"> 
+          <form method="get" action="#/chiu-pai-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

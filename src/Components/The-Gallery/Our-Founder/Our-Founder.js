@@ -9,7 +9,7 @@ function OurFounder() {
         <Navbar /> 
           <div className="Our-Founder"> 
 
-          <form method="get" action="/our-founder-mandarin"> 
+          <form method="get" action="#/our-founder-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

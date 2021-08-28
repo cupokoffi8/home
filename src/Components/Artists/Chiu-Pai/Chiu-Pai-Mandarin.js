@@ -12,7 +12,7 @@ function ChiuPaiMandarin() {
         <NavbarMandarin />
           <div className="artist-section"> 
 
-          <form method="get" action="/chiu-pai"> 
+          <form method="get" action="#/chiu-pai"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

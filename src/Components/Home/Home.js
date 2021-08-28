@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar /> 
       <div id="top">
 
-      <form method="get" action="/mandarin">
+      <form method="get" action="#/mandarin">
       <button id="the-button" type='btn'>普通話</button> 
       </form> 
       

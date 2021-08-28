@@ -10,7 +10,7 @@ function PleaseWorkMandarin() {
         <NavbarMandarin /> 
           <div className="Oil-Painting-Exhibition"> 
 
-          <form method="get" action="/oil-painting-exhibition"> 
+          <form method="get" action="#/oil-painting-exhibition"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

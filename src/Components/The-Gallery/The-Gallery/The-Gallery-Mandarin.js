@@ -9,7 +9,7 @@ function TheGalleryMandarin() {
         <NavbarMandarin /> 
           <div className="The-Gallery"> 
 
-          <form method="get" action="/the-gallery"> 
+          <form method="get" action="#/the-gallery"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

@@ -10,7 +10,7 @@ function SanDiegoMandarin() {
         <NavbarMandarin />  
           <div className="SanDiego"> 
 
-          <form method="get" action="/san-diego">
+          <form method="get" action="#/san-diego">
             <button id="the-button" type='btn'>English</button> 
           </form> 
 

@@ -12,7 +12,7 @@ function CaiJiang() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/cai-jiang-mandarin"> 
+          <form method="get" action="#/cai-jiang-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

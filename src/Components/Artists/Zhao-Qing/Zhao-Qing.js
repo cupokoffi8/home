@@ -12,7 +12,7 @@ function ZhaoQing() {
         <Navbar />
           <div className="artist-section"> 
 
-          <form method="get" action="/zhao-qing-mandarin"> 
+          <form method="get" action="#/zhao-qing-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

@@ -9,7 +9,7 @@ function TheGallery() {
         <Navbar /> 
           <div className="The-Gallery"> 
 
-          <form method="get" action="/the-gallery-mandarin"> 
+          <form method="get" action="#/the-gallery-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 
           </form> 
 

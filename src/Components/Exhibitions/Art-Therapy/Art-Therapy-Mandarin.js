@@ -10,7 +10,7 @@ function ArtTherapyMandarin() {
         <NavbarMandarin /> 
           <div className="Art-Therapy">
 
-          <form method="get" action="/art-therapy"> 
+          <form method="get" action="#/art-therapy"> 
             <button id="the-button" type='btn'>English</button> 
           </form> 
 
