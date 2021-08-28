@@ -1,13 +1,13 @@
 import React from 'react'; 
 import './Art-Basel.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 
 function ArtBasel() { 
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin />
+        <Navbar />
           <div className="Art-Basel"> 
 
           <form method="get" action="/home/#/art-basel-mandarin"> 
