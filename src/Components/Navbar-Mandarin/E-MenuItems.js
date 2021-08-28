@@ -10,7 +10,7 @@ export const EMenuItems = [
       cName: 'e-dropdown-link'
     },
     {
-      title: '佛羅里達州邁阿密市巴塞爾藝術博覽會',
+      title: '佛羅里達州邁阿密市巴塞爾藝術博覽會', 
       path: '/art-basel-mandarin',
       cName: 'e-dropdown-link'
     },
@@ -40,7 +40,7 @@ export const EMenuItems = [
       cName: 'e-dropdown-link'
     }, 
     {
-      title: '韩国济州岛油画展 ', 
+      title: '韩国济州岛油画展', 
       path: '/oil-painting-exhibition-mandarin', 
       cName: 'e-dropdown-link'
     } 
