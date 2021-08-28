@@ -74,6 +74,7 @@ import HeadlessMandarin from './Components/Exhibitions/Headless/Headless-Mandari
 import MagnificentMandarin from './Components/Exhibitions/Magnificent/Magnificent-Mandarin'; 
 import ArtTherapyMandarin from './Components/Exhibitions/Art-Therapy/Art-Therapy-Mandarin'; 
 import WorksMandarin from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei-Mandarin'; 
+import PleaseWorkMandarin from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition-Mandarin'; 
 
 // News and Events 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
@@ -151,7 +152,7 @@ function App() {
             <Route path="/san-diego-mandarin" component={SanDiegoMandarin} />  
             <Route path="/victory-of-light-mandarin" component={VictoryOfLightMandarin} />  
             <Route path="/works-at-hefei-mandarin" component={WorksMandarin} /> 
-            <Route path="/oil-painting-exhibition-mandarin" component={PleaseWork} /> 
+            <Route path="/oil-painting-exhibition-mandarin" component={PleaseWorkMandarin} /> 
 
             {/* The Gallery-M */} 
 
