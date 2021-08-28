@@ -56,7 +56,9 @@ import HomeMandarin from './Components/Home/Home-Mandarin';
 import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin'; 
 
 // Artists-M 
+import AritistsMandarin from './Components/Artists/Artists/Artists-Mandarin'; 
 import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
+import ApellesZhouMandarin from './Components/Artists/Apelles-Zhou/Apelles-Zhou-Mandarin'; 
 import CaiJiangMandarin from './Components/Artists/Cai-Jiang/Cai-Jiang-Mandarin';
 import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin'; 
 import QuiHuadeMandarin from './Components/Artists/Qui-Huade/Qui-Huade-Mandarin'; 
@@ -137,9 +139,9 @@ function App() {
 
             {/* Artists-M */}
 
-            <Route path="/apelles-zhou-mandarin" component={ApellesZhou} /> 
+            <Route path="/apelles-zhou-mandarin" component={ApellesZhouMandarin} /> 
             <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
-            <Route path="/artists-mandarin" component={Artists} />
+            <Route path="/artists-mandarin" component={AritistsMandarin} /> 
             <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} />   
             <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
             <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} />  

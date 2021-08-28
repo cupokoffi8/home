@@ -1,51 +1,51 @@
 export const AMenuItems = [
     {
-      title: 'Aparna Banerjee',
+      title: '阿帕娜·班纳吉', 
       path: '/aparna-banerjee-mandarin',
       cName: 'a-dropdown-link'
     },
     {
-      title: 'Apelles Zhou',
+      title: '阿佩莱斯周',
       path: '/apelles-zhou-mandarin',
       cName: 'a-dropdown-link'
     },
     {
-      title: 'Cai Jiang',
+      title: '蔡江', 
       path: '/cai-jiang-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Chiu Pai',
+      title: '潮牌', 
       path: '/chiu-pai-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Qui Huade',
+      title: '奎華德', 
       path: '/qui-huade-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Su Zi',
+      title: '蘇子', 
       path: '/su-zi-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Xiao Li',
+      title: '萧立', 
       path: '/xiao-li-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Zen Frescos',
+      title: '禅意壁画', 
       path: '/zen-frescos-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Zhao Qing',
+      title: '趙青', 
       path: '/zhao-qing-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {
-      title: 'Zhen Zhong Duan',
+      title: '段振中', 
       path: '/zhen-zhong-duan-mandarin',
       cName: 'a-dropdown-link'
     }, 

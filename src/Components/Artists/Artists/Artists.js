@@ -72,4 +72,4 @@ function Aritists() {
     );
   }
   
-  export default Aritists;
+  export default Aritists; 

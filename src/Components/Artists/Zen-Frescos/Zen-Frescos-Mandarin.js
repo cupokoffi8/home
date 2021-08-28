@@ -18,7 +18,7 @@ function ZenFrescosMandarin() {
 
             {/* Artist Name */} 
 
-            <h1 className="artist">The Collection And The Appreciation of Fahai Zen Monastery Frescoes, Han, Zhijun</h1> 
+            <h1 className="artist">法海禅寺壁画的收藏与鉴赏，韩志军</h1> 
             <hr /> 
 
             {/* Artist Summary */}
