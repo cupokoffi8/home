@@ -65,7 +65,7 @@ import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin';
 import ZenFrescosMandarin from './Components/Artists/Zen-Frescos/Zen-Frescos-Mandarin'; 
 import ZhaoQingMandarin from './Components/Artists/Zhao-Qing/Zhao-Qing-Mandarin'; 
 
-// Exhibitions 
+// Exhibitions-M  
 import MagAndMystMandarin from './Components/Exhibitions/Mag-And-Myst/Mag-And-Myst-Mandarin'; 
 import VictoryOfLightMandarin from './Components/Exhibitions/Victory-Of-Light/Victory-Of-Light-Mandarin'; 
 import ArtBaselMandarin from './Components/Exhibitions/Art-Basel/Art-Basel-Mandarin'; 
@@ -76,8 +76,16 @@ import ArtTherapyMandarin from './Components/Exhibitions/Art-Therapy/Art-Therapy
 import WorksMandarin from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei-Mandarin'; 
 import PleaseWorkMandarin from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition-Mandarin'; 
 
-// News and Events 
+// The Gallery-M 
+import OurFounderMandarin from './Components/The-Gallery/Our-Founder/Our-Founder-Mandarin'; 
+import TheGalleryMandarin from './Components/The-Gallery/The-Gallery/The-Gallery-Mandarin'; 
+
+// News and Events-M 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
+
+// Contact Us-M 
+import ContactMandarin from './Components/Contact-Us/Contact-Us-Mandarin'; 
+
 function App() {
   return (
     <HashRouter> 
@@ -156,8 +164,8 @@ function App() {
 
             {/* The Gallery-M */} 
 
-            <Route path="/our-founder-mandarin" component={OurFounder} />
-            <Route path="/the-gallery-mandarin" component={TheGallery} /> 
+            <Route path="/our-founder-mandarin" component={OurFounderMandarin} /> 
+            <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
 
             {/* Art Service-M */}
 
@@ -169,7 +177,7 @@ function App() {
 
             {/* Contact Us-M */}
 
-            <Route path="/contact-us-mandarin" component={Contact} /> 
+            <Route path="/contact-us-mandarin" component={ContactMandarin} /> 
 
         </Switch>
       <Copyright />
