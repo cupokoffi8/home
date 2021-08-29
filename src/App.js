@@ -66,6 +66,7 @@ import SuZiMandarin from './Components/Artists/Su-Zi/Su-Zi-Mandarin';
 import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin'; 
 import ZenFrescosMandarin from './Components/Artists/Zen-Frescos/Zen-Frescos-Mandarin'; 
 import ZhaoQingMandarin from './Components/Artists/Zhao-Qing/Zhao-Qing-Mandarin'; 
+import ZhenZhongDuanMandarin from './Components/Artists/Zhen-Zhong-Duan/Zhen-Zhong-Duan-Mandarin'; 
 
 // Exhibitions-M  
 import ExhibitionsMandarin from './Components/Exhibitions/Exhibitions-Mandarin'; 
@@ -150,7 +151,7 @@ function App() {
             <Route path="/xiao-li-mandarin" component={XiaoLiMandarin} /> 
             <Route path="/zen-frescos-mandarin" component={ZenFrescosMandarin} />  
             <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} />  
-            <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuan} /> 
+            <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuanMandarin} /> 
 
             {/* Exhibitions-M */} 
 
