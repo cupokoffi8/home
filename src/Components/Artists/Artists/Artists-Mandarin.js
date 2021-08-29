@@ -35,7 +35,7 @@ function AritistsMandarin() {
 
             <a id="link" href="#/chiu-pai-mandarin">
             <img id="image" src="./Chiu-Pai.png"/>
-            <h5 id="caption">潮牌</h5> 
+            <h5 id="caption">邱白</h5> 
             </a>
 
             <a id="link" href="#/qui-huade-mandarin"> 

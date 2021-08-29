@@ -15,7 +15,7 @@ export const AMenuItems = [
       cName: 'a-dropdown-link'
     }, 
     {
-      title: '潮牌', 
+      title: '邱白', 
       path: '/chiu-pai-mandarin',
       cName: 'a-dropdown-link'
     }, 

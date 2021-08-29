@@ -18,7 +18,7 @@ function ChiuPaiMandarin() {
 
             {/* Artist Name */} 
 
-            <h1 className="artist">潮牌</h1> 
+            <h1 className="artist">邱白</h1> 
             <hr /> 
 
             {/* Artist Summary */}
