@@ -41,7 +41,7 @@ function Exhibitions() {
             </a>
 
             <a id="link" href="#/headless">
-            <img id="image-thing-e" src="./HUT.jpg"/> 
+            <img id="image-thing-e" src="./HU1.jpeg"/> 
             <h5 id="caption">Headless and Unintentional</h5> 
             </a>
 

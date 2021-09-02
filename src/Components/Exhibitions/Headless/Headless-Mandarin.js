@@ -14,16 +14,16 @@ function HeadlessMandarin() {
             <button id="the-button" type='btn'>English</button> 
           </form> 
 
-            <h1 className="exhibition">无头和无意</h1> 
+            <h1 className="exhibition">“沈敬东，蔡江：無頭無心”展覽</h1> 
             <hr /> 
 
             <img src="./HU1.jpeg" id="image-thing-hu" /> 
 
             <br /> 
 
-            <h6 id="head-hu">
-            “沉京東，蔡江：無頭無心”展覽 
-            </h6> 
+            {/* <h6 id="head-hu">
+            “沈敬东，蔡江：無頭無心”展覽 
+            </h6>  */} 
             <h5 id="caption">
             日期：2016年9月7日開幕晚
             </h5> 
@@ -34,10 +34,10 @@ function HeadlessMandarin() {
             展覽：WhiteBox畫廊，紐約布魯姆街329號，紐約10002
             </h5>
             <h5 id="caption">
-            合作：策展人劉娜  
+            合作：策展人劉偉  
             </h5>
             <h5 id="caption">
-            藝術家：沉進東，蔡俊傑 
+            藝術家：沈敬东，蔡江 
             </h5> 
 
             <br /> 

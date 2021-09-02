@@ -20,7 +20,7 @@ export const EMenuItems = [
       cName: 'e-dropdown-link'
     }, 
     {
-      title: '“沉京東，蔡江：無頭無心”展覽', 
+      title: '“沈敬东，蔡江：無頭無心”展覽', 
       path: '/headless-mandarin', 
       cName: 'e-dropdown-link'
     }, 

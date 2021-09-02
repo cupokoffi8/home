@@ -14,16 +14,16 @@ export default function HomeMandarin() {
     return (
       <>
       <NavbarMandarin /> 
-      <div id="top">
 
-      <form method="get" action="#/">
-      <button id="the-button" type='btn'>English</button> 
-      </form> 
+        <div id="bottom"> 
+
+        <form method="get" action="#/">
+          <button id="the-button" type='btn'>English</button> 
+        </form> 
       
         <h1 className="magAndMyst">"宏伟而神秘"</h1>
         <h1 clessName="currentExhibition" id="please">艺术展</h1>
-        <h1 className='welcome' id="uh">歡迎來到美國龍國際美術</h1>
-        {/* <h1 className='american'>American Dragon International Fine Art Gallery</h1> */} 
+        <h1 className='welcome' id="uh">歡迎來到美國龍國際美術</h1> 
 
         <div id="info">
           <a id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
@@ -36,9 +36,11 @@ export default function HomeMandarin() {
 
             <a id="addyBottom"> 
               info@americandragonfineart.com
-            </a>
+            </a> 
 
-          <div id="iconStuff">
+          </div>
+
+        <div id="iconStuff">
             <a id="twitter" href="https://twitter.com/ameridragonart">
             <img src="./twitter.png" width="50" height="50" />
             </a>
@@ -52,12 +54,8 @@ export default function HomeMandarin() {
             </a>
           </div>
 
-          </div>
-        </div> 
-
         <HoursMandarin /> 
 
-        <div id="bottom">
           <img src="./fung-shway.jpeg"id="fung-shway" />  
 
           <p id="p-top">

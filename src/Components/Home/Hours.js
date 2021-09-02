@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './Hours.css'; 
+import './Home.css'; 
 
 function Hours() {
     return (

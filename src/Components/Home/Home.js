@@ -14,11 +14,12 @@ export default function Home() {
     return (
       <>
       <Navbar /> 
-      <div id="top">
 
-      <form method="get" action="#/mandarin">
-      <button id="the-button" type='btn'>普通話</button> 
-      </form> 
+        <div id="bottom"> 
+
+        <form method="get" action="#/mandarin">
+          <button id="the-button" type='btn'>普通話</button> 
+        </form> 
       
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
@@ -38,7 +39,9 @@ export default function Home() {
               info@americandragonfineart.com
             </a>
 
-          <div id="iconStuff">
+          </div> 
+
+        <div id="iconStuff">
             <a id="twitter" href="https://twitter.com/ameridragonart">
             <img src="./twitter.png" width="50" height="50" />
             </a>
@@ -49,17 +52,12 @@ export default function Home() {
 
             <a id="linkedin" href="https://www.linkedin.com/company/american-dragon-fine-art/">
             <img src="./linkedin.png" width="50" height="50"/>
-            </a>
-          </div>
+            </a> 
 
-          </div>
-        </div>
-
-        <br /> 
+            </div>
 
         <Hours /> 
 
-        <div id="bottom">
           <img src="./fung-shway.jpeg"id="fung-shway" />  
 
           <p id="p-top">

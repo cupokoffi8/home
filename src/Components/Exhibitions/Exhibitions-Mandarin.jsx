@@ -41,8 +41,8 @@ function ExhibitionsMandarin() {
             </a>
 
             <a id="link" href="#/headless-mandarin">
-            <img id="image-thing-e" src="./HUT.jpg"/> 
-            <h5 id="caption">“沉京東，蔡江：無頭無心”展覽</h5> 
+            <img id="image-thing-e" src="./HU1.jpeg"/> 
+            <h5 id="caption">“沈敬东，蔡江：無頭無心”展覽</h5> 
             </a>
 
             <a id="link" href="#/magnificent-mandarin">

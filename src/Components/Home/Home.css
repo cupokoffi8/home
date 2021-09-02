@@ -133,23 +133,23 @@
     justify-content: center !important; 
     align-items: center !important; 
     align-content: center !important; 
-    margin-bottom: 100px !important;  
+    margin-bottom: 10px !important;  
   } 
 
   #twitter {
     margin-right: 8px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     }
 
   #instagram img{
     margin-right: 8px; 
     margin-left: 8px; 
-    margin-bottom: 100px !important;
+    margin-bottom: 10px !important;
   }
 
   #linkedin img{
     margin-left: 8px; 
-    margin-bottom: 100px !important;
+    margin-bottom: 10px !important;
   }
 
   #bottom {
@@ -195,7 +195,7 @@
   } 
 
   @media only screen and (max-height: 700px) { 
-    #top{
+    /* #top{
       margin-bottom: 225px; 
     } 
 
@@ -209,13 +209,13 @@
   
     #linkedin img{
       display: none;
-    }
+    } */
   }
 
   @media only screen and (max-width: 600px) {
-    #top{
+    /* #top{
       margin-bottom: 150px; 
-    }
+    } */
 
     #p-top {
       margin-left: 15px; 
@@ -240,7 +240,7 @@
   }
 
   @media only screen and (max-width: 720px) {
-    #top{
+    /* #top{
       margin-bottom: 150px; 
-    }
+    } */
   }
