@@ -30,7 +30,7 @@ function JillSlaymakerMandarin() {
             以及位于日本东京的卡罗琳肯尼迪大使官邸。
             </p> 
 
-            <img src="./JS3.jpg" id="painting-zf"></img>
+            <img src="./JS8.jpg" id="painting-zf"></img>
               <h5 id="caption">Toscana Spiritos</h5> 
               <h5 id="caption">26" x 34" [Framed]</h5> 
               <h5 id="caption">Oil and Acrylic on Paper</h5>
@@ -60,7 +60,7 @@ function JillSlaymakerMandarin() {
               <h5 id="caption">Gouache, Acrylic, Ink, Color Pencil on Paper</h5> 
               <h5 id="caption">$500</h5> 
 
-              <img src="./JS8.jpg" id="painting-zf"></img>
+              <img src="./JS3.jpg" id="painting-zf"></img>
               <h5 id="caption">Adventures of an Orange</h5> 
               <h5 id="caption">34" x 26" [Framed]</h5>
               <h5 id="caption">Gouache on Paper</h5> 

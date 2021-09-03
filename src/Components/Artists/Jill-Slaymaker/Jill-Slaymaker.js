@@ -30,7 +30,7 @@ function JillSlaymaker() {
             and the Caroline Kennedy Ambassador Residence in Tokyo, Japan. 
             </p> 
 
-              <img src="./JS3.jpg" id="painting-zf"></img>
+              <img src="./JS8.jpg" id="painting-zf"></img>
               <h5 id="caption">Toscana Spiritos</h5> 
               <h5 id="caption">26" x 34" [Framed]</h5> 
               <h5 id="caption">Oil and Acrylic on Paper</h5>
@@ -60,7 +60,7 @@ function JillSlaymaker() {
               <h5 id="caption">Gouache, Acrylic, Ink, Color Pencil on Paper</h5> 
               <h5 id="caption">$500</h5> 
 
-              <img src="./JS8.jpg" id="painting-zf"></img>
+              <img src="./JS3.jpg" id="painting-zf"></img>
               <h5 id="caption">Adventures of an Orange</h5> 
               <h5 id="caption">34" x 26" [Framed]</h5>
               <h5 id="caption">Gouache on Paper</h5> 

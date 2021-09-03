@@ -25,25 +25,163 @@
     line-height: 1.7rem !important; 
   } 
 
-  #painting {
-      display: block; 
+  .the-paintings {
+      display: flex; 
+      justify-content: center !important;
+      justify-content: space-evenly !important;
       margin-left: auto; 
       margin-right: auto; 
+  }
+
+  .the-words {
+    display: flex; 
+    height: 20px !important; 
+    margin-bottom: 10px; 
+    justify-content: center !important;
+    justify-content: space-evenly !important;
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+.the-wordss {
+    display: flex; 
+    height: 20px !important;
+    justify-content: center !important;
+    justify-content: space-evenly !important;   
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px; 
+} 
+
+  #painting-ab {
+      display: inline-block; 
+      justify-content: space-evenly;
       margin-top: 80px; 
       width: 341px; 
       height: 450px; 
   }
 
-  #caption {
+  #caption-ab-1 {
     display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-top: 20px; 
-    text-align: center; 
     font-family: 'Times New Roman', Times, serif; 
+    justify-content: space-between;
+    text-align: center; 
+    width: 341px; 
+    height: 20px !important;
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
+}
+
+#caption-ab-2 {
+    display: block; 
+    font-family: 'Times New Roman', Times, serif; 
+    justify-content: space-between;
+    text-align: center; 
+    width: 341px; 
+    height: 20px !important; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#caption-ab-11 {
+    display: block; 
+    font-family: 'Times New Roman', Times, serif; 
+    justify-content: space-between;
+    text-align: center; 
+    height: 20px !important;
+    width: 341px; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#caption-ab-22 { 
+    display: block; 
+    font-family: 'Times New Roman', Times, serif; 
+    justify-content: space-between;
+    text-align: center; 
+    height: 20px !important;
+    width: 341px; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#image-mobile {
+    display: none; 
+} 
+
+#caption-mobile {
+    display: none; 
+} 
+
+#only-mobile {
+    display: none !important; 
+}
+
+@media only screen and (max-width: 705px) { 
+
+    #image-mobile {
+        display: block !important; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 40px; 
+        width: 341px; 
+        height: 450px; 
+    } 
+
+    #caption-mobile {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 5px; 
+        height: 5px; 
+        text-align: center; 
+        text-decoration: none; 
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 18px !important; 
+        font-weight: bold !important;  
+        color: black !important; 
+    } 
+
+    #only-mobile {
+        display: block !important; 
+    }
+
+    .the-paintings {
+        display: none; 
+    } 
+
+    .the-words {
+        display: none; 
+    } 
+
+    .the-wordss {
+        display: none; 
+    }
+
+    #painting-ab {
+        display: none; 
+    } 
+
+    #caption-ab-1 {
+        display: none; 
+    } 
+
+    #caption-ab-11 {
+        display: none; 
+    } 
+
+    #caption-ab-2 {
+        display: none; 
+    } 
+
+    #caption-ab-22 {
+        display: none; 
+    } 
+
 }
 
 @media only screen and (max-width: 600px) {
