@@ -20,9 +20,20 @@ export default function HomeMandarin() {
         <form method="get" action="#/">
           <button id="the-button" type='btn'>English</button> 
         </form> 
-      
+
+        <a id="bigBoiLink" href="#/mag-and-myst-mandarin">
         <h1 className="magAndMyst">"宏伟而神秘"</h1>
-        <h1 clessName="currentExhibition" id="please">艺术展</h1>
+        <h1 id="please">艺术展</h1> 
+        <h3 id="moreInfo">已延长至2021年9月25日</h3> 
+      </a> 
+
+      <h5 className="currentExhibitionMessage">
+      此外，我们还从才华横溢的画廊展览中添加了新的艺术作品艺术家： 
+      <a href="#/jill-slaymaker-mandarin"><span id="linkToArtist">吉尔·斯莱梅克</span></a> 
+        </h5>
+
+        <br /> 
+      
         <h1 className='welcome' id="uh">歡迎來到美國龍國際美術</h1> 
 
         <div id="info">

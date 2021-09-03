@@ -21,8 +21,19 @@ export default function Home() {
           <button id="the-button" type='btn'>普通話</button> 
         </form> 
       
+      <a id="bigBoiLink" href="#/mag-and-myst">
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
-        <h1 clessName="currentExhibition" id="please">Art Exhibition</h1>
+        <h1 id="please">Art Exhibition</h1> 
+        <h2 id="moreInfo">Has Been Extended Until September 25, 2021</h2> 
+      </a> 
+
+      <h4 className="currentExhibitionMessage">
+        In addition, we have added new works of art to our gallery show from the talented 
+        artist: <a href="#/jill-slaymaker"><span id="linkToArtist">Jill Slaymaker</span></a> 
+        </h4>
+
+        <br /> 
+
         <h1 className='welcome' id="uh">Welcome To</h1>
         <h1 className='american'>American Dragon International Fine Art Gallery</h1>
 

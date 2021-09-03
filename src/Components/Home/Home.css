@@ -37,6 +37,52 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
 
+  .magAndMyst:hover {
+    color: #6376b3 !important; 
+  }
+
+  #moreInfo {
+    color: #1e3272 !important; 
+    display: block; 
+    justify-content: center !important;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+
+  #moreInfo:hover {
+    color: #6376b3 !important;
+  } 
+
+  .currentExhibitionMessage {
+    color: #1e3272 !important; 
+    display: block; 
+    justify-content: center !important;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bolder; 
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #linkToArtist {
+    text-decoration: underline; 
+    color: #1e3272; 
+  } 
+
+  #linkToArtist:hover {
+    background: #1e3272 !important; 
+    color: #fff !important;  
+  }
+
+  #bigBoiLink {
+    text-decoration: none; 
+  } 
+
   #please {
     color: #1e3272 !important; 
     display: block; 
@@ -45,9 +91,12 @@
     margin-right: auto; 
     text-transform: uppercase; 
     font-weight: bold; 
-    /* font-style: italic;  */
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+
+  #please:hover {
+    color: #6376b3 !important; 
   }
 
   .reachOut {
@@ -79,7 +128,6 @@
     display: block; 
     justify-content: center; 
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 22px;
     font-weight: bold; 
     text-decoration: none; 
     text-align: center; 

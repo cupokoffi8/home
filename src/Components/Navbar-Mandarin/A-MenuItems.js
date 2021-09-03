@@ -20,6 +20,11 @@ export const AMenuItems = [
       cName: 'a-dropdown-link'
     }, 
     {
+      title: '吉尔·斯莱梅克', 
+      path: '/jill-slaymaker-mandarin', 
+      cName: 'a-dropdown-link'
+    }, 
+    {
       title: '奎華德', 
       path: '/qui-huade-mandarin',
       cName: 'a-dropdown-link'

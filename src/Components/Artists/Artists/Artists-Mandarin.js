@@ -36,7 +36,12 @@ function AritistsMandarin() {
             <a id="link" href="#/chiu-pai-mandarin">
             <img id="image" src="./Chiu-Pai.png"/>
             <h5 id="caption">邱白</h5> 
-            </a>
+            </a> 
+
+            <a id="link" href="#/jill-slaymaker-mandarin">
+            <img id="image" src="./JS7.jpg"/>
+            <h5 id="caption">吉尔·斯莱梅克</h5> 
+            </a> 
 
             <a id="link" href="#/qui-huade-mandarin"> 
             <img id="image" src="./Howard.jpeg"/>

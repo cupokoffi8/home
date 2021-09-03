@@ -36,6 +36,11 @@ function Aritists() {
             <a id="link" href="#/chiu-pai">
             <img id="image" src="./Chiu-Pai.png"/>
             <h5 id="caption">Chiu Pai</h5> 
+            </a> 
+
+            <a id="link" href="#/jill-slaymaker">
+            <img id="image" src="./JS7.jpg"/>
+            <h5 id="caption">Jill Slaymaker</h5> 
             </a>
 
             <a id="link" href="#/qui-huade">
