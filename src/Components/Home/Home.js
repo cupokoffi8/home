@@ -24,7 +24,7 @@ export default function Home() {
       <a id="bigBoiLink" href="#/mag-and-myst">
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 id="please">Art Exhibition</h1> 
-        <h2 id="moreInfo">Has Been Extended Until September 25, 2021</h2> 
+        <h3 id="moreInfo">Has Been Extended Until September 25, 2021</h3> 
       </a> 
 
       <button className="currentExhibitionMessage">
