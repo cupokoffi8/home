@@ -30,12 +30,6 @@ function JillSlaymakerMandarin() {
             以及位于日本东京的卡罗琳肯尼迪大使官邸。
             </p> 
 
-            <img src="./JS2.jpg" id="painting-zf"></img>
-              <h5 id="caption">Not Quite What I Was Expecting</h5>
-              <h5 id="caption">29.5" x 26"</h5> 
-              <h5 id="caption">Acrylic</h5> 
-              <h5 id="caption">$1,200</h5>
-
               <img src="./JS3.jpg" id="painting-zf"></img>
               <h5 id="caption">Toscana Spiritos</h5> 
               <h5 id="caption">26" x 34"</h5> 
@@ -71,9 +65,6 @@ function JillSlaymakerMandarin() {
               <h5 id="caption">34" x 26"</h5>
               <h5 id="caption">Gouache on Paper</h5> 
               <h5 id="caption">$1,600</h5> 
-
-              <img src="./JS1.jpg" id="painting-zf"></img>
-              <h5 id="caption">Size Reference</h5> 
 
             </div>
         </> 
