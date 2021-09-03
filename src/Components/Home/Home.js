@@ -24,13 +24,15 @@ export default function Home() {
       <a id="bigBoiLink" href="#/mag-and-myst">
         <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
         <h1 id="please">Art Exhibition</h1> 
-        <h3 id="moreInfo">Has Been Extended Until September 25, 2021</h3> 
+        <h1 id="moreInfo">Has Been Extended Until September 25, 2021</h1> 
       </a> 
 
+      <a id="why" href="#/jill-slaymaker">
       <button className="currentExhibitionMessage">
         In addition, we have added new works of art to our gallery show from the talented 
         artist: <a href="#/jill-slaymaker"><span id="linkToArtist">Jill Slaymaker</span></a> 
         </button>
+        </a>
 
         <br /> 
 

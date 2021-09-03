@@ -57,6 +57,10 @@
     color: #6376b3 !important;
   } 
 
+  #why {
+    text-decoration: none !important; 
+  }
+
   .currentExhibitionMessage {
     color: #1e3272 !important; 
     border: 2px solid #1e3272;
@@ -69,18 +73,19 @@
     text-transform: uppercase; 
     font-weight: bolder; 
     text-align: center; 
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .currentExhibitionMessage:hover {
+    color: #ffffff !important; 
+    background: #1e3272; 
   }
 
   #linkToArtist {
     text-decoration: underline; 
-    color: #1e3272; 
+    color: #ff0000; 
   } 
-
-  #linkToArtist:hover {
-    background: #1e3272 !important; 
-    color: #fff !important; 
-  }
 
   #bigBoiLink {
     text-decoration: none; 

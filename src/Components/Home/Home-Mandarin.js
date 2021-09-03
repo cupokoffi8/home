@@ -24,13 +24,15 @@ export default function HomeMandarin() {
         <a id="bigBoiLink" href="#/mag-and-myst-mandarin">
         <h1 className="magAndMyst">"宏伟而神秘"</h1>
         <h1 id="please">艺术展</h1> 
-        <h3 id="moreInfo">已延长至2021年9月25日</h3> 
+        <h1 id="moreInfo">已延长至2021年9月25日</h1> 
       </a> 
 
+      <a id="why" href="#/jill-slaymaker-mandarin">
       <button className="currentExhibitionMessage">
-      此外，我们还从才华横溢的画廊展览中添加了新的艺术作品艺术家： 
-      <a href="#/jill-slaymaker-mandarin"><span id="linkToArtist">吉尔·斯莱梅克</span></a> 
+      此外，我们还从才华横溢的画廊展览中添加了新的艺术作品艺术家：
+        <a href="#/jill-slaymaker-mandarin"><span id="linkToArtist">吉尔·斯莱梅克</span></a> 
         </button>
+        </a> 
 
         <br /> 
       
