@@ -60,7 +60,7 @@
   .currentExhibitionMessage {
     color: #1e3272 !important; 
     border: 2px solid #1e3272;
-    border-radius: 1.5rem;
+    border-radius: 3px;
     background: #fff; 
     display: block; 
     margin-left: auto; 
