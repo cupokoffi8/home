@@ -27,10 +27,10 @@ export default function HomeMandarin() {
         <h3 id="moreInfo">已延长至2021年9月25日</h3> 
       </a> 
 
-      <h5 className="currentExhibitionMessage">
+      <button className="currentExhibitionMessage">
       此外，我们还从才华横溢的画廊展览中添加了新的艺术作品艺术家： 
       <a href="#/jill-slaymaker-mandarin"><span id="linkToArtist">吉尔·斯莱梅克</span></a> 
-        </h5>
+        </button>
 
         <br /> 
       

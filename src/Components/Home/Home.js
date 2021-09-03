@@ -27,10 +27,10 @@ export default function Home() {
         <h2 id="moreInfo">Has Been Extended Until September 25, 2021</h2> 
       </a> 
 
-      <h4 className="currentExhibitionMessage">
+      <button className="currentExhibitionMessage">
         In addition, we have added new works of art to our gallery show from the talented 
         artist: <a href="#/jill-slaymaker"><span id="linkToArtist">Jill Slaymaker</span></a> 
-        </h4>
+        </button>
 
         <br /> 
 
