@@ -62,10 +62,10 @@
   }
 
   .currentExhibitionMessage {
-    color: #1e3272 !important; 
+    color: #000000 !important; 
     border: 2px solid #1e3272;
     border-radius: 3px;
-    background: #fff; 
+    background: rgb(243, 219, 7); 
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
@@ -78,13 +78,13 @@
   }
 
   .currentExhibitionMessage:hover {
-    color: #ffffff !important; 
-    background: #1e3272; 
+    color: #000000 !important; 
+    background-color: #ffee56c4; 
   }
 
   #linkToArtist {
     text-decoration: underline; 
-    color: #ff0000; 
+    color: #000000; 
   } 
 
   #bigBoiLink {
