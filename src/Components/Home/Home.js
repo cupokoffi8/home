@@ -70,7 +70,9 @@ export default function Home() {
             <img src="./linkedin.png" width="50" height="50"/>
             </a> 
 
-            </div>
+            </div> 
+
+            <br /> 
 
         <Hours /> 
 

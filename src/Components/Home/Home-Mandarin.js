@@ -68,7 +68,9 @@ export default function HomeMandarin() {
             <a id="linkedin" href="https://www.linkedin.com/company/american-dragon-fine-art/">
             <img src="./linkedin.png" width="50" height="50"/>
             </a>
-          </div>
+          </div> 
+
+          <br /> 
 
         <HoursMandarin /> 
 
