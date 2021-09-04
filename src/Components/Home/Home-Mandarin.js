@@ -6,9 +6,12 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import HoursMandarin from "./Hours-Mandarin"; 
 import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';  
 import '../Button.css'; 
+import Aos from 'aos'; 
+import 'aos/dist/aos.css'; 
 
 export default function HomeMandarin() { 
   
+  Aos.init({});
   window.scrollTo(0, 0)
 
     return (
@@ -22,13 +25,13 @@ export default function HomeMandarin() {
         </form> 
 
         <a id="bigBoiLink" href="#/mag-and-myst-mandarin">
-        <h1 className="magAndMyst">"宏伟而神秘"</h1>
-        <h1 id="please">艺术展</h1> 
-        <h1 id="moreInfo">已延长至2021年9月25日</h1> 
+        <h1 data-aos="fade-down" data-aos-duration="900" className="magAndMyst">"宏伟而神秘"</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1000" id="please">艺术展</h1> 
+        <h1 data-aos="fade-down" data-aos-duration="1100" id="moreInfo">已延长至2021年9月25日</h1> 
       </a> 
 
       <a id="why" href="#/jill-slaymaker-mandarin">
-      <button className="currentExhibitionMessage">
+      <button data-aos="fade-down" data-aos-duration="1200" className="currentExhibitionMessage">
       此外，我们还从才华横溢的画廊展览中添加了新的艺术作品艺术家：
         <a href="#/jill-slaymaker-mandarin"><span id="linkToArtist">吉尔·斯莱梅克</span></a> 
         </button>
@@ -36,18 +39,18 @@ export default function HomeMandarin() {
 
         <br /> 
       
-        <h1 className='welcome' id="uh">歡迎來到美國龍國際美術</h1> 
+        <h1 data-aos="fade-down" data-aos-duration="1300" className='welcome' id="uh">歡迎來到美國龍國際美術</h1> 
 
         <div id="info">
-          <a id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
+          <a data-aos="fade-left" data-aos-duration="900" id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
             614 N. Duke Street, Suite One, Lancaster, PA 17602
             </a>
 
-            <a id="addy">
+            <a data-aos="fade-right" data-aos-duration="900" id="addy">
                    917-886-1701      
             </a>
 
-            <a id="addyBottom"> 
+            <a data-aos="fade-left" data-aos-duration="900" id="addyBottom"> 
               info@americandragonfineart.com
             </a> 
 

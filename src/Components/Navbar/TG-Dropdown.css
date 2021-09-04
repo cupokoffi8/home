@@ -4,7 +4,8 @@
   position: absolute;
   top: 80px;
   list-style: none;
-  text-align: start;
+  text-align: start; 
+  z-index: 111; 
 }
 
 .tg-dropdown-menu li {

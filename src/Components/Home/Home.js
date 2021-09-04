@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css"; 
 import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
@@ -6,9 +6,12 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import Hours from "./Hours"; 
 import Navbar from '../Navbar/Navbar'; 
 import '../Button.css'; 
+import Aos from 'aos'; 
+import 'aos/dist/aos.css'; 
 
-export default function Home() { 
-  
+export default function Home() {
+
+  Aos.init({}); 
   window.scrollTo(0, 0)
 
     return (
@@ -22,13 +25,13 @@ export default function Home() {
         </form> 
       
       <a id="bigBoiLink" href="#/mag-and-myst">
-        <h1 className="magAndMyst">"Magnificent And Mysterious"</h1>
-        <h1 id="please">Art Exhibition</h1> 
-        <h1 id="moreInfo">Has Been Extended Until September 25, 2021</h1> 
+        <h1 data-aos="fade-down" data-aos-duration="900" className="magAndMyst">"Magnificent And Mysterious"</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1000" id="please">Art Exhibition</h1> 
+        <h1 data-aos="fade-down" data-aos-duration="1100" id="moreInfo">Has Been Extended Until September 25, 2021</h1> 
       </a> 
 
       <a id="why" href="#/jill-slaymaker">
-      <button className="currentExhibitionMessage">
+      <button data-aos="fade-down" data-aos-duration="1200" className="currentExhibitionMessage">
         In addition, we have added new works of art to our gallery show from the talented 
         artist: <a href="#/jill-slaymaker"><span id="linkToArtist">Jill Slaymaker</span></a> 
         </button>
@@ -36,19 +39,19 @@ export default function Home() {
 
         <br /> 
 
-        <h1 className='welcome' id="uh">Welcome To</h1>
-        <h1 className='american'>American Dragon International Fine Art Gallery</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1300" className='welcome' id="uh">Welcome To</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1400" className='american'>American Dragon International Fine Art Gallery</h1>
 
         <div id="info">
-          <a id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
+          <a data-aos="fade-left" data-aos-duration="900" id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
             614 N. Duke Street, Suite One, Lancaster, PA 17602
             </a>
 
-            <a id="addy">
+            <a data-aos="fade-right" data-aos-duration="900" id="addy">
                    917-886-1701      
             </a>
 
-            <a id="addyBottom"> 
+            <a data-aos="fade-left" data-aos-duration="900" id="addyBottom"> 
               info@americandragonfineart.com
             </a>
 
@@ -97,4 +100,4 @@ export default function Home() {
         
       </>
     );
-  }
+  } 
