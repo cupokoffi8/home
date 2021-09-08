@@ -110,11 +110,11 @@ function Navbar() {
             onMouseLeave={onMouseLeave1}
           >
             <Link
-              to='/the-gallery'
+              to='/about-us'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              The Gallery <i className='fas fa-caret-down' />
+              About Us <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <TgDropdown />}
           </li>

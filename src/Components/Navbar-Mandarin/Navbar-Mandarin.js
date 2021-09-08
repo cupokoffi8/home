@@ -112,11 +112,11 @@ function NavbarMandarin() {
             onMouseLeave={onMouseLeave1}
           >
             <Link
-              to='/the-gallery-mandarin'
+              to='/about-us-mandarin' 
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              画廊 <i className='fas fa-caret-down' />
+              关于我们 <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <TgDropdown />}
           </li>

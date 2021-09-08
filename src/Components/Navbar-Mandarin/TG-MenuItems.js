@@ -1,7 +1,7 @@
 export const TGMenuItems = [
     {
-      title: '主页', 
-      path: '/mandarin',
+      title: '画廊', 
+      path: '/the-gallery-mandarin', 
       cName: 'tg-dropdown-link'
     },
     {

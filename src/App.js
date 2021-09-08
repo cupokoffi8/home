@@ -40,6 +40,7 @@ import PleaseWork from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Pai
 import HomeGallery from './Components/The-Gallery/Home/Home-Gallery'; 
 import OurFounder from './Components/The-Gallery/Our-Founder/Our-Founder';
 import TheGallery from './Components/The-Gallery/The-Gallery/The-Gallery'; 
+import VisitUs from './Components/The-Gallery/Visit-Us/Visit-Us'; 
 
   // Art Service 
 import ArtService from './Components/Art-Service/Art-Service'; 
@@ -87,6 +88,7 @@ import PleaseWorkMandarin from './Components/Exhibitions/Oil-Painting-Exhibition
 // The Gallery-M 
 import OurFounderMandarin from './Components/The-Gallery/Our-Founder/Our-Founder-Mandarin'; 
 import TheGalleryMandarin from './Components/The-Gallery/The-Gallery/The-Gallery-Mandarin'; 
+import VisitUsMandarin from './Components/The-Gallery/Visit-Us/Visit-Us-Mandarin'; 
 
 // News and Events-M 
 import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'; 
@@ -130,6 +132,7 @@ function App() {
             {/* The Gallery */} 
             <Route path="/our-founder" component={OurFounder} />
             <Route path="/the-gallery" component={TheGallery} /> 
+            <Route path="/about-us" component={VisitUs} /> 
 
             {/* Art Service */}
             <Route path="/art-service" component={ArtService} /> 
@@ -176,6 +179,7 @@ function App() {
 
             <Route path="/our-founder-mandarin" component={OurFounderMandarin} /> 
             <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
+            <Route path="/about-us-mandarin" component={VisitUsMandarin} /> 
 
             {/* Art Service-M */}
 
