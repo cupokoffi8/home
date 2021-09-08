@@ -4,6 +4,7 @@ import Navbar from '../../Navbar/Navbar';
 import '../../Button.css'; 
 
 function OurFounder() {
+  window.scrollTo(0, 0); 
     return (
       <>
         <Navbar /> 

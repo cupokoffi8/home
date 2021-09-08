@@ -3,7 +3,8 @@ import './The-Gallery.css';
 import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 
-function TheGallery() {
+function TheGallery() { 
+  window.scrollTo(0, 0); 
     return (
       <>
         <Navbar /> 

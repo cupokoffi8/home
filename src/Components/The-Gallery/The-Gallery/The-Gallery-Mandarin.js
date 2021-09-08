@@ -3,7 +3,8 @@ import './The-Gallery.css';
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
-function TheGalleryMandarin() {
+function TheGalleryMandarin() { 
+  window.scrollTo(0, 0); 
     return (
       <>
         <NavbarMandarin /> 

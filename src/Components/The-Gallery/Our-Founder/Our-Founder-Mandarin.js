@@ -4,6 +4,7 @@ import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin';
 import '../../Button.css'; 
 
 function OurFounderMandarin() { 
+  window.scrollTo(0, 0); 
     return (
       <>
         <NavbarMandarin /> 
