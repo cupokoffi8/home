@@ -17,7 +17,12 @@ function TheGallery() {
             <h1 className="the-gallery">The Gallery</h1> 
             <hr /> 
 
-            <img id="image-thing-at" src="TG1.jpeg" /> 
+            <img id="image-thing-at" src="TGNew1.jpeg" /> 
+            <h5 id="caption">
+              Lancaster, Pennsylvania 
+            </h5> 
+
+            <img id="image-thing-at" src="TGNew2.jpeg" /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>
