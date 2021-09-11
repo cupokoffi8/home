@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css"; 
 import Map from "../Map/Map";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
@@ -8,11 +8,40 @@ import Navbar from '../Navbar/Navbar';
 import '../Button.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
+import { toast } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css'; 
 
-export default function Home() {
+const PopUpMessage = ({ closeToast }) => {
+  return (
+    <>
+      <h5 id="caption">American Dragon Fine Art will be closed on September 11, 2021.</h5>
+      <h5 id="caption">We look forward to seeing you next week.</h5> 
+    </> 
+  );
+}
+
+toast.configure() 
+
+export default function Home() { 
+
+  // v Pop-Up v 
+
+  // Uncomment the following to activate the pop-up: 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      toast(
+        <PopUpMessage /> 
+        , {position: toast.POSITION.TOP_CENTER, 
+          autoClose: 8000
+        })
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []); 
+  
+  // ^ End Pop-Up ^ 
 
   Aos.init({}); 
-  window.scrollTo(0, 0)
+  window.scrollTo(0, 0) 
 
     return (
       <>
@@ -38,6 +67,7 @@ export default function Home() {
         </a>
 
         <br /> 
+
 
         <h1 data-aos="fade-down" data-aos-duration="1300" className='welcome' id="uh">Welcome To</h1>
         <h1 data-aos="fade-down" data-aos-duration="1400" className='american'>American Dragon International Fine Art Gallery</h1>

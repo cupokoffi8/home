@@ -22,11 +22,6 @@ function TheGallery() {
               Lancaster, Pennsylvania 
             </h5> 
 
-            <img id="image-thing-at" src="TGNew1.jpeg" /> 
-            <h5 id="caption">
-              Lancaster, Pennsylvania 
-            </h5>
-
             <img id="image-thing-at" src="TG2.png" /> 
             <h5 id="caption">
               New York City, New York  

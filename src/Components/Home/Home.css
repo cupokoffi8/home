@@ -11,7 +11,20 @@
   #uh {
       color: red !important; 
       margin-top: 20px; 
-  }
+  } 
+
+  #caption {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
 
   .american {
     display: block; 
@@ -59,6 +72,12 @@
 
   #why {
     text-decoration: none !important; 
+  } 
+
+  #pop-up{
+    background: #000000;
+    width: 400px;
+    height: 400px;
   }
 
   .currentExhibitionMessage {
