@@ -27,16 +27,16 @@ export default function Home() {
   // v Pop-Up v 
 
   // Uncomment the following to activate the pop-up: 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      toast(
-        <PopUpMessage /> 
-        , {position: toast.POSITION.TOP_CENTER, 
-          autoClose: 8000
-        })
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []); 
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     toast(
+  //       <PopUpMessage /> 
+  //       , {position: toast.POSITION.TOP_CENTER, 
+  //         autoClose: 8000
+  //       })
+  //   }, 1000);
+  //   return () => clearTimeout(timer);
+  // }, []); 
   
   // ^ End Pop-Up ^ 
 
