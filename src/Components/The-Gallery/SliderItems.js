@@ -9,7 +9,7 @@ export const SliderData = [
     },
     {
       image:
-        './LG2.jpeg'
+        './LG2.jpeg' 
     },
     {
       image:
