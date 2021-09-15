@@ -111,7 +111,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) { 
   .NavbarItems {
     position: relative;
   }
@@ -178,12 +178,12 @@
   }
 
   .fa-bars {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important; 
     font-size: 2rem;
   }
 
   .fa-times {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important; 
     font-size: 2rem;
   }
 
