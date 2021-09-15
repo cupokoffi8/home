@@ -14,10 +14,6 @@ export const SliderData = [
     {
       image:
         './LG3.jpeg' 
-    },
-    {
-      image:
-        './LG4.jpeg' 
     }, 
     {
         image:
