@@ -1,7 +1,9 @@
 import React from 'react'; 
 import './The-Gallery.css'; 
 import Navbar from '../../Navbar/Navbar'; 
+import ImageSlider from '../LancasterSlider'; 
 import '../../Button.css'; 
+import { SliderData } from '../SliderItems';
 
 function TheGallery() { 
   window.scrollTo(0, 0); 
@@ -17,7 +19,7 @@ function TheGallery() {
             <h1 className="the-gallery">The Gallery</h1> 
             <hr /> 
 
-            <img id="image-thing-at" src="TGNew2.jpeg" /> 
+            <ImageSlider id="awesome" slides={SliderData} /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5> 

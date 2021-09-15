@@ -1,7 +1,9 @@
 import React from 'react'; 
 import './The-Gallery.css'; 
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+import ImageSlider from '../LancasterSlider'; 
 import '../../Button.css'; 
+import { SliderData } from '../SliderItems'; 
 
 function TheGalleryMandarin() { 
   window.scrollTo(0, 0); 
@@ -17,7 +19,7 @@ function TheGalleryMandarin() {
             <h1 className="the-gallery">画廊</h1> 
             <hr /> 
 
-            <img id="image-thing-at" src="TG1.jpeg" /> 
+            <ImageSlider id="awesome" slides={SliderData} /> 
             <h5 id="caption">
               Lancaster, Pennsylvania 
             </h5>

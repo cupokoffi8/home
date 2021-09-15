@@ -1,0 +1,26 @@
+export const SliderData = [
+    {
+      image:
+        'TGNew2.jpeg'
+    },
+    {
+      image:
+        './LG.png'
+    },
+    {
+      image:
+        './LG2.jpeg'
+    },
+    {
+      image:
+        './LG3.jpeg' 
+    },
+    {
+      image:
+        './LG4.jpeg' 
+    }, 
+    {
+        image:
+          './LG5.png' 
+    }
+  ];
