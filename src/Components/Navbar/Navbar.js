@@ -162,7 +162,7 @@ function Navbar() {
               className='nav-links' 
               onClick={closeMobileMenu}
               >
-              News and Events
+              News & Events
             </Link>
           </li>
 
