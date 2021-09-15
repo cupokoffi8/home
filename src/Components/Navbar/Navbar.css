@@ -32,7 +32,7 @@
   text-align: center;
   width: 100vw;
   justify-content: center;
-  margin-right: 2rem; 
+  /* margin-right: 2rem;  */
 } 
 
 .mobile-logo {
@@ -43,12 +43,12 @@
   display: flex; 
   align-items: center;
   height: 80px; 
-  width: 13.5vw; 
   margin-top: 4.45rem;
 }
 
 .nav-links {
   color: rgb(0, 0, 0);
+  text-align: center; 
   text-decoration: none;
   padding: 0.5rem 1rem;
   margin-top: 4rem;
