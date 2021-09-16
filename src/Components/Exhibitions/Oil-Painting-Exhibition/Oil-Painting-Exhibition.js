@@ -3,7 +3,18 @@ import './Oil-Painting-Exhibition.css';
 import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 
+const preloadImage = url => (document.createElement('img').src = url) 
+
 function PleaseWork() {
+
+  const [showImages, setShowImages] = React.useState(false) 
+
+  setTimeout(function(){ 
+    setShowImages(true)
+    preloadImage('./OP1.jpeg')
+    preloadImage('./OP2.jpeg') 
+    ; }, 500);
+
   window.scrollTo(0, 0);
     return (
       <>
