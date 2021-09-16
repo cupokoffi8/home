@@ -85,6 +85,36 @@
     color: rgb(255, 255, 255) !important; 
 } 
 
+.card-row {
+    display: flex; 
+    align-content: center !important; 
+    justify-content: space-evenly; 
+} 
+
+.the-gallery-card {
+    display: inline-block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 36vw; 
+    height: auto; 
+}
+
+.the-gallery-card:hover {
+    transform: translateY(10px) !important;  
+} 
+
+.our-founder-card {
+    display: inline-block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 36vw; 
+    height: auto; 
+}
+
+.our-founder-card:hover {
+    transform: translateY(10px) !important;  
+}
+
 #art-paragraph-other {
     font-size: 18px !important;  
     text-align: center; 
@@ -205,5 +235,21 @@
         width: 75vw !important; 
         height: auto; 
     } 
+
+    .the-gallery-card { 
+        display: block; 
+        width: 76vw; 
+        height: auto; 
+    } 
+
+    .our-founder-card { 
+        display: block; 
+        width: 76vw; 
+        height: auto; 
+    } 
+
+    .card-row {
+        display: block; 
+    }
 
 }
