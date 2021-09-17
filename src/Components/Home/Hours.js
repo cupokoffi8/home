@@ -16,8 +16,8 @@ function Hours() {
             <p data-aos="fade-up" data-aos-duration="1100" className="hours">Monday:  By Appointment Only</p>
             <p data-aos="fade-up" data-aos-duration="1100" className="hours">Tuesday:  By Appointment Only</p>
             <p data-aos="fade-up" data-aos-duration="1100" className="hours">Wednesday:  By Appointment Only</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Thursday:  Noon - 8:00 p.m.</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Friday:  Noon - 8:00 p.m.</p>
+            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Thursday:  Noon - 7:00 p.m.</p>
+            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Friday:  Noon - 7:00 p.m.</p> 
             <p data-aos="fade-up" data-aos-duration="1100" className="hours">Saturday:  10:00 a.m. - 5:00 p.m.</p>
             <p data-aos="fade-up" data-aos-duration="1100" className="hoursUH">Sunday:  Closed</p> 
             <div id="space" />
