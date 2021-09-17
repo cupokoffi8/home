@@ -20,7 +20,7 @@ function VisitUsMandarin() {
 
             <div className="card-row">
             <div data-aos="fade-up" data-aos-duration="900" className="the-gallery-card">
-            <Link data-aos="fade-up" data-aos-duration="900" id="link" to={`/the-gallery`}>
+            <Link data-aos="fade-up" data-aos-duration="900" id="link" to={`/the-gallery-mandarin`}>
               <Card className="the-card">
                 <Card.Img src="./photo-frame.png" variant="top" id="image-thing-vu"/>
               </Card>
@@ -29,7 +29,7 @@ function VisitUsMandarin() {
               </div> 
  
               <div data-aos="fade-up" data-aos-duration="1000" className="our-founder-card"> 
-              <Link id="link" to={`/our-founder`}>
+              <Link id="link" to={`/our-founder-mandarin`}>
               <Card className="the-card">
                 <Card.Img src="./ceo.png" variant="top" id="image-thing-vu-2"/>
               </Card>

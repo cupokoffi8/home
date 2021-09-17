@@ -19,8 +19,8 @@ function TheGallery() {
       img1.src = "./TGNew2.jpeg";
       img2.src = "./LG.png";
       img3.src = "./LG2.jpeg"; 
-      img4.src = "./LG3.jpeg"; 
-      img5.src = "./LG4.jpeg"; 
+      img4.src = "./LG3.jpg"; 
+      img5.src = "./LG4.jpg"; 
       img6.src = "./LG5.png"; 
     }
   }
