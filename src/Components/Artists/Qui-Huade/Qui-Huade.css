@@ -25,14 +25,36 @@
     line-height: 1.7rem !important; 
   } 
 
-  #painting {
-      display: block; 
-      margin-left: auto; 
-      margin-right: auto; 
-      margin-top: 80px; 
-      width: 45vw; 
-      height: auto; 
-  }
+  #painting-howard-r {
+    display: inline-block; 
+    margin-left: 20px;
+    margin-top: 80px; 
+    width: 45vw; 
+    height: auto; 
+  } 
+
+  #painting-howard-l {
+    display: inline-block; 
+    margin-right: 20px; 
+    margin-top: 80px; 
+    width: 45vw; 
+    height: auto; 
+  } 
+
+  #painting-howard-t {
+    display: none; 
+  } 
+
+  #painting-howard-b {
+    display: none; 
+  } 
+
+  .painting-duo {
+    display: flex; 
+    justify-content: center !important; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } 
 
   #caption {
     display: block; 
@@ -48,10 +70,41 @@
 
 @media only screen and (max-width: 600px) {
 
+
+
     #art-paragraph {
         margin-left: 15px; 
         margin-right: 15px; 
         text-align: center; 
-    }
+    } 
+
+    #painting-howard-t {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 80px; 
+        width: 75vw;  
+        height: auto;
+      } 
+    
+      #painting-howard-b {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;  
+        width: 75vw;  
+        height: auto;
+      } 
+
+      #painting-howard-r {
+        display: none; 
+      } 
+    
+      #painting-howard-l {
+        display: none; 
+      } 
+
+      .painting-duo {
+        display: none;  
+      }
 
 }

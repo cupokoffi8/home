@@ -74,21 +74,41 @@ function QuiHuade() {
               Qui Huade’s paintings and sculptures are in private collections throughout the world
               </p> 
 
-              {/* List of Paintings */} 
+              {/* List of Paintings - PC */} 
 
-              <img src="./H1.jpeg" id="painting"></img> 
+              <div className="painting-duo">
+              <img src="./H1.jpeg" id="painting-howard-l"></img> 
+              <img src="./H1!.jpeg" id="painting-howard-r"></img> 
+              </div> 
 
-              <img src="./H1!.jpeg" id="painting"></img> 
+              <div className="painting-duo">
+              <img src="./H2.png" id="painting-howard-l"></img> 
+              <img src="./H2!.png" id="painting-howard-r"></img> 
+              </div> 
 
-              <img src="./H2.png" id="painting"></img> 
+              <div className="painting-duo">
+              <img src="./H3.jpeg" id="painting-howard-l"></img> 
+              <img src="./H3!.jpeg" id="painting-howard-r"></img> 
+              </div> 
 
-              <img src="./H2!.png" id="painting"></img> 
+              <div className="painting-duo">
+              <img src="./H4.jpeg" id="painting-howard-l"></img> 
+              <img src="./H4!.png" id="painting-howard-r"></img> 
+              </div> 
 
-              <img src="./H3.jpeg" id="painting"></img> 
+              {/* List of Paintings - Mobile */} 
 
-              <img src="./H3!.jpeg" id="painting"></img> 
+              <img src="./H1.jpeg" id="painting-howard-t"></img> 
+              <img src="./H1!.jpeg" id="painting-howard-b"></img>  
 
-              <img src="./H4.jpeg" id="painting"></img> 
+              <img src="./H2.png" id="painting-howard-t"></img> 
+              <img src="./H2!.png" id="painting-howard-b"></img>  
+
+              <img src="./H3.jpeg" id="painting-howard-t"></img> 
+              <img src="./H3!.jpeg" id="painting-howard-b"></img>  
+
+              <img src="./H4.jpeg" id="painting-howard-t"></img> 
+              <img src="./H4!.png" id="painting-howard-b"></img> 
 
           </div> 
           </> 
