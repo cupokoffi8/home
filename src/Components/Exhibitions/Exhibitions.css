@@ -53,6 +53,68 @@
     color: black !important; 
 } 
 
+#caption-card {
+    display: none; 
+}
+
+#caption-card-l {
+    display: inline-block; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    border-radius: 5px; 
+    background-color: #1e3272; 
+    width: 20vw !important; 
+    text-align: center; 
+    text-decoration: none; 
+    color: white; 
+    font-size: 22px; 
+    margin-right: 20px; 
+} 
+
+#caption-card-m {
+    display: inline-block; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    border-radius: 5px; 
+    background-color: #1e3272; 
+    width: 20vw !important; 
+    text-align: center; 
+    text-decoration: none; 
+    color: white; 
+    font-size: 22px; 
+} 
+
+#caption-card-r {
+    display: inline-block; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    border-radius: 5px; 
+    background-color: #1e3272; 
+    width: 20vw !important; 
+    text-align: center; 
+    text-decoration: none; 
+    color: white; 
+    font-size: 22px; 
+    margin-left: 20px; 
+} 
+
+#caption-card-l:hover, #caption-card-m:hover, #caption-card-r:hover {
+    background-color: #6376b3; 
+}
+
+.card-row-artists { 
+    display: flex; 
+    justify-content: center !important; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
 #art-paragraph-other {
     font-size: 18px !important;  
     text-align: center; 
