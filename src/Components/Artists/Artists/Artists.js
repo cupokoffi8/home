@@ -18,60 +18,97 @@ function Aritists() {
             <hr /> 
 
             {/* href began with: /home/#/ because of gh-pages, but was changed because of domain name change */} 
+
+            <div className="card-row-artists"> 
             <a id="link" href="#/aparna-banerjee">
-            <img id="image" src="./Maiden-in-Color.jpeg"/> 
-            <h5 id="caption">Aparna Banerjee</h5> 
+            <h5 id="caption-card-l">Aparna Banerjee</h5> 
             </a>
+            <a id="link" href="#/apelles-zhou">
+            <h5 id="caption-card-m">Apelles Zhou</h5> 
+            </a>
+            <a id="link" href="#/cai-jiang">
+            <h5 id="caption-card-r">Cai Jiang</h5> 
+            </a>
+            </div>
+
+            <div className="card-row-artists">
+            <a id="link" href="#/chiu-pai">
+            <h5 id="caption-card-l">Chiu Pai</h5> 
+            </a> 
+            <a id="link" href="#/jill-slaymaker">
+            <h5 id="caption-card-m">Jill Slaymaker</h5> 
+            </a>
+            <a id="link" href="#/qui-huade">
+            <h5 id="caption-card-r">Qui Huade</h5> 
+            </a>
+            </div>
+
+            <div className="card-row-artists">
+            <a id="link" href="#/su-zi">
+            <h5 id="caption-card-l">Su Zi</h5> 
+            </a>
+            <a id="link" href="#/xiao-li">
+            <h5 id="caption-card-m">Xiao Li</h5> 
+            </a>
+            <a id="link" href="#/zen-frescos">
+            <h5 id="caption-card-r">Zen Frescos</h5> 
+            </a>
+            </div> 
+
+            <div className="card-row-artists">
+            <a id="link" href="#/zhao-qing">
+            <h5 id="caption-card-l">Zhao Qing</h5>
+            </a> 
+            <a id="link" href="#/zhen-zhong-duan"> 
+            <h5 id="caption-card-r">Zhen-Zhong Duan</h5> 
+            </a>
+            </div> 
+
+            {/* Mobile */} 
+ 
+            <a id="link" href="#/aparna-banerjee">
+            <h5 id="caption-card">Aparna Banerjee</h5> 
+            </a> 
 
             <a id="link" href="#/apelles-zhou">
-            <img id="image" src="./Eye-of-Horus.png"/>
-            <h5 id="caption">Apelles Zhou</h5> 
-            </a>
+            <h5 id="caption-card">Apelles Zhou</h5> 
+            </a> 
 
             <a id="link" href="#/cai-jiang">
-            <img id="image" src="./Cai-Jiang.png"/>
-            <h5 id="caption">Cai Jiang</h5> 
-            </a>
+            <h5 id="caption-card">Cai Jiang</h5> 
+            </a> 
 
             <a id="link" href="#/chiu-pai">
-            <img id="image" src="./Chiu-Pai.png"/>
-            <h5 id="caption">Chiu Pai</h5> 
+            <h5 id="caption-card">Chiu Pai</h5> 
             </a> 
 
             <a id="link" href="#/jill-slaymaker">
-            <img id="image" src="./JS7.jpg"/>
-            <h5 id="caption">Jill Slaymaker</h5> 
-            </a>
+            <h5 id="caption-card">Jill Slaymaker</h5> 
+            </a> 
 
             <a id="link" href="#/qui-huade">
-            <img id="image" src="./Howard.jpeg"/>
-            <h5 id="caption">Qui Huade</h5> 
-            </a>
+            <h5 id="caption-card">Qui Huade</h5> 
+            </a> 
 
             <a id="link" href="#/su-zi">
-            <img id="image" src="./Su-Zi.png"/> 
-            <h5 id="caption">Su Zi</h5> 
-            </a>
+            <h5 id="caption-card">Su Zi</h5> 
+            </a> 
 
             <a id="link" href="#/xiao-li">
-            <img id="image" src="./Xiao-Li.jpeg"/>
-            <h5 id="caption">Xiao Li</h5> 
-            </a>
+            <h5 id="caption-card">Xiao Li</h5> 
+            </a> 
 
             <a id="link" href="#/zen-frescos">
-            <img id="image" src="./ZF.jpeg"/>
-            <h5 id="caption">Zen Frescos</h5> 
-            </a>
+            <h5 id="caption-card">Zen Frescos</h5> 
+            </a>  
 
             <a id="link" href="#/zhao-qing">
-            <img id="image" src="./ZQ.jpeg"/>
-            <h5 id="caption">Zhao Qing</h5>
+            <h5 id="caption-card">Zhao Qing</h5>
             </a> 
 
             <a id="link" href="#/zhen-zhong-duan"> 
-            <img id="image" src="./ZZD.jpeg"/>
-            <h5 id="caption">Zhen-Zhong Duan</h5> 
-            </a>
+            <h5 id="caption-card">Zhen-Zhong Duan</h5> 
+            </a> 
 
           </div>
         </>

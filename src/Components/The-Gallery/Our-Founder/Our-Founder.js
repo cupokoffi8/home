@@ -45,7 +45,7 @@ function OurFounder() {
             within the international art community. 
             </p> 
 
-            <img id="image-thing-at" src="Uh.png" /> 
+            <img id="image-thing-at" src="OFNew.JPG" /> 
 
           </div>
         </>

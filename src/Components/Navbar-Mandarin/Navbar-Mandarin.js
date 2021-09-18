@@ -103,7 +103,7 @@ function NavbarMandarin() {
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu-mandarin'}>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
           {/* The Gallery */}
           <li
