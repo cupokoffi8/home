@@ -110,7 +110,7 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-2">Windy</h5> 
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-11">22” x 30” [No Frame]</h5> 
+              <h5 id="caption-ab-11">22” x 30” [Framed]</h5> 
               <h5 id="caption-ab-22">15” x 22” [Framed]</h5> 
               </div>
               <div className="the-words">
@@ -118,7 +118,7 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
               </div>
               <div className="the-wordss">
-              <h5 id="caption-ab-11">$3,680.00</h5> 
+              <h5 id="caption-ab-11">$3,880.00</h5> 
               <h5 id="caption-ab-22">$2,750.00</h5> 
               </div>
 
@@ -199,7 +199,7 @@ function AparnaBanerjee() {
               </div>
               <div className="the-words">
               <h5 id="caption-ab-11">15” x 22” [Framed]</h5>
-              <h5 id="caption-ab-22">22” x 30” [Framed]</h5>
+              <h5 id="caption-ab-22">22” x 30” [No Frame]</h5>
               </div>
               <div className="the-words">
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
@@ -207,7 +207,7 @@ function AparnaBanerjee() {
               </div>
               <div className="the-wordss">
               <h5 id="caption-ab-11">$2,750.00</h5>
-              <h5 id="caption-ab-22">$3,880.00</h5>
+              <h5 id="caption-ab-22">$3,680.00</h5>
               </div>
 
               <div className="the-paintings">
@@ -372,9 +372,9 @@ function AparnaBanerjee() {
 
               <img id="image-mobile" src="./AB7.jpeg"/>
               <h5 id="caption-mobile">Why?</h5> 
-              <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
+              <h5 id="caption-mobile">22” x 30” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$3,680.00</h5> 
+              <h5 id="caption-mobile">$3,880.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -444,9 +444,9 @@ function AparnaBanerjee() {
 
               <img id="image-mobile" src="./AB16.jpeg"/>
               <h5 id="caption-mobile">Flower Shower</h5> 
-              <h5 id="caption-mobile">22” x 30” [Framed]</h5> 
+              <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$3,880.00</h5> 
+              <h5 id="caption-mobile">$3,680.00</h5> 
 
               <br id="only-mobile"/>
 
