@@ -31,7 +31,7 @@
     display: none; 
 }
 
-#caption-card-l {
+#caption-card-a-l {
     display: inline-block; 
     padding-left: 40px; 
     padding-right: 40px; 
@@ -47,7 +47,7 @@
     margin-right: 20px; 
 } 
 
-#caption-card-m {
+#caption-card-a-m {
     display: inline-block; 
     padding-left: 40px; 
     padding-right: 40px; 
@@ -62,7 +62,7 @@
     font-size: 22px; 
 } 
 
-#caption-card-r {
+#caption-card-a-r {
     display: inline-block; 
     padding-left: 40px; 
     padding-right: 40px; 
@@ -78,7 +78,7 @@
     margin-left: 20px; 
 } 
 
-#caption-card-l:hover, #caption-card-m:hover, #caption-card-r:hover {
+#caption-card-a-l:hover, #caption-card-a-m:hover, #caption-card-a-r:hover {
     background-color: #6376b3; 
 }
 
@@ -129,15 +129,15 @@
         background-color: #6376b3; 
     }
 
-    #caption-card-l {
+    #caption-card-a-l {
         display: none;  
     } 
     
-    #caption-card-m {
+    #caption-card-a-m {
         display: none;  
     } 
     
-    #caption-card-r {
+    #caption-card-a-r {
         display: none;   
     } 
 

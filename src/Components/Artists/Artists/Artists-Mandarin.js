@@ -21,46 +21,46 @@ function AritistsMandarin() {
 
             <div className="card-row-artists"> 
             <a id="link" href="#/aparna-banerjee-mandarin">
-            <h5 id="caption-card-l">阿帕娜·班纳吉</h5> 
+            <h5 id="caption-card-a-l">阿帕娜·班纳吉</h5> 
             </a>
             <a id="link" href="#/apelles-zhou-mandarin">
-            <h5 id="caption-card-m">阿佩莱斯周</h5> 
+            <h5 id="caption-card-a-m">阿佩莱斯周</h5> 
             </a>
             <a id="link" href="#/cai-jiang-mandarin">
-            <h5 id="caption-card-r">蔡江</h5> 
+            <h5 id="caption-card-a-r">蔡江</h5> 
             </a>
             </div>
 
             <div className="card-row-artists">
             <a id="link" href="#/chiu-pai-mandarin">
-            <h5 id="caption-card-l">邱白</h5> 
+            <h5 id="caption-card-a-l">邱白</h5> 
             </a> 
             <a id="link" href="#/jill-slaymaker-mandarin">
-            <h5 id="caption-card-m">吉尔·斯莱梅克</h5> 
+            <h5 id="caption-card-a-m">吉尔·斯莱梅克</h5> 
             </a>
             <a id="link" href="#/qui-huade-mandarin">
-            <h5 id="caption-card-r">奎華德</h5> 
+            <h5 id="caption-card-a-r">奎華德</h5> 
             </a>
             </div>
 
             <div className="card-row-artists">
             <a id="link" href="#/su-zi-mandarin">
-            <h5 id="caption-card-l">蘇子</h5> 
+            <h5 id="caption-card-a-l">蘇子</h5> 
             </a>
             <a id="link" href="#/xiao-li-mandarin">
-            <h5 id="caption-card-m">萧立</h5> 
+            <h5 id="caption-card-a-m">萧立</h5> 
             </a>
             <a id="link" href="#/zen-frescos-mandarin">
-            <h5 id="caption-card-r">禅意壁画</h5> 
+            <h5 id="caption-card-a-r">禅意壁画</h5> 
             </a>
             </div> 
 
             <div className="card-row-artists">
             <a id="link" href="#/zhao-qing-mandarin">
-            <h5 id="caption-card-l">趙青</h5> 
+            <h5 id="caption-card-a-l">趙青</h5> 
             </a> 
             <a id="link" href="#/zhen-zhong-duan-mandarin"> 
-            <h5 id="caption-card-r">段振中</h5> 
+            <h5 id="caption-card-a-r">段振中</h5> 
             </a>
             </div> 
 
