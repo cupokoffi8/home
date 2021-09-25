@@ -107,7 +107,7 @@ export default function Home() {
           various Artists we have on display in our gallery.</h6> 
       </div> 
 
-      <br /><br /> 
+      <br /><br /><br /> 
 
         <Hours /> 
 
