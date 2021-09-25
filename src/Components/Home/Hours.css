@@ -1,34 +1,32 @@
 #hours-div {
   background-color: #1e3272; 
-  justify-content: center !important; 
 }
 
 .title {
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 26px;
-    display: block; 
-    justify-content: center !important; 
-    text-align: center !important; 
-    align-items: center !important; 
-    color: #fff;
-    background-color: #1e3272 !important;
-    /* color: #1e3272 !important;  */
-    font-weight: bold; 
-    margin-top: 0px;
-    margin-bottom: 0px; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 26px;
+  display: flex; 
+  justify-content: center !important;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: left; 
+  color: #fff; 
+  background-color: #1e3272 !important; 
+  margin-top: 0px;
+  margin-bottom: 10px; 
+  /* color: #1e3272;  */ 
   }
 
   .hours{
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px;
+    font-size: 20px; 
     display: flex; 
-    justify-content: center !important; 
-    text-align: justify !important; 
-    align-self: center !important; 
+    justify-content: center !important;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: left; 
     color: #fff; 
     background-color: #1e3272 !important; 
-    margin-left: auto !important; 
-    margin-right: auto !important; 
     margin-top: 0px;
     margin-bottom: 10px; 
     /* color: #1e3272;  */ 
@@ -39,8 +37,7 @@
     font-size: 18px;
     display: flex; 
     justify-content: center !important; 
-    text-align: justify !important; 
-    align-self: center !important; 
+    text-align: center !important; 
     color: #fff; 
     background-color: #1e327200 !important; 
     margin-left: auto; 

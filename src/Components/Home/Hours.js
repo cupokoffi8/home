@@ -11,15 +11,16 @@ function Hours() {
     return (
         <div data-aos="fade-up" data-aos-duration="900" id="hours-div"> 
           <div id="space" />
-          <h3 data-aos="fade-up" data-aos-duration="1000" className="title">Our Weekly Hours</h3>
+          <h6 data-aos="fade-up" data-aos-duration="1000" className="title">Our Weekly Hours</h6>
           <div id="space-uh" />
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Monday:  By Appointment Only</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Tuesday:  By Appointment Only</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Wednesday:  By Appointment Only</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Thursday:  Noon - 7:00 p.m.</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Friday:  Noon - 7:00 p.m.</p> 
-            <p data-aos="fade-up" data-aos-duration="1100" className="hours">Saturday:  10:00 a.m. - 5:00 p.m.</p>
-            <p data-aos="fade-up" data-aos-duration="1100" className="hoursUH">Sunday:  Closed</p> 
+            <h6 data-aos="fade-up" data-aos-duration="1100" className="hours">
+              Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By Appointment Only<br /> 
+              Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By Appointment Only<br />
+              Wednesday: &nbsp;&nbsp; By Appointment Only<br />
+              Thursday:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noon - 7:00 p.m.<br />
+              Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noon - 7:00 p.m.<br /> 
+              Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 a.m. - 5:00 p.m.<br />
+              Sunday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed</h6> 
             <div id="space" />
         </div>
     );

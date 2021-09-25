@@ -9,7 +9,7 @@
   }
 
   #uh {
-      color: red !important; 
+      color: #1e3272 !important; 
       margin-top: 20px; 
   } 
 
@@ -36,23 +36,15 @@
   } 
 
   .magAndMyst {
-    color: #1e3272 !important; 
+    color: #ffffff !important; 
     display: block; 
-    justify-content: center;
     margin-top: 20px; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: 10px;  
+    margin-right: 10px;  
     text-transform: uppercase; 
-    font-weight: 2200; 
-    font-size: 42px;
-    font-style: italic; 
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
-
-  .magAndMyst:hover {
-    color: #6376b3 !important; 
-  }
 
   #moreInfo {
     color: #1e3272 !important; 
@@ -60,70 +52,75 @@
     justify-content: center !important;
     margin-left: auto; 
     margin-right: auto; 
-    text-transform: uppercase; 
-    font-weight: bold; 
+    font-size: 16px; 
+    font-weight: 550; 
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
 
-  #moreInfo:hover {
-    color: #6376b3 !important;
+  .big-words {
+    color: #1e3272 !important; 
+    display: block; 
+    margin-top: 26px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-size: 18px;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
+
+  .other-words {
+    color: #1e3272 !important; 
+    display: block; 
+    margin-top: 5px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: 550; 
+    font-size: 16px;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .announcement-card { 
+    padding-top: 5px;  
+    padding-left: 5px;  
+    padding-right: 5px;  
+    padding-bottom: 5px;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 35px; 
+    border: #1e3272; 
+    border-style: solid; 
+    border-width: 4px; 
+    width: 60vw; 
+    height: auto; 
+    background-color: #dbdbdb62; 
+  }
 
   #why {
     text-decoration: none !important; 
   } 
 
-  #pop-up{
-    background: #000000;
-    width: 400px;
-    height: 400px;
-  }
-
-  .currentExhibitionMessage {
-    color: #000000 !important; 
-    border: 2px solid #1e3272;
-    border-radius: 3px;
-    background: rgb(243, 219, 7); 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    justify-content: center !important; 
-    text-transform: uppercase; 
-    font-weight: bolder; 
-    text-align: center; 
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .currentExhibitionMessage:hover {
-    color: #000000 !important; 
-    background-color: #ffee56c4; 
-  }
-
-  #linkToArtist {
-    text-decoration: underline; 
-    color: #000000; 
-  } 
-
-  #bigBoiLink {
-    text-decoration: none; 
-  } 
-
   #please {
     color: #1e3272 !important; 
-    display: block; 
+    display: flex; 
     justify-content: center !important;
     margin-left: auto; 
     margin-right: auto; 
-    text-transform: uppercase; 
-    font-weight: bold; 
-    text-align: center; 
+    font-size: 16px; 
+    font-weight: 550; 
+    text-align: left; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
 
-  #please:hover {
-    color: #6376b3 !important; 
+  .the-line {
+    height: 1px; 
+    background-color: #1e3272 !important; 
+    border: none; 
   }
 
   .reachOut {
@@ -288,9 +285,11 @@
   }
 
   @media only screen and (max-width: 600px) {
-    /* #top{
-      margin-bottom: 150px; 
-    } */
+    
+    .announcement-card {
+      width: 85vw; 
+      height: auto; 
+    }
 
     #p-top {
       margin-left: 15px; 

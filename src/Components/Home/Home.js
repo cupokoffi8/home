@@ -52,25 +52,10 @@ export default function Home() {
         <form method="get" action="#/mandarin">
           <button id="the-button" type='btn'>普通話</button> 
         </form> 
-      
-      <a id="bigBoiLink" href="#/mag-and-myst">
-        <h1 data-aos="fade-down" data-aos-duration="900" className="magAndMyst">"Magnificent And Mysterious"</h1>
-        <h1 data-aos="fade-down" data-aos-duration="1000" id="please">Art Exhibition</h1> 
-        <h1 data-aos="fade-down" data-aos-duration="1100" id="moreInfo">Has Been Extended Until September 25, 2021</h1> 
-      </a> 
-
-      <a id="why" href="#/jill-slaymaker">
-      <button data-aos="fade-down" data-aos-duration="1200" className="currentExhibitionMessage">
-        In addition, we have added new works of art to our gallery show from the talented 
-        artist: <a href="#/jill-slaymaker"><span id="linkToArtist">Jill Slaymaker</span></a> 
-        </button>
-        </a>
-
-        <br /> 
 
 
-        <h1 data-aos="fade-down" data-aos-duration="1300" className='welcome' id="uh">Welcome To</h1>
-        <h1 data-aos="fade-down" data-aos-duration="1400" className='american'>American Dragon International Fine Art Gallery</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome To</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1800" className='american'>American Dragon International Fine Art Gallery</h1>
 
         <div id="info">
           <a data-aos="fade-left" data-aos-duration="900" id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
@@ -83,11 +68,11 @@ export default function Home() {
 
             <a data-aos="fade-left" data-aos-duration="900" id="addyBottom"> 
               info@americandragonfineart.com
-            </a>
+            </a> 
 
           </div> 
 
-        <div id="iconStuff">
+          <div data-aos="fade-up" data-aos-duration="2000" id="iconStuff"> 
             <a id="twitter" href="https://twitter.com/ameridragonart">
             <img src="./twitter.png" width="50" height="50" />
             </a>
@@ -99,10 +84,30 @@ export default function Home() {
             <a id="linkedin" href="https://www.linkedin.com/company/american-dragon-fine-art/">
             <img src="./linkedin.png" width="50" height="50"/>
             </a> 
-
             </div> 
 
-            <br /> 
+          <br /> 
+
+          <div data-aos="fade-down" data-aos-duration="1400" className="announcement-card">
+        <h6 className="magAndMyst">
+          <span className="big-words">
+            October 1st will be the first day to feature new artists in our Gallery 
+            </span>
+            <hr className="the-line" /> 
+            <span className="other-words">
+          We will be open for the "Lancaster Art Walk" during the following times:
+          </span>
+          </h6> 
+        <h6 id="please">
+          October 1:   Noon until 7:00 p.m.<br />
+          October 2:   10:00 a.m. until 5:00 p.m.<br /> 
+          October 3:   10:00 a.m. until 5:00 p.m.</h6> 
+        <h6 id="moreInfo">
+          We look forward to your visit during this exciting Weekend, and know you will enjoy the
+          various Artists we have on display in our gallery.</h6> 
+      </div> 
+
+      <br /><br /> 
 
         <Hours /> 
 
