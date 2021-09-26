@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './Cai-Jiang.css'; 
+import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
@@ -77,17 +78,41 @@ function CaiJiangMandarin() {
               3. 當代當代盲人智慧藝術，繪畫和雕塑系列。
               </p> 
 
+              {/* List of Paintings [Computer] */} 
 
+              <div className="the-paintings">
+              <img src="./CJ1.jpeg" id="painting-ab"></img> 
+              <img src="./CJ2.jpeg" id="painting-ab"></img> 
+              </div>
 
-              {/* List of Paintings */} 
+              <div className="the-words">
+              <h5 id="caption-ab-1"></h5>
+              <h5 id="caption-ab-2"></h5> 
+              </div> 
 
-              <img src="./CJ1.jpeg" id="painting"></img> 
+              <div className="the-paintings">
+              <img src="./CJ3.jpeg" id="painting-ab"></img> 
+              <img src="./CJ4.jpeg" id="painting-ab"></img> 
+              </div>
 
-              <img src="./CJ2.jpeg" id="painting"></img> 
+              <div className="the-words">
+              <h5 id="caption-ab-1"></h5>
+              <h5 id="caption-ab-2"></h5> 
+              </div> 
 
-              <img src="./CJ3.jpeg" id="painting"></img> 
+              {/* List of Paintings [Phone] */} 
 
-              <img src="./CJ4.jpeg" id="painting"></img> 
+              <img src="./CJ1.jpeg" id="image-mobile"></img>
+              <h5 id="caption-mobile"></h5> 
+
+              <img src="./CJ2.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile"></h5> 
+
+              <img src="./CJ3.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile"></h5> 
+
+              <img src="./CJ4.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile"></h5> 
 
           </div> 
           </> 

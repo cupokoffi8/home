@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './Apelles-Zhou.css'; 
+import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
