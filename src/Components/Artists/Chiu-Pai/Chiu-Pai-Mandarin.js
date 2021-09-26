@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './Chiu-Pai.css'; 
+import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
@@ -41,22 +42,57 @@ function ChiuPaiMandarin() {
               出一種和平，凝聚和寧靜的氣氛。完成的圖像應顯示有霧且有霧的外觀，該 圖像會偏離細節。完成的繪畫應該反映出我朦朧的情緒。” 
               </p> 
 
-              {/* List of Paintings */} 
+              {/* List of Paintings [Computer] */} 
 
-              <img src="./CP1.png" id="painting"></img>
-              <h5 id="caption">Vernal Gardens</h5> 
+              <div className="the-paintings">
+              <img src="./CP1.png" id="painting-ab"></img> 
+              <img src="./CP2.jpeg" id="painting-ab"></img> 
+              </div>
 
-              <img src="./CP2.jpeg" id="painting"></img> 
-              <h5 id="caption">Field of Gold</h5> 
+              <div className="the-words">
+              <h5 id="caption-ab-1">Vernal Gardens</h5>
+              <h5 id="caption-ab-2">Field of Gold</h5> 
+              </div> 
 
-              <img src="./CP3.png" id="painting"></img> 
-              <h5 id="caption">Shadow of Autumn</h5> 
+              <div className="the-paintings">
+              <img src="./CP3.png" id="painting-ab"></img> 
+              <img src="./CP4.jpeg" id="painting-ab"></img> 
+              </div>
 
-              <img src="./CP4.jpeg" id="painting"></img>  
+              <div className="the-words">
+              <h5 id="caption-ab-1">Shadow of Autumn</h5>
+              <h5 id="caption-ab-2"></h5> 
+              </div> 
 
-              <img src="./CP5.jpeg" id="painting"></img>  
+              <div className="the-paintings">
+              <img src="./CP5.jpeg" id="painting-ab"></img> 
+              <img src="./CP6.jpeg" id="painting-ab"></img> 
+              </div>
 
-              <img src="./CP6.jpeg" id="painting"></img>  
+              <div className="the-words">
+              <h5 id="caption-ab-1"></h5>
+              <h5 id="caption-ab-2"></h5> 
+              </div> 
+
+              {/* List of Paintings [Phone] */} 
+
+              <img src="./CP1.png" id="image-mobile"></img>
+              <h5 id="caption-mobile">Vernal Gardens</h5> 
+
+              <img src="./CP2.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Field of Gold</h5> 
+
+              <img src="./CP3.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Shadow of Autumn</h5> 
+
+              <img src="./CP4.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile"></h5> 
+
+              <img src="./CP5.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile"></h5> 
+
+              <img src="./CP6.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile"></h5> 
 
           </div> 
           </> 

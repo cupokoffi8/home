@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './Su-Zi.css'; 
+import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
@@ -33,19 +34,43 @@ function SuZiMandarin() {
               它藉鑑了中國戲曲人物的形式語言。蘇子具有這種獨特的繪畫風格，已進入 一種新的藝術狀態。 
               </p> 
 
+               {/* List of Paintings [Computer] */} 
+
+               <div className="the-paintings">
+              <img src="./Sing.png" id="painting-ab"></img> 
+              <img src="./Love-by-the-River.png" id="painting-ab"></img> 
+              </div>
+
+              <div className="the-words">
+              <h5 id="caption-ab-1">Sing</h5> 
+              <h5 id="caption-ab-2">Love by the River</h5> 
+              </div> 
+
+              <div className="the-paintings">
+              <img src="./Listened.png" id="painting-ab"></img> 
+              <img src="./Red-Age.png" id="painting-ab"></img> 
+              </div>
+
+              <div className="the-words">
+              <h5 id="caption-ab-1">Listened</h5>
+              <h5 id="caption-ab-2">Red Age</h5> 
+              </div> 
+
+              {/* List of Paintings [Phone] */} 
+
+              <img src="./Sing.png" id="image-mobile"></img>
+              <h5 id="caption-mobile">Sing</h5> 
+
+              <img src="./Love-by-the-River.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Love by the River</h5> 
+
+              <img src="./Listened.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Listened</h5> 
+
+              <img src="./Red-Age.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Red Age</h5> 
+
               {/* List of Paintings */} 
-
-              <img src="./Sing.png" id="painting"></img>
-              <h5 id="caption">Sing</h5> 
-
-              <img src="./Love-by-the-River.png" id="painting"></img> 
-              <h5 id="caption">Love by the River</h5> 
-
-              <img src="./Listened.png" id="painting"></img> 
-              <h5 id="caption">Listened</h5> 
-
-              <img src="./Red-Age.png" id="painting"></img> 
-              <h5 id="caption">Red Age</h5> 
 
               <img src="./Cherry-Blossom-Season.png" id="painting"></img> 
               <h5 id="caption">Cherry Blossom Season</h5> 
