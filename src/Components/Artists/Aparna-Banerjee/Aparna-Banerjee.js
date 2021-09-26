@@ -322,7 +322,7 @@ function AparnaBanerjee() {
 
               {/* List of Paintings [Phone] */} 
 
-              <img src="./beauty_1.jpeg" id="image-mobile"/>
+              <img src="./beauty_1.jpeg" id="image-mobile"/> 
               <h5 id="caption-mobile">Recollect</h5> 
               <h5 id="caption-mobile">22” x 30” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 

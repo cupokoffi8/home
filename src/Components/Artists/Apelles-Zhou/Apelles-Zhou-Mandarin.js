@@ -49,25 +49,57 @@ function ApellesZhouMandarin() {
               无论是北京还是纽约。
               </p>
 
-              {/* List of Paintings */} 
+              {/* List of Paintings [Computer] */} 
 
-              <img src="./Eye-of-Horus.png" id="painting"></img>
-              <h5 id="caption">Eye of Horus</h5> 
+              <div className="the-paintings">
+              <img src="./Eye-of-Horus.png" id="painting-ab"></img> 
+              <img src="./Age-of-Aquarius.png" id="painting-ab"></img> 
+              </div>
 
-              <img src="./Age-of-Aquarius.png" id="painting"></img> 
-              <h5 id="caption">Age of Aquarius</h5> 
+              <div className="the-words">
+              <h5 id="caption-ab-1">Eye of Horus</h5>
+              <h5 id="caption-ab-2">Age of Aquarius</h5> 
+              </div> 
 
-              <img src="./Back-to-Pleiade.png" id="painting"></img> 
-              <h5 id="caption">Back to Pleiade</h5> 
+              <div className="the-paintings">
+              <img src="./Back-to-Pleiade.png" id="painting-ab"></img> 
+              <img src="./Portrait-of-Thoth.png" id="painting-ab"></img> 
+              </div>
 
-              <img src="./Portrait-of-Thoth.png" id="painting"></img> 
-              <h5 id="caption">Portrait of Thoth</h5> 
+              <div className="the-words">
+              <h5 id="caption-ab-1">Back to Pleiade</h5>
+              <h5 id="caption-ab-2">Portrait of Thoth</h5> 
+              </div> 
 
-              <img src="./Purple-Flame.png" id="painting"></img> 
-              <h5 id="caption">Purple Flame</h5> 
+              <div className="the-paintings">
+              <img src="./Purple-Flame.png" id="painting-ab"></img> 
+              <img src="./The-Grey.png" id="painting-ab"></img> 
+              </div>
 
-              <img src="./The-Grey.png" id="painting"></img> 
-              <h5 id="caption">The Grey</h5> 
+              <div className="the-words">
+              <h5 id="caption-ab-1">Purple Flame</h5>
+              <h5 id="caption-ab-2">The Grey</h5> 
+              </div> 
+
+              {/* List of Paintings [Phone] */} 
+
+              <img src="./Eye-of-Horus.png" id="image-mobile"></img>
+              <h5 id="caption-mobile">Eye of Horus</h5> 
+
+              <img src="./Age-of-Aquarius.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Age of Aquarius</h5> 
+
+              <img src="./Back-to-Pleiade.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Back to Pleiade</h5> 
+
+              <img src="./Portrait-of-Thoth.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Portrait of Thoth</h5> 
+
+              <img src="./Purple-Flame.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Purple Flame</h5> 
+
+              <img src="./The-Grey.png" id="image-mobile"></img> 
+              <h5 id="caption-mobile">The Grey</h5> 
 
               <img src="./Sirian-Girl.png" id="painting-wide"></img> 
               <h5 id="caption">Sirian Girl</h5> 
