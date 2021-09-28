@@ -11,16 +11,31 @@ function Hours() {
     return (
         <div data-aos="fade-up" data-aos-duration="900" id="hours-div"> 
           <div id="space" />
-          <h6 data-aos="fade-up" data-aos-duration="1000" className="title">Our Weekly Hours</h6>
-          <div id="space-uh" />
-            <h6 data-aos="fade-up" data-aos-duration="1100" className="hours">
-              Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By Appointment Only<br /> 
-              Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By Appointment Only<br />
-              Wednesday: &nbsp;&nbsp; By Appointment Only<br />
-              Thursday:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noon - 7:00 p.m.<br />
-              Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noon - 7:00 p.m.<br /> 
-              Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 a.m. - 5:00 p.m.<br />
-              Sunday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed</h6> 
+          <h6 data-aos="fade-up" data-aos-duration="1000" className="title">Our Weekly Hours</h6> 
+              <div data-aos="fade-up" data-aos-duration="1300" className="hours-container"> 
+                <div className="days">
+                  <h6 className="days-header">
+                  Monday: <br /> 
+                  Tuesday: <br />
+                  Wednesday: <br />
+                  Thursday:  <br />
+                  Friday: <br /> 
+                  Saturday: <br />
+                  Sunday:
+                  </h6> 
+                </div>
+                <div className="the-hours">
+                  <h6 className="hours-header">
+                  By Appointment Only<br />
+                  By Appointment Only<br />
+                  By Appointment Only<br /> 
+                  Noon - 7:00 p.m.<br />
+                  Noon - 7:00 p.m.<br /> 
+                  10:00 a.m. - 5:00 p.m.<br /> 
+                  Closed 
+                  </h6>
+                </div>
+              </div>
             <div id="space" />
         </div>
     );

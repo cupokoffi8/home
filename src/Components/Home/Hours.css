@@ -4,7 +4,7 @@
 
 .title {
   font-family: 'Times New Roman', Times, serif; 
-  font-size: 26px;
+  font-size: 28px;
   display: flex; 
   justify-content: center !important;
   margin-left: auto; 
@@ -13,7 +13,7 @@
   color: #fff; 
   background-color: #1e3272 !important; 
   margin-top: 0px;
-  margin-bottom: 10px; 
+  margin-bottom: 1px; 
   /* color: #1e3272;  */ 
   }
 
@@ -49,8 +49,51 @@
   #hours {  
       line-height: 0.5rem; 
       background: #1e3272; 
-
   } 
+
+  .hours-container {
+    display: flex; 
+    justify-content: center !important; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: auto; 
+    height: auto; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+  } 
+
+  .days {
+    display: inline-block; 
+    margin-right: 20px; 
+    width: auto; 
+    height: auto; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+  } 
+
+  .days-header {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    text-align: left; 
+    color: #fff; 
+    background-color: #1e3272 !important; 
+  } 
+
+  .the-hours {
+    display: inline-block; 
+    width: auto; 
+    height: auto; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+  } 
+
+  .hours-header {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    text-align: left; 
+    color: #fff; 
+    background-color: #1e3272 !important; 
+  }
 
   #space {
     background: #1e3272; 
