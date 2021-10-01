@@ -32,32 +32,35 @@ function Aritists() {
             </div>
 
             <div className="card-row-artists">
+            <a id="link" href="#/charles-haber">
+            <h5 id="caption-card-a-l">Charles Haber</h5> 
+            </a> 
             <a id="link" href="#/chiu-pai">
-            <h5 id="caption-card-a-l">Chiu Pai</h5> 
+            <h5 id="caption-card-a-m">Chiu Pai</h5> 
             </a> 
             <a id="link" href="#/jill-slaymaker">
-            <h5 id="caption-card-a-m">Jill Slaymaker</h5> 
-            </a>
-            <a id="link" href="#/qui-huade">
-            <h5 id="caption-card-a-r">Qui Huade</h5> 
+            <h5 id="caption-card-a-r">Jill Slaymaker</h5> 
             </a>
             </div>
 
             <div className="card-row-artists">
+            <a id="link" href="#/qui-huade">
+            <h5 id="caption-card-a-l">Qui Huade</h5> 
+            </a>
             <a id="link" href="#/su-zi">
-            <h5 id="caption-card-a-l">Su Zi</h5> 
+            <h5 id="caption-card-a-m">Su Zi</h5> 
             </a>
             <a id="link" href="#/xiao-li">
-            <h5 id="caption-card-a-m">Xiao Li</h5> 
-            </a>
-            <a id="link" href="#/zen-frescos">
-            <h5 id="caption-card-a-r">Zen Frescos</h5> 
+            <h5 id="caption-card-a-r">Xiao Li</h5> 
             </a>
             </div> 
 
             <div className="card-row-artists">
+            <a id="link" href="#/zen-frescos">
+            <h5 id="caption-card-a-l">Zen Frescos</h5> 
+            </a>
             <a id="link" href="#/zhao-qing">
-            <h5 id="caption-card-a-l">Zhao Qing</h5>
+            <h5 id="caption-card-a-m">Zhao Qing</h5>
             </a> 
             <a id="link" href="#/zhen-zhong-duan"> 
             <h5 id="caption-card-a-r">Zhen-Zhong Duan</h5> 
@@ -76,6 +79,10 @@ function Aritists() {
 
             <a id="link" href="#/cai-jiang">
             <h5 id="caption-card">Cai Jiang</h5> 
+            </a> 
+
+            <a id="link" href="#/charles-haber">
+            <h5 id="caption-card">Charles Haber</h5> 
             </a> 
 
             <a id="link" href="#/chiu-pai">

@@ -15,6 +15,11 @@ export const AMenuItems = [
       cName: 'a-dropdown-link'
     }, 
     {
+      title: '查尔斯·哈伯', 
+      path: '/charles-haber-mandarin',
+      cName: 'a-dropdown-link'
+    }, 
+    {
       title: '邱白', 
       path: '/chiu-pai-mandarin',
       cName: 'a-dropdown-link'

@@ -31,33 +31,36 @@ function AritistsMandarin() {
             </a>
             </div>
 
-            <div className="card-row-artists">
+            <div className="card-row-artists"> 
+            <a id="link" href="#/charles-haber-mandarin">
+            <h5 id="caption-card-a-l">查尔斯·哈伯</h5> 
+            </a> 
             <a id="link" href="#/chiu-pai-mandarin">
-            <h5 id="caption-card-a-l">邱白</h5> 
+            <h5 id="caption-card-a-m">邱白</h5> 
             </a> 
             <a id="link" href="#/jill-slaymaker-mandarin">
-            <h5 id="caption-card-a-m">吉尔·斯莱梅克</h5> 
-            </a>
-            <a id="link" href="#/qui-huade-mandarin">
-            <h5 id="caption-card-a-r">奎華德</h5> 
+            <h5 id="caption-card-a-r">吉尔·斯莱梅克</h5> 
             </a>
             </div>
 
             <div className="card-row-artists">
+            <a id="link" href="#/qui-huade-mandarin">
+            <h5 id="caption-card-a-l">奎華德</h5> 
+            </a>
             <a id="link" href="#/su-zi-mandarin">
-            <h5 id="caption-card-a-l">蘇子</h5> 
+            <h5 id="caption-card-a-m">蘇子</h5> 
             </a>
             <a id="link" href="#/xiao-li-mandarin">
-            <h5 id="caption-card-a-m">萧立</h5> 
-            </a>
-            <a id="link" href="#/zen-frescos-mandarin">
-            <h5 id="caption-card-a-r">禅意壁画</h5> 
+            <h5 id="caption-card-a-r">萧立</h5> 
             </a>
             </div> 
 
             <div className="card-row-artists">
+            <a id="link" href="#/zen-frescos-mandarin">
+            <h5 id="caption-card-a-l">禅意壁画</h5> 
+            </a>
             <a id="link" href="#/zhao-qing-mandarin">
-            <h5 id="caption-card-a-l">趙青</h5> 
+            <h5 id="caption-card-a-m">趙青</h5> 
             </a> 
             <a id="link" href="#/zhen-zhong-duan-mandarin"> 
             <h5 id="caption-card-a-r">段振中</h5> 
@@ -76,7 +79,11 @@ function AritistsMandarin() {
 
             <a id="link" href="#/cai-jiang-mandarin"> 
             <h5 id="caption-card">蔡江</h5> 
-            </a>
+            </a> 
+
+            <a id="link" href="#/charles-haber-mandarin">
+            <h5 id="caption-card">查尔斯·哈伯</h5> 
+            </a> 
 
             <a id="link" href="#/chiu-pai-mandarin"> 
             <h5 id="caption-card">邱白</h5> 

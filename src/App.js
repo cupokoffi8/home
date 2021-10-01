@@ -14,7 +14,8 @@ import Home from './Components/Home/Home';
 import Artists from './Components/Artists/Artists/Artists'; 
 import AparnaBanerjee from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee'; 
 import ApellesZhou from './Components/Artists/Apelles-Zhou/Apelles-Zhou'; 
-import CaiJiang from './Components/Artists/Cai-Jiang/Cai-Jiang';
+import CaiJiang from './Components/Artists/Cai-Jiang/Cai-Jiang'; 
+import CharlesHaber from './Components/Artists/Charles-Haber/Charles-Haber'; 
 import ChiuPai from './Components/Artists/Chiu-Pai/Chiu-Pai'; 
 import JillSlaymaker from './Components/Artists/Jill-Slaymaker/Jill-Slaymaker'; 
 import QuiHuade from './Components/Artists/Qui-Huade/Qui-Huade';
@@ -64,8 +65,9 @@ import AritistsMandarin from './Components/Artists/Artists/Artists-Mandarin';
 import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
 import ApellesZhouMandarin from './Components/Artists/Apelles-Zhou/Apelles-Zhou-Mandarin'; 
 import CaiJiangMandarin from './Components/Artists/Cai-Jiang/Cai-Jiang-Mandarin'; 
-import JillSlaymakerMandarin from './Components/Artists/Jill-Slaymaker/Jill-Slaymaker-Mandarin'; 
+import CharlesHaberMandarin from './Components/Artists/Charles-Haber/Charles-Haber-Mandarin'; 
 import ChiuPaiMandarin from './Components/Artists/Chiu-Pai/Chiu-Pai-Mandarin'; 
+import JillSlaymakerMandarin from './Components/Artists/Jill-Slaymaker/Jill-Slaymaker-Mandarin'; 
 import QuiHuadeMandarin from './Components/Artists/Qui-Huade/Qui-Huade-Mandarin'; 
 import SuZiMandarin from './Components/Artists/Su-Zi/Su-Zi-Mandarin'; 
 import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin'; 
@@ -108,6 +110,7 @@ function App() {
             <Route path="/aparna-banerjee" component={AparnaBanerjee} /> 
             <Route path="/artists" component={Artists} />
             <Route path="/cai-jiang" component={CaiJiang} /> 
+            <Route path="/charles-haber" component={CharlesHaber} /> 
             <Route path="/chiu-pai" component={ChiuPai} /> 
             <Route path="/jill-slaymaker" component={JillSlaymaker} /> 
             <Route path="/qui-huade" component={QuiHuade} /> 
@@ -152,7 +155,8 @@ function App() {
             <Route path="/apelles-zhou-mandarin" component={ApellesZhouMandarin} /> 
             <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
             <Route path="/artists-mandarin" component={AritistsMandarin} /> 
-            <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} />   
+            <Route path="/cai-jiang-mandarin" component={CaiJiangMandarin} /> 
+            <Route path="/charles-haber-mandarin" component={CharlesHaberMandarin} />   
             <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
             <Route path="/jill-slaymaker-mandarin" component={JillSlaymakerMandarin} /> 
             <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} />  
