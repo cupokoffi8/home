@@ -64,6 +64,10 @@ function CharlesHaberMandarin() {
               <h5 id="caption-ch-2">Nature</h5> 
               </div> 
 
+              <br /> 
+              <br /> 
+              <br /> 
+
               <div className="the-paintings">
                 <img src="./NAKED-LADIES.jpeg" id="painting-ch-other"></img> 
                 <img src="./MOTHER-AND-CHILD.jpeg" id="painting-ch-other"></img> 
@@ -75,6 +79,10 @@ function CharlesHaberMandarin() {
                 <h5 id="small-caption-ch">Mother and Child</h5> 
                 <h5 id="small-caption-ch">Winter Lady</h5> 
               </div> 
+
+              <br /> 
+              <br /> 
+              <br /> 
 
               <div className="the-paintings">
               <img src="./PLAY-IT-AGAIN.jpeg" id="painting-ch"></img> 
