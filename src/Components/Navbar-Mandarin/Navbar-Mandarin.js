@@ -94,7 +94,7 @@ function NavbarMandarin() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar' style={{ marginRight: "40px"}}>
       <Link 
         to='/mandarin' 
         className='mobile-logo'>
