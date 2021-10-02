@@ -88,10 +88,10 @@ function CharlesHaberMandarin() {
 
               {/* List of Paintings [Phone] */} 
 
-              <img src="./COMING-STORM.jpeg" id="image-mobile"></img>
+              <img src="./COMING-STORM.jpeg" className="painting-ch-mobile-wide"></img>
               <h5 id="caption-mobile">Coming Storm</h5> 
 
-              <img src="./ENCORE.jpeg" id="image-mobile"></img> 
+              <img src="./ENCORE.jpeg" className="painting-ch-mobile-wide"></img> 
               <h5 id="caption-mobile">Encore</h5> 
 
               <img src="./HE-SHOOTS.jpeg" id="image-mobile"></img> 

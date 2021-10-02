@@ -4,7 +4,11 @@
     margin-top: 80px; 
     width: 45vw; 
     height: auto; 
-}
+} 
+
+.painting-ch-mobile-wide { 
+  display: none; 
+} 
 
 .painting-ch-small {
     display: block; 
@@ -119,3 +123,16 @@
   font-weight: bold !important;  
   color: black !important; 
 } 
+
+@media only screen and (max-width: 705px) { 
+
+  .painting-ch-mobile-wide { 
+    margin-top: 40px; 
+    display: block; 
+    width: 85vw; 
+    height: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } 
+  
+}
