@@ -1,6 +1,7 @@
 import React from 'react'; 
 import '../Apelles-Zhou/Apelles-Zhou.css'; 
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
+import './Charles-Haber.css'; 
 import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 
@@ -37,53 +38,57 @@ function CharlesHaber() {
               {/* List of Paintings [Computer] */} 
 
               <div className="the-paintings">
-              <img src="./COMING-STORM.jpeg" id="painting-ab"></img> 
-              <img src="./ENCORE.jpeg" id="painting-ab"></img> 
+                <div>
+              <img src="./COMING-STORM.jpeg" className="painting-ch"></img> 
+              <h5 className="word-ch-1">Coming Storm</h5> 
               </div>
-
-              <div className="the-words">
-              <h5 id="caption-ab-1">Coming Storm</h5>
-              <h5 id="caption-ab-2">Encore</h5> 
+              <div>
+              <img src="./HE-SHOOTS.jpeg" className="painting-ch-small"></img> 
+              <h5 className="word-ch-2">He Shoots</h5> 
+              </div>
               </div> 
 
               <div className="the-paintings">
-              <img src="./HE-SHOOTS.jpeg" id="painting-ab"></img> 
-              <img src="./JUMP-BALL.jpeg" id="painting-ab"></img> 
-              </div>
-
-              <div className="the-words">
-              <h5 id="caption-ab-1">He Shoots</h5>
-              <h5 id="caption-ab-2">Jump Ball</h5> 
+              <div>
+                <img src="./JUMP-BALL.jpeg" className="painting-ch-small-2"></img> 
+                <h5 className="word-ch-2">Jump Ball</h5> 
+                </div>
+              <div> 
+                <img src="./ENCORE.jpeg" className="painting-ch"></img> 
+                <h5 className="word-ch-1">Encore</h5> 
+                </div>
               </div> 
 
               <div className="the-paintings">
-              <img src="./KANDINSKY-INSPIRATION.jpeg" id="painting-ab"></img> 
-              <img src="./MOTHER-AND-CHILD.jpeg" id="painting-ab"></img> 
+              <img src="./KANDINSKY-INSPIRATION.jpeg" id="painting-ch"></img> 
+              <img src="./NATURE.jpeg" id="painting-ch"></img> 
               </div>
 
               <div className="the-words">
-              <h5 id="caption-ab-1">Kandinsky Inspiration</h5>
-              <h5 id="caption-ab-2">Mother and Child</h5> 
+              <h5 id="caption-ch-1">Kandinsky Inspiration</h5>
+              <h5 id="caption-ch-2">Nature</h5> 
               </div> 
 
               <div className="the-paintings">
-              <img src="./NAKED-LADIES.jpeg" id="painting-ab"></img> 
-              <img src="./NATURE.jpeg" id="painting-ab"></img> 
-              </div>
+                <img src="./NAKED-LADIES.jpeg" id="painting-ch-other"></img> 
+                <img src="./MOTHER-AND-CHILD.jpeg" id="painting-ch-other"></img> 
+                <img src="./WINTER-LADY.jpeg" id="painting-ch-other"></img> 
+              </div> 
 
               <div className="the-words">
-              <h5 id="caption-ab-1">Naked Ladies</h5> 
-              <h5 id="caption-ab-2">Nature</h5> 
+                <h5 id="small-caption-ch">Naked Ladies</h5> 
+                <h5 id="small-caption-ch">Mother and Child</h5> 
+                <h5 id="small-caption-ch">Winter Lady</h5> 
               </div> 
 
               <div className="the-paintings">
-              <img src="./PLAY-IT-AGAIN.jpeg" id="painting-ab"></img> 
-              <img src="./THE-THIRD-EYE.jpeg" id="painting-ab"></img> 
+              <img src="./PLAY-IT-AGAIN.jpeg" id="painting-ch"></img> 
+              <img src="./THE-THIRD-EYE.jpeg" id="painting-ch"></img> 
               </div>
 
               <div className="the-words">
-              <h5 id="caption-ab-1">Play it Again</h5> 
-              <h5 id="caption-ab-2">The Third Eye</h5> 
+              <h5 id="caption-ch-1">Play it Again</h5> 
+              <h5 id="caption-ch-2">The Third Eye</h5> 
               </div> 
 
               {/* List of Paintings [Phone] */} 
@@ -118,8 +123,8 @@ function CharlesHaber() {
               <img src="./THE-THIRD-EYE.jpeg" id="image-mobile"></img> 
               <h5 id="caption-mobile">The Third Eye</h5> 
 
-              <img src="./WINTER-LADY.jpeg" id="painting-wide"></img> 
-              <h5 id="caption">Winter Lady</h5> 
+              <img src="./WINTER-LADY.jpeg" id="image-mobile"></img> 
+              <h5 id="caption-mobile">Winter Lady</h5> 
 
           </div> 
           </> 

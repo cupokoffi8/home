@@ -1,0 +1,121 @@
+.painting-ch {
+    display: block; 
+    justify-content: space-evenly;
+    margin-top: 80px; 
+    width: 45vw; 
+    height: auto; 
+}
+
+.painting-ch-small {
+    display: block; 
+    justify-content: space-evenly;
+    margin-top: 80px; 
+    width: 25.5vw; 
+    height: auto; 
+} 
+
+.painting-ch-small-2 {
+    display: block; 
+    justify-content: space-evenly;
+    margin-top: 80px; 
+    width: 25.25vw; 
+    height: auto; 
+}
+
+.word-ch-1{
+    display: block; 
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    width: 45vw; 
+    height: 20px !important;
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+}
+
+.word-ch-2{
+    display: block; 
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    width: 25.5vw; 
+    height: 20px !important;
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+} 
+
+#painting-ch {
+    display: inline-block; 
+    justify-content: space-evenly;
+    margin-top: 80px; 
+    width: 35.125vw; 
+    height: auto; 
+} 
+
+#painting-ch-other {
+    display: inline-block; 
+    justify-content: space-evenly;
+    margin-top: 80px; 
+    width: 20vw; 
+    height: auto; 
+} 
+
+#small-caption-ch { 
+    display: inline-block; 
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    justify-content: space-evenly; 
+    width: 20vw; 
+    height: 20px; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+}
+
+#caption-ch-1 {
+  display: block; 
+  font-family: 'Times New Roman', Times, serif; 
+  justify-content: space-between;
+  text-align: center; 
+  width: 35.125vw; 
+  height: 20px !important;
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: black !important; 
+}
+
+#caption-ch-2 {
+  display: block; 
+  font-family: 'Times New Roman', Times, serif; 
+  justify-content: space-between;
+  text-align: center; 
+  width: 35.125vw; 
+  height: 20px !important; 
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: black !important; 
+} 
+
+#caption-ch-11 {
+  display: block; 
+  font-family: 'Times New Roman', Times, serif; 
+  justify-content: space-between;
+  text-align: center; 
+  height: 20px !important;
+  width: 35.125vw; 
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: black !important; 
+} 
+
+#caption-ch-22 { 
+  display: block; 
+  font-family: 'Times New Roman', Times, serif; 
+  justify-content: space-between;
+  text-align: center; 
+  height: 20px !important;
+  width: 35.125vw; 
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: black !important; 
+} 
