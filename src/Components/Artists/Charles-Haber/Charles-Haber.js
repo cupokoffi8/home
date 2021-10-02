@@ -71,6 +71,7 @@ function CharlesHaber() {
 
               <br /> 
               <br /> 
+              <br /> 
 
               <div className="the-paintings">
                 <img src="./NAKED-LADIES.jpeg" id="painting-ch-other"></img> 
@@ -84,6 +85,7 @@ function CharlesHaber() {
                 <h5 id="small-caption-ch">Winter Lady</h5> 
               </div> 
 
+              <br /> 
               <br /> 
               <br /> 
 
