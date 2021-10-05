@@ -47,12 +47,13 @@ export default function Home() {
       <>
       <Navbar /> 
 
-        <div id="bottom-1"> 
+      <div id="bottom"> 
 
         <form method="get" action="#/mandarin">
           <button id="the-button" type='btn'>普通話</button> 
         </form> 
 
+        <div id="bottom-1"> 
 
         <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome To</h1>
         <h1 data-aos="fade-down" data-aos-duration="1800" className='american'>American Dragon International Fine Art Gallery</h1>
@@ -86,6 +87,8 @@ export default function Home() {
             </a> 
             </div> 
 
+          </div> 
+
           {/* <br /> 
 
           <div data-aos="fade-down" data-aos-duration="1400" className="announcement-card">
@@ -106,9 +109,6 @@ export default function Home() {
           We look forward to your visit during this exciting Weekend, and know you will enjoy the
           various Artists we have on display in our gallery.</h6> 
       </div>  */}
-      </div> 
-
-      <div id="bottom"> 
 
         <Hours /> 
 
