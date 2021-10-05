@@ -274,7 +274,7 @@
 
   @media only screen and (max-height: 700px) { 
     #bottom-1 {
-      height: 100vh; 
+      height: 85vh; 
     } 
   }
 
@@ -286,7 +286,7 @@
     } 
 
     #bottom-1 {
-      height: 100vh; 
+      height: 85vh; 
     } 
 
     #p-top {
