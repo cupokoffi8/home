@@ -57,6 +57,8 @@ export default function HomeMandarin() {
 
         <HoursMandarin /> 
 
+        <br id="br-mobile" /> 
+
           <img src="./fung-shway.jpeg"id="fung-shway" />  
 
           <p id="p-top">

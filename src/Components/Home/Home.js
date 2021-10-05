@@ -112,6 +112,8 @@ export default function Home() {
 
         <Hours /> 
 
+        <br id="br-mobile" />  
+
           <img src="./fung-shway.jpeg"id="fung-shway" />  
 
           <p id="p-top">

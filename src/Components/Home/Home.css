@@ -236,6 +236,10 @@
     height: 65vh; 
   } 
 
+  #br-mobile {
+    display: none; 
+  }
+
   #fung-shway {
     display: block; 
     margin-top: 50px; 
@@ -274,7 +278,7 @@
 
   @media only screen and (max-height: 700px) { 
     #bottom-1 {
-      height: 85vh; 
+      height: 80vh; 
     } 
   }
 
@@ -286,8 +290,12 @@
     } 
 
     #bottom-1 {
-      height: 85vh; 
+      height: 80vh; 
     } 
+
+    #br-mobile {
+      display: block; 
+    }
 
     #p-top {
       margin-left: 15px; 
