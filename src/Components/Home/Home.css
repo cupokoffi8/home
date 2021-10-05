@@ -278,7 +278,7 @@
 
   @media only screen and (max-height: 700px) { 
     #bottom-1 {
-      height: 80vh; 
+      height: 60vh; 
     } 
   }
 
@@ -290,7 +290,7 @@
     } 
 
     #bottom-1 {
-      height: 80vh; 
+      height: 60vh; 
     } 
 
     #br-mobile {
