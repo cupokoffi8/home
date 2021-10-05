@@ -14,12 +14,13 @@ export default function HomeMandarin() {
     return (
       <>
       <NavbarMandarin /> 
-
-        <div id="bottom-1"> 
+      <div id="bottom"> 
 
         <form method="get" action="#/">
           <button id="the-button" type='btn'>English</button> 
         </form> 
+
+        <div id="bottom-1"> 
       
         <h1 data-aos="fade-down" data-aos-duration="1400" className='american'>歡迎來到美國龍國際美術</h1> 
 
@@ -52,8 +53,7 @@ export default function HomeMandarin() {
             </a>
           </div> 
 
-          </div> 
-        <div id="bottom">  
+          </div>   
 
         <HoursMandarin /> 
 

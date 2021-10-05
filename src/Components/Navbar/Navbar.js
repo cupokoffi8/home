@@ -99,7 +99,7 @@ function Navbar() {
         <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}} href="/"></img>
           </Link>
         <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> 
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
