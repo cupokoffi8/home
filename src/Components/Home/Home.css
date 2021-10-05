@@ -273,21 +273,9 @@
   } 
 
   @media only screen and (max-height: 700px) { 
-    /* #top{
-      margin-bottom: 225px; 
+    #bottom-1 {
+      height: 100vh; 
     } 
-
-    #twitter {
-      display: none; 
-      }
-
-    #instagram img{
-      display: none;
-    }
-  
-    #linkedin img{
-      display: none;
-    } */
   }
 
   @media only screen and (max-width: 600px) {
@@ -295,7 +283,11 @@
     .announcement-card {
       width: 85vw; 
       height: auto; 
-    }
+    } 
+
+    #bottom-1 {
+      height: 100vh; 
+    } 
 
     #p-top {
       margin-left: 15px; 
