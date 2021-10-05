@@ -47,7 +47,7 @@ export default function Home() {
       <>
       <Navbar /> 
 
-        <div id="bottom"> 
+        <div id="bottom-1"> 
 
         <form method="get" action="#/mandarin">
           <button id="the-button" type='btn'>普通話</button> 
@@ -86,7 +86,7 @@ export default function Home() {
             </a> 
             </div> 
 
-          <br /> 
+          {/* <br /> 
 
           <div data-aos="fade-down" data-aos-duration="1400" className="announcement-card">
         <h6 className="magAndMyst">
@@ -105,9 +105,10 @@ export default function Home() {
         <h6 id="moreInfo">
           We look forward to your visit during this exciting Weekend, and know you will enjoy the
           various Artists we have on display in our gallery.</h6> 
+      </div>  */}
       </div> 
 
-      <br /><br /><br /> 
+      <div id="bottom"> 
 
         <Hours /> 
 

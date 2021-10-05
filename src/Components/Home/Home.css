@@ -230,6 +230,12 @@
     margin-bottom: 20px;
   } 
 
+  #bottom-1 {
+    background-color: #fff; 
+    margin-top: 20px;
+    height: 65vh; 
+  } 
+
   #fung-shway {
     display: block; 
     margin-top: 50px; 

@@ -15,7 +15,7 @@ export default function HomeMandarin() {
       <>
       <NavbarMandarin /> 
 
-        <div id="bottom"> 
+        <div id="bottom-1"> 
 
         <form method="get" action="#/">
           <button id="the-button" type='btn'>English</button> 
@@ -52,7 +52,8 @@ export default function HomeMandarin() {
             </a>
           </div> 
 
-          <br /> 
+          </div> 
+        <div id="bottom">  
 
         <HoursMandarin /> 
 
