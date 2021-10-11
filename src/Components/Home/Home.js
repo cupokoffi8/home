@@ -10,6 +10,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 import { toast } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
+import { Link } from 'react-router-dom'; 
 
 const PopUpMessage = ({ closeToast }) => {
   return (
@@ -53,7 +54,7 @@ export default function Home() {
           <button id="the-button" type='btn'>普通話</button> 
         </form> 
 
-        <div id="bottom-1"> 
+        {/* <div id="bottom-1">  v(Uncomment this when the stuff below is not in use)v */}
 
         <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome To</h1>
         <h1 data-aos="fade-down" data-aos-duration="1800" className='american'>American Dragon International Fine Art Gallery</h1>
@@ -87,28 +88,37 @@ export default function Home() {
             </a> 
             </div> 
 
-          </div> 
+          {/* </div>  v(Uncomment this when the stuff below is not in use)v */} 
+          {/* --------------------------------------------------------------------- */}
 
-          {/* <br /> 
+          <br /> 
 
           <div data-aos="fade-down" data-aos-duration="1400" className="announcement-card">
         <h6 className="magAndMyst">
           <span className="big-words">
-            October 1st will be the first day to feature new artists in our Gallery 
+            Visit Us to Explore a Diverse Collection of Artwork
             </span>
             <hr className="the-line" /> 
             <span className="other-words">
-          We will be open for the "Lancaster Art Walk" during the following times:
+          We have five featured artists on display: 
           </span>
           </h6> 
-        <h6 id="please">
-          October 1:   Noon until 7:00 p.m.<br />
-          October 2:   10:00 a.m. until 5:00 p.m.<br /> 
-          October 3:   10:00 a.m. until 5:00 p.m.</h6> 
+        
+          <Link className="artist-link" to="/apelles-zhou">Appelles Zhou</Link><br /> 
+          <Link className="artist-link" to="/aparna-banerjee">Aparna Banerjee</Link><br />
+          <Link className="artist-link" to="/charles-haber">Charles Haber</Link><br />
+          <Link className="artist-link" to="/chiu-pai">Chiu Pai</Link><br /> 
+          <Link className="artist-link" to="/zhen-zhong-duan">Zhen Zhong Duan</Link> 
+          
         <h6 id="moreInfo">
-          We look forward to your visit during this exciting Weekend, and know you will enjoy the
-          various Artists we have on display in our gallery.</h6> 
-      </div>  */}
+          We look forward to your visit, and know you will enjoy the
+          various artists we have on display in our gallery.</h6> 
+      </div> 
+
+      <br />
+      <br /> 
+
+      {/* --------------------------------------------------------- */}
 
         <Hours /> 
 
