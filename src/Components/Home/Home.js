@@ -100,7 +100,7 @@ export default function Home() {
             </span>
             <hr className="the-line" /> 
             <span className="other-words">
-          We have five featured artists on display: 
+          We have six featured artists on display: 
           </span>
           </h6> 
         
@@ -108,6 +108,7 @@ export default function Home() {
           <Link className="artist-link" to="/aparna-banerjee">Aparna Banerjee</Link><br />
           <Link className="artist-link" to="/charles-haber">Charles Haber</Link><br />
           <Link className="artist-link" to="/chiu-pai">Chiu Pai</Link><br /> 
+          <Link className="artist-link" to="/jill-slaymaker">Jill Slaymaker</Link><br /> 
           <Link className="artist-link" to="/zhen-zhong-duan">Zhen Zhong Duan</Link> 
           
         <h6 id="moreInfo">
