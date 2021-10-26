@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const PopUpMessage = ({ closeToast }) => {
   return (
     <>
-      <h5 id="caption">American Dragon Fine Art will be closed on September 11, 2021.</h5>
+      <h5 id="caption">American Dragon Fine Art will be closed on Friday, October 29, 2021 and Saturday, October 30, 2021.</h5>
       <h5 id="caption">We look forward to seeing you next week.</h5> 
     </> 
   );
@@ -28,16 +28,16 @@ export default function Home() {
   // v Pop-Up v 
 
   // Uncomment the following to activate the pop-up: 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     toast(
-  //       <PopUpMessage /> 
-  //       , {position: toast.POSITION.TOP_CENTER, 
-  //         autoClose: 8000
-  //       })
-  //   }, 1000);
-  //   return () => clearTimeout(timer);
-  // }, []); 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      toast(
+        <PopUpMessage /> 
+        , {position: toast.POSITION.TOP_CENTER, 
+          autoClose: 8000
+        })
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []); 
   
   // ^ End Pop-Up ^ 
 
