@@ -37,7 +37,7 @@ function OurFounderMandarin() {
             Lena 在世界各地的資源使藝術家能夠在國際藝術界建立許多新的聯繫。 
             </p> 
 
-            <img id="image-thing-at" src="OFNew.jpeg" /> 
+            <img id="image-thing-at" src="lennyy.JPG" /> 
 
           </div>
         </>
