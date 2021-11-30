@@ -56,7 +56,11 @@ export default function Home() {
 
         {/* <div id="bottom-1">  v(Uncomment this when the stuff below is not in use)v */}
 
-        <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome To</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1600" className='celebrate' id="celebrate">Happy Holidays</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1700" className='from' id="from">From</h1>
+
+
+        {/* <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome to</h1> */}
         <h1 data-aos="fade-down" data-aos-duration="1800" className='american'>American Dragon International Fine Art Gallery</h1>
 
         <div id="info">

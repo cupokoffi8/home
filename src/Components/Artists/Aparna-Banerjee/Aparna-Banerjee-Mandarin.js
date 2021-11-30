@@ -75,7 +75,7 @@ function AparnaBanerjeeMandarin() {
               </div>
 
               <div className="the-paintings">
-              <img src="./AB5.jpeg" id="painting-ab"></img>  
+              <img src="./pp.png" id="painting-ab-sold"></img>   
               <img src="./AB6.jpeg" id="painting-ab"></img> 
               </div>
 
@@ -350,7 +350,7 @@ function AparnaBanerjeeMandarin() {
 
               <br id="only-mobile"/>
 
-              <img id="image-mobile" src="./AB5.jpeg"/>
+              <img id="image-mobile-sold" src="./pp.png"/> 
               <h5 id="caption-mobile">Lost Cat</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 

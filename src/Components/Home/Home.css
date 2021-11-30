@@ -13,6 +13,30 @@
       margin-top: 20px; 
   } 
 
+  .celebrate {
+    color: #1e3272 !important; 
+    display: block; 
+    margin-top: 26px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-size: 2.5em;
+    text-align: center; 
+   } 
+
+   .from {
+    color: #1e3272 !important; 
+    display: block; 
+    margin-top: 26px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-size: 1.5em;
+    text-align: center; 
+   } 
+
   #caption {
     display: block; 
     margin-left: auto; 

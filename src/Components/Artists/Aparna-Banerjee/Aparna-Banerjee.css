@@ -61,6 +61,14 @@
       height: 450px; 
   }
 
+  #painting-ab-sold {
+    display: inline-block; 
+    justify-content: space-evenly;
+    margin-top: 40px; 
+    width: 371px; 
+    height: 490px; 
+}
+
   #caption-ab-1 {
     display: block; 
     font-family: 'Times New Roman', Times, serif; 
@@ -130,6 +138,14 @@
         margin-top: 40px; 
         width: 341px; 
         height: 450px; 
+    } 
+
+    #image-mobile-sold {
+        display: block !important; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 371px; 
+        height: 490px; 
     } 
 
     #caption-mobile {
