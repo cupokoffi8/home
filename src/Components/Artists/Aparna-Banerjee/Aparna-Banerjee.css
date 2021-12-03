@@ -121,6 +121,10 @@
     display: none; 
 } 
 
+#image-mobile-sold {
+    display: none; 
+}
+
 #caption-mobile {
     display: none; 
 } 
@@ -169,6 +173,10 @@
     .the-paintings {
         display: none; 
     } 
+
+    #painting-ab-sold {
+        display: none; 
+    }
 
     .the-words {
         display: none; 
