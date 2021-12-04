@@ -4,6 +4,8 @@ import './Navbar.css';
 import TgDropdown from './TG-Dropdown';
 import EDropdown from './E-Dropdown';
 import ADropdown from './A-Dropdown';
+import { IconButton, Badge } from '@material-ui/core'; 
+import { ShoppingCart } from '@material-ui/icons';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -94,7 +96,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar' style={{ marginRight: "6.5px"}}>
       <Link to='/' className='mobile-logo'>
         <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}} href="/"></img>
           </Link>
@@ -103,21 +105,16 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-          {/* The Gallery */}
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter1}
-            onMouseLeave={onMouseLeave1}
-          >
-            <Link
-              to='/about-us'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              About Us <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <TgDropdown />}
-          </li>
+          {/* Shopping Cart */}
+          <li className='nav-item'>
+          <Link className="shopping-cart" to='coming-soon'> 
+          <IconButton component={Link} to="coming-soon" aria-label="Show cart items" color="inherit">
+              <Badge badgeContent='' color="">
+                <ShoppingCart />
+              </Badge>
+            </IconButton>
+          </Link>
+          </li> 
 
           {/* Exhibitions */}
           <li
@@ -153,29 +150,47 @@ function Navbar() {
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <img src="./logo.png" width="140" height="140" alt="Logo" className='logo' style={{ marginTop: "40px"}} href="/"></img>
-          </Link>
+          </Link> 
 
-          {/* News and Events */}
-          <li className='nav-item'>
-            <Link 
-              to='/news-and-events' 
-              className='nav-links' 
+          {/* The Gallery */}
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter1}
+            onMouseLeave={onMouseLeave1}
+          >
+            <Link
+              to='/about-us'
+              className='nav-links'
               onClick={closeMobileMenu}
-              >
-              News & Events
+            >
+              About Us <i className='fas fa-caret-down' />
             </Link>
+            {dropdown && <TgDropdown />}
           </li>
 
+{/* ------------------------------------------------------------------------- */}
           {/* Art Service */}
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link
               to='/art-service'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Art Service
+              Services 
             </Link>
-          </li>
+          </li> */}
+{/* ------------------------------------------------------------------------- */} 
+
+          {/* Shop */}
+          <li className='nav-item'>
+            <Link
+              to='/coming-soon'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Shop 
+            </Link>
+          </li> 
 
           {/* Contact Us */}
           <li className='nav-item'>
@@ -184,11 +199,12 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Contact Us 
             </Link>
-          </li>
+          </li> 
 
-        </ul>
+        </ul> 
+
       </nav>
     </>
   );

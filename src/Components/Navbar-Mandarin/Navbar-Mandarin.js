@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css';
 import TgDropdown from './TG-Dropdown';
 import EDropdown from './E-Dropdown';
-import ADropdown from './A-Dropdown';
+import ADropdown from './A-Dropdown'; 
+import { IconButton, Badge } from '@material-ui/core'; 
+import { ShoppingCart } from '@material-ui/icons'; 
 
 function NavbarMandarin() {
   const [click, setClick] = useState(false);
@@ -94,7 +96,7 @@ function NavbarMandarin() {
 
   return (
     <>
-      <nav className='navbar' style={{ marginRight: "40px"}}>
+      <nav className='navbar' style={{ marginRight: "0px"}}>
       <Link 
         to='/mandarin' 
         className='mobile-logo'>
@@ -105,21 +107,16 @@ function NavbarMandarin() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-          {/* The Gallery */}
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter1}
-            onMouseLeave={onMouseLeave1}
-          >
-            <Link
-              to='/about-us-mandarin' 
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              关于我们 <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <TgDropdown />}
-          </li>
+          {/* Shopping Cart */}
+          <li className='nav-item'>
+          <Link className="shopping-cart" to='/coming-soon-mandarin'> 
+          <IconButton component={Link} to="/coming-soon-mandarin" aria-label="Show cart items" color="inherit">
+              <Badge badgeContent='' color="">
+                <ShoppingCart />
+              </Badge>
+            </IconButton>
+            </Link> 
+          </li> 
 
           {/* Exhibitions */}
           <li
@@ -155,21 +152,27 @@ function NavbarMandarin() {
 
           <Link to='/mandarin' className='navbar-logo' onClick={closeMobileMenu}>
           <img src="./logo.png" width="140" height="140" alt="Logo" className='logo' style={{ marginTop: "40px"}}></img>
-          </Link>
+          </Link> 
 
-          {/* News and Events */}
-          <li className='nav-item'>
-            <Link 
-              to='/news-and-events-mandarin' 
-              className='nav-links' 
+          {/* The Gallery */}
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter1}
+            onMouseLeave={onMouseLeave1}
+          >
+            <Link
+              to='/about-us-mandarin' 
+              className='nav-links'
               onClick={closeMobileMenu}
-              >
-              新闻和活动
+            >
+              关于我们 <i className='fas fa-caret-down' />
             </Link>
+            {dropdown && <TgDropdown />}
           </li>
 
+{/* ------------------------------------------------------------------------- */}
           {/* Art Service */}
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link
               to='/art-service-mandarin'
               className='nav-links'
@@ -177,7 +180,18 @@ function NavbarMandarin() {
             >
               艺术服务 
             </Link>
-          </li>
+          </li>  */}
+{/* ------------------------------------------------------------------------- */}
+          {/* Shop */}
+          <li className='nav-item'>
+            <Link
+              to='/coming-soon-mandarin' 
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              店铺 
+            </Link>
+          </li> 
 
           {/* Contact Us */}
           <li className='nav-item'>

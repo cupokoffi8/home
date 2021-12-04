@@ -1,6 +1,6 @@
 // This is for nav
 
-import React from 'react'; 
+import React, { useState, useEffect } from 'react'; 
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'; 
 import Copyright from './Copyright'; 
@@ -8,7 +8,8 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 
 // Import Components 
 
-import Home from './Components/Home/Home';
+import Home from './Components/Home/Home'; 
+import ComingSoon from './Components/ComingSoon'; 
 
   // Artists
 import Artists from './Components/Artists/Artists/Artists'; 
@@ -56,6 +57,7 @@ import Contact from './Components/Contact-Us/Contact-Us';
 
 // Import Components-M 
 import HomeMandarin from './Components/Home/Home-Mandarin'; 
+import ComingSoonMandarin from './Components/ComingSoonMandarin'; 
 
 // Art Service-M 
 import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin'; 
@@ -98,7 +100,75 @@ import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'
 // Contact Us-M 
 import ContactMandarin from './Components/Contact-Us/Contact-Us-Mandarin'; 
 
-function App() {
+import { CssBaseline } from '@material-ui/core'; 
+import Cart from './Components/Marketplace/Cart/Cart'; 
+import Products from './Components/Marketplace/Products/Products' 
+import Checkout from './Components/Marketplace/CheckoutForm/Checkout/Checkout';
+import { commerce } from './Components/lib/commerce'; 
+
+const App = () => { 
+  const [products, setProducts] = useState([]);
+  const [cart, setCart] = useState({});
+  const [order, setOrder] = useState({});
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const fetchProducts = async () => {
+    const { data } = await commerce.products.list();
+
+    setProducts(data);
+  };
+
+  const fetchCart = async () => {
+    setCart(await commerce.cart.retrieve());
+  };
+
+  const handleAddToCart = async (productId, quantity) => {
+    const item = await commerce.cart.add(productId, quantity);
+
+    setCart(item.cart);
+  };
+
+  const handleUpdateCartQty = async (lineItemId, quantity) => {
+    const response = await commerce.cart.update(lineItemId, { quantity });
+
+    setCart(response.cart);
+  };
+
+  const handleRemoveFromCart = async (lineItemId) => {
+    const response = await commerce.cart.remove(lineItemId);
+
+    setCart(response.cart);
+  };
+
+  const handleEmptyCart = async () => {
+    const response = await commerce.cart.empty();
+
+    setCart(response.cart);
+  };
+
+  const refreshCart = async () => {
+    const newCart = await commerce.cart.refresh();
+
+    setCart(newCart);
+  };
+
+  const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
+    try {
+      const incomingOrder = await commerce.checkout.capture(checkoutTokenId, newOrder);
+
+      setOrder(incomingOrder);
+
+      refreshCart();
+    } catch (error) {
+      setErrorMessage(error.data.error.message);
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
+    fetchCart();
+  }, []); 
+
   return (
     <HashRouter> 
         <Switch>
@@ -136,6 +206,21 @@ function App() {
             <Route path="/our-founder" component={OurFounder} />
             <Route path="/the-gallery" component={TheGallery} /> 
             <Route path="/about-us" component={VisitUs} /> 
+
+            {/* Marketplace */} 
+            {/* <Route path="/shop" component={ComingSoon} */} 
+            <Route path="/shop" component={Products}>  
+              <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
+            </Route>
+            <Route path="/cart" component={Cart}> 
+              <Cart cart={cart} onUpdateCartQty={handleUpdateCartQty} onRemoveFromCart={handleRemoveFromCart} onEmptyCart={handleEmptyCart} />
+            </Route>
+            <Route path="/checkout" exact>
+              <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
+            </Route> 
+
+            {/* Coming Soon */} 
+            <Route path="/coming-soon" component={ComingSoon} /> 
 
             {/* Art Service */}
             <Route path="/art-service" component={ArtService} /> 
@@ -184,6 +269,20 @@ function App() {
             <Route path="/our-founder-mandarin" component={OurFounderMandarin} /> 
             <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
             <Route path="/about-us-mandarin" component={VisitUsMandarin} /> 
+
+            {/* Marketplace-M */} 
+            <Route path="/shop" component={Products}>  
+              <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
+            </Route>
+            <Route path="/cart" component={Cart}> 
+              <Cart cart={cart} onUpdateCartQty={handleUpdateCartQty} onRemoveFromCart={handleRemoveFromCart} onEmptyCart={handleEmptyCart} />
+            </Route>
+            <Route path="/checkout" exact>
+              <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
+            </Route> 
+
+            {/* Coming Soon-M  */}
+            <Route path="/coming-soon-mandarin" component={ComingSoonMandarin} />  
 
             {/* Art Service-M */}
 

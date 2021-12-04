@@ -32,7 +32,7 @@
   text-align: center;
   width: 100vw;
   justify-content: center;
-  /* margin-right: 2rem;  */
+  margin-right: 0.5rem; 
 } 
 
 .nav-menu-mandarin {
@@ -43,8 +43,7 @@
   list-style: none;
   text-align: center;
   width: 100vw;
-  justify-content: center;
-  margin-right: 2.5rem; 
+  justify-content: center; 
 }
 
 .mobile-logo {
@@ -55,14 +54,14 @@
   display: flex; 
   align-items: center;
   height: 80px; 
-  margin-top: 4.45rem;
+  margin-top: 4.45rem; 
 }
 
 .nav-links {
   color: rgb(0, 0, 0);
   text-align: center; 
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
   margin-top: 4rem;
   text-transform: uppercase;
   font-weight: bolder;
@@ -73,6 +72,14 @@
   color: #fff; 
   border-radius: 4px;
   transition: all 0.2s ease-out;
+} 
+
+.shopping-cart {
+  margin-top: 4.4rem; 
+  align-items: center;
+  padding: 0.5rem 1rem; 
+  text-align: center; 
+  color: black; 
 }
 
 .nav-item-2 {

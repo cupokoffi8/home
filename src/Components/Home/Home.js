@@ -150,7 +150,8 @@ export default function Home() {
           various services we can provide. Each service provided to the artist would be customized for the 
           artist’s individual exhibition and other business collaborations. Please contact us for additional 
           information today! 
-          </p>
+          </p> 
+          
         </div>
         
       </>
