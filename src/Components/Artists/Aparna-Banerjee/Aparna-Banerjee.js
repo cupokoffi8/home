@@ -194,7 +194,7 @@ function AparnaBanerjee() {
               </div> 
 
               <div className="the-words">
-              <h5 id="caption-ab-1">Tatto Girl</h5>
+              <h5 id="caption-ab-1">Tattoo Girl</h5>
               <h5 id="caption-ab-2">Flower Shower</h5> 
               </div>
               <div className="the-words">
