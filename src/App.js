@@ -112,8 +112,16 @@ const App = () => {
   const [order, setOrder] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
 
+  commerce.products.list({
+    limit: 200,
+    page: 1,
+  }).then((response) => console.log(response.data));
+
   const fetchProducts = async () => {
-    const { data } = await commerce.products.list();
+    const { data } = await commerce.products.list({
+      limit: 200,
+      page: 1,
+    });
 
     setProducts(data);
   };
@@ -166,7 +174,7 @@ const App = () => {
 
   useEffect(() => {
     fetchProducts();
-    fetchCart();
+    fetchCart(); 
   }, []); 
 
   return (
