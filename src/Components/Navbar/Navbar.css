@@ -395,7 +395,7 @@
 }
 
 /* Phone */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
   .nav-menu {
     width: 100%; 
@@ -416,8 +416,7 @@
     text-decoration: none;
     margin-top: 1rem;
     text-transform: uppercase;
-    font-weight: bolder;
-    left: -11.5%;
+    font-weight: bolder; 
   }
 
   .nav-links-mobile {
@@ -429,8 +428,7 @@
     background: #1e3272;
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
-    left: -11.5%;
+    font-size: 1.5rem; 
   }
 
 
