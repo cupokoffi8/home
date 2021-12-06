@@ -120,7 +120,7 @@ const Navbar = ({}) => {
 
           {/* Exhibitions */}
           <li
-            className='nav-item'
+            className='nav-item-move'
             onMouseEnter={onMouseEnter2}
             onMouseLeave={onMouseLeave2}
           >

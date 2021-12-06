@@ -403,11 +403,11 @@
 
   .nav-menu.active {
     background: #d1d1d1;
-    left: -10%;
-    opacity: 1;
+    left: -11.5%;
+    opacity: 1; 
     transition: all 0.5s ease;
     z-index: 10; 
-    align-items: center;
+    align-items: center !important;
     width: 100vw;
   }
 
@@ -417,6 +417,7 @@
     margin-top: 1rem;
     text-transform: uppercase;
     font-weight: bolder;
+    left: -11.5%;
   }
 
   .nav-links-mobile {
@@ -425,11 +426,11 @@
     margin-left: auto;
     margin-right: auto; 
     border-radius: 4px;
-    width: 100%;
     background: #1e3272;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    left: -11.5%;
   }
 
 
