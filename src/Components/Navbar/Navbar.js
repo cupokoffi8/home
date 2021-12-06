@@ -108,9 +108,9 @@ const Navbar = ({}) => {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
           {/* Shopping Cart */}
-          <li className='nav-item'>
-          <Link to='/coming-soon' className='shopping-cart'>
-            <IconButton className='shopping-cart' component={Link} aria-label="Show cart items" color="inherit">
+          <li className='nav-item-move'>  
+          <Link to='coming-soon' className='shopping-cart'>
+            <IconButton className='shopping-cart' component={Link} to="/coming-soon" aria-label="Show cart items" color="inherit">
               <Badge color="secondary">
                 <ShoppingCart />
               </Badge>
