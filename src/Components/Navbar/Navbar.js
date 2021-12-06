@@ -110,7 +110,7 @@ const Navbar = ({}) => {
           {/* Shopping Cart */}
           <li className='nav-item-move'>  
           <Link to='coming-soon' className='shopping-cart'>
-            <IconButton className='shopping-cart' component={Link} to="/coming-soon" aria-label="Show cart items" color="inherit">
+            <IconButton className='shopping-cart-button' component={Link} to="/coming-soon" aria-label="Show cart items" color="inherit">
               <Badge color="secondary">
                 <ShoppingCart />
               </Badge>
