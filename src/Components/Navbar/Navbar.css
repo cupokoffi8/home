@@ -210,6 +210,14 @@
     cursor: pointer;
   }
 
+  .nav-links {
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
   .fa-bars {
     color: rgb(0, 0, 0) !important; 
     font-size: 2rem;
@@ -232,11 +240,7 @@
     color: #fff;
     font-size: 1.5rem;
     z-index: 10;
-  }
-
-  .nav-links a{
-    margin-right: 2rem;
-  }
+  } 
 
   .nav-links-mobile:hover {
     background: #fff;
@@ -263,11 +267,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center; 
     width: 100vw;
     height: 100vh;
     position: absolute; 
     top: 35px;
-    left: -130%;
+    left: -120%;
     opacity: 1;
     transition: all 0.5s ease; 
     z-index: 10;
@@ -278,6 +283,14 @@
     display: block; 
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .nav-links {
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
   }
 
   .logo {
@@ -382,7 +395,7 @@
 }
 
 /* Phone */
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
 
   .nav-menu {
     width: 100%; 
@@ -390,13 +403,22 @@
 
   .nav-menu.active {
     background: #d1d1d1;
-    left: -8%;
+    left: -10%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 10; 
     align-items: center;
     width: 100vw;
   }
+
+  .nav-links {
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
 
   .shopping-cart-button {
     display: flex; 
