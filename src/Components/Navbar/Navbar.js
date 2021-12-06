@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import TgDropdown from './TG-Dropdown';
 import EDropdown from './E-Dropdown';
 import ADropdown from './A-Dropdown';
-import { IconButton, Badge } from '@material-ui/core'; 
+import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core'; 
 import { ShoppingCart } from '@material-ui/icons';
+import { commerce } from '../lib/commerce' 
 
-function Navbar() {
+
+const Navbar = ({}) => {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
-  const [dropdown3, setDropdown3] = useState(false);
+  const [dropdown3, setDropdown3] = useState(false); 
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -107,13 +109,13 @@ function Navbar() {
 
           {/* Shopping Cart */}
           <li className='nav-item'>
-          <Link className="shopping-cart" to='coming-soon'> 
-          <IconButton component={Link} to="coming-soon" aria-label="Show cart items" color="inherit">
-              <Badge badgeContent='' color="">
+          <Link to='/cart' className='shopping-cart'>
+            <IconButton className='shopping-cart' component={Link} to="/cart" aria-label="Show cart items" color="inherit">
+              <Badge color="secondary">
                 <ShoppingCart />
               </Badge>
             </IconButton>
-          </Link>
+            </Link> 
           </li> 
 
           {/* Exhibitions */}
@@ -208,6 +210,6 @@ function Navbar() {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;

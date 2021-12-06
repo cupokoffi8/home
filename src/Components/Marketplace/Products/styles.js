@@ -7,6 +7,10 @@ export default makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing(3),
   },
+  loading: {
+    textAlign: 'center', 
+    fontSize: '40px', 
+  }, 
   root: {
     flexGrow: 1,
   },

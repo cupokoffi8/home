@@ -8,7 +8,7 @@ import useStyles from './styles';
 const Products = ({ products, onAddToCart }) => {
   const classes = useStyles(); 
 
-  if (!products.length) return <p>Loading...</p>; 
+  if (!products.length) return <p className={classes.loading}>Loading...</p>; 
 
   return (
     <>

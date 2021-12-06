@@ -11,6 +11,9 @@ export default makeStyles(() => ({
   cartActions: {
     justifyContent: 'space-between',
   },
+  rmbutton: {
+    backgrounColor: '#ff0000', 
+  }, 
   buttons: {
     display: 'flex',
     alignItems: 'center',

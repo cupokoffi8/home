@@ -3,13 +3,13 @@ import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } fro
 import { AddShoppingCart } from '@material-ui/icons'; 
 import './Product.css'; 
 
-import useStyles from './styles';
+import useStyles from './styles'; 
 
-const Product = ({ product, onAddToCart }) => {
+const Product = ({ product, onAddToCart }) => { 
 
   const classes = useStyles(); 
   
-  const handleAddToCart = () => onAddToCart(product.id, 1); 
+  const handleAddToCart = () => onAddToCart(product.id, 1)
 
   return (
     <Card className='root'> 
@@ -27,7 +27,7 @@ const Product = ({ product, onAddToCart }) => {
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
         <IconButton aria-label="Add to Cart" onClick={handleAddToCart}>
-          <AddShoppingCart />
+          <AddShoppingCart /> 
         </IconButton>
       </CardActions>
     </Card>
