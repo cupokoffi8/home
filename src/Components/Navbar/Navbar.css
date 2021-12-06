@@ -350,6 +350,7 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
+    align-items: center !important;
     padding: 0; 
     border-radius: 4px;
     width: 100vw;
@@ -414,6 +415,7 @@
   .nav-links {
     text-align: center; 
     text-decoration: none;
+    align-items: center !important; 
     margin-top: 1rem;
     text-transform: uppercase;
     font-weight: bolder; 
