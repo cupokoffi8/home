@@ -368,6 +368,8 @@
 
   .nav-item {
     margin-top: 0rem;
+    display: flex; 
+    justify-content: center !important; 
   }
 
   .nav-item-move {
@@ -410,6 +412,11 @@
     z-index: 10; 
     align-items: center !important;
     width: 100vw;
+  }
+
+  .nav-item {
+    display: flex; 
+    justify-content: center !important; 
   }
 
   .nav-links {
