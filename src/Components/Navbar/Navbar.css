@@ -403,4 +403,9 @@
     width: 100vw;
   }
 
+  .shopping-cart-button {
+    display: flex; 
+    justify-content: center; 
+  }
+
 }
