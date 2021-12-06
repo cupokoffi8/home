@@ -109,8 +109,8 @@ const Navbar = ({}) => {
 
           {/* Shopping Cart */}
           <li className='nav-item'>
-          <Link to='/cart' className='shopping-cart'>
-            <IconButton className='shopping-cart' component={Link} to="/cart" aria-label="Show cart items" color="inherit">
+          <Link to='/coming-soon' className='shopping-cart'>
+            <IconButton className='shopping-cart' component={Link} aria-label="Show cart items" color="inherit">
               <Badge color="secondary">
                 <ShoppingCart />
               </Badge>
