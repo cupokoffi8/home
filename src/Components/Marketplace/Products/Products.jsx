@@ -6,6 +6,9 @@ import Product from './Product/Product';
 import useStyles from './styles';
 
 const Products = ({ products, onAddToCart }) => {
+
+  window.scrollTo(0, 0)
+
   const classes = useStyles(); 
 
   if (!products.length) return <p className={classes.loading}>Loading...</p>; 

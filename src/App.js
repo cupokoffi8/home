@@ -10,6 +10,7 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import Home from './Components/Home/Home'; 
 import ComingSoon from './Components/ComingSoon'; 
+import ScrollButton from './Components/ScrollButton'; 
 
   // Artists
 import Artists from './Components/Artists/Artists/Artists'; 
@@ -300,6 +301,7 @@ const App = () => {
             <Route path="/contact-us-mandarin" component={ContactMandarin} /> 
 
         </Switch>
+      <ScrollButton /> 
       <Copyright />
     </HashRouter>
     </>
