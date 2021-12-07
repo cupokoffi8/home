@@ -109,8 +109,8 @@ function NavbarMandarin() {
 
           {/* Shopping Cart */}
           <li className='nav-item'>
-          <Link className="shopping-cart" to='/coming-soon-mandarin'> 
-          <IconButton component={Link} to="/coming-soon-mandarin" aria-label="Show cart items" color="inherit">
+          <Link className="shopping-cart" to='/cart'> 
+          <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
               <Badge badgeContent='' color="">
                 <ShoppingCart />
               </Badge>
@@ -185,7 +185,7 @@ function NavbarMandarin() {
           {/* Shop */}
           <li className='nav-item'>
             <Link
-              to='/coming-soon-mandarin' 
+              to='/shop' 
               className='nav-links'
               onClick={closeMobileMenu}
             >

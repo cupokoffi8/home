@@ -1,13 +1,33 @@
 import React from 'react';
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons'; 
+import { Link } from 'react-router-dom'; 
 import './Product.css'; 
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import useStyles from './styles'; 
 
+const PopUpMessage = ({ closeToast }) => {
+  return (
+    <>
+      <h5 className="added">Item Added to Cart</h5>
+      <a href="#/cart" className="view-cart">View Cart</a> 
+    </> 
+  );
+}
+
 const Product = ({ product, onAddToCart }) => { 
 
+  toast.configure()
+
   const classes = useStyles(); 
+
+  const notify = ()=>{
+ 
+    toast(<PopUpMessage />,
+           {position: toast.POSITION.TOP_CENTER, autoClose:3000})
+}
   
   const handleAddToCart = () => onAddToCart(product.id, 1)
 
@@ -26,7 +46,10 @@ const Product = ({ product, onAddToCart }) => {
         <Typography dangerouslySetInnerHTML={{ __html: product.description }} variant="body2" color="textSecondary" component="p" />
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
-        <IconButton aria-label="Add to Cart" onClick={handleAddToCart}>
+        <IconButton aria-label="Add to Cart" onClick={() => {
+          handleAddToCart();
+           notify(); 
+        }}>
           <AddShoppingCart /> 
         </IconButton>
       </CardActions>

@@ -5,9 +5,7 @@ import Navbar from '../../Navbar/Navbar';
 import Product from './Product/Product';
 import useStyles from './styles';
 
-const Products = ({ products, onAddToCart }) => {
-
-  window.scrollTo(0, 0)
+const Products = ({ products, onAddToCart }) => { 
 
   const classes = useStyles(); 
 

@@ -19,3 +19,20 @@
     vertical-align: middle;
 } 
 
+.added {
+    display: block; 
+    text-decoration: none; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    color: black !important; 
+}
+
+.view-cart {
+    display: block; 
+    text-decoration: none; 
+    font-size: 18px !important; 
+    font-weight: bold !important;  
+    text-decoration: underline; 
+    color: rgb(0, 36, 194) !important; 
+}
+
