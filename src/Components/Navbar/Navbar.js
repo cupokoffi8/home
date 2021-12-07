@@ -109,8 +109,8 @@ const Navbar = ({}) => {
 
           {/* Shopping Cart */}
           <li className='nav-item-move'>  
-          <Link to='coming-soon' className='shopping-cart'>
-            <IconButton className='shopping-cart-button' component={Link} to="/coming-soon" aria-label="Show cart items" color="inherit">
+          <Link to='cart' className='shopping-cart'>
+            <IconButton className='shopping-cart-button' component={Link} to="/cart" aria-label="Show cart items" color="inherit">
               <Badge color="secondary">
                 <ShoppingCart />
               </Badge>
@@ -186,7 +186,7 @@ const Navbar = ({}) => {
           {/* Shop */}
           <li className='nav-item'>
             <Link
-              to='/coming-soon'
+              to='/shop'
               className='nav-links'
               onClick={closeMobileMenu}
             >

@@ -212,7 +212,6 @@ const App = () => {
             <Route path="/about-us" component={VisitUs} /> 
 
             {/* Marketplace */} 
-            {/* <Route path="/shop" component={ComingSoon} */} 
             <Route path="/shop" component={Products}>  
               <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
             </Route>
