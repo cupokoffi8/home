@@ -17,28 +17,4 @@ function FormInput({ name, label, required }) {
   );
 }
 
-//  class FormInput extends React.Component {
-//    constructor() {
-//      super();
-//      this.state = {
-//        searchValue: ""
-//      };
-//    }
-
-//    render() {
-//      console.log(this.state.searchValue); // I just left it here so that you can see in console that state is changing
-//      return (
-        
-//          <TextField
-//             defaultValue={this.state.searchValue}
-//             onChange={event => {
-//             const { value } = event.target;
-//             this.setState({ searchValue: value });
-//             }}
-//          />
-       
-//      );
-//    }
-//  }
-
 export default FormInput; 
