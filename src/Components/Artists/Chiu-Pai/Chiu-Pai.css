@@ -98,6 +98,14 @@
   margin-right: auto; 
 } 
 
+#image-mobile-cp {
+  display: none; 
+}
+
+#caption-mobile-cp {
+  display: none; 
+} 
+
 @media only screen and (max-width: 620px) {
 
     #art-paragraph {
