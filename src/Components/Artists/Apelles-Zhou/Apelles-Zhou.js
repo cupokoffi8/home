@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Apelles-Zhou.css'; 
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
+import '../Chiu-Pai/Chiu-Pai.css'; 
 import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 
@@ -54,57 +55,60 @@ function ApellesZhou() {
               {/* List of Paintings [Computer] */} 
 
               <div className="the-paintings">
-              <img src="./Eye-of-Horus.png" id="painting-ab"></img> 
-              <img src="./Age-of-Aquarius.png" id="painting-ab"></img> 
+              <img src="./Eye-of-Horus.png" id="painting-cp"></img> 
+              <img src="./Age-of-Aquarius.png" id="painting-cp"></img> 
               </div>
 
-              <div className="the-words">
-              <h5 id="caption-ab-1">Eye of Horus</h5>
-              <h5 id="caption-ab-2">Age of Aquarius</h5> 
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Eye of Horus</h5>
+              <h5 id="caption-cp">Age of Aquarius</h5> 
               </div> 
 
               <div className="the-paintings">
-              <img src="./Back-to-Pleiade.png" id="painting-ab"></img> 
-              <img src="./Portrait-of-Thoth.png" id="painting-ab"></img> 
+              <img src="./Back-to-Pleiade.png" id="painting-cp"></img> 
+              <img src="./Portrait-of-Thoth.png" id="painting-cp"></img> 
               </div>
 
-              <div className="the-words">
-              <h5 id="caption-ab-1">Back to Pleiade</h5>
-              <h5 id="caption-ab-2">Portrait of Thoth</h5> 
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Back to Pleiade</h5>
+              <h5 id="caption-cp">Portrait of Thoth</h5> 
               </div> 
 
               <div className="the-paintings">
-              <img src="./Purple-Flame.png" id="painting-ab"></img> 
-              <img src="./The-Grey.png" id="painting-ab"></img> 
+              <img src="./Purple-Flame.png" id="painting-cp"></img> 
+              <img src="./The-Grey.png" id="painting-cp"></img> 
               </div>
 
-              <div className="the-words">
-              <h5 id="caption-ab-1">Purple Flame</h5>
-              <h5 id="caption-ab-2">The Grey</h5> 
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Purple Flame</h5>
+              <h5 id="caption-cp">The Grey</h5> 
               </div> 
+
+              <img src="./Sirian-Girl.png" id="painting-wide-cp"></img> 
+              <h5 id="caption-cp">Sirian Girl</h5> 
 
               {/* List of Paintings [Phone] */} 
 
-              <img src="./Eye-of-Horus.png" id="image-mobile"></img>
-              <h5 id="caption-mobile">Eye of Horus</h5> 
+              <img src="./Eye-of-Horus.png" id="image-mobile-cp"></img>
+              <h5 id="caption-mobile-cp">Eye of Horus</h5> 
 
-              <img src="./Age-of-Aquarius.png" id="image-mobile"></img> 
-              <h5 id="caption-mobile">Age of Aquarius</h5> 
+              <img src="./Age-of-Aquarius.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Age of Aquarius</h5> 
 
-              <img src="./Back-to-Pleiade.png" id="image-mobile"></img> 
-              <h5 id="caption-mobile">Back to Pleiade</h5> 
+              <img src="./Back-to-Pleiade.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Back to Pleiade</h5> 
 
-              <img src="./Portrait-of-Thoth.png" id="image-mobile"></img> 
-              <h5 id="caption-mobile">Portrait of Thoth</h5> 
+              <img src="./Portrait-of-Thoth.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Portrait of Thoth</h5> 
 
-              <img src="./Purple-Flame.png" id="image-mobile"></img> 
-              <h5 id="caption-mobile">Purple Flame</h5> 
+              <img src="./Purple-Flame.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Purple Flame</h5> 
 
-              <img src="./The-Grey.png" id="image-mobile"></img> 
-              <h5 id="caption-mobile">The Grey</h5> 
+              <img src="./The-Grey.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">The Grey</h5> 
 
-              <img src="./Sirian-Girl.png" id="painting-wide"></img> 
-              <h5 id="caption">Sirian Girl</h5> 
+              <img src="./Sirian-Girl.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Sirian Girl</h5> 
 
           </div> 
           </> 

@@ -45,54 +45,75 @@ function ChiuPaiMandarin() {
               {/* List of Paintings [Computer] */} 
 
               <div className="the-paintings">
-              <img src="./CP1.png" id="painting-ab"></img> 
-              <img src="./CP2.jpeg" id="painting-ab"></img> 
+              <img src="./cpG1.jpeg" id="painting-cp"></img> 
+              <img src="./cpG3.jpeg" id="painting-cp"></img> 
               </div>
 
-              <div className="the-words">
-              <h5 id="caption-ab-1">Vernal Gardens</h5>
-              <h5 id="caption-ab-2">Field of Gold</h5> 
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Green Leaves</h5>
+              <h5 id="caption-cp">Dream Melody</h5> 
+              </div> 
+
+              <img src="./cpG2.jpg" id="painting-wide-cp"></img> 
+              <h5 id="caption-cp">Jumping Colors</h5> 
+
+              <div className="the-paintings">
+              <img src="./CP1.png" id="painting-cp"></img> 
+              <img src="./CP2.jpeg" id="painting-cp"></img> 
+              </div>
+
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Vernal Gardens</h5>
+              <h5 id="caption-cp">Field of Gold</h5> 
               </div> 
 
               <div className="the-paintings">
-              <img src="./CP3.png" id="painting-ab"></img> 
-              <img src="./CP4.jpeg" id="painting-ab"></img> 
+              <img src="./CP3.png" id="painting-cp"></img> 
+              <img src="./CP4.jpeg" id="painting-cp"></img> 
               </div>
 
-              <div className="the-words">
-              <h5 id="caption-ab-1">Shadow of Autumn</h5>
-              <h5 id="caption-ab-2"></h5> 
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Shadow of Autumn</h5>
+              <h5 id="caption-cp"></h5> 
               </div> 
 
               <div className="the-paintings">
-              <img src="./CP5.jpeg" id="painting-ab"></img> 
-              <img src="./CP6.jpeg" id="painting-ab"></img> 
+              <img src="./CP5.jpeg" id="painting-cp"></img> 
+              <img src="./CP6.jpeg" id="painting-cp"></img> 
               </div>
 
-              <div className="the-words">
-              <h5 id="caption-ab-1"></h5>
-              <h5 id="caption-ab-2"></h5> 
+              <div className="the-words-cp">
+              <h5 id="caption-cp"></h5>
+              <h5 id="caption-cp"></h5> 
               </div> 
 
               {/* List of Paintings [Phone] */} 
+              <img src="./cpG1.jpeg" id="image-mobile-cp"></img>
+              <h5 id="caption-mobile-cp">Green Leaves</h5> 
 
-              <img src="./CP1.png" id="image-mobile"></img>
-              <h5 id="caption-mobile">Vernal Gardens</h5> 
+              <img src="./cpG3.jpeg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Dream Melody</h5> 
 
-              <img src="./CP2.jpeg" id="image-mobile"></img> 
-              <h5 id="caption-mobile">Field of Gold</h5> 
+              <img src="./cpG2.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Jumping Colors</h5> 
 
-              <img src="./CP3.png" id="image-mobile"></img> 
-              <h5 id="caption-mobile">Shadow of Autumn</h5> 
+              <img src="./CP1.png" id="image-mobile-cp"></img>
+              <h5 id="caption-mobile-cp">Vernal Gardens</h5> 
 
-              <img src="./CP4.jpeg" id="image-mobile"></img> 
-              <h5 id="caption-mobile"></h5> 
+              <img src="./CP2.jpeg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Field of Gold</h5> 
 
-              <img src="./CP5.jpeg" id="image-mobile"></img> 
-              <h5 id="caption-mobile"></h5> 
+              <img src="./CP3.png" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Shadow of Autumn</h5> 
 
-              <img src="./CP6.jpeg" id="image-mobile"></img> 
-              <h5 id="caption-mobile"></h5> 
+              <img src="./CP4.jpeg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp"></h5> 
+
+              <img src="./CP5.jpeg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp"></h5> 
+
+              <img src="./CP6.jpeg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp"></h5> 
 
           </div> 
           </> 

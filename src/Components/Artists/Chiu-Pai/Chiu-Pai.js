@@ -53,6 +53,19 @@ function ChiuPai() {
               {/* List of Paintings [Computer] */} 
 
               <div className="the-paintings">
+              <img src="./cpG1.jpeg" id="painting-cp"></img> 
+              <img src="./cpG3.jpeg" id="painting-cp"></img> 
+              </div>
+
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Green Leaves</h5>
+              <h5 id="caption-cp">Dream Melody</h5> 
+              </div> 
+
+              <img src="./cpG2.jpg" id="painting-wide-cp"></img> 
+              <h5 id="caption-cp">Jumping Colors</h5> 
+
+              <div className="the-paintings">
               <img src="./CP1.png" id="painting-cp"></img> 
               <img src="./CP2.jpeg" id="painting-cp"></img> 
               </div>
@@ -83,6 +96,14 @@ function ChiuPai() {
               </div> 
 
               {/* List of Paintings [Phone] */} 
+              <img src="./cpG1.jpeg" id="image-mobile-cp"></img>
+              <h5 id="caption-mobile-cp">Green Leaves</h5> 
+
+              <img src="./cpG3.jpeg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Dream Melody</h5> 
+
+              <img src="./cpG2.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Jumping Colors</h5> 
 
               <img src="./CP1.png" id="image-mobile-cp"></img>
               <h5 id="caption-mobile-cp">Vernal Gardens</h5> 
