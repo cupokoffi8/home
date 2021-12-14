@@ -116,8 +116,8 @@ export default function Home() {
           <Link className="artist-link" to="/zhen-zhong-duan">Zhen Zhong Duan</Link> 
           
         <h6 id="moreInfo">
-          We look forward to your visit, and know you will enjoy the
-          various artists we have on display in our gallery.</h6> 
+          We are happy to announce we currently have an extended exhibition of our
+          international artists at The Greenfield Inn Restaurant in Lancaster, Pennsylvania.</h6> 
       </div> 
 
       <br />

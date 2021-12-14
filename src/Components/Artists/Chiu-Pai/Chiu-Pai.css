@@ -66,20 +66,21 @@
       display: none; 
   }
 
-  #painting {
+  #painting-cp {
       display: block; 
       margin-left: auto; 
       margin-right: auto; 
       margin-top: 80px; 
-      width: 341px; 
-      height: 450px; 
+      width: 30vw; 
+      height: auto; 
   }
 
-  #caption {
+  #caption-cp {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 20px; 
+    width: 30vw !important; 
     text-align: center; 
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px !important; 
@@ -87,7 +88,17 @@
     color: black !important; 
 }
 
-@media only screen and (max-width: 600px) {
+.the-words-cp {
+  display: flex; 
+  height: 20px !important; 
+  margin-bottom: 10px; 
+  justify-content: center !important;
+  justify-content: space-evenly !important;
+  margin-left: auto; 
+  margin-right: auto; 
+} 
+
+@media only screen and (max-width: 620px) {
 
     #art-paragraph {
         margin-left: 15px; 
@@ -114,6 +125,37 @@
         font-size: 18px !important;
         line-height: 1.7rem !important; 
           } 
+
+          #image-mobile-cp {
+            display: block !important; 
+            margin-left: auto; 
+            margin-right: auto; 
+            margin-top: 40px; 
+            width: 60vw; 
+            height: auto; 
+        } 
+
+        #caption-mobile-cp {
+          display: block; 
+          margin-left: auto; 
+          margin-right: auto; 
+          margin-top: 5px; 
+          height: 5px; 
+          text-align: center; 
+          text-decoration: none; 
+          font-family: 'Times New Roman', Times, serif; 
+          font-size: 18px !important; 
+          font-weight: bold !important;  
+          color: black !important; 
+      } 
+
+          .the-words-cp {
+            display: none !important; 
+          }
+
+          #caption-cp {
+            display: none !important;  
+          }
 
     #art-paragraph-bottom {
         display: none; 
