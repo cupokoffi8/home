@@ -143,6 +143,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
 
+  .christmas-green {
+    color: green; 
+  }
+
+  .christmas-red {
+    color: red; 
+  }
+
   .artist-link {
     color: #1e3272 !important; 
     display: flex; 

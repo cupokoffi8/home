@@ -15,8 +15,18 @@ import { Link } from 'react-router-dom';
 const PopUpMessage = ({ closeToast }) => {
   return (
     <>
-      <h5 id="caption">Online shopping is now available on our website!</h5>
-      <h5 id="caption">To celebrate, all online orders are guaranteed FREE shipping.</h5> 
+      <h5 id="caption">We will will be closing early on December 24th and 31st at 5:00 p.m.</h5>
+      <h5 id="caption">In addition, we will be closed on&nbsp; 
+      <span className="christmas-green">C</span> 
+      <span className="christmas-red">h</span>
+      <span className="christmas-green">r</span>
+      <span className="christmas-red">i</span>
+      <span className="christmas-green">s</span>
+      <span className="christmas-red">t</span>
+      <span className="christmas-green">m</span>
+      <span className="christmas-red">a</span>
+      <span className="christmas-green">s</span>
+      &nbsp;day and New Years day.</h5> 
     </> 
   );
 }
