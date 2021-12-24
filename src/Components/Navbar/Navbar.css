@@ -569,7 +569,6 @@ nav .menu-btn,
       nav{
           justify-content: space-between;
           height: 65px;
-          padding: 0px 30px;
       }
       .logo img{
           width:70px;
@@ -678,8 +677,7 @@ nav .menu-btn,
               }
             nav{
                 justify-content: space-between;
-                height: 65px;
-                padding: 0px 30px;
+                height: 65px; 
             }
             .logo img{
                 width:70px;
