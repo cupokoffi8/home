@@ -600,7 +600,7 @@ nav .menu-btn,
       nav .menu-icon{
           cursor:pointer;
           float:right;
-          padding:5px 5px;
+          padding:1px 1px;
           position:relative;
           user-select: none;
       }
@@ -710,7 +710,7 @@ nav .menu-btn,
             nav .menu-icon{
                 cursor:pointer;
                 float:right;
-                padding:5px 5px;
+                padding:1px 1px;
                 position:relative;
                 user-select: none;
             }
