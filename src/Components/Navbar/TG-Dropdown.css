@@ -6,11 +6,15 @@
   list-style: none;
   text-align: start; 
   z-index: 111; 
+  display: inline-block; 
 }
 
-.tg-dropdown-menu li {
+.tg-dropdown-menu li { 
+  display: block; 
   background: #1e3272;
-  cursor: pointer;
+  cursor: pointer; 
+  width: 210px; 
+  transform: translateX(-35px); 
 }
 
 .tg-dropdown-menu li:hover {

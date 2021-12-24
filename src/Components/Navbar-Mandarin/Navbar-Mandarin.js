@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css';
 import TgDropdown from './TG-Dropdown';
 import EDropdown from './E-Dropdown';
-import ADropdown from './A-Dropdown'; 
+import ADropdown from './A-Dropdown';
 import { IconButton, Badge } from '@material-ui/core'; 
 import { ShoppingCart } from '@material-ui/icons'; 
 
-function NavbarMandarin() {
+
+const NavbarMandarin = ({}) => {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
-  const [dropdown3, setDropdown3] = useState(false);
+  const [dropdown3, setDropdown3] = useState(false); 
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -66,7 +67,7 @@ function NavbarMandarin() {
       setDropdown2(false);
       setDropdown3(false);
     }
-  };
+  }; 
 
   // Start 3
 
@@ -96,22 +97,23 @@ function NavbarMandarin() {
 
   return (
     <>
-      <nav className='navbar' style={{ marginRight: "0px"}}>
-      <Link 
-        to='/mandarin' 
-        className='mobile-logo'>
-        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginLeft: "40px", marginTop: "40px" }}></img>
+      <nav className='navbar' style={{ marginRight: "6.5px"}}>
+      <Link to='/mandarin' className='mobile-logo'>
+        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "40px"}} href="/"></img>
           </Link>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <input className='menu-btn' type='checkbox' id='menu-btn'/> 
+                <label className='menu-icon' for='menu-btn'>
+                    <span className='nav-icon'></span>
+                </label> 
+
+          {/*className={click ? 'nav-menu active' : 'nav-menu'}*/}
+        <ul className='menu'>
 
           {/* Shopping Cart */}
-          <li className='nav-item'>
-          <Link className="shopping-cart" to='/cart'> 
-          <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-              <Badge badgeContent='' color="">
+          <li className='nav-item-move'>  
+          <Link to='cart' className='active'>
+            <IconButton className='shopping-cart-button' component={Link} to="/cart" aria-label="Show cart items" color="inherit">
+              <Badge color="secondary">
                 <ShoppingCart />
               </Badge>
             </IconButton>
@@ -120,38 +122,38 @@ function NavbarMandarin() {
 
           {/* Exhibitions */}
           <li
-            className='nav-item'
+            className='nav-item-1'
             onMouseEnter={onMouseEnter2}
             onMouseLeave={onMouseLeave2}
           >
             <Link
               to='/exhibitions-mandarin'
-              className='nav-links'
+              className='active-1'
               onClick={closeMobileMenu}
             >
-              展览 <i className='fas fa-caret-down' />
+              展览 {/* <i className='fas fa-caret-down' /> */}
             </Link>
             {dropdown2 && <EDropdown />}
-          </li>
+          </li> 
 
           {/* Artists */}
           <li
-            className='nav-item'
+            className='nav-item-1'
             onMouseEnter={onMouseEnter3}
             onMouseLeave={onMouseLeave3}
           >
             <Link
               to='/artists-mandarin'
-              className='nav-links'
+              className='active-1'
               onClick={closeMobileMenu}
             >
-              艺术家们 <i className='fas fa-caret-down' />
+              艺术家们 {/* <i className='fas fa-caret-down' /> */}
             </Link>
             {dropdown3 && <ADropdown />}
           </li>
 
-          <Link to='/mandarin' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./logo.png" width="140" height="140" alt="Logo" className='logo' style={{ marginTop: "40px"}}></img>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src="./logo.png" width="100" height="100" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/"></img>
           </Link> 
 
           {/* The Gallery */}
@@ -161,11 +163,11 @@ function NavbarMandarin() {
             onMouseLeave={onMouseLeave1}
           >
             <Link
-              to='/about-us-mandarin' 
-              className='nav-links'
+              to='/about-us-mandarin'
+              className='active'
               onClick={closeMobileMenu}
             >
-              关于我们 <i className='fas fa-caret-down' />
+              关于我们 {/* <i className='fas fa-caret-down' /> */}
             </Link>
             {dropdown && <TgDropdown />}
           </li>
@@ -174,22 +176,45 @@ function NavbarMandarin() {
           {/* Art Service */}
           {/* <li className='nav-item'>
             <Link
-              to='/art-service-mandarin'
+              to='/art-service'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              艺术服务 
+              Services 
             </Link>
-          </li>  */}
-{/* ------------------------------------------------------------------------- */}
+          </li> */}
+{/* ------------------------------------------------------------------------- */} 
+
           {/* Shop */}
           <li className='nav-item'>
             <Link
-              to='/shop' 
-              className='nav-links'
+              to='/shop'
+              className='active'
               onClick={closeMobileMenu}
             >
               店铺 
+            </Link>
+          </li> 
+
+          {/* E-Mobile */}
+          <li className='nav-item-2'>
+            <Link
+              to='/exhibitions-mandarin'
+              className='active-2'
+              onClick={closeMobileMenu}
+            >
+              展览 
+            </Link>
+          </li> 
+
+          {/* A-Mobile */}
+          <li className='nav-item-2'>
+            <Link
+              to='/artists-mandarin'
+              className='active-2'
+              onClick={closeMobileMenu}
+            >
+              艺术家们 
             </Link>
           </li> 
 
@@ -197,17 +222,18 @@ function NavbarMandarin() {
           <li className='nav-item'>
             <Link
               to='/contact-us-mandarin'
-              className='nav-links'
+              className='active'
               onClick={closeMobileMenu}
             >
-              联系我们
+              联系我们 
             </Link>
-          </li>
+          </li> 
 
-        </ul>
+        </ul> 
+
       </nav>
     </>
   );
-}
+};
 
 export default NavbarMandarin; 
