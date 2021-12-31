@@ -156,7 +156,7 @@ const Navbar = ({}) => {
           <img src="./logo.png" width="100" height="100" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/"></img>
           </Link> 
 
-          {/* The Gallery */}
+          {/* The Gallery Section */}
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter1}
