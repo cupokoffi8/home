@@ -16,17 +16,7 @@ const PopUpMessage = ({ closeToast }) => {
   return (
     <>
       <h5 id="caption">We will will be closing early on December 24th and 31st at 5:00 p.m.</h5>
-      <h5 id="caption">In addition, we will be closed on&nbsp; 
-      <span className="christmas-green">C</span> 
-      <span className="christmas-red">h</span>
-      <span className="christmas-green">r</span>
-      <span className="christmas-red">i</span>
-      <span className="christmas-green">s</span>
-      <span className="christmas-red">t</span>
-      <span className="christmas-green">m</span>
-      <span className="christmas-red">a</span>
-      <span className="christmas-green">s</span>
-      &nbsp;day and New Years day.</h5> 
+      <h5 id="caption">In addition, we will be closed on&nbsp; </h5> 
     </> 
   );
 }
@@ -37,17 +27,18 @@ export default function Home() {
 
   // v Pop-Up v 
 
-  // Uncomment/Comment the following to activate/deactivate the pop-up: 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      toast(
-        <PopUpMessage /> 
-        , {position: toast.POSITION.TOP_CENTER, 
-          autoClose: 8000
-        })
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []); 
+  // UNCOMMENT/COMMENT THE FOLLOWING TO ACTIVATE/DEACTIVATE THE POP-UP: 
+
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     toast(
+  //       <PopUpMessage /> 
+  //       , {position: toast.POSITION.TOP_CENTER, 
+  //         autoClose: 8000
+  //       })
+  //   }, 1000);
+  //   return () => clearTimeout(timer);
+  // }, []); 
   
   // ^ End Pop-Up ^ 
 
