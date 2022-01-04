@@ -13,29 +13,101 @@
       margin-top: 20px; 
   } 
 
-  .celebrate {
-    color: #1e3272 !important; 
+  .top-message {
+    width: 70vw; 
+    border-radius: 15px; 
+    background-color: #1e3272; 
     display: block; 
-    margin-top: 26px; 
     margin-left: auto; 
     margin-right: auto; 
-    text-transform: uppercase; 
-    font-weight: bold; 
-    font-size: 2.5em;
-    text-align: center; 
-   } 
+    padding: 10px 10px 10px 10px; 
+    margin-top: 15px; 
+    margin-bottom: 40px; 
+  } 
 
-   .from {
-    color: #1e3272 !important; 
+  .inner-message {
+    width: 60vw; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 15px; 
+    border-style: double; 
+    border-color: #fff; 
+  }
+
+  .celebrate {
+    color: #ffffff !important; 
     display: block; 
     margin-top: 26px; 
     margin-left: auto; 
     margin-right: auto; 
     text-transform: uppercase; 
+    text-decoration: underline; 
     font-weight: bold; 
     font-size: 1.5em;
     text-align: center; 
    } 
+
+   .from {
+    color: #ffffff !important; 
+    display: block; 
+    margin-top: 26px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-weight: normal; 
+    font-size: 1em;
+    text-align: center; 
+   } 
+
+   .from-1 {
+    color: #ffffff !important; 
+    display: block; 
+    margin-top: 15px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-weight: bold; 
+    font-size: 1.2em;
+    text-align: center; 
+   } 
+
+   .from-2 {
+    color: #ffffff !important; 
+    display: block; 
+    margin-top: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-weight: bold; 
+    font-size: 1.1em;
+    text-align: center; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+   } 
+
+   .from-3 {
+    color: #ffffff !important; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-weight: bold; 
+    font-size: 1em;
+    text-align: center; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+   } 
+
+   .blink_me {
+    font-size: 1.2em;
+    text-transform: uppercase; 
+    color: red; 
+    animation: blinker 1.5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      color: yellow; 
+    }
+  } 
 
   #caption {
     display: block; 
@@ -374,7 +446,92 @@
       margin-right: 5px; 
       max-width: 70%;
       max-height: 85%; 
+    } 
+
+    .top-message {
+      width: 90vw; 
+      border-radius: 15px; 
+      border-style: solid;   
+      border-color: red; 
+      background-color: #1e3272; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      padding: 10px 10px 10px 10px; 
+      margin-top: 15px; 
+      margin-bottom: 20px; 
+    } 
+  
+    .inner-message {
+      width: 75vw; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      border-radius: 15px; 
+      border-style: double; 
+      border-color: #fff; 
     }
+  
+    .celebrate {
+      color: #ffffff !important; 
+      display: block; 
+      margin-top: 15px; 
+      margin-left: auto; 
+      margin-right: auto; 
+      text-transform: uppercase; 
+      text-decoration: none;  
+      font-weight: bold; 
+      font-size: 1.2em;
+      text-align: center; 
+     } 
+  
+     .from {
+      color: #ffffff !important; 
+      display: block; 
+      margin-top: 15px; 
+      margin-left: auto; 
+      margin-right: auto; 
+      font-weight: normal; 
+      font-size: 0.8em;
+      text-align: center; 
+     } 
+  
+     .from-1 {
+      color: #ffffff !important; 
+      display: block; 
+      margin-top: 10px; 
+      margin-left: auto; 
+      margin-right: auto; 
+      font-weight: bold; 
+      font-size: 0.9em;
+      text-align: center; 
+     } 
+  
+     .from-2 {
+      color: #ffffff !important; 
+      display: block; 
+      margin-top: 10px; 
+      margin-left: auto; 
+      margin-right: auto; 
+      font-weight: bold; 
+      font-size: 0.85em;
+      text-align: center; 
+      padding-right: 5px; 
+      padding-left: 5px; 
+     } 
+  
+     .from-3 {
+      color: #ffffff !important; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      font-weight: bold; 
+      font-size: 0.8em;
+      text-align: center; 
+      padding-right: 5px; 
+      padding-left: 5px; 
+      padding-bottom: 5px; 
+     } 
   }
 
   @media only screen and (max-width: 720px) {

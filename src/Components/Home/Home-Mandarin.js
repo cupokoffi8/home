@@ -21,6 +21,27 @@ export default function HomeMandarin() {
         </form> 
 
         <div id="bottom-1"> 
+
+        {/*------------------------------------------------------------------------------------------------------------------------------*/}
+        <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
+        <h1 data-aos="fade-down" data-aos-duration="1700" className='celebrate' id="celebrate">祝我们所有的朋友新年快乐</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1900" className='from-1' id="from-1">
+          我们希望2022年或4719年带给您许多快乐和健康
+          </h1>
+          <div className="inner-message" data-aos="fade-down" data-aos-duration="2000">
+          <h1 data-aos="fade-down" data-aos-duration="2000" className='from-2' id="from">
+          为了庆祝美国和中国的新年， 
+          </h1>
+          <h1 data-aos="fade-down" data-aos-duration="2200" className='from-3' id="from"> 
+          我们将提供一个 <span className="blink_me">20% 折扣</span> 2022 年 1 月 1 日至 2 月 15 日（或 4719）我们所有的作品
+          </h1>
+          </div> 
+          <h1 data-aos="fade-left" data-aos-duration="2400" className='from-2' id="from"> 
+          我们期待很快在我们的画廊见到您！
+          </h1>
+        </div> 
+        {/*------------------------------------------------------------------------------------------------------------------------------*/}
+
       
         <h1 data-aos="fade-down" data-aos-duration="1400" className='american'>歡迎來到美國龍國際美術</h1> 
 
@@ -53,9 +74,26 @@ export default function HomeMandarin() {
             </a>
           </div> 
 
-          </div>   
+          </div>  
 
-        <HoursMandarin /> 
+          {/*FUCK*/}
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          {/*FUCK*/}
+
+        <HoursMandarin/> 
 
         <br id="br-mobile" /> 
 
