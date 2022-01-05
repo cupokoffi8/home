@@ -103,4 +103,16 @@
   #space-uh {
     background: #1e3272; 
     height: 20px; 
+  } 
+
+  @media only screen and (max-width: 600px) {
+
+    .days-header {
+      font-size: 15px; 
+    }
+
+    .hours-header {
+      font-size: 15px; 
+    }
+
   }

@@ -14,8 +14,8 @@
   } 
 
   .top-message {
-    width: 70vw; 
-    border-radius: 15px; 
+    width: 80vw; 
+    border-radius: 65px; 
     background-color: #1e3272; 
     display: block; 
     margin-left: auto; 
@@ -26,7 +26,7 @@
   } 
 
   .inner-message {
-    width: 60vw; 
+    width: 70vw; 
     display: block; 
     margin-left: auto; 
     margin-right: auto; 

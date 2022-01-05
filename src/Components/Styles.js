@@ -11,8 +11,8 @@ export const Content = styled.div`
 `;
   
 export const Button = styled.div`
-    display: flex !important;
-    justify-content: center !important;
+   display: flex !important;
+   justify-content: center !important;
    position: fixed; 
    width: 100%;
    bottom: 40px;

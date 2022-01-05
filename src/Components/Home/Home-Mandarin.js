@@ -20,8 +20,6 @@ export default function HomeMandarin() {
           <button id="the-button" type='btn'>English</button> 
         </form> 
 
-        <div id="bottom-1"> 
-
         {/*------------------------------------------------------------------------------------------------------------------------------*/}
         <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
         <h1 data-aos="fade-down" data-aos-duration="1700" className='celebrate' id="celebrate">祝我们所有的朋友新年快乐</h1>
@@ -73,25 +71,6 @@ export default function HomeMandarin() {
             <img src="./linkedin.png" width="50" height="50"/>
             </a>
           </div> 
-
-          </div>  
-
-          {/*FUCK*/}
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          {/*FUCK*/}
 
         <HoursMandarin/> 
 

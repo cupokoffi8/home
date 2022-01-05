@@ -152,8 +152,8 @@ const NavbarMandarin = ({}) => {
             {dropdown3 && <ADropdown />}
           </li>
 
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./logo.png" width="100" height="100" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/"></img>
+          <Link to='/mandarin' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src="./logo.png" width="100" height="100" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/mandarin"></img>
           </Link> 
 
           {/* The Gallery */}
