@@ -32,7 +32,7 @@ export default function Home() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      toast(
+      toast.error(
         <PopUpMessage /> 
         , {position: toast.POSITION.TOP_CENTER, 
           autoClose: 5000,
