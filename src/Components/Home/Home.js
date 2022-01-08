@@ -11,12 +11,13 @@ import 'aos/dist/aos.css';
 import { toast } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
 import { Link } from 'react-router-dom'; 
+import { Warning } from "@material-ui/icons";
 
 const PopUpMessage = ({ closeToast }) => {
   return (
     <>
-      <h5 id="caption">We will will be closing early on December 24th and 31st at 5:00 p.m.</h5>
-      <h5 id="caption">In addition, we will be closed on&nbsp; </h5> 
+      <h5 id="caption">Due to an unexpected emergency, the gallery will be closed on Saturday, January 8th.</h5>
+      <h5 id="caption">We apologize for the inconvenience, and look forward to seeing you next week.</h5> 
     </> 
   );
 }
@@ -29,16 +30,16 @@ export default function Home() {
 
   // UNCOMMENT/COMMENT THE FOLLOWING TO ACTIVATE/DEACTIVATE THE POP-UP: 
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     toast(
-  //       <PopUpMessage /> 
-  //       , {position: toast.POSITION.TOP_CENTER, 
-  //         autoClose: 8000
-  //       })
-  //   }, 1000);
-  //   return () => clearTimeout(timer);
-  // }, []); 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      toast(
+        <PopUpMessage /> 
+        , {position: toast.POSITION.TOP_CENTER, 
+          autoClose: 5000,
+        })
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []); 
   
   // ^ End Pop-Up ^ 
 
