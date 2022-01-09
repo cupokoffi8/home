@@ -30,16 +30,16 @@ export default function Home() {
 
   // UNCOMMENT/COMMENT THE FOLLOWING TO ACTIVATE/DEACTIVATE THE POP-UP: 
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      toast.error(
-        <PopUpMessage /> 
-        , {position: toast.POSITION.TOP_CENTER, 
-          autoClose: 5000,
-        })
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []); 
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     toast.error(
+  //       <PopUpMessage /> 
+  //       , {position: toast.POSITION.TOP_CENTER, 
+  //         autoClose: 5000,
+  //       })
+  //   }, 1000);
+  //   return () => clearTimeout(timer);
+  // }, []); 
   
   // ^ End Pop-Up ^ 
 
