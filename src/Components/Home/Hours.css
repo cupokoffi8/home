@@ -87,6 +87,14 @@
     margin-bottom: 0px; 
   } 
 
+  .schedule {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    text-align: center;  
+    color: #fff; 
+    background-color: #1e3272 !important; 
+  }
+
   .hours-header {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 20px; 

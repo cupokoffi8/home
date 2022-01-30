@@ -12,6 +12,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 import { Link } from 'react-router-dom'; 
 import { Warning } from "@material-ui/icons";
+import HomeImg from "./POND_FLOWERS.jpeg"; 
 
 const PopUpMessage = ({ closeToast }) => {
   return (
@@ -149,7 +150,7 @@ export default function Home() {
 
         <br id="br-mobile" />  
 
-          <img src="./fung-shway.jpeg"id="fung-shway" />  
+          <img src={HomeImg} id="fung-shway" />  
 
           <p id="p-top">
           American Dragon International Fine Art has partnerships with galleries in a wide range of 

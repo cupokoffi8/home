@@ -5,6 +5,7 @@ import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';
 import '../Button.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
+import HomeImg from "./POND_FLOWERS.jpeg"; 
 
 export default function HomeMandarin() { 
   
@@ -76,7 +77,7 @@ export default function HomeMandarin() {
 
         <br id="br-mobile" /> 
 
-          <img src="./fung-shway.jpeg"id="fung-shway" />  
+          <img src={HomeImg} id="fung-shway" />   
 
           <p id="p-top">
           美国龙国际艺术与许多城市和国家的画廊都有合作伙伴关系。我们的创始人刘娜（Lena Liu）通过多年的经验认识到，
