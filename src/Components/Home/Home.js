@@ -61,7 +61,7 @@ export default function Home() {
 
 
         {/*------------------------------------------------------------------------------------------------------------------------------*/}
-        <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
+        {/* <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
         <h1 data-aos="fade-down" data-aos-duration="1700" className='celebrate' id="celebrate">Happy New Year to All of Our Friends</h1>
         <h1 data-aos="fade-down" data-aos-duration="1900" className='from-1' id="from-1">
           We hope the year 2022 or 4719 brings you much happiness and good health
@@ -77,7 +77,7 @@ export default function Home() {
           <h1 data-aos="fade-left" data-aos-duration="2400" className='from-2' id="from"> 
           We look forward to seeing you soon at our gallery!
           </h1>
-        </div> 
+        </div>  */}
         {/*------------------------------------------------------------------------------------------------------------------------------*/}
 
 

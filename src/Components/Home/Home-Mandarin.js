@@ -22,7 +22,7 @@ export default function HomeMandarin() {
         </form> 
 
         {/*------------------------------------------------------------------------------------------------------------------------------*/}
-        <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
+        {/* <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
         <h1 data-aos="fade-down" data-aos-duration="1700" className='celebrate' id="celebrate">祝我们所有的朋友新年快乐</h1>
         <h1 data-aos="fade-down" data-aos-duration="1900" className='from-1' id="from-1">
           我们希望2022年或4719年带给您许多快乐和健康
@@ -38,7 +38,7 @@ export default function HomeMandarin() {
           <h1 data-aos="fade-left" data-aos-duration="2400" className='from-2' id="from"> 
           我们期待很快在我们的画廊见到您！
           </h1>
-        </div> 
+        </div>  */}
         {/*------------------------------------------------------------------------------------------------------------------------------*/}
 
       
