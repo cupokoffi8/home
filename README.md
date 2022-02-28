@@ -1,3 +1,5 @@
-American Dragon Fine Art
+# **American Dragon Fine Art**
 
-URL: americandragonfineart.com
+URL: https://americandragonfineart.com
+or
+URL: http://cupokofi8.github.io/home
