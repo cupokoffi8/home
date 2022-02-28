@@ -2,4 +2,4 @@
 
 URL: https://americandragonfineart.com
 or
-URL: http://cupokofi8.github.io/home
+URL: https://cupokofi8.github.io/home
