@@ -16,7 +16,10 @@ function Hours() {
                 <div className="days">
                   <h6 className="schedule">All visits are by Appointment Only from February 1st, 2022 until March 31st, 2022.  
                     We will be accepting appointments 7 days a week between 9 a.m. and 8 p.m. </h6>
-                    <hr /> 
+                    <hr 
+                      width="50%"
+                      align="center"
+                    /> 
                   <h6 className="schedule">To schedule, call 917-886-1701 or email jc@americandragonfineart.com</h6> 
                 </div>
               </div>
