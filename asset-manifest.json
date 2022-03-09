@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b5b5b2d.css",
-    "main.js": "/static/js/main.a50e5db8.js",
-    "static/media/POND_FLOWERS.jpeg": "/static/media/POND_FLOWERS.2231c53c4bf7e52ee18f.jpeg",
-    "index.html": "/index.html",
-    "main.7b5b5b2d.css.map": "/static/css/main.7b5b5b2d.css.map",
-    "main.a50e5db8.js.map": "/static/js/main.a50e5db8.js.map"
+    "main.css": "/home/static/css/main.7b5b5b2d.css",
+    "main.js": "/home/static/js/main.74f68bf1.js",
+    "static/media/POND_FLOWERS.jpeg": "/home/static/media/POND_FLOWERS.2231c53c4bf7e52ee18f.jpeg",
+    "index.html": "/home/index.html",
+    "main.7b5b5b2d.css.map": "/home/static/css/main.7b5b5b2d.css.map",
+    "main.74f68bf1.js.map": "/home/static/js/main.74f68bf1.js.map"
   },
   "entrypoints": [
     "static/css/main.7b5b5b2d.css",
-    "static/js/main.a50e5db8.js"
+    "static/js/main.74f68bf1.js"
   ]
 }
