@@ -1,24 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.24e48f1a.chunk.css",
-    "main.js": "/static/js/main.48e85390.chunk.js",
-    "main.js.map": "/static/js/main.48e85390.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f7d7eb59.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f7d7eb59.js.map",
-    "static/css/2.173f71c7.chunk.css": "/static/css/2.173f71c7.chunk.css",
-    "static/js/2.28b19ad4.chunk.js": "/static/js/2.28b19ad4.chunk.js",
-    "static/js/2.28b19ad4.chunk.js.map": "/static/js/2.28b19ad4.chunk.js.map",
+    "main.css": "/static/css/main.7b5b5b2d.css",
+    "main.js": "/static/js/main.11da7c75.js",
+    "static/media/POND_FLOWERS.jpeg": "/static/media/POND_FLOWERS.2231c53c4bf7e52ee18f.jpeg",
     "index.html": "/index.html",
-    "static/css/2.173f71c7.chunk.css.map": "/static/css/2.173f71c7.chunk.css.map",
-    "static/css/main.24e48f1a.chunk.css.map": "/static/css/main.24e48f1a.chunk.css.map",
-    "static/js/2.28b19ad4.chunk.js.LICENSE.txt": "/static/js/2.28b19ad4.chunk.js.LICENSE.txt",
-    "static/media/POND_FLOWERS.2231c53c.jpeg": "/static/media/POND_FLOWERS.2231c53c.jpeg"
+    "main.7b5b5b2d.css.map": "/static/css/main.7b5b5b2d.css.map",
+    "main.11da7c75.js.map": "/static/js/main.11da7c75.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f7d7eb59.js",
-    "static/css/2.173f71c7.chunk.css",
-    "static/js/2.28b19ad4.chunk.js",
-    "static/css/main.24e48f1a.chunk.css",
-    "static/js/main.48e85390.chunk.js"
+    "static/css/main.7b5b5b2d.css",
+    "static/js/main.11da7c75.js"
   ]
 }
