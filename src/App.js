@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'; 
 import Copyright from './Copyright'; 
-import { HashRouter, Switch, Route } from 'react-router-dom'; 
+import { BrowserRouter, HashRouter, Switch, Route } from 'react-router-dom'; 
 
 // Import Components 
 
@@ -175,7 +175,7 @@ const App = () => {
 
   return (
     <>
-    <HashRouter> 
+    <BrowserRouter> 
         <Switch>
             
             <Route exact path="/" component={Home} />
@@ -303,7 +303,7 @@ const App = () => {
         </Switch>
       <ScrollButton /> 
       <Copyright />
-    </HashRouter>
+    </BrowserRouter>
     </>
   );
 } 
