@@ -17,7 +17,7 @@ function HoursMandarin() {
                       align="center"
                     /> 
                   <h6 className="schedule">
-                  如需安排，请致电 917-886-1701 或发送电子邮件至 jc@americandragonfineart.com
+                  如需安排,请致电 917-886-1701 或发送电子邮件至 jc@americandragonfineart.com
                   </h6> 
                 </div>
               </div> 
