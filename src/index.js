@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById("root") 
