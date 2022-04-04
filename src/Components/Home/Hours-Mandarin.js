@@ -9,8 +9,8 @@ function HoursMandarin() {
           <div data-aos="fade-up" data-aos-duration="1300" className="hours-container">
                 <div className="days">
                   <h6 className="schedule">
-                  2022 年 2 月 1 日至 2022 年 3 月 31 日期间，所有访问均需预约。
-                    我们将在上午 9 点到晚上 8 点之间每周 7 天接受预约。
+                  从 2022 年 2 月 1 日至 2022 年 4 月 31 日，所有访问均需预约。
+                  我们将在上午 9 点至晚上 8 点之间每周 7 天接受预约。
                   </h6> 
                   <hr 
                       width="50%"
