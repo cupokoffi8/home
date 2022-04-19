@@ -133,7 +133,7 @@ export default function Home() {
           <Link className="artist-link" to="/aparna-banerjee">Aparna Banerjee</Link><br />
           <Link className="artist-link" to="/charles-haber">Charles Haber</Link><br />
           <Link className="artist-link" to="/chiu-pai">Chiu Pai</Link><br /> 
-          <Link className="artist-link" to="/jill-slaymaker">Jill Slaymaker</Link><br /> 
+          <Link className="artist-link" to="/jill-slaymaker">Jill Slaymaker</Link>
           
         <h6 id="moreInfo">
           We are happy to announce we currently have an extended exhibition of our
