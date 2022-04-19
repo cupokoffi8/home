@@ -54,9 +54,4 @@ export const AMenuItems = [
     path: '/zhao-qing',
     cName: 'a-dropdown-link'
   }, 
-  {
-    title: 'Zhen Zhong Duan',
-    path: '/zhen-zhong-duan',
-    cName: 'a-dropdown-link'
-  }, 
 ];
