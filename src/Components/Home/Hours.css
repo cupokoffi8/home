@@ -187,6 +187,16 @@
 
   }
 
+  @media only screen and (max-width: 900px) {
+
+    #hours-div {
+      background-color: #1e3272; 
+      margin-bottom: 20px; 
+      height: 140vh !important; 
+    }
+
+  }
+
   @media only screen and (max-width: 800px) {
 
     #hours-div {
