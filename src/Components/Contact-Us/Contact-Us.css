@@ -1,5 +1,5 @@
 #contact-head {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; 
     font-size: 26px;
     display: block; 
     justify-content: center !important; 
@@ -12,7 +12,7 @@
 } 
 
 #fill-out {
-    font-family: 'Times New Roman', Times, serif; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; 
     font-size: 22px;
     display: block; 
     justify-content: center !important; 
@@ -71,7 +71,7 @@ input[type=text], select, textarea {
     text-decoration: none;
     font-size: 16px; 
     font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     border-radius: 8px; 
   } 
 
@@ -80,11 +80,11 @@ input[type=text], select, textarea {
   }
 
   #the-span {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
   } 
 
   .row {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     color: green; 
     display: flex; 
     justify-content: center; 

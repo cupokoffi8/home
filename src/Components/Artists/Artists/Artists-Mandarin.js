@@ -62,9 +62,6 @@ function AritistsMandarin() {
             <a id="link" href="#/zhao-qing-mandarin">
             <h5 id="caption-card-a-m">趙青</h5> 
             </a> 
-            <a id="link" href="#/zhen-zhong-duan-mandarin"> 
-            <h5 id="caption-card-a-r">段振中</h5> 
-            </a>
             </div> 
 
             {/* Mobile */} 
@@ -112,10 +109,6 @@ function AritistsMandarin() {
             <a id="link" href="#/zhao-qing-mandarin"> 
             <h5 id="caption-card">趙青</h5> 
             </a> 
-
-            <a id="link" href="#/zhen-zhong-duan-mandarin"> 
-            <h5 id="caption-card">段振中</h5> 
-            </a>
 
           </div>
         </>

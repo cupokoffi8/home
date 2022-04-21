@@ -1,5 +1,5 @@
 .artist {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 26px;
     display: block; 
     justify-content: center !important; 
@@ -20,7 +20,7 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   } 
@@ -62,7 +62,7 @@
     margin-right: auto; 
     margin-top: 20px; 
     text-align: center; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 

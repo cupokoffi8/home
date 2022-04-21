@@ -12,6 +12,7 @@
     margin-top: 20px;  
     margin-left: auto; 
     margin-right: auto; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; 
   } 
 
   #caption {
@@ -21,7 +22,7 @@
     margin-top: 20px; 
     text-align: center; 
     text-decoration: none; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 

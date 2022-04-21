@@ -7,7 +7,7 @@
 }
 
 .exhibition {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; 
     font-size: 26px;
     display: block; 
     justify-content: center !important; 
@@ -25,7 +25,7 @@
     margin-top: 20px; 
     text-align: center; 
     text-decoration: none; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
@@ -52,7 +52,7 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: center !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
 } 

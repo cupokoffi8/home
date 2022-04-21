@@ -6,6 +6,12 @@
     margin-right: auto; 
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+
+  #landing-div {
+    height: 100vh; 
+    background-size: cover !important; 
+    background: url("5570863.jpg"); 
   }
 
   #uh {
@@ -116,7 +122,7 @@
     margin-top: 20px; 
     text-align: center; 
     text-decoration: none; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
@@ -127,8 +133,10 @@
     text-align: center; 
     margin-left: auto; 
     margin-right: auto; 
+    margin-top: 15vh;
+    font-size: 40px;
     color: red; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Avenir Black', 'Roboto', Helvetica, Arial, sans-serif;
   } 
 
   .magAndMyst {
@@ -148,9 +156,11 @@
     justify-content: center !important; 
     padding-left: 15px; 
     padding-right: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
     margin-left: auto; 
     margin-right: auto; 
-    font-size: 20px; 
+    font-size: 16px; 
     font-weight: bold; 
     text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -257,7 +267,7 @@
   #addy {
     display: block; 
     justify-content: center; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px;
     text-decoration: none; 
     text-align: center; 
@@ -267,7 +277,7 @@
   #addy-click {
     display: block; 
     justify-content: center; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px;
     text-decoration: none; 
     text-align: center; 
@@ -277,7 +287,7 @@
   #addy-click:hover { 
     display: block; 
     justify-content: center; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
@@ -287,7 +297,7 @@
   #addyBottom {
     display: block; 
     justify-content: center; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px; 
     text-decoration: none; 
     text-align: center; 
@@ -385,7 +395,7 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   }
@@ -399,7 +409,7 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   } 
@@ -411,8 +421,18 @@
   }
 
   @media only screen and (max-width: 600px) {
+
+    .american {
+      margin-top: 10vh;
+    }
+
+    #landing-div {
+      height: 100vh; 
+      background: white; 
+    }
     
     .announcement-card {
+      align-items: center; 
       width: 85vw; 
       height: auto; 
     } 
@@ -432,14 +452,14 @@
     #p-top {
       margin-left: 15px; 
       margin-right: 15px; 
-      font-family: 'Times New Roman', Times, serif; 
+      font-family: 'Roboto', Helvetica, Arial, sans-serif; 
       justify-content: center !important;
     }
 
     #p-bottom {
       margin-left: 15px; 
       margin-right: 15px; 
-      font-family: 'Times New Roman', Times, serif; 
+      font-family: 'Roboto', Helvetica, Arial, sans-serif; 
       justify-content: center !important; 
     }
 

@@ -1,5 +1,5 @@
 .artist {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 26px;
     display: block; 
     justify-content: center !important; 
@@ -11,7 +11,7 @@
   }
 
   #header {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block; 
     justify-content: left !important; 
     text-align: left !important; 
@@ -30,7 +30,7 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   } 
@@ -44,7 +44,7 @@
     background-color: #fff !important; 
     color: black !important; 
     text-align: left !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   } 
@@ -57,7 +57,7 @@
     /* margin-right: 120px;  */
     background-color: #fff !important; 
     color: black !important; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important;
     line-height: 1.7rem !important; 
   } 
@@ -82,7 +82,7 @@
     margin-top: 20px; 
     width: 30vw !important; 
     text-align: center; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
@@ -138,7 +138,7 @@
         background-color: #fff !important; 
         color: black !important; 
         text-align: left !important; 
-        font-family: 'Times New Roman', Times, serif; 
+        font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
         font-size: 18px !important;
         line-height: 1.7rem !important; 
           } 
@@ -160,7 +160,7 @@
           height: 5px; 
           text-align: center; 
           text-decoration: none; 
-          font-family: 'Times New Roman', Times, serif; 
+          font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
           font-size: 18px !important; 
           font-weight: bold !important;  
           color: black !important; 

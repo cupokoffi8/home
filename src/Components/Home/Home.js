@@ -13,6 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom'; 
 import { Warning } from "@material-ui/icons";
 import HomeImg from "./POND_FLOWERS.jpeg"; 
+import Landing from "./Landing";
 
 const PopUpMessage = ({ closeToast }) => {
   return (
@@ -53,9 +54,8 @@ export default function Home() {
 
       <div id="bottom"> 
 
-        <form method="get" action="#/mandarin">
-          <button id="the-button" type='btn'>普通話</button> 
-        </form> 
+      <Landing /> 
+      <Hours /> 
 
         {/* <div id="bottom-1">  v(Uncomment this when the stuff below is not in use)v */}
 
@@ -82,70 +82,14 @@ export default function Home() {
 
 
         {/* <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome to</h1> */}
-        <h1 data-aos="fade-down" data-aos-duration="1800" className='american'>American Dragon International Fine Art Gallery</h1>
-
-        <div id="info">
-          <a data-aos="fade-left" data-aos-duration="900" id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
-            614 N. Duke Street, Suite One, Lancaster, PA 17602
-            </a>
-
-            <a data-aos="fade-right" data-aos-duration="900" id="addy">
-                   917-886-1701      
-            </a>
-
-            <a data-aos="fade-left" data-aos-duration="900" id="addyBottom"> 
-              info@americandragonfineart.com
-            </a> 
-
-          </div> 
-
-          <div data-aos="fade-up" data-aos-duration="2000" id="iconStuff"> 
-            <a id="twitter" href="https://twitter.com/ameridragonart">
-            <img src="./twitter.png" width="50" height="50" />
-            </a>
-
-            <a id="instagram" href="https://www.instagram.com/american.dragon.art/">
-            <img src="./instagram.png" width="50" height="50"/>
-            </a>
-
-            <a id="linkedin" href="https://www.linkedin.com/company/american-dragon-fine-art/">
-            <img src="./linkedin.png" width="50" height="50"/>
-            </a> 
-            </div> 
+        
 
           {/* </div>  v(Uncomment this when the stuff below is not in use)v */} 
           {/* --------------------------------------------------------------------- */}
 
-          <br /> 
-
-          <div data-aos="fade-down" data-aos-duration="1400" className="announcement-card">
-        <h6 className="magAndMyst">
-          <span className="big-words">
-            Visit Us to Explore a Diverse Collection of Artwork
-            </span>
-            <hr className="the-line" /> 
-            <span className="other-words">
-          We have six featured artists on display: 
-          </span>
-          </h6> 
-        
-          <Link className="artist-link" to="/apelles-zhou">Appelles Zhou</Link><br /> 
-          <Link className="artist-link" to="/aparna-banerjee">Aparna Banerjee</Link><br />
-          <Link className="artist-link" to="/charles-haber">Charles Haber</Link><br />
-          <Link className="artist-link" to="/chiu-pai">Chiu Pai</Link><br /> 
-          <Link className="artist-link" to="/jill-slaymaker">Jill Slaymaker</Link>
-          
-        <h6 id="moreInfo">
-          We are happy to announce we currently have an extended exhibition of our
-          international artists at The Greenfield Inn Restaurant in Lancaster, Pennsylvania.</h6> 
-      </div> 
-
-      <br />
       <br /> 
 
-      {/* --------------------------------------------------------- */}
-
-        <Hours /> 
+      {/* --------------------------------------------------------- */} 
 
         <br id="br-mobile" />  
 

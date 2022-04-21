@@ -3,27 +3,53 @@ import './Hours.css';
 import './Home.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
+import Card from 'react-bootstrap/Card'; 
+import { Link } from 'react-router-dom'; 
+import artist from './Images/artist.png'; 
+import visit from './Images/home.png'; 
+import temp1 from './Images/temp1.png'; 
+import temp2 from './Images/temp2.png'; 
+import '../The-Gallery/Visit-Us/Visit-Us.css'; 
 
 function Hours() {
 
   Aos.init({}); 
 
     return (
-        <div data-aos="fade-up" data-aos-duration="900" id="hours-div"> 
-          <div id="space" />
-          <h6 data-aos="fade-up" data-aos-duration="1000" className="title">Our Weekly Hours</h6> 
-              <div data-aos="fade-up" data-aos-duration="1300" className="hours-container"> 
-                <div className="days">
-                  <h6 className="schedule">All visits are by Appointment Only from February 1st, 2022 until April 31st, 2022.  
-                    We will be accepting appointments 7 days a week between 9 a.m. and 8 p.m. </h6>
-                    <hr 
-                      width="50%"
-                      align="center"
-                    /> 
-                  <h6 className="schedule">To schedule, call 917-886-1701 or email jc@americandragonfineart.com</h6> 
-                </div>
-              </div>
-            <div id="space" />
+        <div id="hours-div"> 
+          <div id="space" /> 
+          <div className="card-row">
+            <div data-aos="fade-up" data-aos-duration="900" className="the-good-card">
+              <Card className="the-card">
+                <Card.Img src={visit} variant="top" id="image-thing-home"/>
+              </Card> 
+              </div> 
+ 
+              <div data-aos="fade-up" data-aos-duration="1000" className="our-favorite-card"> 
+              <Card className="the-card">
+                <Card.Img src={temp1} variant="top" id="image-thing-home-2"/>
+              </Card>  
+              </div> 
+            </div> 
+            <div className="card-row">
+            <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-pc">
+              <Card className="the-card">
+                <Card.Img src={temp2} variant="top" id="image-thing-home-2"/>
+              </Card> 
+              </div> 
+ 
+              <div data-aos="fade-up" data-aos-duration="1000" className="our-favorite-card"> 
+              <Card className="the-card">
+                <Card.Img src={artist} variant="top" id="image-thing-home"/>
+              </Card>  
+
+              <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-mobile">
+              <Card className="the-card">
+                <Card.Img src={temp2} variant="top" id="image-thing-home-2"/>
+              </Card> 
+              </div> 
+              </div> 
+            </div> 
         </div>
     );
   }

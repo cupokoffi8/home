@@ -62,9 +62,6 @@ function Aritists() {
             <a id="link" href="#/zhao-qing">
             <h5 id="caption-card-a-m">Zhao Qing</h5>
             </a> 
-            <a id="link" href="#/zhen-zhong-duan"> 
-            <h5 id="caption-card-a-r">Zhen-Zhong Duan</h5> 
-            </a>
             </div> 
 
             {/* Mobile */} 
@@ -111,10 +108,6 @@ function Aritists() {
 
             <a id="link" href="#/zhao-qing">
             <h5 id="caption-card">Zhao Qing</h5>
-            </a> 
-
-            <a id="link" href="#/zhen-zhong-duan"> 
-            <h5 id="caption-card">Zhen-Zhong Duan</h5> 
             </a> 
 
           </div>
