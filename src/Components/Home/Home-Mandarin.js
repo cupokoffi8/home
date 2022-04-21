@@ -6,6 +6,7 @@ import '../Button.css';
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
 import HomeImg from "./POND_FLOWERS.jpeg"; 
+import LandingMandarin from "./Landing-Mandarin";
 
 export default function HomeMandarin() { 
   
@@ -17,62 +18,7 @@ export default function HomeMandarin() {
       <NavbarMandarin /> 
       <div id="bottom"> 
 
-        <form method="get" action="#/">
-          <button id="the-button" type='btn'>English</button> 
-        </form> 
-
-        {/*------------------------------------------------------------------------------------------------------------------------------*/}
-        {/* <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
-        <h1 data-aos="fade-down" data-aos-duration="1700" className='celebrate' id="celebrate">祝我们所有的朋友新年快乐</h1>
-        <h1 data-aos="fade-down" data-aos-duration="1900" className='from-1' id="from-1">
-          我们希望2022年或4719年带给您许多快乐和健康
-          </h1>
-          <div className="inner-message" data-aos="fade-down" data-aos-duration="2000">
-          <h1 data-aos="fade-down" data-aos-duration="2000" className='from-2' id="from">
-          为了庆祝美国和中国的新年， 
-          </h1>
-          <h1 data-aos="fade-down" data-aos-duration="2200" className='from-3' id="from"> 
-          我们将提供一个 <span className="blink_me">20% 折扣</span> 2022 年 1 月 1 日至 2 月 15 日（或 4719）我们所有的作品
-          </h1>
-          </div> 
-          <h1 data-aos="fade-left" data-aos-duration="2400" className='from-2' id="from"> 
-          我们期待很快在我们的画廊见到您！
-          </h1>
-        </div>  */}
-        {/*------------------------------------------------------------------------------------------------------------------------------*/}
-
-      
-        <h1 data-aos="fade-down" data-aos-duration="1400" className='american'>歡迎來到美國龍國際美術</h1> 
-
-        <div id="info">
-          <a data-aos="fade-left" data-aos-duration="900" id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
-            614 N. Duke Street, Suite One, Lancaster, PA 17602
-            </a>
-
-            <a data-aos="fade-right" data-aos-duration="900" id="addy">
-                   917-886-1701      
-            </a>
-
-            <a data-aos="fade-left" data-aos-duration="900" id="addyBottom"> 
-              info@americandragonfineart.com
-            </a> 
-
-          </div>
-
-        <div data-aos="fade-up" data-aos-duration="1800" id="iconStuff">
-            <a id="twitter" href="https://twitter.com/ameridragonart">
-            <img src="./twitter.png" width="50" height="50" />
-            </a>
-
-            <a id="instagram" href="https://www.instagram.com/american.dragon.art/">
-            <img src="./instagram.png" width="50" height="50"/>
-            </a>
-
-            <a id="linkedin" href="https://www.linkedin.com/company/american-dragon-fine-art/">
-            <img src="./linkedin.png" width="50" height="50"/>
-            </a>
-          </div> 
-
+        <LandingMandarin /> 
         <HoursMandarin/> 
 
         <br id="br-mobile" /> 

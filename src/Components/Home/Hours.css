@@ -4,6 +4,12 @@
   height: 130vh; 
 }
 
+#hours-div-mandarin {
+  background-color: #1e3272; 
+  margin-bottom: 20px; 
+  height: 150vh; 
+}
+
 /* Card stuff */ 
 .the-good-card {
   display: inline-block; 
@@ -187,6 +193,12 @@
       background-color: #1e3272; 
       margin-bottom: 20px; 
       height: 200vh !important; 
+    } 
+
+    #hours-div-mandarin {
+      background-color: #1e3272; 
+      margin-bottom: 20px; 
+      height: 200vh; 
     }
 
     .days-header {
@@ -210,7 +222,7 @@
       margin-top: 30px; 
       margin-bottom: 20px; 
       vertical-align: middle;
-      max-width: 65vw !important; 
+      max-width: 55vw !important; 
       height: auto; 
     } 
   
@@ -222,7 +234,7 @@
       margin-top: 50px; 
       /* margin-bottom: 20px;  */
       vertical-align: middle;
-      max-width: 65vw !important; 
+      max-width: 75vw !important; 
       height: auto; 
     } 
 
