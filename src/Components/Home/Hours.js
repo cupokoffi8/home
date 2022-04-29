@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import artist from './Images/artist.png'; 
 import visit from './Images/home.png'; 
 import temp1 from './Images/temp1.png'; 
-import temp2 from './Images/temp2.png'; 
+import temp2 from './Images/temp2.jpg'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
 
 function Hours() {
