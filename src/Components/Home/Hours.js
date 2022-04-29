@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom'; 
 import artist from './Images/artist.png'; 
 import visit from './Images/home.png'; 
-import temp1 from './Images/temp1.png'; 
+import temp1 from './Images/temp1.jpg'; 
 import temp2 from './Images/temp2.jpg'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
 
