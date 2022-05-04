@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom'; 
 import artist from './Images/artist.png'; 
 import visit from './Images/home.png'; 
-import temp1 from './Images/temp3.png'; 
+import temp1 from './Images/temp4-aw.jpg'; 
 import temp2 from './Images/temp4.png'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
 
@@ -31,6 +31,11 @@ function HoursMandarin() {
               </Card>  
               </div> 
             </div> 
+            <br /> 
+            <br /> 
+            <br /> 
+            <br /> 
+            <br /> 
             <div className="card-row">
             <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-pc">
               <Card className="the-card">

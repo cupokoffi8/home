@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Visit-Us.css'; 
-import Navbar from '../../Navbar/Navbar'; 
+import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin';
 import Card from 'react-bootstrap/Card'; 
 import { Link } from 'react-router-dom'; 
 import '../../Button.css'; 
@@ -8,7 +8,7 @@ import '../../Button.css';
 function VisitUsMandarin() {
     return (
       <>
-        <Navbar /> 
+        <NavbarMandarin /> 
           <div className="Visit-Us"> 
 
           <form method="get" action="#/about-us"> 
