@@ -396,7 +396,7 @@ function AparnaBanerjee() {
 
               <br id="only-mobile"/>
 
-              <img id="image-mobile" src="./AB10.jpeg"/>
+              <img id="image-mobile" src="./AB10.png"/>
               <h5 id="caption-mobile">Yellow</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 

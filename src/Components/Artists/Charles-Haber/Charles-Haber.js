@@ -39,7 +39,7 @@ function CharlesHaber() {
 
               <div className="the-paintings">
                 <div>
-              <img src="./COMING-STORM.jpeg" className="painting-ch"></img> 
+              <img src="./ComingStorm.png" className="coming-storm"></img> 
               <h5 className="word-ch-1">Coming Storm</h5> 
               </div>
               <div>
@@ -101,7 +101,7 @@ function CharlesHaber() {
 
               {/* List of Paintings [Phone] */} 
 
-              <img src="./COMING-STORM.jpeg" className="painting-ch-mobile-wide"></img>
+              <img src="./ComingStorm.png" className="painting-ch-mobile-wide"></img>
               <h5 id="caption-mobile">Coming Storm</h5> 
 
               <img src="./ENCORE.jpeg" className="painting-ch-mobile-wide"></img> 

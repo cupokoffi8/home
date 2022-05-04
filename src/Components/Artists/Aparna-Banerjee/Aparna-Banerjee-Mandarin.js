@@ -120,7 +120,7 @@ function AparnaBanerjeeMandarin() {
 
               <div className="the-paintings">
               <img src="./AB9.jpeg" id="painting-ab"></img> 
-              <img src="./AB10.jpeg" id="painting-ab"></img> 
+              <img src="./AB10.png" id="painting-ab-sold"></img> 
               </div>
 
               <div className="the-words">
@@ -382,7 +382,7 @@ function AparnaBanerjeeMandarin() {
 
               <br id="only-mobile"/>
 
-              <img id="image-mobile" src="./AB9.jpeg"/>
+              <img id="image-mobile" src="./AB9.png"/>
               <h5 id="caption-mobile">Red</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 

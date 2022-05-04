@@ -33,8 +33,8 @@ function CharlesHaberMandarin() {
               {/* List of Paintings [Computer] */} 
 
               <div className="the-paintings">
-                <div>
-              <img src="./COMING-STORM.jpeg" className="painting-ch"></img> 
+              <div>
+              <img src="./ComingStorm.png" className="coming-storm"></img>  
               <h5 className="word-ch-1">Coming Storm</h5> 
               </div>
               <div>

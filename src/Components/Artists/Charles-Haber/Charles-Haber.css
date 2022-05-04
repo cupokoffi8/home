@@ -6,6 +6,14 @@
     height: auto; 
 } 
 
+.coming-storm {
+  display: block; 
+  justify-content: space-evenly;
+  margin-top: 65px; 
+  width: 45vw; 
+  height: auto; 
+} 
+
 .painting-ch-mobile-wide { 
   display: none; 
 } 
