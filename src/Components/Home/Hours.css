@@ -1,16 +1,22 @@
 #hours-div {
   background-color: #1e3272; 
   margin-bottom: 20px; 
-  height: 130vh; 
+  height: 115vh; 
 }
 
 #hours-div-mandarin {
   background-color: #1e3272; 
   margin-bottom: 20px; 
   height: 150vh; 
-}
+} 
 
 /* Card stuff */ 
+.card-row-here {
+  display: flex; 
+  align-content: center !important; 
+  justify-content: space-evenly; 
+} 
+
 .the-card-good {
   display: flex; 
   justify-content: center !important; 
@@ -35,8 +41,8 @@
   display: inline-block; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 36vw; 
-  height: auto; 
+  width: auto; 
+  height: 45vh; 
 } 
 
 .the-good-card-mobile {
@@ -44,12 +50,39 @@
 } 
 
 .our-favorite-card {
-  display: inline-block; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 45vw; 
-  height: auto; 
+  display: none; 
 }
+
+/* ------------------------------- */
+
+#house {
+  float: left;
+  margin-right: 10vw; 
+  margin-top: 37.5px; 
+  width: auto; 
+  height: 30vh; 
+} 
+
+#visit {
+  max-width: 50vw !important; 
+}
+
+/* ------V----BOTTOM ROW----V------ */
+
+#artist {
+  float: right;
+  margin-left: 8vw; 
+  margin-top: 37.5px; 
+  width: auto; 
+  height: 30vh;
+} 
+
+#explore {
+  max-width: 50vw !important; 
+  margin-top: 8vh; 
+}
+
+/* ------------------------------- */
 
 #image-thing-home {
   display: flex; 
@@ -149,16 +182,11 @@
   } 
 
   .the-hours-container {
-    display: flex; 
-    justify-content: center !important; 
+    display: block; 
+    text-align: center !important;
     margin-left: auto; 
     margin-right: auto; 
-    width: auto; 
-    height: auto; 
-    margin-top: 0px;
-    margin-bottom: 0px; 
-    padding: 10px; 
-    border-width: 0.25em; 
+    border-width: 0.15em; 
     border-style: solid; 
     border-radius: 5px; 
     border-color: white; 
@@ -166,7 +194,7 @@
 
   .days {
     display: inline-block; 
-    margin-right: 20px; 
+    margin-right: 30px; 
     width: auto; 
     height: auto; 
     margin-top: 0px;
@@ -219,6 +247,14 @@
     color: white; 
     align-items: center; 
     text-align: center; 
+  } 
+
+  .a-head {
+    display: block; 
+    color: white; 
+    align-items: center; 
+    text-align: center; 
+    text-decoration: underline; 
   }
 
   #space {
@@ -231,12 +267,8 @@
     height: 20px; 
   } 
 
-  #explore {
-    margin-top: 8vh; 
-  }
-
   .sep {
-    height: 15vh !important; 
+    height: 10vh !important; 
   } 
 
   .paragraph {
@@ -260,30 +292,63 @@
     #hours-div {
       background-color: #1e3272; 
       margin-bottom: 20px; 
-      height: 140vh !important; 
+      height: 120vh !important; 
     } 
 
     #image-thing-home {
       margin-top: 100px;
     }
 
-    #image-thing-home-1 {
-      margin-top: 100px;
-      margin-left: auto !important; 
-      margin-right: auto !important; 
-    }
-
     #explore {
-      margin-top: 10vh; 
+      margin-top: 4vh; 
     }
 
     .sep {
-      height: 25vh !important; 
+      height: 10vh !important; 
     } 
 
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 850px) {
+
+    .card-row-here {
+      display: flex; 
+      justify-content: center !important;
+      margin-right: auto !important; 
+      margin-left: auto !important; 
+    } 
+
+    /* ------------------------------- */
+
+    #house {
+      float: left;
+      margin-right: auto; 
+      margin-left: auto; 
+      margin-top: auto;
+      margin-bottom: auto;
+      width: auto; 
+      height: 30vh; 
+    } 
+
+    #visit {
+      max-width: 80vw !important; 
+    }
+
+    /* ------V----BOTTOM ROW----V------ */
+
+    #artist {
+      float: left;
+      margin-right: auto; 
+      margin-left: auto; 
+      margin-top: auto;
+      margin-bottom: auto;
+      width: auto; 
+      height: 30vh; 
+    } 
+
+    #explore {
+      max-width: 80vw !important; 
+    }
 
     #hours-div {
       background-color: #1e3272; 
@@ -292,7 +357,7 @@
     } 
 
     .sep {
-      height: 25vh !important; 
+      height: 10vh !important; 
     } 
 
     #hours-div-mandarin {
@@ -319,18 +384,6 @@
       justify-content: center;  
       margin-left: auto; 
       margin-right: auto; 
-      margin-top: 30px; 
-      margin-bottom: 20px; 
-      vertical-align: middle;
-      max-width: 55vw !important; 
-      height: auto; 
-    } 
-
-    #image-thing-home-1 {
-      display: flex; 
-      justify-content: center;  
-      margin-left: auto !important; 
-      margin-right: auto !important; 
       margin-top: 30px; 
       margin-bottom: 20px; 
       vertical-align: middle;
@@ -377,15 +430,15 @@
     #hours-div {
       background-color: #1e3272; 
       margin-bottom: 20px; 
-      height: 215vh !important; 
+      height: 200vh !important; 
     } 
 
     .days-header {
-      font-size: 10px; 
+      font-size: 11.5px; 
     }
 
     .hours-header {
-      font-size: 10px; 
+      font-size: 11.5px; 
     }
 
   }

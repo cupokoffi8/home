@@ -20,40 +20,52 @@ function Hours() {
     return (
         <div id="hours-div"> 
           <div id="space" /> 
-          <div className="card-row">
-            <div data-aos="fade-up" data-aos-duration="900" className="the-good-card">
+
+          <div data-aos="fade-right" data-aos-duration="1000" className="card-row-here">
+            <div className="the-good-card-pc">
               <Card className="the-card-good">
-                <Card.Img src={visit} variant="top" id="image-thing-home-1"/>
+                <Card.Img src={visit} variant="top" id="house"/>
+                <Visit />
               </Card> 
               </div> 
- 
-              <div data-aos="fade-up" data-aos-duration="1000" className="our-favorite-card"> 
+
+              <div className="our-favorite-card"> 
               <Card className="the-card-good">
-                <Visit />
-              </Card>  
+                <Card.Img src={visit} variant="top" id="image-thing-home"/>
+              </Card> 
+
+              <div className="the-good-card-mobile">
+              <Card className="the-card-good">
+                <Visit /> 
+              </Card> 
               </div> 
+              </div>  
             </div> 
 
             <div className="sep"/>
 
-            <div className="card-row">
-            <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-pc">
+            <div data-aos="fade-left" data-aos-duration="1000" className="card-row-here">
+            <div className="the-good-card-pc">
               <Card className="the-card-good">
                 <Explore />
+                <Card.Img src={artist} variant="top" id="artist"/>
               </Card> 
+
+              
               </div> 
- 
-              <div data-aos="fade-up" data-aos-duration="1000" className="our-favorite-card"> 
+
+              {/* -------------------------------------------------------------------------------- */}
+              <div className="our-favorite-card"> 
               <Card className="the-card-good">
                 <Card.Img src={artist} variant="top" id="image-thing-home"/>
-              </Card>  
+              </Card> 
 
-              <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-mobile">
+              <div className="the-good-card-mobile">
               <Card className="the-card-good">
                 <Explore /> 
               </Card> 
               </div> 
-              </div> 
+              </div>  
             </div> 
         </div>
     );
