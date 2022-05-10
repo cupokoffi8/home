@@ -439,6 +439,10 @@
 
     .hours-header {
       font-size: 11.5px; 
+    } 
+
+    .days {
+      margin-right: 15px; 
     }
 
   }
