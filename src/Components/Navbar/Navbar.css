@@ -580,7 +580,7 @@ nav .menu-btn,
           position:absolute;
           top:100px;
           left:0px;
-          background-color:#212529;
+          background-color:#1e3272; 
           border-bottom:4px solid #da3a3a;
           width:100vw;
           padding:0px;
@@ -689,7 +689,7 @@ nav .menu-btn,
                 position:absolute;
                 top:100px; 
                 left:0px;
-                background-color:#212529;
+                background-color: #1e3272; 
                 border-bottom:4px solid #da3a3a;
                 width:100%;
                 padding:0px;
