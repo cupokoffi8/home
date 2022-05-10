@@ -11,12 +11,24 @@
 }
 
 /* Card stuff */ 
+.the-card-good {
+  display: flex; 
+  justify-content: center !important; 
+  margin-left: auto; 
+  margin-right: auto;  
+  width: auto; 
+  height: 35vh; 
+  margin-top: 5vh !important; 
+  margin-bottom: 5vh !important;
+  background: #1e3272; 
+}
+
 .the-good-card {
   display: inline-block; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 36vw; 
-  height: auto; 
+  width: auto; 
+  height: 45vh; 
 } 
 
 .the-good-card-pc {
@@ -35,21 +47,32 @@
   display: inline-block; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 36vw; 
+  width: 45vw; 
   height: auto; 
 }
 
 #image-thing-home {
   display: flex; 
-  justify-content: center;  
+  justify-content: center !important;  
   margin-left: auto; 
   margin-right: auto; 
-  margin-top: 50px; 
-  margin-bottom: 20px; 
-  padding-top: 20px; 
-  vertical-align: middle;
-  max-width: 20vw !important; 
-  height: auto; 
+  margin-top: 45px; 
+  margin-bottom: auto; 
+  vertical-align: middle !important;
+  width: auto; 
+  height: 35vh; 
+} 
+
+#image-thing-home-1 {
+  display: flex; 
+  justify-content: center !important;  
+  margin-left: 5vw !important; 
+  margin-right: auto; 
+  margin-top: 45px; 
+  margin-bottom: auto; 
+  vertical-align: middle !important;
+  width: auto; 
+  height: 35vh; 
 } 
 
 #image-thing-home-2 {
@@ -125,6 +148,22 @@
     margin-bottom: 0px; 
   } 
 
+  .the-hours-container {
+    display: flex; 
+    justify-content: center !important; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: auto; 
+    height: auto; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding: 10px; 
+    border-width: 0.25em; 
+    border-style: solid; 
+    border-radius: 5px; 
+    border-color: white; 
+  } 
+
   .days {
     display: inline-block; 
     margin-right: 20px; 
@@ -162,10 +201,24 @@
 
   .hours-header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px; 
+    font-size: 18px; 
     text-align: left; 
     color: #fff; 
     background-color: #1e3272 !important; 
+  } 
+
+  .sub {
+    display: block; 
+    color: white; 
+    align-items: center; 
+    text-align: center; 
+  } 
+
+  .head {
+    display: block; 
+    color: white; 
+    align-items: center; 
+    text-align: center; 
   }
 
   #space {
@@ -178,12 +231,26 @@
     height: 20px; 
   } 
 
+  #explore {
+    margin-top: 8vh; 
+  }
+
+  .sep {
+    height: 15vh !important; 
+  } 
+
+  .paragraph {
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+  } 
+
   @media only screen and (max-width: 1000px) {
 
     #hours-div {
       background-color: #1e3272; 
       margin-bottom: 20px; 
-      height: 100vh !important; 
+      height: 120vh !important; 
     }
 
   }
@@ -194,7 +261,25 @@
       background-color: #1e3272; 
       margin-bottom: 20px; 
       height: 140vh !important; 
+    } 
+
+    #image-thing-home {
+      margin-top: 100px;
     }
+
+    #image-thing-home-1 {
+      margin-top: 100px;
+      margin-left: auto !important; 
+      margin-right: auto !important; 
+    }
+
+    #explore {
+      margin-top: 10vh; 
+    }
+
+    .sep {
+      height: 25vh !important; 
+    } 
 
   }
 
@@ -204,6 +289,10 @@
       background-color: #1e3272; 
       margin-bottom: 20px; 
       height: 185vh !important; 
+    } 
+
+    .sep {
+      height: 25vh !important; 
     } 
 
     #hours-div-mandarin {
@@ -230,6 +319,18 @@
       justify-content: center;  
       margin-left: auto; 
       margin-right: auto; 
+      margin-top: 30px; 
+      margin-bottom: 20px; 
+      vertical-align: middle;
+      max-width: 55vw !important; 
+      height: auto; 
+    } 
+
+    #image-thing-home-1 {
+      display: flex; 
+      justify-content: center;  
+      margin-left: auto !important; 
+      margin-right: auto !important; 
       margin-top: 30px; 
       margin-bottom: 20px; 
       vertical-align: middle;
@@ -276,7 +377,15 @@
     #hours-div {
       background-color: #1e3272; 
       margin-bottom: 20px; 
-      height: 175vh !important; 
+      height: 215vh !important; 
+    } 
+
+    .days-header {
+      font-size: 10px; 
+    }
+
+    .hours-header {
+      font-size: 10px; 
     }
 
   }

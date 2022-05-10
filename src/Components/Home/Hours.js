@@ -10,6 +10,8 @@ import visit from './Images/home.png';
 import temp1 from './Images/temp1-aw.jpg'; 
 import temp2 from './Images/temp2.jpg'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
+import Visit from './Visit';
+import Explore from './Explore';
 
 function Hours() {
 
@@ -20,32 +22,35 @@ function Hours() {
           <div id="space" /> 
           <div className="card-row">
             <div data-aos="fade-up" data-aos-duration="900" className="the-good-card">
-              <Card className="the-card">
-                <Card.Img src={visit} variant="top" id="image-thing-home"/>
+              <Card className="the-card-good">
+                <Card.Img src={visit} variant="top" id="image-thing-home-1"/>
               </Card> 
               </div> 
  
               <div data-aos="fade-up" data-aos-duration="1000" className="our-favorite-card"> 
-              <Card className="the-card">
-                <Card.Img src={temp1} variant="top" id="image-thing-home-2"/>
+              <Card className="the-card-good">
+                <Visit />
               </Card>  
               </div> 
             </div> 
+
+            <div className="sep"/>
+
             <div className="card-row">
             <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-pc">
-              <Card className="the-card">
-                <Card.Img src={temp2} variant="top" id="image-thing-home-2"/>
+              <Card className="the-card-good">
+                <Explore />
               </Card> 
               </div> 
  
               <div data-aos="fade-up" data-aos-duration="1000" className="our-favorite-card"> 
-              <Card className="the-card">
+              <Card className="the-card-good">
                 <Card.Img src={artist} variant="top" id="image-thing-home"/>
               </Card>  
 
               <div data-aos="fade-up" data-aos-duration="900" className="the-good-card-mobile">
-              <Card className="the-card">
-                <Card.Img src={temp2} variant="top" id="image-thing-home-2"/>
+              <Card className="the-card-good">
+                <Explore /> 
               </Card> 
               </div> 
               </div> 
