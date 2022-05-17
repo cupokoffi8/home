@@ -47,9 +47,8 @@ function ZhenghuiLan() {
             <br /> 
             Zhenghui’s work has been shown in the Flemish Art Museum in Brussels, the Art Institute of Chicago, the Venice Biennale, the 
             Singapore Third Biennial and Art International in Istanbul in 2015, the National Art Museum of China in Beijing, among others. 
-            He is represented in the USA by Ethan Cohan Fine Arts in New York. His work has been collected by Rubell Family, National Art 
-            Museum of China, Beijing, China China Songzhuang Ink Painting League, China, Florida Gulf Coast University, FL, Chinese Cultural 
-            Centre Of Greater Toronto and is part of numerous private collections. 
+            His work has been collected by Rubell Family, National Art Museum of China, Beijing, Songzhuang Ink Painting League, China, 
+            Florida Gulf Coast University, FL, Chinese Cultural Centre Of Greater Toronto and is part of numerous private collections. 
             </p> 
 
               {/* --v--v--v--v--v--v--v--v-- WIDE --v--v--v--v--v--v--v--v-- */} 
