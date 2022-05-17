@@ -1,12 +1,10 @@
 #hours-div {
   background-color: #1e3272; 
-  margin-bottom: 20px; 
   height: 115vh; 
 }
 
 #hours-div-mandarin {
   background-color: #1e3272; 
-  margin-bottom: 20px; 
   height: 150vh; 
 } 
 
@@ -26,7 +24,6 @@
   height: 35vh; 
   margin-top: 5vh !important; 
   margin-bottom: 5vh !important;
-  background: #1e3272; 
 }
 
 .the-good-card {
@@ -56,7 +53,7 @@
 /* ------------------------------- */
 
 #house {
-  float: left;
+  float: left; 
   margin-right: 10vw; 
   margin-top: 37.5px; 
   width: auto; 
@@ -277,12 +274,70 @@
     font-weight: bold; 
   } 
 
+  .paragraph-stuff {
+    color: #000000; 
+    text-align: center; 
+    font-weight: bold; 
+  } 
+
+  .sub-stuff {
+    display: block; 
+    color: #000000; 
+    align-items: center; 
+    text-align: center; 
+  } 
+
+  #img-stuff { 
+    float: left;
+    margin-right: 8vw; 
+    margin-top: 46.5px; 
+    width: auto; 
+    height: 45vh; 
+    border-radius: 50px; 
+    border-color: #000000; 
+    border-width: 5px; 
+    border-style: dashed; 
+  } 
+
+  #image-thing-home-stuff {
+    display: flex; 
+    justify-content: center !important;  
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px; 
+    margin-bottom: auto; 
+    vertical-align: middle !important;
+    width: auto; 
+    height: 45vh; 
+    border-radius: 50px; 
+    border-style: dashed; 
+    border-color: #000000; 
+    border-width: 5px; 
+  } 
+
+  .the-good-card-stuff {
+    display: inline-block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: auto; 
+    height: 45vh; 
+  } 
+
+  #stuff {
+    margin-top: 12vh; 
+    max-width: 50vw !important; 
+    background-color: transparent; 
+  }
+
   @media only screen and (max-width: 1000px) {
 
     #hours-div {
       background-color: #1e3272; 
-      margin-bottom: 20px; 
       height: 120vh !important; 
+    } 
+
+    #img-stuff { 
+      margin-top: 70px; 
     }
 
   }
@@ -291,7 +346,6 @@
 
     #hours-div {
       background-color: #1e3272; 
-      margin-bottom: 20px; 
       height: 120vh !important; 
     } 
 
@@ -306,6 +360,11 @@
     .sep {
       height: 10vh !important; 
     } 
+    #stuff {
+      margin-top: 0.5vh;  
+      max-width: 70vw !important; 
+      background-color: transparent; 
+    }
 
   }
 
@@ -352,7 +411,6 @@
 
     #hours-div {
       background-color: #1e3272; 
-      margin-bottom: 20px; 
       height: 185vh !important; 
     } 
 
@@ -362,7 +420,6 @@
 
     #hours-div-mandarin {
       background-color: #1e3272; 
-      margin-bottom: 20px; 
       height: 185vh; 
     }
 
@@ -380,6 +437,39 @@
     } 
 
     #image-thing-home {
+      display: flex; 
+      justify-content: center;  
+      margin-left: auto; 
+      margin-right: auto; 
+      margin-top: 30px; 
+      margin-bottom: 20px; 
+      vertical-align: middle;
+      max-width: 55vw !important; 
+      height: auto; 
+    } 
+
+    #stuff {
+      margin-top: 0.5vh;  
+      max-width: 80vw !important; 
+      background-color: transparent; 
+    } 
+
+    .paragraph-stuff {
+      color: #000000; 
+      text-align: center; 
+      font-weight: bold; 
+      font-size: medium; 
+    } 
+  
+    .sub-stuff {
+      display: block; 
+      color: #000000; 
+      align-items: center; 
+      text-align: center; 
+      font-size: x-large; 
+    } 
+
+    #image-thing-home-stuff {
       display: flex; 
       justify-content: center;  
       margin-left: auto; 
@@ -429,7 +519,6 @@
 
     #hours-div {
       background-color: #1e3272; 
-      margin-bottom: 20px; 
       height: 200vh !important; 
     } 
 

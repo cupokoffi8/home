@@ -7,6 +7,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 import HomeImg from "./POND_FLOWERS.jpeg"; 
 import LandingMandarin from "./Landing-Mandarin";
+import CurveMandarin from "./Curve-Mandarin"; 
 
 export default function HomeMandarin() { 
   
@@ -20,6 +21,7 @@ export default function HomeMandarin() {
 
         <LandingMandarin /> 
         <HoursMandarin/> 
+        <CurveMandarin /> 
 
         <br id="br-mobile" /> 
 

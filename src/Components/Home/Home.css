@@ -14,6 +14,13 @@
     background: url("5570863.jpg"); 
   }
 
+  #curve-div {
+    height: 100vh; 
+    background-size: cover !important; 
+    background: url("curve.png"); 
+    background-color: transparent; 
+  }
+
   #uh {
       color: #1e3272 !important; 
       margin-top: 20px; 
@@ -414,7 +421,7 @@
     line-height: 1.7rem !important; 
   } 
 
-  @media only screen and (max-height: 700px) { 
+  @media only screen and (max-height: 850px) { 
     #bottom-1 {
       height: 60vh; 
     } 

@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
 import { Warning } from "@material-ui/icons";
 import HomeImg from "./POND_FLOWERS.jpeg"; 
 import Landing from "./Landing";
+import Curve from "./Curve";
 
 const PopUpMessage = ({ closeToast }) => {
   return (
@@ -56,6 +57,7 @@ export default function Home() {
 
       <Landing /> 
       <Hours /> 
+      <Curve /> 
 
         {/* <div id="bottom-1">  v(Uncomment this when the stuff below is not in use)v */}
 
