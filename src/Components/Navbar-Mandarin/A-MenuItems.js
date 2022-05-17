@@ -54,4 +54,9 @@ export const AMenuItems = [
       path: '/zhao-qing-mandarin',
       cName: 'a-dropdown-link'
     }, 
+    {
+      title: '蓝正辉', 
+      path: '/zhenghui-lan-mandarin', 
+      cName: 'a-dropdown-link' 
+    }
   ];

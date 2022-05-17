@@ -1,0 +1,28 @@
+.the-paintings-zl {
+    display: flex; 
+    justify-content: center !important;
+    justify-content: space-evenly !important;
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+.the-words-zl {
+    display: flex; 
+    margin-bottom: 100px; 
+    justify-content: center !important;
+    justify-content: space-evenly !important;
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+@media only screen and (max-width: 705px) { 
+
+    .the-paintings-zl {
+        display: none; 
+    } 
+
+    .the-words-zl {
+        display: none; 
+    }
+
+}

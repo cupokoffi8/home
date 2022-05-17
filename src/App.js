@@ -25,6 +25,8 @@ import SuZi from './Components/Artists/Su-Zi/Su-Zi';
 import XiaoLi from './Components/Artists/Xiao-Li/Xiao-Li'; 
 import ZenFrescos from './Components/Artists/Zen-Frescos/Zen-Frescos'; 
 import ZhaoQing from './Components/Artists/Zhao-Qing/Zhao-Qing'; 
+import ZhenghuiLan from './Components/Artists/Zhengui-Lan/Zhenghui-Lan'; 
+
 
   // Exhibitions 
 import Exhibitions from './Components/Exhibitions/Exhibitions'; 
@@ -75,6 +77,7 @@ import SuZiMandarin from './Components/Artists/Su-Zi/Su-Zi-Mandarin';
 import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin'; 
 import ZenFrescosMandarin from './Components/Artists/Zen-Frescos/Zen-Frescos-Mandarin'; 
 import ZhaoQingMandarin from './Components/Artists/Zhao-Qing/Zhao-Qing-Mandarin'; 
+import ZhenghuiLanMandarin from './Components/Artists/Zhengui-Lan/Zhengui-Lan-Mandarin'; 
 
 // Exhibitions-M  
 import ExhibitionsMandarin from './Components/Exhibitions/Exhibitions-Mandarin'; 
@@ -191,6 +194,7 @@ const App = () => {
             <Route path="/xiao-li" component={XiaoLi} /> 
             <Route path="/zen-frescos" component={ZenFrescos} /> 
             <Route path="/zhao-qing" component={ZhaoQing} /> 
+            <Route path="/zhenghui-lan" component={ZhenghuiLan} />  
 
             {/* Exhibitions */} 
             <Route path="/exhibitions" component={Exhibitions} /> 
@@ -249,7 +253,8 @@ const App = () => {
             <Route path="/su-zi-mandarin" component={SuZiMandarin} /> 
             <Route path="/xiao-li-mandarin" component={XiaoLiMandarin} /> 
             <Route path="/zen-frescos-mandarin" component={ZenFrescosMandarin} />  
-            <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} />  
+            <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} /> 
+            <Route path="/zhenghui-lan-mandarin" component={ZhenghuiLanMandarin} />  
 
             {/* Exhibitions-M */} 
 

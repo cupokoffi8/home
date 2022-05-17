@@ -30,6 +30,11 @@ export const AMenuItems = [
     cName: 'a-dropdown-link'
   }, 
   {
+    title: 'Lan Zhenghui', 
+    path: '/zhenghui-lan',
+    cName: 'a-dropdown-link'
+  }, 
+  {
     title: 'Qui Huade',
     path: '/qui-huade',
     cName: 'a-dropdown-link'
