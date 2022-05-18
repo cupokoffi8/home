@@ -180,6 +180,13 @@ function ZhenghuiLan() {
                   15" x 57" 
               </h5> 
 
+              <img src={Wide1} id="painting-zf"></img>
+              <h5 id="caption">
+                  Wave<br />
+                  Acrylic on Canvas<br /> 
+                  52" x 82" 
+              </h5> 
+
               <img src={Wide7} id="painting-zf"></img>
               <h5 id="caption">
                   Go Up<br />
@@ -191,13 +198,6 @@ function ZhenghuiLan() {
               <h5 id="caption">
                   Secluded<br />
                   Acrylic on Paper Mounted Canvas<br /> 
-                  52" x 82" 
-              </h5> 
-
-              <img src={Wide1} id="painting-zf"></img>
-              <h5 id="caption">
-                  Wave<br />
-                  Acrylic on Canvas<br /> 
                   52" x 82" 
               </h5> 
 

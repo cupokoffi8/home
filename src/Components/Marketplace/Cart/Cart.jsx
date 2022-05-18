@@ -13,20 +13,8 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
 
   const renderEmptyCart = () => (
     <div className="empty-cart">
-    <Typography variant="subtitle1" style={{ textAlign: "center"}}>You have no items in your shopping cart,&nbsp;
+    <Typography variant="subtitle1" style={{ textAlign: "center", marginBottom: "55vh" }}>You have no items in your shopping cart,&nbsp;
       <Link className={classes.link} to="/shop">start adding some</Link>!
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
-      <br /> 
     </Typography>
     </div>
   );
