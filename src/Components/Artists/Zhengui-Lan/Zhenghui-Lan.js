@@ -15,6 +15,9 @@ import Wide4 from './Images/23W.jpg';
 import Wide5 from './Images/13W.jpg'; 
 import Wide6 from './Images/15W.jpg'; 
 import Wide8 from './Images/19W.jpg'; 
+import Wide7 from './Images/C1.jpg'; 
+import Wide2 from './Images/C2.jpg'; 
+import Wide1 from './Images/C3.jpg'; 
 
 function ZhenghuiLan() {
 
@@ -175,6 +178,27 @@ function ZhenghuiLan() {
                   J025<br />
                   Ink and Acrylic on Paper<br /> 
                   15" x 57" 
+              </h5> 
+
+              <img src={Wide7} id="painting-zf"></img>
+              <h5 id="caption">
+                  Go Up<br />
+                  Acrylic on Canvas<br /> 
+                  35" x 47" 
+              </h5> 
+
+              <img src={Wide2} id="painting-zf"></img>
+              <h5 id="caption">
+                  Secluded<br />
+                  Acrylic on Paper Mounted Canvas<br /> 
+                  52" x 82" 
+              </h5> 
+
+              <img src={Wide1} id="painting-zf"></img>
+              <h5 id="caption">
+                  Wave<br />
+                  Acrylic on Canvas<br /> 
+                  52" x 82" 
               </h5> 
 
 

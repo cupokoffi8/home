@@ -8,26 +8,16 @@ import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin';
 import '../../Button.css'; 
 import Long1 from './Images/1L.jpg'; 
 import Long2 from './Images/2L.jpg'; 
-import SmallWide1 from './Images/3SW.jpg'; 
 import Long3 from './Images/4L.jpg'; 
-import Wide1 from './Images/5W.jpg'; 
 import Long4 from './Images/6L.jpg'; 
-import Wide2 from './Images/7W.jpg'; 
-import Long5 from './Images/8L.jpg'; 
 import Wide3 from './Images/9W.jpg'; 
 import Wide4 from './Images/10W.jpg'; 
-import Long6 from './Images/11L.jpg'; 
-import Long7 from './Images/12L.jpg'; 
 import Wide5 from './Images/13W.jpg'; 
-import SmallLong1 from './Images/14SL.jpg'; 
 import Wide6 from './Images/15W.jpg'; 
-import Long8 from './Images/16L.jpg'; 
-import Wide7 from './Images/17W.jpg'; 
-import Long9 from './Images/18L.jpg'; 
 import Wide8 from './Images/19W.jpg'; 
-import Wide9 from './Images/20W.jpg'; 
-import Long10 from './Images/21L.jpg'; 
-import Long11 from './Images/22L.jpg'; 
+import Wide7 from './Images/C1.jpg'; 
+import Wide2 from './Images/C2.jpg'; 
+import Wide1 from './Images/C3.jpg'; 
 
 function ZhenghuiLanMandarin() {
 
@@ -188,6 +178,27 @@ function ZhenghuiLanMandarin() {
                   J025<br />
                   Ink and Acrylic on Paper<br /> 
                   15" x 57" 
+              </h5> 
+
+              <img src={Wide7} id="painting-zf"></img>
+              <h5 id="caption">
+                  Go Up<br />
+                  Acrylic on Canvas<br /> 
+                  35" x 47" 
+              </h5> 
+
+              <img src={Wide2} id="painting-zf"></img>
+              <h5 id="caption">
+                  Secluded<br />
+                  Acrylic on Paper Mounted Canvas<br /> 
+                  52" x 82" 
+              </h5> 
+
+              <img src={Wide1} id="painting-zf"></img>
+              <h5 id="caption">
+                  Wave<br />
+                  Acrylic on Canvas<br /> 
+                  52" x 82" 
               </h5> 
 
             </div>
