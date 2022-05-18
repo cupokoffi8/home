@@ -19,6 +19,8 @@ export default makeStyles((theme) => ({
   }, 
   link: {
     textDecoration: 'none',
+    fontWeight: 'bold', 
+    color: 'red', 
   },
   cardDetails: {
     display: 'flex',

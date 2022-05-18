@@ -12,7 +12,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 import { Link } from 'react-router-dom'; 
 import { Warning } from "@material-ui/icons";
-import HomeImg from "./POND_FLOWERS.jpeg"; 
+import HomeImg from "./Images/Home.JPG"; 
 import Landing from "./Landing";
 import Curve from "./Curve";
 

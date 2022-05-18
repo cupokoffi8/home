@@ -12,9 +12,23 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
   const handleEmptyCart = () => onEmptyCart();
 
   const renderEmptyCart = () => (
-    <Typography variant="subtitle1">You have no items in your shopping cart,&nbsp;
+    <div className="empty-cart">
+    <Typography variant="subtitle1" style={{ textAlign: "center"}}>You have no items in your shopping cart,&nbsp;
       <Link className={classes.link} to="/shop">start adding some</Link>!
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
     </Typography>
+    </div>
   );
 
   if (!cart.line_items) return 'Loading';
@@ -43,7 +57,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
     <Navbar />
     <Container>
       <div className={classes.toolbar} />
-      <Typography className={classes.title} variant="h3" gutterBottom>Your Shopping Cart</Typography>
+      <Typography className={classes.title} variant="h3" gutterBottom style={{ textAlign: "center"}}>Your Shopping Cart</Typography>
       { !cart.line_items.length ? renderEmptyCart() : renderCart() }
     </Container>
     </> 

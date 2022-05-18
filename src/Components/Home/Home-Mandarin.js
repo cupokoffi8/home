@@ -5,7 +5,7 @@ import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';
 import '../Button.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
-import HomeImg from "./POND_FLOWERS.jpeg"; 
+import HomeImg from "./Images/Home.JPG"; 
 import LandingMandarin from "./Landing-Mandarin";
 import CurveMandarin from "./Curve-Mandarin"; 
 
