@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4931b912.chunk.css",
-    "main.js": "/static/js/main.f7ea7024.chunk.js",
-    "main.js.map": "/static/js/main.f7ea7024.chunk.js.map",
+    "main.js": "/static/js/main.e2870901.chunk.js",
+    "main.js.map": "/static/js/main.e2870901.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7d7eb59.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7d7eb59.js.map",
     "static/css/2.173f71c7.chunk.css": "/static/css/2.173f71c7.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/C1.b6e1fc1a.jpg": "/static/media/C1.b6e1fc1a.jpg",
     "static/media/C2.9b9abf71.jpg": "/static/media/C2.9b9abf71.jpg",
     "static/media/C3.9aba432e.jpg": "/static/media/C3.9aba432e.jpg",
-    "static/media/POND_FLOWERS.2231c53c.jpeg": "/static/media/POND_FLOWERS.2231c53c.jpeg",
+    "static/media/Home.8ce48cc4.JPG": "/static/media/Home.8ce48cc4.JPG",
     "static/media/Tchotchke.70261b13.jpg": "/static/media/Tchotchke.70261b13.jpg",
     "static/media/artist.c2e8b1b8.png": "/static/media/artist.c2e8b1b8.png",
     "static/media/home.32105043.png": "/static/media/home.32105043.png",
@@ -43,6 +43,6 @@
     "static/css/2.173f71c7.chunk.css",
     "static/js/2.3f64b567.chunk.js",
     "static/css/main.4931b912.chunk.css",
-    "static/js/main.f7ea7024.chunk.js"
+    "static/js/main.e2870901.chunk.js"
   ]
 }
