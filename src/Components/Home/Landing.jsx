@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Home.css"; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
+import instagram from "./Images/instagram.png"; 
+import twitter from "./Images/twitter.png"; 
+import linkedin from "./Images/linkedin.png"; 
 
 function Landing() {
 
@@ -33,15 +36,15 @@ function Landing() {
 
           <div data-aos="fade-up" data-aos-duration="2000" id="iconStuff"> 
             <a id="twitter" href="https://twitter.com/ameridragonart">
-            <img src="./twitter.png" width="50" height="50" />
+            <img src={twitter} width="50" height="50" />
             </a>
 
             <a id="instagram" href="https://www.instagram.com/american.dragon.art/">
-            <img src="./instagram.png" width="50" height="50"/>
+            <img src={instagram} width="50" height="50"/>
             </a>
 
             <a id="linkedin" href="https://www.linkedin.com/company/american-dragon-fine-art/">
-            <img src="./linkedin.png" width="50" height="50"/>
+            <img src={linkedin} width="50" height="50"/>
             </a> 
             </div> 
 

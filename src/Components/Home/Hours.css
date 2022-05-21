@@ -1,10 +1,10 @@
 #hours-div {
-  background-color: #1e3272; 
+  background-color: #1f7cff; 
   height: 115vh; 
 }
 
 #hours-div-mandarin {
-  background-color: #1e3272; 
+  background-color: #1f7cff; 
   height: 150vh; 
 } 
 
@@ -128,7 +128,7 @@
   margin-right: auto; 
   text-align: left; 
   color: #fff; 
-  background-color: #1e3272 !important; 
+  background-color: #1f7cff !important; 
   margin-top: 0px;
   margin-bottom: 1px; 
   }
@@ -142,10 +142,10 @@
     margin-right: auto; 
     text-align: left; 
     color: #fff; 
-    background-color: #1e3272 !important; 
+    background-color: #1f7cff !important; 
     margin-top: 0px;
     margin-bottom: 10px; 
-    /* color: #1e3272;  */ 
+    /* color: #1f7cff;  */ 
   }
 
   .hoursUH{
@@ -155,7 +155,7 @@
     justify-content: center !important; 
     text-align: center !important; 
     color: #fff; 
-    background-color: #1e327200 !important; 
+    background-color: #1f7cff00 !important; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 0px;
@@ -164,7 +164,7 @@
 
   #hours {  
       line-height: 0.5rem; 
-      background: #1e3272; 
+      background: #1f7cff; 
   } 
 
   .hours-container {
@@ -203,7 +203,7 @@
     font-size: 18px; 
     text-align: left; 
     color: #fff; 
-    background-color: #1e3272 !important; 
+    background-color: #1f7cff !important; 
   } 
 
   .the-hours {
@@ -219,7 +219,7 @@
     font-size: 18px; 
     text-align: center;  
     color: #fff; 
-    background-color: #1e3272 !important; 
+    background-color: #1f7cff !important; 
     margin-left: 25vw; 
     margin-right: 25vw; 
   }
@@ -229,7 +229,7 @@
     font-size: 18px; 
     text-align: left; 
     color: #fff; 
-    background-color: #1e3272 !important; 
+    background-color: #1f7cff !important; 
   } 
 
   .sub {
@@ -255,12 +255,12 @@
   }
 
   #space {
-    background: #1e3272; 
+    background: #1f7cff; 
     height: 40px; 
   }
 
   #space-uh {
-    background: #1e3272; 
+    background: #1f7cff; 
     height: 20px; 
   } 
 
@@ -332,7 +332,7 @@
   @media only screen and (max-width: 1000px) {
 
     #hours-div {
-      background-color: #1e3272; 
+      background-color: #1f7cff; 
       height: 120vh !important; 
     } 
 
@@ -345,7 +345,7 @@
   @media only screen and (max-width: 900px) {
 
     #hours-div {
-      background-color: #1e3272; 
+      background-color: #1f7cff; 
       height: 120vh !important; 
     } 
 
@@ -410,7 +410,7 @@
     }
 
     #hours-div {
-      background-color: #1e3272; 
+      background-color: #1f7cff; 
       height: 185vh !important; 
     } 
 
@@ -419,7 +419,7 @@
     } 
 
     #hours-div-mandarin {
-      background-color: #1e3272; 
+      background-color: #1f7cff; 
       height: 185vh; 
     }
 
@@ -518,7 +518,7 @@
   @media only screen and (max-width: 600px) {
 
     #hours-div {
-      background-color: #1e3272; 
+      background-color: #1f7cff; 
       height: 200vh !important; 
     } 
 

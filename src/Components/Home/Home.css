@@ -1,7 +1,7 @@
 .welcome {
     display: block; 
     color: red !important; 
-    margin-top: 6rem; 
+    margin-top: 5rem; 
     margin-left: auto; 
     margin-right: auto; 
     text-align: center;
@@ -11,7 +11,8 @@
   #landing-div {
     height: 100vh; 
     background-size: cover !important; 
-    background: url("5570863.jpg"); 
+    /* background: url("5570863.jpg");  */
+    background: linear-gradient( to bottom, rgba(18, 18, 18, 0.644) 0%, rgba(70, 70, 71, 0.8) 100% ), url("gallery.jpg");
   }
 
   #curve-div {
@@ -22,14 +23,14 @@
   }
 
   #uh {
-      color: #1e3272 !important; 
+      color: #1f6edc !important; 
       margin-top: 20px; 
   } 
 
   .top-message {
     width: 80vw; 
     border-radius: 65px; 
-    background-color: #1e3272; 
+    background-color: #1f6edc; 
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
@@ -140,10 +141,10 @@
     text-align: center; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 18vh;
+    margin-top: 15vh;
     font-size: 40px;
-    color: red; 
-    font-family: 'Avenir Black', 'Roboto', Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255); 
+    font-family: 'Avenir Black', 'Roboto', Helvetica, Arial, sans-serif; 
   } 
 
   .magAndMyst {
@@ -158,7 +159,7 @@
   } 
 
   #moreInfo {
-    color: #1e3272 !important; 
+    color: #1f6edc !important; 
     display: block; 
     justify-content: center !important; 
     padding-left: 15px; 
@@ -174,7 +175,7 @@
   } 
 
   .big-words {
-    color: #1e3272 !important; 
+    color: #1f6edc !important; 
     display: block; 
     margin-top: 26px; 
     margin-left: auto; 
@@ -187,7 +188,7 @@
   } 
 
   .other-words {
-    color: #1e3272 !important; 
+    color: #1f6edc !important; 
     display: block; 
     margin-top: 5px; 
     margin-left: auto; 
@@ -208,7 +209,7 @@
     margin-left: auto; 
     margin-right: auto; 
     border-radius: 35px; 
-    border: #1e3272; 
+    border: #1f6edc; 
     border-style: solid; 
     border-width: 4px; 
     width: 60vw; 
@@ -221,7 +222,7 @@
   } 
 
   #please {
-    color: #1e3272 !important; 
+    color: #1f6edc !important; 
     display: flex; 
     justify-content: center !important;
     margin-left: auto; 
@@ -241,7 +242,7 @@
   }
 
   .artist-link {
-    color: #1e3272 !important; 
+    color: #1f6edc !important; 
     display: flex; 
     justify-content: center !important;
     margin-left: auto; 
@@ -255,14 +256,14 @@
   .artist-link:hover { 
     width: 15vw; 
     color: #ffffff !important;  
-    background-color: #1e3272; 
+    background-color: #1f6edc; 
     border-radius: 10px; 
     text-decoration: none; 
   }
 
   .the-line {
     height: 1px; 
-    background-color: #1e3272 !important; 
+    background-color: #1f6edc !important; 
     border: none; 
   }
 
@@ -275,10 +276,11 @@
     display: block; 
     justify-content: center; 
     font-family: 'Roboto', Helvetica, Arial, sans-serif; 
-    font-size: 18px;
+    font-size: 18px; 
+    font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
-    color: black; 
+    color: rgb(243, 243, 243); 
   } 
 
   #addy-click {
@@ -286,9 +288,10 @@
     justify-content: center; 
     font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px;
+    font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
-    color: black; 
+    color: rgb(243, 243, 243); 
   } 
 
   #addy-click:hover { 
@@ -298,7 +301,7 @@
     font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
-    color: black; 
+    color: rgb(185, 127, 127); 
   } 
 
   #addyBottom {
@@ -306,9 +309,10 @@
     justify-content: center; 
     font-family: 'Roboto', Helvetica, Arial, sans-serif; 
     font-size: 18px; 
+    font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
-    color: black; 
+    color: rgb(243, 243, 243); 
     margin-bottom: 50px;
   }
 
@@ -318,19 +322,19 @@
   }
 
   #blue { 
-    background-color: #1e3272 !important;  
+    background-color: #1f6edc !important;  
     position: static;
   } 
 
   #blue-up {
-    background-color: #1e3272 !important;
+    background-color: #1f6edc !important;
     height: 5rem; 
     /* margin-top: 150px !important; */
     position: static; 
   }
 
   #blue-down {
-    background-color: #1e3272 !important;
+    background-color: #1f6edc !important;
     height: 5rem; 
     margin-top: 0px; 
     position: static;
@@ -431,6 +435,23 @@
 
     .american {
       margin-top: 10vh;
+      color: rgb(252, 0, 0); 
+    } 
+
+    #addy {
+      color: rgb(0, 0, 0); 
+    } 
+  
+    #addy-click {
+      color: rgb(0, 0, 0); 
+    } 
+  
+    #addy-click:hover { 
+      color: rgb(62, 62, 62); 
+    } 
+  
+    #addyBottom {
+      color: rgb(0, 0, 0); 
     }
 
     #landing-div {
@@ -482,7 +503,7 @@
       border-radius: 15px; 
       border-style: solid;   
       border-color: red; 
-      background-color: #1e3272; 
+      background-color: #1f6edc; 
       display: block; 
       margin-left: auto; 
       margin-right: auto; 

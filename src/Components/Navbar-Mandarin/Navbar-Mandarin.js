@@ -153,7 +153,7 @@ const NavbarMandarin = ({}) => {
           </li>
 
           <Link to='/mandarin' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./logo.png" width="100" height="100" alt="Logo" className='logo' style={{ marginTop: "20px"}} href="/mandarin"></img>
+          <img src="./logo.png" width="75" height="75" alt="Logo" className='logo' style={{ marginTop: "10px"}} href="/mandarin"></img>
           </Link> 
 
           {/* The Gallery */}
