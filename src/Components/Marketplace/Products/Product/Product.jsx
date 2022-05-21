@@ -7,12 +7,13 @@ import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import useStyles from './styles'; 
+import { green } from '@material-ui/core/colors';
 
 const PopUpMessage = ({ closeToast }) => {
-  return (
+  return ( 
     <>
-      <h5 className="added">Item Added to Cart</h5>
-      <a href="#/cart" className="view-cart">View Cart</a> 
+      <h5 style={{marginLeft: '30px'}} className="added">Item Added to Cart</h5>
+      <a style={{marginLeft: '70px', textDecoration: 'none', fontWeight: 'bold'}} href="#/cart" className="view-cart">View Cart</a>  
     </> 
   );
 }
@@ -25,8 +26,8 @@ const Product = ({ product, onAddToCart }) => {
 
   const notify = ()=>{
  
-    toast(<PopUpMessage />,
-           {position: toast.POSITION.TOP_CENTER, autoClose:3000})
+    toast.success(<PopUpMessage />,
+           {position: toast.POSITION.TOP_CENTER, autoClose:6000, color:'green'})
 }
   
   const handleAddToCart = () => onAddToCart(product.id, 1)
