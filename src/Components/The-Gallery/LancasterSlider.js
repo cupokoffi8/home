@@ -2,27 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { SliderData } from './SliderItems'; 
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io'; 
 
-const preloadImage = url => (document.createElement('img').src = url)
-const preloadOne = () => preloadImage('./TGNew2.jpeg')
-const preloadTwo = () => preloadImage('./LG.png') 
-const preloadThree = () => preloadImage('./LG2.jpeg') 
-const preloadFour = () => preloadImage('./LG3.jpeg') 
-const preloadFive = () => preloadImage('./LG4.jpeg') 
-const preloadSix = () => preloadImage('./LG5.png') 
 
 const ImageSlider = ({ slides }) => { 
-
-  const [showImages, setShowImages] = React.useState(false) 
-
-  setTimeout(function(){ 
-    setShowImages(true)
-    preloadImage('./TGNew2.jpeg')
-    preloadImage('./LG.png') 
-    preloadImage('./LG2.jpeg') 
-    preloadImage('./LG3.jpeg') 
-    preloadImage('./LG4.jpeg') 
-    preloadImage('./LG5.png') 
-    ; }, 500);
 
   const [current, setCurrent] = useState(0);
   const length = slides.length;

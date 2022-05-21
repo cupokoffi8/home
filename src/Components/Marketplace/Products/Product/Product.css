@@ -21,18 +21,38 @@
 
 .added {
     display: block; 
+    justify-content: center !important; 
     text-decoration: none; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
+    text-align: center !important; 
+    align-items: center !important; 
+    margin-left: 35px !important;
 }
 
 .view-cart {
     display: block; 
+    justify-content: center !important;
     text-decoration: none; 
     font-size: 18px !important; 
     font-weight: bold !important;  
     text-decoration: underline; 
-    color: rgb(0, 36, 194) !important; 
+    color: rgb(3, 149, 3) !important; 
+    text-align: center !important;
+    align-items: center !important; 
+    margin-left: 45px !important; 
+}
+
+@media only screen and (max-width: 600px) {
+
+.added {
+    margin-left: 65px !important; 
+}
+
+.view-cart {
+    margin-left: 70px !important; 
+}
+
 }
 

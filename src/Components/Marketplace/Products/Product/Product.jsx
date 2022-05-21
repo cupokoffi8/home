@@ -12,8 +12,8 @@ import { green } from '@material-ui/core/colors';
 const PopUpMessage = ({ closeToast }) => {
   return ( 
     <>
-      <h5 style={{marginLeft: '30px'}} className="added">Item Added to Cart</h5>
-      <a style={{marginLeft: '70px', textDecoration: 'none', fontWeight: 'bold'}} href="#/cart" className="view-cart">View Cart</a>  
+      <h5 className="added">Item Added to Cart</h5>
+      <a style={{textDecoration: 'none', fontWeight: 'bold'}} href="#/cart" className="view-cart">View Cart</a>  
     </> 
   );
 }

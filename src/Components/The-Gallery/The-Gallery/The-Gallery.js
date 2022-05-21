@@ -7,37 +7,6 @@ import { SliderData } from '../SliderItems';
 
 function TheGallery() { 
   window.scrollTo(0, 0); 
-  function preloader() {
-    if (document.images) {
-      var img1 = new Image();
-      var img2 = new Image();
-      var img3 = new Image(); 
-      var img4 = new Image(); 
-      var img5 = new Image(); 
-      var img6 = new Image(); 
-  
-      img1.src = "./TGNew2.jpeg";
-      img2.src = "./LG.png";
-      img3.src = "./LG2.jpeg"; 
-      img4.src = "./LG3.jpg"; 
-      img5.src = "./LG4.jpg"; 
-      img6.src = "./LG5.png"; 
-    }
-  }
-  function addLoadEvent(func) {
-    var oldonload = window.onload;
-    if (typeof window.onload != 'function') {
-      window.onload = func;
-    } else {
-      window.onload = function() {
-        if (oldonload) {
-          oldonload();
-        }
-        func();
-      }
-    }
-  }
-  addLoadEvent(preloader);
     return (
       <>
         <Navbar /> 

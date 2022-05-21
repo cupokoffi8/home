@@ -301,7 +301,7 @@
     font-weight: bold; 
     text-decoration: none; 
     text-align: center; 
-    color: rgb(185, 127, 127); 
+    color: rgb(249, 58, 58); 
   } 
 
   #addyBottom {
@@ -435,28 +435,27 @@
 
     .american {
       margin-top: 10vh;
-      color: rgb(252, 0, 0); 
     } 
 
     #addy {
-      color: rgb(0, 0, 0); 
+      font-size: smaller; 
     } 
   
     #addy-click {
-      color: rgb(0, 0, 0); 
+      font-size: smaller; 
     } 
   
     #addy-click:hover { 
-      color: rgb(62, 62, 62); 
+      color: rgb(255, 97, 97); 
     } 
   
     #addyBottom {
-      color: rgb(0, 0, 0); 
+      font-size: smaller; 
     }
 
     #landing-div {
       height: 100vh; 
-      background: white; 
+      /* background: white;  */
     }
     
     .announcement-card {
