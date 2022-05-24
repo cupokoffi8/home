@@ -15,14 +15,14 @@ function Visit() {
                 <h3 className="a-head">May 2022 Open Hours</h3>
                 <div className="days">
                   <h2 className="days-header">
-                  Saturday, May 21st: <br />
-                  Sunday, May 22nd: 
+                  Friday, May 27th: <br />
+                  Saturday, May 28th: 
                   </h2> 
                 </div>
                 <div className="the-hours">
                   <h2 className="hours-header">
-                  10:00 a.m. - 5:00 p.m.<br /> 
-                  Noon - 4:00 p.m. 
+                  Noon - 7:00 p.m.<br /> 
+                  Noon - 5:00 p.m. 
                   </h2>
                 </div>
               </div>

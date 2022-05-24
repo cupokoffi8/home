@@ -14,14 +14,14 @@ function VisitMandarin() {
                 <h3 className="a-head">2022 年 5 月开放时间</h3>
                 <div className="days">
                   <h2 className="days-header">
-                  5 月 21 日星期六：<br />
-                  5月22日星期日：
+                  5 月 27 日星期五：<br />
+                  5月28日星期六：
                   </h2> 
                 </div>
                 <div className="the-hours">
                   <h2 className="hours-header">
-                  上午 10:00 - 下午 5:00<br />
-                  中午 - 下午 4:00
+                  中午 - 晚上 7:00<br />
+                  中午 - 下午 5:00
                   </h2>
                 </div>
               </div>
