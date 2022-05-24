@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import instagram from "./Images/instagram.png"; 
 import twitter from "./Images/twitter.png"; 
 import linkedin from "./Images/linkedin.png"; 
+import facebook from "./Images/facebook.png"; 
 
 function LandingMandarin() {
 
@@ -35,7 +36,11 @@ function LandingMandarin() {
           </div> 
 
           <div data-aos="fade-up" data-aos-duration="2000" id="iconStuff"> 
-            <a id="twitter" href="https://twitter.com/ameridragonart">
+            <a id="twitter" href="https://facebook.com/americandragonart">
+            <img src={facebook} width="50" height="50" /> 
+            </a> 
+
+            <a id="instagram" href="https://twitter.com/ameridragonart">
             <img src={twitter} width="50" height="50" />
             </a>
 
