@@ -358,7 +358,11 @@
   #twitter {
     margin-right: 8px;
     margin-bottom: 10px;
-    }
+    } 
+  
+  #twitter:hover {
+    transform: translateY(-5px); 
+  }
 
   #instagram img{
     margin-right: 8px; 
@@ -366,9 +370,17 @@
     margin-bottom: 10px !important;
   }
 
+  #instagram:hover {
+    transform: translateY(-5px); 
+  }
+
   #linkedin img{
     margin-left: 8px; 
     margin-bottom: 10px !important;
+  } 
+
+  #linkedin:hover {
+    transform: translateY(-5px); 
   }
 
   #bottom {
