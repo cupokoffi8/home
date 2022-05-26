@@ -20,7 +20,7 @@ function VisitMandarin() {
                 </div>
                 <div className="the-hours">
                   <h2 className="hours-header">
-                  中午 - 晚上 7:00<br />
+                  下午 2:00 - 晚上 7:00<br />
                   中午 - 下午 5:00
                   </h2>
                 </div>

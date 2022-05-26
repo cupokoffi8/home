@@ -21,7 +21,7 @@ function Visit() {
                 </div>
                 <div className="the-hours">
                   <h2 className="hours-header">
-                  Noon - 7:00 p.m.<br /> 
+                  2:00 p.m. - 7:00 p.m.<br /> 
                   Noon - 5:00 p.m. 
                   </h2>
                 </div>
