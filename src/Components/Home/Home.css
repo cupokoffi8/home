@@ -136,6 +136,65 @@
     color: black !important; 
 } 
 
+#caption-pp {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-family: 'Roboto', Helvetica, Arial, sans-serif; 
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: rgb(28, 46, 106) !important; 
+} 
+
+#caption-pp-u {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px; 
+  text-align: center; 
+  text-decoration: underline; 
+  font-family: 'Roboto', Helvetica, Arial, sans-serif; 
+  font-size: 22px !important; 
+  font-weight: bold !important;  
+  color: rgb(28, 46, 106) !important; 
+} 
+
+#caption-pp-l {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 15px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-family: 'Roboto', Helvetica, Arial, sans-serif; 
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: rgb(255, 255, 255) !important; 
+  background-color: rgb(28, 46, 106) !important;
+  width: fit-content !important; 
+  padding: 5px 5px !important; 
+  border-radius: 10px !important; 
+} 
+
+#caption-pp-l:hover {
+  background-color: rgb(255, 0, 0) !important; 
+} 
+
+.Toastify__progress-bar {
+  --toastify-color-progress-light: linear-gradient(
+    to right,
+    #d94c4c,
+    #fa5a5a,
+    #ff0000,
+    #dc3434,
+    #d65656,
+    #ff2d55
+  );
+}
+
   .american {
     display: block; 
     text-align: center; 

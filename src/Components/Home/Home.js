@@ -19,8 +19,16 @@ import Curve from "./Curve";
 const PopUpMessage = ({ closeToast }) => {
   return (
     <>
-      <h5 id="caption">Due to an unexpected emergency, the gallery will be closed on Saturday, January 8th.</h5>
-      <h5 id="caption">We apologize for the inconvenience, and look forward to seeing you next week.</h5> 
+      <h5 style={{textAlign: 'center'}} id="caption-pp-u">
+        FIRST FRIDAY, JUNE 3rd
+        </h5>
+
+      <h5 style={{textAlign: 'center'}} id="caption-pp">
+        We are featuring TWO new artists at our Lancaster gallery: 
+        </h5> 
+
+        <a id="caption-pp-l" href="#/angel-cruz">Angel Cruz</a>
+        <a id="caption-pp-l" href="#/zhenghui-lan">Lan Zhenghui</a> 
     </> 
   );
 }
@@ -33,16 +41,16 @@ export default function Home() {
 
   // UNCOMMENT/COMMENT THE FOLLOWING TO ACTIVATE/DEACTIVATE THE POP-UP: 
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     toast.error(
-  //       <PopUpMessage /> 
-  //       , {position: toast.POSITION.TOP_CENTER, 
-  //         autoClose: 5000,
-  //       })
-  //   }, 1000);
-  //   return () => clearTimeout(timer);
-  // }, []); 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      toast(
+        <PopUpMessage />, 
+        {position: toast.POSITION.TOP_CENTER, 
+         autoClose: 10000,
+        })
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []); 
   
   // ^ End Pop-Up ^ 
 
@@ -58,36 +66,6 @@ export default function Home() {
       <Landing /> 
       <Hours /> 
       <Curve /> 
-
-        {/* <div id="bottom-1">  v(Uncomment this when the stuff below is not in use)v */}
-
-
-        {/*------------------------------------------------------------------------------------------------------------------------------*/}
-        {/* <div className="top-message" data-aos="fade-down" data-aos-duration="1500">
-        <h1 data-aos="fade-down" data-aos-duration="1700" className='celebrate' id="celebrate">Happy New Year to All of Our Friends</h1>
-        <h1 data-aos="fade-down" data-aos-duration="1900" className='from-1' id="from-1">
-          We hope the year 2022 or 4719 brings you much happiness and good health
-          </h1>
-          <div className="inner-message" data-aos="fade-down" data-aos-duration="2000">
-          <h1 data-aos="fade-down" data-aos-duration="2000" className='from-2' id="from">
-          To celebrate the American and Chinese New Year, 
-          </h1>
-          <h1 data-aos="fade-down" data-aos-duration="2200" className='from-3' id="from"> 
-          We are going to offer a <span className="blink_me">20% discount</span> on all our works of art from January 1 until February 15, 2022 (or 4719)
-          </h1>
-          </div> 
-          <h1 data-aos="fade-left" data-aos-duration="2400" className='from-2' id="from"> 
-          We look forward to seeing you soon at our gallery!
-          </h1>
-        </div>  */}
-        {/*------------------------------------------------------------------------------------------------------------------------------*/}
-
-
-        {/* <h1 data-aos="fade-down" data-aos-duration="1700" className='welcome' id="uh">Welcome to</h1> */}
-        
-
-          {/* </div>  v(Uncomment this when the stuff below is not in use)v */} 
-          {/* --------------------------------------------------------------------- */}
 
       <br /> 
 

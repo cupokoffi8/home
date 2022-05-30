@@ -17,57 +17,61 @@ function AritistsMandarin() {
             <h1 className="artist">艺术家</h1> 
             <hr /> 
 
-            {/* href began with: /home/#/ because of gh-pages, but was changed because of domain name change */} 
+            {/* href began with: /home/#/ because of gh-pages, but was changed because of domain name change to #/ with a custom domain name */} 
 
             <div className="card-row-artists"> 
+            <a id="link" href="#/angel-cruz-mandarin">
+            <h5 id="caption-card-a-l">安吉尔克鲁兹</h5> 
+            </a>
             <a id="link" href="#/aparna-banerjee-mandarin">
-            <h5 id="caption-card-a-l">阿帕娜·班纳吉</h5> 
+            <h5 id="caption-card-a-m">阿帕娜·班纳吉</h5> 
             </a>
             <a id="link" href="#/apelles-zhou-mandarin">
-            <h5 id="caption-card-a-m">阿佩莱斯周</h5> 
-            </a>
-            <a id="link" href="#/cai-jiang-mandarin">
-            <h5 id="caption-card-a-r">蔡江</h5> 
+            <h5 id="caption-card-a-r">阿佩莱斯周</h5> 
             </a>
             </div>
 
             <div className="card-row-artists"> 
+            <a id="link" href="#/cai-jiang-mandarin">
+            <h5 id="caption-card-a-l">蔡江</h5> 
+            </a>
             <a id="link" href="#/charles-haber-mandarin">
-            <h5 id="caption-card-a-l">查尔斯·哈伯</h5> 
+            <h5 id="caption-card-a-m">查尔斯·哈伯</h5> 
             </a> 
             <a id="link" href="#/chiu-pai-mandarin">
-            <h5 id="caption-card-a-m">邱白</h5> 
+            <h5 id="caption-card-a-r">邱白</h5> 
             </a> 
-            <a id="link" href="#/jill-slaymaker-mandarin">
-            <h5 id="caption-card-a-r">吉尔·斯莱梅克</h5> 
-            </a>
             </div>
 
             <div className="card-row-artists">
+            <a id="link" href="#/jill-slaymaker-mandarin">
+            <h5 id="caption-card-a-l">吉尔·斯莱梅克</h5> 
+            </a>
             <a id="link" href="#/qui-huade-mandarin">
-            <h5 id="caption-card-a-l">奎華德</h5> 
+            <h5 id="caption-card-a-m">奎華德</h5> 
             </a>
             <a id="link" href="#/su-zi-mandarin">
-            <h5 id="caption-card-a-m">蘇子</h5> 
-            </a>
-            <a id="link" href="#/xiao-li-mandarin">
-            <h5 id="caption-card-a-r">萧立</h5> 
+            <h5 id="caption-card-a-r">蘇子</h5> 
             </a>
             </div> 
 
             <div className="card-row-artists">
-            <a id="link" href="#/zen-frescos-mandarin">
-            <h5 id="caption-card-a-l">禅意壁画</h5> 
+            <a id="link" href="#/xiao-li-mandarin">
+            <h5 id="caption-card-a-l">萧立</h5> 
             </a>
-            <a id="link" href="#/zhao-qing-mandarin">
-            <h5 id="caption-card-a-m">趙青</h5> 
-            </a> 
+            <a id="link" href="#/zen-frescos-mandarin">
+            <h5 id="caption-card-a-m">禅意壁画</h5> 
+            </a>
             <a id="link" href="#/zhenghui-lan-mandarin">
             <h5 id="caption-card-a-r">蓝正辉</h5>
             </a>
             </div> 
 
             {/* Mobile */} 
+
+            <a id="link" href="#/angel-cruz-mandarin">
+            <h5 id="caption-card">安吉尔克鲁兹</h5> 
+            </a>
 
             <a id="link" href="#/aparna-banerjee-mandarin">
             <h5 id="caption-card">阿帕娜·班纳吉</h5> 
@@ -107,10 +111,6 @@ function AritistsMandarin() {
 
             <a id="link" href="#/zen-frescos-mandarin"> 
             <h5 id="caption-card">禅意壁画</h5> 
-            </a>
-
-            <a id="link" href="#/zhao-qing-mandarin"> 
-            <h5 id="caption-card">趙青</h5> {/* 蓝正辉 */}
             </a> 
 
             <a id="link" href="#/zhenghui-lan-mandarin"> 

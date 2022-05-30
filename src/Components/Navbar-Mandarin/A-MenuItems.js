@@ -1,5 +1,10 @@
 export const AMenuItems = [
     {
+      title: '安吉尔克鲁兹', 
+      path: '/angel-cruz-mandarin',
+      cName: 'a-dropdown-link'
+    }, 
+    {
       title: '阿帕娜·班纳吉', 
       path: '/aparna-banerjee-mandarin',
       cName: 'a-dropdown-link'
@@ -47,11 +52,6 @@ export const AMenuItems = [
     {
       title: '禅意壁画', 
       path: '/zen-frescos-mandarin',
-      cName: 'a-dropdown-link'
-    }, 
-    {
-      title: '趙青', 
-      path: '/zhao-qing-mandarin',
       cName: 'a-dropdown-link'
     }, 
     {

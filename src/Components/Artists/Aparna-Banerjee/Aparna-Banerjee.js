@@ -34,8 +34,6 @@ function AparnaBanerjee() {
 
               {/* List of Paintings [Computer] */} 
 
-              {/* List of Paintings [Computer] */} 
-
               <div className="the-paintings">
               <img src="./beauty_1.jpeg" id="painting-ab"></img> 
               <img src="./beauty_2.jpeg" id="painting-ab"></img> 

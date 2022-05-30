@@ -1,5 +1,10 @@
 export const AMenuItems = [
   {
+    title: 'Angel Cruz',
+    path: '/angel-cruz',
+    cName: 'a-dropdown-link'
+  },
+  {
     title: 'Aparna Banerjee',
     path: '/aparna-banerjee',
     cName: 'a-dropdown-link'
@@ -52,11 +57,6 @@ export const AMenuItems = [
   {
     title: 'Zen Frescos',
     path: '/zen-frescos',
-    cName: 'a-dropdown-link'
-  }, 
-  {
-    title: 'Zhao Qing',
-    path: '/zhao-qing',
     cName: 'a-dropdown-link'
   }, 
 ];

@@ -14,6 +14,7 @@ import ScrollButton from './Components/ScrollButton';
 
   // Artists
 import Artists from './Components/Artists/Artists/Artists'; 
+import AngelCruz from './Components/Artists/Angel-Cruz/Angel-Cruz';
 import AparnaBanerjee from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee'; 
 import ApellesZhou from './Components/Artists/Apelles-Zhou/Apelles-Zhou'; 
 import CaiJiang from './Components/Artists/Cai-Jiang/Cai-Jiang'; 
@@ -65,6 +66,7 @@ import ComingSoonMandarin from './Components/ComingSoonMandarin';
 import ArtServiceMandarin from './Components/Art-Service/Art-Service-Mandarin'; 
 
 // Artists-M 
+import AngelCruzMandarin from './Components/Artists/Angel-Cruz/Angel-Cruz-Mandarin';
 import AritistsMandarin from './Components/Artists/Artists/Artists-Mandarin'; 
 import AparnaBanerjeeMandarin from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee-Mandarin'; 
 import ApellesZhouMandarin from './Components/Artists/Apelles-Zhou/Apelles-Zhou-Mandarin'; 
@@ -195,6 +197,7 @@ const App = () => {
             <Route path="/zen-frescos" component={ZenFrescos} /> 
             <Route path="/zhao-qing" component={ZhaoQing} /> 
             <Route path="/zhenghui-lan" component={ZhenghuiLan} />  
+            <Route path="/angel-cruz" component={AngelCruz} /> 
 
             {/* Exhibitions */} 
             <Route path="/exhibitions" component={Exhibitions} /> 
@@ -242,6 +245,7 @@ const App = () => {
 
             {/* Artists-M */}
 
+            <Route path="/angel-cruz-mandarin" component={AngelCruzMandarin} /> 
             <Route path="/apelles-zhou-mandarin" component={ApellesZhouMandarin} /> 
             <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
             <Route path="/artists-mandarin" component={AritistsMandarin} /> 
