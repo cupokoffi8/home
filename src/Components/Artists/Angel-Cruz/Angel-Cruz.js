@@ -47,20 +47,16 @@ function AngelCruz() {
               <img src={Image2} id="painting-ab"></img> 
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-1"></h5>
-              <h5 id="caption-ab-2"></h5>
+              <h5 id="caption-ab-1">The Calm</h5>
+              <h5 id="caption-ab-2">Stress</h5>
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-11"></h5> 
-              <h5 id="caption-ab-22"></h5> 
-              </div>
-              <div className="the-words">
-              <h5 id="caption-ab-11"></h5> 
-              <h5 id="caption-ab-22"></h5> 
+              <h5 id="caption-ab-11">18" x 24"</h5> 
+              <h5 id="caption-ab-22">14" x 20"</h5> 
               </div>
               <div className="the-wordss">
-              <h5 id="caption-ab-11"></h5>
-              <h5 id="caption-ab-22"></h5>
+              <h5 id="caption-ab-11">$375</h5>
+              <h5 id="caption-ab-22">$250</h5>
               </div> 
 
               <div className="the-paintings">
@@ -68,20 +64,16 @@ function AngelCruz() {
               <img src={Image5} id="painting-ab"></img> 
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-1"></h5>
-              <h5 id="caption-ab-2"></h5>
+              <h5 id="caption-ab-1">Resting Worry</h5>
+              <h5 id="caption-ab-2">Sea Dream</h5>
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-11"></h5> 
-              <h5 id="caption-ab-22"></h5> 
-              </div>
-              <div className="the-words">
-              <h5 id="caption-ab-11"></h5> 
-              <h5 id="caption-ab-22"></h5> 
+              <h5 id="caption-ab-11">16" x 24"</h5> 
+              <h5 id="caption-ab-22">16" x 24"</h5> 
               </div>
               <div className="the-wordss">
-              <h5 id="caption-ab-11"></h5>
-              <h5 id="caption-ab-22"></h5>
+              <h5 id="caption-ab-11">$350</h5> 
+              <h5 id="caption-ab-22">$350</h5> 
               </div> 
 
               <div className="the-paintings">
@@ -89,77 +81,72 @@ function AngelCruz() {
               <img src={Image7} id="painting-ab"></img> 
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-1"></h5>
-              <h5 id="caption-ab-2"></h5>
+              <h5 id="caption-ab-1">Restraint</h5>
+              <h5 id="caption-ab-2">Comfort</h5>
               </div>
               <div className="the-words">
-              <h5 id="caption-ab-11"></h5> 
-              <h5 id="caption-ab-22"></h5> 
-              </div>
-              <div className="the-words">
-              <h5 id="caption-ab-11"></h5> 
-              <h5 id="caption-ab-22"></h5> 
+              <h5 id="caption-ab-11">16" x 24"</h5> 
+              <h5 id="caption-ab-22">24" x 36"</h5> 
               </div>
               <div className="the-wordss">
-              <h5 id="caption-ab-11"></h5>
-              <h5 id="caption-ab-22"></h5>
+              <h5 id="caption-ab-11">$350</h5>
+              <h5 id="caption-ab-22">$500</h5>
               </div> 
 
               {/* List of Paintings [Phone] */} 
 
               <img src={Image1} id="image-mobile"/> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
+              <br id="only-mobile"/>  
+              <h5 id="caption-mobile">The Calm</h5> 
+              <h5 id="caption-mobile">18" x 24"</h5> 
+              <h5 id="caption-mobile">$375</h5> 
 
               <br id="only-mobile"/> 
 
               <img src={Image2} id="image-mobile"/> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
+              <br id="only-mobile"/>  
+              <h5 id="caption-mobile">Stress</h5> 
+              <h5 id="caption-mobile">14" x 20"</h5> 
+              <h5 id="caption-mobile">$250</h5> 
 
               <br id="only-mobile"/> 
 
               <img src={Image3} id="image-mobile"/> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
+              <br id="only-mobile"/>  
+              <h5 id="caption-mobile">Resting Worry</h5> 
+              <h5 id="caption-mobile">16" x 24"</h5> 
+              <h5 id="caption-mobile">$350</h5> 
 
               <br id="only-mobile"/> 
 
               <img src={Image5} id="image-mobile"/> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
+              <br id="only-mobile"/>  
+              <h5 id="caption-mobile">Sea Dream</h5> 
+              <h5 id="caption-mobile">16" x 24"</h5> 
+              <h5 id="caption-mobile">$350</h5>  
 
               <br id="only-mobile"/> 
 
               <img src={Image6} id="image-mobile"/> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
+              <br id="only-mobile"/>  
+              <h5 id="caption-mobile">Restraint</h5> 
+              <h5 id="caption-mobile">16" x 24"</h5> 
+              <h5 id="caption-mobile">$350</h5> 
 
               <br id="only-mobile"/> 
 
               <img src={Image7} id="image-mobile"/> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
-              <h5 id="caption-mobile"></h5> 
+              <br id="only-mobile"/>  
+              <h5 id="caption-mobile">Comfort</h5> 
+              <h5 id="caption-mobile">24" x 36"</h5> 
+              <h5 id="caption-mobile">$500</h5> 
 
               <br id="only-mobile"/> 
 
               <img src={Image4} id="painting-zf" /> 
-              <h5 id="caption"></h5> 
-              <h5 id="caption"></h5> 
-              <h5 id="caption"></h5> 
-              <h5 id="caption"></h5> 
+              <h5 id="caption-ac">Mischief</h5> 
+              <h5 id="caption-ac">20" x 24"</h5>
+              <h5 id="caption-ac">$400</h5> 
 
           </div> 
           </> 
