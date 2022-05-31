@@ -9,7 +9,7 @@ import {
 import { Link } from "react-router-dom"; 
 import Navbar from '../Navbar/Navbar'; 
 
-const API_KEY = process.env.REACT_APP_MAPS_API_KEY; 
+const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY 
 
 const mapContainerStyle = {
   height: "40vh",
