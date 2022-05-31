@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import './Contact-Us.css'; 
 import Navbar from '../Navbar/Navbar'; 
 import '../Button.css'; 
+import Map from '../Map/Map'; 
 
 const Result = () => {
   return (
@@ -33,20 +34,23 @@ function Contact() {
   return (
     <>
     <Navbar />
-    <div>
+
+    <div className="contact-us"> 
 
     <form method="get" action="#/contact-us-mandarin"> 
       <button id="the-button" type='btn'>普通話</button> 
       </form> 
 
-    <div className="contact-us"> 
-
       <h1 id="contact-head">Contact Us</h1>
       <hr /> 
       <br /> 
 
+      <Map /> 
+
+      <br /> 
+
       <form action="" onSubmit={sendEmail}> 
-        <div className="formWord">
+        <div style={{paddingRight: '20px', paddingLeft: '20px'}} className="formWord">
 
           <h2 id="fill-out">Please fill out the form below</h2>
 
@@ -79,7 +83,7 @@ function Contact() {
 
         </div>
 
-        <div className="formWord">
+        <div style={{paddingRight: '20px', paddingLeft: '20px'}} className="formWord">
           <span id="the-span">Message*</span> 
           <br /> 
           <textarea 
@@ -94,7 +98,6 @@ function Contact() {
         <div className="row">{result ? <Result /> : null}</div> 
 
       </form>
-    </div>
     </div>
     </> 
   );

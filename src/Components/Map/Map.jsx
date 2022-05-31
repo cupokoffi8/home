@@ -9,11 +9,11 @@ import {
 import { Link } from "react-router-dom"; 
 import Navbar from '../Navbar/Navbar'; 
 
-const API_KEY = "AIzaSyBawcqAK6VVEhjll05YASsIrt9wDoMXppg"; 
+const API_KEY = "AIzaSyCYtOMyY2cyh4RFwtoDtQmXLjWCbfIMx3c"; 
 
 const mapContainerStyle = {
-  height: "50vh",
-  width: "50vw",
+  height: "40vh",
+  width: "60vw",
 };
 const options = {
   styles: mapStyles,
@@ -45,7 +45,6 @@ export default function Map() {
 
   return (
     <>
-    <Navbar /> 
     <div>
 
       <GoogleMap

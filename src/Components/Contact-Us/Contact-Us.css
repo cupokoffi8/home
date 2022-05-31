@@ -8,7 +8,7 @@
     color: rgb(0, 0, 0); 
     /* color: #1e3272 !important;  */
     font-weight: bold; 
-    margin-top: 30px; 
+    margin-top: 20px; 
 } 
 
 #fill-out {
@@ -53,10 +53,8 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .contact-us {
-    margin-top: 50px;
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: #ffffff;
   } 
 
   #submit {

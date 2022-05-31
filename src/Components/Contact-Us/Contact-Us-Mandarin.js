@@ -1,5 +1,6 @@
 import React, {useState} from 'react'; 
 import emailjs from 'emailjs-com'; 
+import Map from '../Map/Map'; 
 import './Contact-Us.css'; 
 import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../Button.css'; 
@@ -36,20 +37,23 @@ function ContactMandarin() {
   return (
     <>
     <NavbarMandarin /> 
-    <div>
+
+    <div className="contact-us"> 
 
     <form method="get" action="#/contact-us"> 
       <button id="the-button" type='btn'>English</button> 
       </form> 
 
-    <div className="contact-us"> 
-
       <h1 id="contact-head">联系我们</h1> 
       <hr /> 
       <br /> 
 
+      <Map /> 
+
+      <br /> 
+
       <form action="" onSubmit={sendEmail}> 
-        <div className="formWord">
+        <div style={{paddingRight: '20px', paddingLeft: '20px'}} className="formWord">
 
           <h2 id="fill-out">请填写下面的表格</h2> 
 
@@ -82,7 +86,7 @@ function ContactMandarin() {
 
         </div>
 
-        <div className="formWord">
+        <div style={{paddingRight: '20px', paddingLeft: '20px'}} className="formWord">
           <span id="the-span">一个消息*</span> 
           <br /> 
           <textarea 
@@ -97,7 +101,6 @@ function ContactMandarin() {
         <div className="row">{result ? <Result /> : null}</div> 
 
       </form>
-    </div>
     </div>
     </> 
   );
