@@ -32,8 +32,12 @@ function AngelCruz() {
             {/* Artist Summary */}
 
             <p id="art-paragraph">
-            Angel Cruz is from Lancaster, he studied and worked as a teacher in the art academy, 
-            and his artworks let you see the shadow of the famous Norwegian artist Edvard Munch. 
+            Angel is a talented artist who specializes in using the digital world as his tool to express his artistic ideas. 
+            He is a graduate of Millersville University with a BA in Commercial Art in 2001, and was retained as an Artist in 
+            Residence and teaching assistant until 2004.  He taught as an Adjunct Professor at the Pennsylvania College of Art 
+            and Design (PCAD) for a semester in 2002.  In 2005, he achieved his Masters Degree in Digital Arts from the Maryland 
+            Institute, College of Art (MICA). Angel has exhibited his work in Lancaster, Philadelphia, Baltimore, Washington D.C., 
+            and Ocean City, Maryland. He has continued to do freelance work for local musicians and businesses in the Lancaster area. 
               </p>
 
               {/* List of Paintings [Computer] */} 
