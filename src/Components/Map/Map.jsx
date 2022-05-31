@@ -9,7 +9,7 @@ import {
 import { Link } from "react-router-dom"; 
 import Navbar from '../Navbar/Navbar'; 
 
-const API_KEY = "AIzaSyCYtOMyY2cyh4RFwtoDtQmXLjWCbfIMx3c"; 
+const API_KEY = "AIzaSyDmskp6DwdPGiXsjQY5jKsR9C-Gu9B-pds"; 
 
 const mapContainerStyle = {
   height: "40vh",
