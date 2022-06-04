@@ -195,16 +195,29 @@
   );
 }
 
-  .american {
-    display: block; 
-    text-align: center; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-top: 15vh;
-    font-size: 40px;
-    color: rgb(255, 255, 255); 
-    font-family: 'Avenir Black', 'Roboto', Helvetica, Arial, sans-serif; 
-  } 
+.american {
+  display: block; 
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 15vh;
+  font-size: 40px;
+  font-family: 'Avenir Black', 'Roboto', Helvetica, Arial, sans-serif; 
+  background: linear-gradient(50deg, red, red, red, orange, yellow, green, blue, purple, purple, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s linear infinite;
+} 
+
+@keyframes rainbow {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
 
   .magAndMyst {
     color: #ffffff !important; 
