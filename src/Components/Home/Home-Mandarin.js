@@ -1,15 +1,53 @@
-import React from "react";
+import React, { useEffect, useState } from "react"; 
 import "./Home.css"; 
 import HoursMandarin from "./Hours-Mandarin"; 
 import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';  
 import '../Button.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
+import { toast } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css'; 
 import HomeImg from "./Images/Home.JPG"; 
 import LandingMandarin from "./Landing-Mandarin";
 import CurveMandarin from "./Curve-Mandarin"; 
 
+const PopUpMessage = ({ closeToast }) => {
+  return (
+    <>
+      <h5 style={{textAlign: 'center'}} id="caption-pp-u">
+        新艺术家
+        </h5>
+
+      <h5 style={{textAlign: 'center'}} id="caption-pp">
+        我们将在我们的兰开斯特画廊展出两位新艺术家：
+        </h5> 
+
+        <a id="caption-pp-l" href="#/angel-cruz-mandarin">安吉尔克鲁兹</a>
+        <a id="caption-pp-l" href="#/zhenghui-lan-mandarin">蓝正辉</a> 
+    </> 
+  );
+} 
+
+toast.configure(); 
+
 export default function HomeMandarin() { 
+
+  // v Pop-Up v 
+
+  // UNCOMMENT/COMMENT THE FOLLOWING TO ACTIVATE/DEACTIVATE THE POP-UP: 
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      toast(
+        <PopUpMessage />, 
+        {position: toast.POSITION.TOP_CENTER, 
+         autoClose: 10000,
+        })
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []); 
+  
+  // ^ End Pop-Up ^ 
   
   Aos.init({});
   window.scrollTo(0, 0)
