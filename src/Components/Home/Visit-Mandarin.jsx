@@ -14,12 +14,12 @@ function VisitMandarin() {
                 <h3 className="a-head">即将开放的时间</h3>
                 <div className="days">
                   <h2 className="days-header">
-                  6 月 3 日星期五：<br />
+                  6月4日星期六：<br />
                   </h2> 
                 </div>
                 <div className="the-hours">
                   <h2 className="hours-header">
-                  下午 4:00 - 晚上 9:00<br />
+                  中午 - 下午 4:00<br />
                   </h2>
                 </div>
               </div>

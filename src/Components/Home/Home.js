@@ -20,7 +20,7 @@ const PopUpMessage = ({ closeToast }) => {
   return (
     <>
       <h5 style={{textAlign: 'center'}} id="caption-pp-u">
-        FIRST FRIDAY, JUNE 3rd
+        NEW ARTISTS
         </h5>
 
       <h5 style={{textAlign: 'center'}} id="caption-pp">
