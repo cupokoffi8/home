@@ -40,6 +40,8 @@ import SanDiego from './Components/Exhibitions/San-Diego/San-Diego';
 import VictoryOfLight from './Components/Exhibitions/Victory-Of-Light/Victory-Of-Light'; 
 import Works from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei'; 
 import PleaseWork from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition'; 
+import NewYork from './Components/Exhibitions/Locations/United-States/New-York'; 
+import Pennsylvania from './Components/Exhibitions/Locations/United-States/Pennsylvania'; 
 
   // The Gallery 
 import HomeGallery from './Components/The-Gallery/Home/Home-Gallery'; 
@@ -92,6 +94,7 @@ import MagnificentMandarin from './Components/Exhibitions/Magnificent/Magnificen
 import ArtTherapyMandarin from './Components/Exhibitions/Art-Therapy/Art-Therapy-Mandarin'; 
 import WorksMandarin from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei-Mandarin'; 
 import PleaseWorkMandarin from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition-Mandarin'; 
+import NewYorkMandarin from './Components/Exhibitions/Locations/United-States/New-York-Mandarin'; 
 
 // The Gallery-M 
 import OurFounderMandarin from './Components/The-Gallery/Our-Founder/Our-Founder-Mandarin'; 
@@ -109,6 +112,7 @@ import Cart from './Components/Marketplace/Cart/Cart';
 import Products from './Components/Marketplace/Products/Products' 
 import Checkout from './Components/Marketplace/CheckoutForm/Checkout/Checkout';
 import { commerce } from './Components/lib/commerce'; 
+import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-States/Pennsylvania-Mandarin';
 
 const App = () => { 
   const [products, setProducts] = useState([]);
@@ -210,6 +214,8 @@ const App = () => {
             <Route path="/victory-of-light" component={VictoryOfLight} /> 
             <Route path="/works-at-hefei" component={Works} /> 
             <Route path="/oil-painting-exhibition" component={PleaseWork} /> 
+            <Route path="/new-york" component={NewYork} /> 
+            <Route path="/pennsylvania" component={Pennsylvania} /> 
 
             {/* The Gallery */} 
             <Route path="/our-founder" component={OurFounder} />
@@ -272,6 +278,8 @@ const App = () => {
             <Route path="/victory-of-light-mandarin" component={VictoryOfLightMandarin} />  
             <Route path="/works-at-hefei-mandarin" component={WorksMandarin} /> 
             <Route path="/oil-painting-exhibition-mandarin" component={PleaseWorkMandarin} /> 
+            <Route path="/new-york-mandarin" component={NewYorkMandarin} /> 
+            <Route path="/pennsylvania-mandarin" component={PennsylvaniaMandarin} /> 
 
             {/* The Gallery-M */} 
 
