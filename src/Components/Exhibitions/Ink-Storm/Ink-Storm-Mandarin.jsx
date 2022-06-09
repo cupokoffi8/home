@@ -5,7 +5,7 @@ import '../../Artists/Aparna-Banerjee/Aparna-Banerjee.css';
 import '../../Artists/Chiu-Pai/Chiu-Pai.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
-import Navbar from '../../Navbar/Navbar'; 
+import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
 function InkStormMandarin() { 
@@ -14,7 +14,7 @@ function InkStormMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <Navbar /> 
+        <NavbarMandarin /> 
           <div className="Ink-Storm"> 
 
           <form method="get" action="#/ink-storm"> 
