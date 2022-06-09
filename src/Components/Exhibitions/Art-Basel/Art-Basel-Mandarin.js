@@ -39,7 +39,7 @@ function ArtBaselMandarin() {
               </p> 
 
               <a href="https://news.artron.net/20191214/n1067043.html">
-              <p id="art-paragraph-other">
+              <p style={{color: "blue"}} id="art-paragraph-other">
               https://news.artron.net/20191214/n1067043.html
               </p> 
               </a> 

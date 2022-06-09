@@ -42,6 +42,7 @@ import Works from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei';
 import PleaseWork from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition'; 
 import NewYork from './Components/Exhibitions/Locations/United-States/New-York'; 
 import Pennsylvania from './Components/Exhibitions/Locations/United-States/Pennsylvania'; 
+import InkStorm from './Components/Exhibitions/Ink-Storm/Ink-Storm'; 
 
   // The Gallery 
 import HomeGallery from './Components/The-Gallery/Home/Home-Gallery'; 
@@ -112,7 +113,8 @@ import Cart from './Components/Marketplace/Cart/Cart';
 import Products from './Components/Marketplace/Products/Products' 
 import Checkout from './Components/Marketplace/CheckoutForm/Checkout/Checkout';
 import { commerce } from './Components/lib/commerce'; 
-import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-States/Pennsylvania-Mandarin';
+import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-States/Pennsylvania-Mandarin'; 
+import InkStormMandarin from './Components/Exhibitions/Ink-Storm/Ink-Storm-Mandarin';
 
 const App = () => { 
   const [products, setProducts] = useState([]);
@@ -216,6 +218,7 @@ const App = () => {
             <Route path="/oil-painting-exhibition" component={PleaseWork} /> 
             <Route path="/new-york" component={NewYork} /> 
             <Route path="/pennsylvania" component={Pennsylvania} /> 
+            <Route path="/ink-storm" component={InkStorm} /> 
 
             {/* The Gallery */} 
             <Route path="/our-founder" component={OurFounder} />
@@ -280,6 +283,7 @@ const App = () => {
             <Route path="/oil-painting-exhibition-mandarin" component={PleaseWorkMandarin} /> 
             <Route path="/new-york-mandarin" component={NewYorkMandarin} /> 
             <Route path="/pennsylvania-mandarin" component={PennsylvaniaMandarin} /> 
+            <Route path="/ink-storm-mandarin" component={InkStormMandarin} /> 
 
             {/* The Gallery-M */} 
 

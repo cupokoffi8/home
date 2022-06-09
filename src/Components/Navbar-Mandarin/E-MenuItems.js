@@ -20,7 +20,7 @@ export const EMenuItems = [
       cName: 'e-dropdown-link'
     },
     {
-      title: '圣地亚哥',
+      title: '圣地亚哥', 
       path: '/san-diego-mandarin', 
       cName: 'e-dropdown-link'
     }, 
@@ -30,7 +30,7 @@ export const EMenuItems = [
       cName: 'e-dropdown-link'
     }, 
     {
-      title: '东京',
+      title: '东京', 
       path: '/magnificent-mandarin', 
       cName: 'e-dropdown-link'
     } 

@@ -22,78 +22,65 @@ function Exhibitions() {
             {/* href began with: /home/#/ because of gh-pages, but was changed because of domain name change */}
 
             <div className="card-row-artists"> 
-            <a id="link" href="#/mag-and-myst"> 
-            <h5 id="caption-card-l">Magnificent and Mysterious Art Exhibition</h5> 
-            </a>
-            <a id="link" href="#/victory-of-light"> 
-            <h5 id="caption-card-m">The Victory of Light Exhibition</h5> 
+            <a id="link" href="#/works-at-hefei"> 
+            <h5 id="caption-card-l">China</h5> 
             </a>
             <a id="link" href="#/art-basel"> 
-            <h5 id="caption-card-r">Art Basel Exhibition in Miami</h5> 
+            <h5 id="caption-card-m">Miami</h5> 
+            </a>
+            <a id="link" href="#/new-york"> 
+            <h5 id="caption-card-r">New York</h5> 
             </a>
             </div>
 
             <div className="card-row-artists">
-            <a id="link" href="#/san-diego"> 
-            <h5 id="caption-card-l">San Diego Contemporary Art Exhibition</h5> 
+            <a id="link" href="#/pennsylvania"> 
+            <h5 id="caption-card-l">Pennsylvania</h5> 
             </a> 
-            <a id="link" href="#/headless">
-            <h5 id="caption-card-m">Headless and Unintentional</h5> 
-            </a>
-            <a id="link" href="#/magnificent"> 
-            <h5 id="caption-card-r">Magnificent Murals</h5> 
-            </a>
-            </div>
-
-            <div className="card-row-artists">
-            <a id="link" href="#/art-therapy"> 
-            <h5 id="caption-card-l">Art Therapy</h5> 
-            </a>
-            <a id="link" href="#/works-at-hefei"> 
-            <h5 id="caption-card-m">Works at Hefei</h5> 
+            <a id="link" href="#/san-diego">
+            <h5 id="caption-card-m">San Diego</h5> 
             </a>
             <a id="link" href="#/oil-painting-exhibition"> 
-            <h5 id="caption-card-r">Oil Painting Exhibition</h5> 
+            <h5 id="caption-card-r">South Korea</h5> 
             </a>
+            </div>
+
+            <div className="card-row-artists">
+            <a id="link" href="#/magnificent"> 
+            <h5 id="caption-card-m">Tokyo</h5> 
+            </a> 
             </div> 
 
             {/* Mobile */} 
  
-            <a id="link" href="#/mag-and-myst"> 
-            <h5 id="caption-card">Magnificent and Mysterious Art Exhibition</h5> 
-            </a> 
-
-            <a id="link" href="#/victory-of-light">
-            <h5 id="caption-card">The Victory of Light Exhibition</h5> 
+            <a id="link" href="#/works-at-hefei"> 
+            <h5 id="caption-card">China</h5> 
             </a> 
 
             <a id="link" href="#/art-basel">
-            <h5 id="caption-card">Art Basel Exhibition in Miami</h5> 
+            <h5 id="caption-card">Miami</h5> 
+            </a> 
+
+            <a id="link" href="#/new-york">
+            <h5 id="caption-card">New York</h5> 
+            </a> 
+
+            <a id="link" href="#/pennsylvania"> 
+            <h5 id="caption-card">Pennsylvania</h5> 
             </a> 
 
             <a id="link" href="#/san-diego"> 
-            <h5 id="caption-card">San Diego Contemporary Art Exhibition</h5> 
+            <h5 id="caption-card">San Diego</h5> 
             </a> 
 
-            <a id="link" href="#/headless">
-            <h5 id="caption-card">Headless and Unintentional</h5> 
+            <a id="link" href="#/oil-painting-exhibition">
+            <h5 id="caption-card">South Korea</h5> 
             </a> 
 
-            <a id="link" href="#/magnificent">
-            <h5 id="caption-card">Magnificent Murals</h5> 
+            <a id="link" href="#/magnificent"> 
+            <h5 id="caption-card">Tokyo</h5> 
             </a> 
 
-            <a id="link" href="#/art-therapy">
-            <h5 id="caption-card">Art Therapy</h5> 
-            </a> 
-
-            <a id="link" href="#/works-at-hefei"> 
-            <h5 id="caption-card">Works at Hefei</h5> 
-            </a> 
-
-            <a id="link" href="#/oil-painting-exhibition"> 
-            <h5 id="caption-card">Oil Painting Exhibition</h5> 
-            </a> 
           </div>
         </> 
     );

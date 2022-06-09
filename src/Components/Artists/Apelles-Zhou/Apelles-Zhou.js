@@ -57,7 +57,7 @@ function ApellesZhou() {
               <div className="the-paintings">
               <img src="./Eye-of-Horus.png" id="painting-cp"></img> 
               <img src="./Age-of-Aquarius.png" id="painting-cp"></img> 
-              </div>
+              </div> 
 
               <div className="the-words-cp">
               <h5 id="caption-cp">Eye of Horus</h5>
