@@ -275,9 +275,16 @@
   } 
 
   #apt {
-    color: rgb(255, 191, 191); 
+    color: rgb(242, 139, 139); 
     font-weight: bold; 
     text-decoration: underline; 
+  } 
+
+  #apt:hover {
+    color: rgb(255, 255, 255); 
+    background-color: rgb(242, 139, 139); 
+    font-weight: bold; 
+    text-decoration: none;
   }
 
   .paragraph-stuff {
