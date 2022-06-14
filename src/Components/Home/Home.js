@@ -62,6 +62,7 @@ export default function Home() {
       <Navbar /> 
 
       <div id="bottom"> 
+      <script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/386834" async></script>
 
       <Landing /> 
       <Hours /> 
