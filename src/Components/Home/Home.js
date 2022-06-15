@@ -14,8 +14,10 @@ import { Link } from 'react-router-dom';
 import { Warning } from "@material-ui/icons";
 import HomeImg from "./Images/Home.JPG"; 
 import Landing from "./Landing";
-import Curve from "./Curve";
+import Curve from "./Curve"; 
+import Popup from './Popup/Popup'; 
 
+// TOP OF SCREEN TOAST NOTIFICATION 
 const PopUpMessage = ({ closeToast }) => {
   return (
     <>
@@ -32,6 +34,7 @@ const PopUpMessage = ({ closeToast }) => {
     </> 
   );
 }
+// END
 
 toast.configure() 
 
@@ -41,28 +44,60 @@ export default function Home() {
 
   // UNCOMMENT/COMMENT THE FOLLOWING TO ACTIVATE/DEACTIVATE THE POP-UP: 
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      toast(
-        <PopUpMessage />, 
-        {position: toast.POSITION.TOP_CENTER, 
-         autoClose: 10000,
-        })
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []); 
+              // useEffect(() => {
+              //   const timer = setTimeout(() => {
+              //     toast(
+              //       <PopUpMessage />, 
+              //       {position: toast.POSITION.TOP_CENTER, 
+              //        autoClose: 10000,
+              //       })
+              //   }, 1000);
+              //   return () => clearTimeout(timer);
+              // }, []); 
   
   // ^ End Pop-Up ^ 
 
   Aos.init({}); 
   window.scrollTo(0, 0) 
 
+  const [timedPopup, setTimedPopup] = useState(false); 
+
+  // Set POPUP to show on the screen after 3 seconds 
+  useEffect(() => {
+    setTimeout(() => {
+      setTimedPopup(true); 
+    }, 2000); 
+  }, []); 
+
     return (
       <>
       <Navbar /> 
 
       <div id="bottom"> 
-      <script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/386834" async></script>
+
+      {/* Begin POPUP */}
+      <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+        <h3>IMPORTANT UPDATE</h3>
+        <p>
+        American Dragon will be open on June 18, from 10:00 a.m until 3:00 p.m.<br /> 
+        <br /> 
+        Our gallery is located one block from the Penn Medicine Lancaster General Hospital, 
+        and two blocks from the Clipper Magazine Stadium. There is plenty of free parking on the 
+        streets around our gallery.<br /> 
+        <br /> 
+        In addition to our great American and Asian artists, you can visit our good friends at 
+        the PAVAA Gallery, which is located a few steps from the American Dragon gallery. PAVAA 
+        has beautiful African and Afrocentric art featured for your viewing pleasure.<br /> 
+        <br /> 
+        Together, PAVAA and American Dragon give you the opportunity to enjoy and purchase outstanding 
+        art from around the world, while enjoying beautiful downtown Lancaster.<br /> 
+        <br /> 
+        We hope all of our visitors from New York City, Philadelphia, Baltimore, Washington, and other 
+        areas of the United States, who come here to purchase chicken corn soup and “I love Intercourse” 
+        t-shirts, will find the time to visit our beautiful galleries. 
+        </p>
+      </Popup>
+      {/* End POPUP */} 
 
       <Landing /> 
       <Hours /> 
