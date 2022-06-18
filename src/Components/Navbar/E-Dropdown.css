@@ -4,7 +4,7 @@
   position: absolute;
   top: 70px;
   list-style: none;
-  text-align: start;
+  text-align: center !important;
   z-index: 111; 
   display: inline-block; 
 }
@@ -26,9 +26,10 @@
 }
 
 .e-dropdown-link {
+  align-items: center !important; 
   display: block; 
   height: 100%;
-  width: fit-content; 
+  width: 100%; 
   text-decoration: none;
   color: #fff;
   padding: 8px;

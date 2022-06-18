@@ -282,9 +282,10 @@
 
   #apt:hover {
     color: rgb(255, 255, 255); 
-    background-color: rgb(242, 139, 139); 
+    background-color: rgba(255, 132, 132, 0.84); 
     font-weight: bold; 
-    text-decoration: none;
+    text-decoration: none; 
+    border-radius: 5px; 
   }
 
   .paragraph-stuff {

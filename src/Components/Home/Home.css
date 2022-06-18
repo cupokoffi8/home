@@ -362,8 +362,12 @@
     font-size: 18px;
     font-weight: bold; 
     text-decoration: none; 
-    text-align: center; 
+    text-align: center !important; 
+    align-items: center !important; 
     color: rgb(243, 243, 243); 
+    width: fit-content; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
   } 
 
   #addy-click:hover { 

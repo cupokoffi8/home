@@ -152,8 +152,8 @@ const Navbar = ({}) => {
             {dropdown3 && <ADropdown />}
           </li>
 
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./pride.png" width="105" height="75" alt="Logo" className='logo' href="/"></img>
+          <Link to='/' className='navbar-logo' style={{marginRight: "5px"}} onClick={closeMobileMenu}>
+          <img src="./pride.png" width="105" height="75" alt="Logo" className='logo' href="/"></img> 
           </Link> 
 
           {/* The Gallery Section */}

@@ -25,7 +25,7 @@ function Pennsylvania() {
             <h5 id="caption-card-l">Ink Storm</h5> 
             </a> 
             <a id="link" href="#/mag-and-myst">
-            <h5 id="caption-card-r">"Magnificent and Mysterious" Exhibition</h5> 
+            <h5 id="caption-card-r">"Magnificent and Mysterious"</h5> 
             </a>
             </div> 
 
@@ -36,7 +36,7 @@ function Pennsylvania() {
             </a> 
 
             <a id="link" href="#/mag-and-myst"> 
-            <h5 id="caption-card">"Magnificent and Mysterious" Exhibition</h5> 
+            <h5 id="caption-card">"Magnificent and Mysterious"</h5> 
             </a> 
 
           </div>
