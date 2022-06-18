@@ -37,8 +37,6 @@ export default function HomeMandarin() {
       <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
         <h3>重要更新</h3>
         <p>
-        American Dragon 将于 6 月 18 日上午 10:00 至下午 3:00 开放<br />
-        <br />
         我们的画廊距离宾夕法尼亚医学兰开斯特综合医院只有一个街区，
         距离快船杂志体育场两个街区。路上有很多免费停车位
         我们画廊周围的街道。<br />

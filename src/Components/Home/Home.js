@@ -77,10 +77,8 @@ export default function Home() {
 
       {/* Begin POPUP */}
       <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-        <h3>IMPORTANT UPDATE</h3>
+        <h3>IMPORTANT INFO</h3>
         <p>
-        American Dragon will be open on June 18, from 10:00 a.m until 3:00 p.m.<br /> 
-        <br /> 
         Our gallery is located one block from the Penn Medicine Lancaster General Hospital, 
         and two blocks from the Clipper Magazine Stadium. There is plenty of free parking on the 
         streets around our gallery.<br /> 
