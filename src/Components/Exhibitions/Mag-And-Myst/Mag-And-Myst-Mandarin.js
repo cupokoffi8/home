@@ -1,6 +1,8 @@
 import React from 'react'; 
 import './Mag-And-Myst.css'; 
 import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+import Aos from 'aos'; 
+import 'aos/dist/aos.css'; 
 import '../../Button.css'; 
 
 function MagAndMystMandarin() {
@@ -17,18 +19,45 @@ function MagAndMystMandarin() {
             <h1 className="exhibition">“華麗與神秘”藝術展</h1> 
             <hr /> 
 
-            <img src="./1.jpeg" id="image-thing" /> 
+            <div className="the-paintings">
+              <img data-aos="fade-right" data-aos-duration="1000" src="./1.jpeg" id="painting-cp" /> 
+              <img data-aos="fade-left" data-aos-duration="1000" src="./2.jpeg" id="painting-cp" /> 
+              </div> 
+
+              <img data-aos="fade-right" data-aos-duration="1000" src="./1.jpeg" id="image-mobile-cp" /> 
+              <img data-aos="fade-left" data-aos-duration="1000" src="./2.jpeg" id="image-mobile-cp" /> 
 
             <br /> 
+            <br /> 
+            <br /> 
 
-            <p id="paragraph" >
+            <p 
+            style={{
+              fontSize: "26px", 
+              textAlign: "center", 
+              maxWidth: "80vw", 
+              fontWeight: "bold", 
+              display: "block", 
+              marginLeft: "auto", 
+              marginRight: "auto", 
+              fontFamily: "'Roboto', Helvetica, Arial, sans-serif", 
+              padding: "10px", 
+              borderStyle: "solid", 
+              borderWidth: "5px", 
+              borderRadius: "10px" 
+              }}> 
             7月24日下午，美国龙国际画廊举办了“华丽与神秘”艺术展的开幕酒会。
             </p> 
 
-            <img src="./2.jpeg" id="image-thing" /> 
+            <div className="the-paintings">
+              <img data-aos="fade-right" data-aos-duration="1000" src="./3.jpeg" id="painting-cp" /> 
+              <img data-aos="fade-left" data-aos-duration="1000" src="./6.jpeg" id="painting-cp" /> 
+              </div> 
 
-            <img src="./3.jpeg" id="image-thing" /> 
+              <img data-aos="fade-right" data-aos-duration="1000" src="./3.jpeg" id="image-mobile-cp" /> 
+              <img data-aos="fade-left" data-aos-duration="1000" src="./6.jpeg" id="image-mobile-cp" /> 
 
+            <br /> 
             <br /> 
 
             <p id="paragraph" >
@@ -38,8 +67,6 @@ function MagAndMystMandarin() {
             同样也彰显了那个时代美的气息。 
             </p> 
 
-            <img src="./6.jpeg" id="image-thing" /> 
-
             <br /> 
 
             <p id="paragraph" >
@@ -47,10 +74,15 @@ function MagAndMystMandarin() {
             美酒和丰富的中国美食，这是一场艺术盛宴，宾客云集，热闹非凡，宾客对画廊作品也表示了极高兴趣。
             </p> 
 
-            <img src="./4.jpeg" id="image-thing" /> 
+            <div className="the-paintings">
+              <img data-aos="fade-right" data-aos-duration="1000" src="./4.jpeg" id="painting-cp" /> 
+              <img data-aos="fade-left" data-aos-duration="1000" src="./5.jpeg" id="painting-cp" /> 
+              </div> 
 
-            <img src="./5.jpeg" id="image-thing" /> 
+              <img data-aos="fade-right" data-aos-duration="1000" src="./4.jpeg" id="image-mobile-cp" /> 
+              <img data-aos="fade-left" data-aos-duration="1000" src="./5.jpeg" id="image-mobile-cp" /> 
 
+            <br /> 
             <br /> 
 
             <p id="paragraph" >
