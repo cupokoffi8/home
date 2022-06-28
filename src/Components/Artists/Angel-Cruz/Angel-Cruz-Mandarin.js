@@ -95,6 +95,8 @@ function AngelCruzMandarin() {
 
               {/* List of Paintings [Phone] */} 
 
+              <br id="only-mobile"/> 
+
               <img src={Image1} id="image-mobile"/> 
               <br id="only-mobile"/>  
               <h5 id="caption-mobile">The Calm</h5> 
@@ -102,8 +104,10 @@ function AngelCruzMandarin() {
               <h5 id="caption-mobile">$375</h5> 
 
               <br id="only-mobile"/> 
+              <br id="only-mobile"/> 
+              <br id="only-mobile"/> 
 
-              <img src={Image2} id="image-mobile"/> 
+              <img src={Image2} id="image-mobile-sold"/> 
               <br id="only-mobile"/>  
               <h5 id="caption-mobile">Stress</h5> 
               <h5 id="caption-mobile">14" x 20"</h5> 
