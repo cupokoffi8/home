@@ -4,7 +4,7 @@ import '../Artists/Artists.css';
 import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 import Image1 from './Images/1.jpg'; 
-import Image2 from './Images/2.jpg'; 
+import Image2 from './Images/Stress.png'; 
 import Image3 from './Images/3.jpg'; 
 import Image4 from './Images/Mischief.png'; 
 import Image5 from './Images/5.jpg'; 
@@ -44,7 +44,7 @@ function AngelCruz() {
 
               <div className="the-paintings">
               <img src={Image1} id="painting-ab"></img> 
-              <img src={Image2} id="painting-ab"></img> 
+              <img src={Image2} id="painting-ab-sold-thing"></img> 
               </div>
               <div className="the-words">
               <h5 id="caption-ab-1">The Calm</h5>

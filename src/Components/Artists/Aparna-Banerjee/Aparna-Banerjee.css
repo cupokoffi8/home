@@ -67,6 +67,14 @@
     margin-top: 40px; 
     width: 371px; 
     height: 490px; 
+} 
+
+#painting-ab-sold-thing {
+    display: inline-block; 
+    justify-content: space-evenly;
+    margin-top: 50px; 
+    width: 381px; 
+    height: 480px; 
 }
 
   #caption-ab-1 {
