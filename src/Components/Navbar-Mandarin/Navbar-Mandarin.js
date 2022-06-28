@@ -99,7 +99,7 @@ const NavbarMandarin = ({}) => {
     <>
       <nav className='navbar' style={{ marginRight: "6.5px"}}>
       <Link to='/mandarin' className='mobile-logo'>
-        <img src="./pride.png" width="105" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "20px"}} href="/"></img>
+        <img src="./pride.png" width="102" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "20px", marginRight: "8px" }} href="/"></img>
           </Link>
           <input className='menu-btn' type='checkbox' id='menu-btn'/> 
                 <label className='menu-icon' for='menu-btn'>
