@@ -2,6 +2,7 @@ import React from 'react';
 import './Apelles-Zhou.css'; 
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import '../Chiu-Pai/Chiu-Pai.css'; 
+import '../Charles-Haber/Charles-Haber.css'; 
 import Navbar from '../../Navbar/Navbar'; 
 import '../../Button.css'; 
 
@@ -55,37 +56,117 @@ function ApellesZhou() {
               {/* List of Paintings [Computer] */} 
 
               <div className="the-paintings">
+                <div>
+              <img src="./Sirian-Girl.png" className="painting-ch-sg"></img> 
+              <h5 className="word-ch-sg">Sirian Girl</h5> 
+              </div>
+              <div>
+              <img src="./AZ.jpg" className="painting-ch-small"></img> 
+              <h5 className="word-ch-2">Synthetic Plangency</h5> 
+              </div>
+              </div> 
+
+              <div className="the-paintings">
               <img src="./Eye-of-Horus.png" id="painting-cp"></img> 
               <img src="./Age-of-Aquarius.png" id="painting-cp"></img> 
               </div> 
+
+              <br /> 
 
               <div className="the-words-cp">
               <h5 id="caption-cp">Eye of Horus</h5>
               <h5 id="caption-cp">Age of Aquarius</h5> 
               </div> 
 
+              <br id="only-computer"/> 
+              <br id="only-computer"/> 
+
               <div className="the-paintings">
               <img src="./Back-to-Pleiade.png" id="painting-cp"></img> 
               <img src="./Portrait-of-Thoth.png" id="painting-cp"></img> 
               </div>
+
+              <br id="only-computer"/> 
 
               <div className="the-words-cp">
               <h5 id="caption-cp">Back to Pleiade</h5>
               <h5 id="caption-cp">Portrait of Thoth</h5> 
               </div> 
 
+              <br id="only-computer"/> 
+              <br id="only-computer"/> 
+
               <div className="the-paintings">
               <img src="./Purple-Flame.png" id="painting-cp"></img> 
               <img src="./The-Grey.png" id="painting-cp"></img> 
               </div>
+
+              <br id="only-computer"/> 
 
               <div className="the-words-cp">
               <h5 id="caption-cp">Purple Flame</h5>
               <h5 id="caption-cp">The Grey</h5> 
               </div> 
 
-              <img src="./Sirian-Girl.png" id="painting-wide-cp"></img> 
-              <h5 id="caption-cp">Sirian Girl</h5> 
+              <br id="only-computer"/> 
+              <br id="only-computer"/> 
+
+              <div className="the-paintings">
+              <img src="./Life-Pulse-One.jpg" id="painting-cp"></img> 
+              <img src="./Life-Pulse-Two.jpg" id="painting-cp"></img> 
+              </div>
+
+              <br id="only-computer"/> 
+
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Life Pulse One</h5>
+              <h5 id="caption-cp">Life Pulse Two</h5> 
+              </div> 
+
+              <br id="only-computer"/> 
+              <br id="only-computer"/> 
+
+              <div className="the-paintings">
+              <img src="./Life-Pulse-Three.jpg" id="painting-cp"></img> 
+              <img src="./Life-Pulse-Four.jpg" id="painting-cp"></img> 
+              </div>
+
+              <br id="only-computer"/> 
+
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Life Pulse Three</h5>
+              <h5 id="caption-cp">Life Pulse Four</h5> 
+              </div> 
+
+              <br id="only-computer"/> 
+              <br id="only-computer"/> 
+
+              <div className="the-paintings">
+              <img src="./Sirius-Letter-One.jpg" id="painting-cp"></img> 
+              <img src="./Sirius-Letter-Two.jpg" id="painting-cp"></img> 
+              </div>
+
+              <br id="only-computer"/> 
+
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Sirius Letter One</h5>
+              <h5 id="caption-cp">Sirius Letter Two</h5> 
+              </div> 
+
+              <br id="only-computer"/> 
+              <br id="only-computer"/> 
+
+              <div className="the-paintings">
+              <img src="./Sirius-Letter-Three.jpg" id="painting-cp"></img> 
+              <img src="./Untitled.jpg" id="painting-cp"></img> 
+              </div>
+
+              <br id="only-computer"/> 
+
+              <div className="the-words-cp">
+              <h5 id="caption-cp">Sirius Letter Three</h5>
+              <h5 id="caption-cp">Untitled</h5> 
+              </div> 
 
               {/* List of Paintings [Phone] */} 
 
@@ -109,6 +190,33 @@ function ApellesZhou() {
 
               <img src="./Sirian-Girl.png" id="image-mobile-cp"></img> 
               <h5 id="caption-mobile-cp">Sirian Girl</h5> 
+
+              <img src="./AZ.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Synthetic Plangency</h5> 
+
+              <img src="./Life-Pulse-One.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Life Pulse One</h5> 
+
+              <img src="./Life-Pulse-Two.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Life Pulse Two</h5> 
+
+              <img src="./Life-Pulse-Three.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Life Pulse Three</h5> 
+
+              <img src="./Life-Pulse-Four.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Life Pulse Four</h5> 
+
+              <img src="./Sirius-Letter-One.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Sirius Letter One</h5> 
+
+              <img src="./Sirius-Letter-Two.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Sirius Letter Two</h5> 
+
+              <img src="./Sirius-Letter-Three.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Sirius Letter Three</h5> 
+
+              <img src="./Untitled.jpg" id="image-mobile-cp"></img> 
+              <h5 id="caption-mobile-cp">Untitled</h5> 
 
           </div> 
           </> 

@@ -6,6 +6,14 @@
     height: auto; 
 } 
 
+.painting-ch-sg {
+  display: block; 
+  justify-content: space-evenly;
+  margin-top: 80px; 
+  width: 43.25vw; 
+  height: auto; 
+} 
+
 .coming-storm {
   display: block; 
   justify-content: space-evenly;
@@ -32,6 +40,17 @@
     margin-top: 80px; 
     width: 25.25vw; 
     height: auto; 
+}
+
+.word-ch-sg{
+  display: block; 
+  font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
+  text-align: center; 
+  width: 43.25vw; 
+  height: 20px !important;
+  font-size: 18px !important; 
+  font-weight: bold !important;  
+  color: black !important; 
 }
 
 .word-ch-1{
@@ -71,6 +90,10 @@
     width: 20vw; 
     height: auto; 
 } 
+
+#only-computer {
+  display: block !important; 
+}
 
 #small-caption-ch { 
     display: inline-block; 
@@ -142,5 +165,9 @@
     margin-left: auto; 
     margin-right: auto; 
   } 
+
+  #only-computer {
+    display: none !important; 
+  }
   
 }
