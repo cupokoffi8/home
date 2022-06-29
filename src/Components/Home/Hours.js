@@ -21,7 +21,7 @@ function Hours() {
         <div id="hours-div"> 
           <div id="space" /> 
 
-          <div data-aos="fade-right" data-aos-duration="1000" className="card-row-here">
+          <div data-aos="fade-down" data-aos-duration="1000" className="card-row-here">
             <div className="the-good-card-pc">
               <Card className="the-card-good">
                 <Card.Img src={visit} variant="top" id="house"/>
@@ -44,7 +44,7 @@ function Hours() {
 
             <div className="sep"/>
 
-            <div data-aos="fade-left" data-aos-duration="1000" className="card-row-here">
+            <div data-aos="fade-up" data-aos-duration="1000" className="card-row-here">
             <div className="the-good-card-pc">
               <Card className="the-card-good">
                 <Explore />
