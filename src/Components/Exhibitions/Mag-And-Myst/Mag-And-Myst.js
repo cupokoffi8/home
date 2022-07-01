@@ -52,6 +52,8 @@ function MagAndMyst() {
             "Magnificent and Mysterious” art exhibition. 
             </p> 
 
+            <br /> 
+
             <div className="the-paintings">
               <img data-aos="fade-right" data-aos-duration="1000" src="./3.jpeg" id="painting-cp" /> 
               <img data-aos="fade-left" data-aos-duration="1000" src="./6.jpeg" id="painting-cp" /> 

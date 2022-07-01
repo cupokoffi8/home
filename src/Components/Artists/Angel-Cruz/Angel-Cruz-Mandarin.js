@@ -10,6 +10,8 @@ import Image4 from './Images/Mischief.png';
 import Image5 from './Images/5.jpg'; 
 import Image6 from './Images/6.jpg'; 
 import Image7 from './Images/7.jpg'; 
+import Image8 from './Images/Passion.jpg'; 
+import Image9 from './Images/Whisper.jpg'; 
 
 function AngelCruzMandarin() {
 
@@ -41,6 +43,23 @@ function AngelCruzMandarin() {
               </p>
 
               {/* List of Paintings [Computer] */} 
+
+              <div className="the-paintings">
+              <img src={Image8} id="painting-ab"></img> 
+              <img src={Image9} id="painting-ab"></img> 
+              </div>
+              <div className="the-words">
+              <h5 id="caption-ab-1">Passion</h5>
+              <h5 id="caption-ab-2">Whisper</h5>
+              </div>
+              <div className="the-words">
+              <h5 id="caption-ab-11">18" x 24"</h5> 
+              <h5 id="caption-ab-22">18" x 24"</h5> 
+              </div>
+              <div className="the-wordss">
+              <h5 id="caption-ab-11">$350</h5>
+              <h5 id="caption-ab-22">$350</h5>
+              </div> 
 
               <div className="the-paintings">
               <img src={Image1} id="painting-ab"></img> 
@@ -94,6 +113,20 @@ function AngelCruzMandarin() {
               </div> 
 
               {/* List of Paintings [Phone] */} 
+
+              <br id="only-mobile"/> 
+
+              <img src={Image8} id="image-mobile" /> 
+              <h5 id="caption-mobile">Passion</h5> 
+              <h5 id="caption-mobile">18" x 24"</h5>
+              <h5 id="caption-mobile">$350</h5> 
+
+              <br id="only-mobile"/> 
+
+              <img src={Image9} id="image-mobile" /> 
+              <h5 id="caption-mobile">Whisper</h5> 
+              <h5 id="caption-mobile">18" x 24"</h5>
+              <h5 id="caption-mobile">$350</h5> 
 
               <br id="only-mobile"/> 
 

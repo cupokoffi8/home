@@ -49,6 +49,8 @@ function MagAndMystMandarin() {
             7月24日下午，美国龙国际画廊举办了“华丽与神秘”艺术展的开幕酒会。
             </p> 
 
+            <br /> 
+
             <div className="the-paintings">
               <img data-aos="fade-right" data-aos-duration="1000" src="./3.jpeg" id="painting-cp" /> 
               <img data-aos="fade-left" data-aos-duration="1000" src="./6.jpeg" id="painting-cp" /> 
