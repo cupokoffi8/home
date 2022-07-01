@@ -217,7 +217,18 @@
   50% {
     background-position: 100% 0;
   }
-}
+} 
+
+.gallery {
+  display: block; 
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 15vh;
+  font-size: 40px;
+  font-family: 'Avenir Black', 'Roboto', Helvetica, Arial, sans-serif; 
+  color: white; 
+} 
 
   .magAndMyst {
     color: #ffffff !important; 

@@ -99,7 +99,7 @@ const Navbar = ({}) => {
     <>
       <nav className='navbar' style={{ marginRight: "6.5px"}}>
       <Link to='/' className='mobile-logo'>
-        <img src="./pride.png" width="102" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "20px" }} href="/"></img>
+        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "25px" }} href="/"></img>
           </Link>
           <input className='menu-btn' type='checkbox' id='menu-btn'/> 
                 <label className='menu-icon' for='menu-btn'>
@@ -152,8 +152,8 @@ const Navbar = ({}) => {
             {dropdown3 && <ADropdown />}
           </li>
 
-          <Link to='/' className='navbar-logo' style={{marginRight: "5px"}} onClick={closeMobileMenu}>
-          <img src="./pride.png" width="105" height="75" alt="Logo" className='logo' href="/"></img> 
+          <Link to='/' className='navbar-logo' style={{}} onClick={closeMobileMenu}>
+          <img src="./logo.png" width="78" height="78" alt="Logo" className='logo' href="/"></img> 
           </Link> 
 
           {/* The Gallery Section */}

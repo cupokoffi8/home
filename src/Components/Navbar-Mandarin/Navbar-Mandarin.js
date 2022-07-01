@@ -99,7 +99,7 @@ const NavbarMandarin = ({}) => {
     <>
       <nav className='navbar' style={{ marginRight: "6.5px"}}>
       <Link to='/mandarin' className='mobile-logo'>
-        <img src="./pride.png" width="102" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "20px" }} href="/"></img>
+      <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "25px" }} href="/"></img>
           </Link>
           <input className='menu-btn' type='checkbox' id='menu-btn'/> 
                 <label className='menu-icon' for='menu-btn'>
@@ -153,7 +153,7 @@ const NavbarMandarin = ({}) => {
           </li>
 
           <Link to='/mandarin' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="./pride.png" width="105" height="75" alt="Logo" className='logo' href="/mandarin"></img>
+          <img src="./logo.png" width="78" height="78" alt="Logo" className='logo' style={{ marginLeft: "6.5px" }}href="/"></img> 
           </Link> 
 
           {/* The Gallery */}

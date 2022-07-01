@@ -18,7 +18,7 @@ function LandingMandarin() {
             <button id="the-button" type='btn'>English</button> 
             </form> 
 
-            <h1 data-aos="fade-down" data-aos-duration="1800" className='american'>歡迎來到美國龍國際美術</h1>
+            <h1 data-aos="fade-down" data-aos-duration="1800" className='gallery'>歡迎來到美國龍國際美術</h1>
 
         <div id="info">
           <a data-aos="fade-left" data-aos-duration="900" id="addy-click" href="https://www.google.com/maps/place/American+Dragon+International+Fine+Art+Gallery/@40.0483338,-76.3059007,15z/data=!4m5!3m4!1s0x0:0x4c549ed6537c2a4!8m2!3d40.0483496!4d-76.3057639">
