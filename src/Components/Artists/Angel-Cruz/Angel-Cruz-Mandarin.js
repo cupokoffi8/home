@@ -6,10 +6,10 @@ import '../../Button.css';
 import Image1 from './Images/1.jpg'; 
 import Image2 from './Images/Stress.png'; 
 import Image3 from './Images/3.jpg'; 
-import Image4 from './Images/Mischief.png'; 
+import Image4 from './Images/4.jpg'; 
 import Image5 from './Images/5.jpg'; 
 import Image6 from './Images/6.jpg'; 
-import Image7 from './Images/7.jpg'; 
+import Image7 from './Images/Comfort.png'; 
 import Image8 from './Images/Passion.jpg'; 
 import Image9 from './Images/Whisper.jpg'; 
 
@@ -97,7 +97,10 @@ function AngelCruzMandarin() {
 
               <div className="the-paintings">
               <img src={Image6} id="painting-ab"></img> 
-              <img src={Image7} id="painting-ab"></img> 
+              <div>
+                <br />
+                <img src={Image7} id="painting-ab-sold"></img>
+                </div>
               </div>
               <div className="the-words">
               <h5 id="caption-ab-1">Restraint</h5>
@@ -136,9 +139,9 @@ function AngelCruzMandarin() {
               <h5 id="caption-mobile">18" x 24"</h5> 
               <h5 id="caption-mobile">$375</h5> 
 
+              <br id="only-mobile"/>
               <br id="only-mobile"/> 
-              <br id="only-mobile"/> 
-              <br id="only-mobile"/> 
+              <br id="only-mobile"/>  
 
               <img src={Image2} id="image-mobile-sold"/> 
               <br id="only-mobile"/>  
@@ -171,8 +174,10 @@ function AngelCruzMandarin() {
               <h5 id="caption-mobile">$350</h5> 
 
               <br id="only-mobile"/> 
+              <br id="only-mobile"/>
+              <br id="only-mobile"/>
 
-              <img src={Image7} id="image-mobile"/> 
+              <img src={Image7} id="image-mobile-sold"/> 
               <br id="only-mobile"/>  
               <h5 id="caption-mobile">Comfort</h5> 
               <h5 id="caption-mobile">24" x 36"</h5> 
