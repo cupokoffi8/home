@@ -14,8 +14,8 @@ function VisitMandarin() {
                 <h3 className="a-head">即将开放的时间</h3>
                 <div className="days">
                   <h2 className="days-header">
-                  7 月 8 日星期五：<br />
-                  7 月 9 日星期六：<br /> 
+                  7 月 15 日星期五：<br />
+                  7 月 16 日星期六：<br />
                   </h2> 
                 </div>
                 <div className="the-hours">

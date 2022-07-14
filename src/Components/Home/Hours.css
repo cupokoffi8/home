@@ -275,17 +275,22 @@
   } 
 
   #apt {
-    color: rgb(242, 139, 139); 
-    font-weight: bold; 
-    text-decoration: underline; 
-  } 
-
-  #apt:hover {
     color: rgb(255, 255, 255); 
-    background-color: rgba(255, 132, 132, 0.84); 
+    background: linear-gradient(91.12deg, #d01f00 27.35%, #c21313 99.99%, #ff1c1c 100%, #ff0000 100%);
     font-weight: bold; 
     text-decoration: none; 
     border-radius: 5px; 
+    padding: 2px !important; 
+    transition: 0.25s;
+  } 
+
+  #apt:hover {
+    color: rgb(0, 89, 34); 
+    background: #60f29d; 
+    font-weight: bold; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: 0.25s;
   }
 
   .paragraph-stuff {
