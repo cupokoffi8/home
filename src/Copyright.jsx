@@ -1,7 +1,5 @@
 import React from 'react'
 
-const API = process.env.REACT_APP_MAIL_CHIMP_KEY; 
-const ID = process.env.REACT_APP_MAIL_CHIMP_ID; 
 const URL = process.env.REACT_APP_PUBLIC_MAILCHIMP_URL; 
 
 class Copyright extends React.Component {
