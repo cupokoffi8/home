@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react'; 
 import './App.css';
-import Navbar from './Components/Navbar/Navbar'; 
 import Copyright from './Copyright'; 
 import { HashRouter, Switch, Route } from 'react-router-dom'; 
 
