@@ -9,7 +9,7 @@ function Visit() {
     return (
         <div id="visit"> 
           <h1 className="sub">Visit Us</h1> 
-          <h3 className="paragraph">We will accept <a id="apt" href="https://www.facebook.com/americandragonart/services/">Appointments (Via Facebook)</a>, or call us to visit our gallery every day that is not on 
+          <h3 className="paragraph">We will accept <a className="blink_me" href="https://www.facebook.com/americandragonart/services/">Appointments (Via Facebook)</a>, or call us to visit our gallery every day that is not on 
               the schedule below, from 10:00 a.m. until 8:00 p.m. Sunday through Saturday. </h3> 
           <div className="the-hours-container"> 
                 {/* Change to "Recent Open Hours" when upcoming hours are not known */}

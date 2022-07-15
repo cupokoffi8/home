@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css"; 
-import Map from "../Map/Map";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'; 
 import Hours from "./Hours"; 
 import Navbar from '../Navbar/Navbar'; 
 import '../Button.css'; 
@@ -11,7 +8,6 @@ import 'aos/dist/aos.css';
 import { toast } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
 import { Link } from 'react-router-dom'; 
-import { Warning } from "@material-ui/icons";
 import HomeImg from "./Images/Home.JPG"; 
 import Landing from "./Landing";
 import Curve from "./Curve"; 
@@ -129,6 +125,8 @@ export default function Home() {
           artist’s individual exhibition and other business collaborations. Please contact us for additional 
           information today! 
           </p> 
+
+          <br />
           
         </div>
         

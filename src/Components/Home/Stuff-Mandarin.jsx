@@ -8,8 +8,8 @@ function StuffMandarin() {
 
     return (
         <div id="stuff"> 
-          <h1 className="sub-stuff">看看我们的“Tchotchke Bin”</h1> 
-          <h3 className="paragraph-stuff">
+          <h1 style={{textAlign:"left"}} className="sub-stuff">看看我们的“Tchotchke Bin”</h1> 
+          <h3 style={{textAlign:"left"}} className="paragraph-stuff">
           从偏心框架到及时打印照片，我们设计了这个区域
           画廊，让您找到一个独特的项目（又名“Tchotchke”），它是
           一定能满足你的欲望！ Tchotchke Bin 的内容总是

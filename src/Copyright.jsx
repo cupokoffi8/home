@@ -17,7 +17,7 @@ class Copyright extends React.Component {
     render() {
         return (
             <>
-            <div style={{backgroundColor: "rgb(28, 46, 106)"}}>
+            <div style={{marginTop: "10px", backgroundColor: "rgb(28, 46, 106)"}}>
             <br /> 
             <br /> 
             <h1 style={{display: "flex", justifyContent: "center", color: "white", textAlign: "center"}} className="font-poppins text-white font-semibold text-base mt-6">Join Our Newsletter!</h1>
@@ -52,7 +52,6 @@ class Copyright extends React.Component {
               <p id="copyright"> American Dragon International Fine Art © Copyright 2022 </p> 
               <br /> 
               <br /> 
-              <br />
               </div>
               </>
         )

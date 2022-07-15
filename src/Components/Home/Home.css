@@ -111,10 +111,21 @@
    } 
 
    .blink_me {
-    font-size: 1.2em;
+    font-size: 0.9em;
     text-transform: uppercase; 
-    color: red; 
-    animation: blinker 1.5s linear infinite;
+    color: rgb(42, 238, 147); 
+    /* animation: blinker 1.5s linear infinite; */
+    animation: none; 
+    transition: 0.25s;
+    padding: 2px; 
+  }
+
+  .blink_me:hover {
+    color:rgb(6, 49, 12); 
+    background:#56d681; 
+    animation: none; 
+    transition: 0.25s;
+    border-radius: 5px; 
   }
   
   @keyframes blinker {
