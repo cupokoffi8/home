@@ -1,5 +1,9 @@
 import React from 'react'
 
+const API = process.env.REACT_APP_MAIL_CHIMP_KEY; 
+const ID = process.env.REACT_APP_MAIL_CHIMP_ID; 
+const URL = process.env.REACT_APP_PUBLIC_MAILCHIMP_URL; 
+
 class Copyright extends React.Component {
   constructor(props) {
     super(props);
@@ -10,6 +14,7 @@ class Copyright extends React.Component {
     };
   }
 
+
     render() {
         return (
             <>
@@ -18,8 +23,8 @@ class Copyright extends React.Component {
             <br /> 
             <h1 style={{display: "flex", justifyContent: "center", color: "white"}} className="font-poppins text-white font-semibold text-base mt-6">Join Our Newsletter!</h1>
             <div style={{display: "flex", justifyContent: "center"}}>
-                <form action="https://americandragonfineart.us12.list-manage.com/subscribe/post?u=6af55ab496c57ad5bacad8c13&amp;id=7bc586548b" method="POST" noValidate>
-                  <input type="hidden" name="u" value="601f0df52bad1683b0f95a9a95415fe2-us12"/>
+                <form action={ URL } method="POST" noValidate>
+                  <input type="hidden" name="u" value=""/>
                 <input type="hidden" name="id" value="7bc586548b"/>
                 <label htmlFor='MERGE0'>
                     <input 
