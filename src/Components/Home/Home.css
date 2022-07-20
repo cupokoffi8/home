@@ -113,7 +113,7 @@
    .blink_me {
     font-size: 0.9em;
     text-transform: uppercase; 
-    color: rgb(42, 238, 147); 
+    color: rgb(249, 97, 97); 
     /* animation: blinker 1.5s linear infinite; */
     animation: none; 
     transition: 0.25s;
@@ -121,8 +121,8 @@
   }
 
   .blink_me:hover {
-    color:rgb(6, 49, 12); 
-    background:#56d681; 
+    color:rgb(255, 255, 255); 
+    background:#cc4646; 
     animation: none; 
     transition: 0.25s;
     border-radius: 5px; 

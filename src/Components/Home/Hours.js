@@ -16,6 +16,7 @@ function Hours() {
       
         <div id="hours-div"> 
         <div id="space" /> 
+        <br /> 
           <div data-aos="fade-down" data-aos-duration="1000" className="card-row-here">
             <div className="the-good-card-pc">
               <Card className="the-card-good">

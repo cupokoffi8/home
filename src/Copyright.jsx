@@ -1,5 +1,6 @@
 import React from 'react'
 import './Copyright.css'
+import Button from './Components/Button';
 
 const URL = process.env.REACT_APP_PUBLIC_MAILCHIMP_URL; 
 
@@ -17,7 +18,10 @@ class Copyright extends React.Component {
     render() {
         return (
             <>
-            <div style={{marginTop: "10px", backgroundColor: "rgb(28, 46, 106)"}}>
+            <br />
+            <div style={{marginTop: "10px", backgroundColor: "#24262D"}}>
+            <br />
+            <br />
             <br /> 
             <br /> 
             <h1 style={{display: "flex", justifyContent: "center", color: "white", textAlign: "center"}} className="font-poppins text-white font-semibold text-base mt-6">Join Our Newsletter!</h1>
@@ -38,7 +42,13 @@ class Copyright extends React.Component {
                         autoCorrect="off"
                      /> 
                 </label>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+                <input
+                    style={{display: "inline-block", background: "linear-gradient(101.12deg, #ff0000 27.35%, #c21313 99.99%, #ff1c1c 100%, #ff0000 100%)", fontFamily: "Poppins", fontWeight: "bold", color: "white", borderRadius: "5px", padding: "10px"}} 
+                    btnName="Email me"
+                    type="submit" 
+                    name="subscribe" 
+                    id="mc-embedded-subscribe" 
+                    />
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="">
 
