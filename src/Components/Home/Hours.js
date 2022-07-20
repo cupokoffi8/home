@@ -4,14 +4,9 @@ import './Home.css';
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
 import Card from 'react-bootstrap/Card'; 
-import { Link } from 'react-router-dom'; 
-import artist from './Images/artist.png'; 
 import visit from './Images/home.png'; 
-import temp1 from './Images/temp1-aw.jpg'; 
-import temp2 from './Images/temp2.jpg'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
-import Visit from './Visit';
-import Explore from './Explore';
+import Visit from './Visit'; 
 
 function Hours() {
 
@@ -20,7 +15,7 @@ function Hours() {
     return (
       
         <div id="hours-div"> 
-          <div id="space" />
+        <div id="space" /> 
           <div data-aos="fade-down" data-aos-duration="1000" className="card-row-here">
             <div className="the-good-card-pc">
               <Card className="the-card-good">
@@ -35,11 +30,11 @@ function Hours() {
               </Card> 
 
               <div className="the-good-card-mobile">
-              <Card className="the-card-good">
-                <Visit /> 
-              </Card> 
-              </div> 
-            </div>  
+                  <Card className="the-card-good">
+                    <Visit /> 
+                  </Card> 
+                </div> 
+              </div>  
           </div> 
 
             <section>

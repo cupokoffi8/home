@@ -4,14 +4,9 @@ import './Home.css';
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
 import Card from 'react-bootstrap/Card'; 
-import { Link } from 'react-router-dom'; 
-import artist from './Images/artist.png'; 
 import visit from './Images/home.png'; 
-import temp1 from './Images/temp4-aw.jpg'; 
-import temp2 from './Images/temp4.png'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
-import VisitMandarin from './Visit-Mandarin';
-import ExploreMandarin from './ExploreMandarin';
+import VisitMandarin from './Visit-Mandarin'; 
 
 function HoursMandarin() {
 
@@ -20,7 +15,6 @@ function HoursMandarin() {
     return (
       <div id="hours-div"> 
       <div id="space" /> 
-
       <div data-aos="fade-down" data-aos-duration="1000" className="card-row-here">
         <div className="the-good-card-pc">
           <Card className="the-card-good">
@@ -35,11 +29,11 @@ function HoursMandarin() {
           </Card> 
 
           <div className="the-good-card-mobile">
-          <Card className="the-card-good">
-            <VisitMandarin /> 
-          </Card> 
-          </div> 
-          </div>  
+                <Card className="the-card-good">
+                  <VisitMandarin /> 
+                </Card> 
+              </div> 
+            </div>  
         </div> 
 
         <section>
