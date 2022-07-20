@@ -1,7 +1,7 @@
 #hours-div {
   /* background-color: #0f60d1;  */
   background-color: #1c2e6a;
-  height: 66vh; 
+  height: 78vh; 
 }
 
 section {
@@ -10,27 +10,6 @@ section {
   flex-direction: column;
   align-items: center;
   min-height: 135px;
-}
-
-/* Triangle */
-.tri {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.tri svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 152px;
-}
-
-.tri .shape-fill {
-  fill: #bdbdbd;
 }
 
 /* Card stuff */ 
