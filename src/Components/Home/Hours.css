@@ -1,14 +1,37 @@
 #hours-div {
   /* background-color: #0f60d1;  */
   background-color: #1c2e6a;
-  height: 115vh; 
+  height: 66vh; 
 }
 
-#hours-div-mandarin {
-  /* background-color: #0f60d1;  */
-  background-color: #1c2e6a;
-  height: 150vh; 
-} 
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 135px;
+}
+
+/* Triangle */
+.tri {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.tri svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 152px;
+}
+
+.tri .shape-fill {
+  fill: #bdbdbd;
+}
 
 /* Card stuff */ 
 .card-row-here {
@@ -297,7 +320,7 @@
 
   .paragraph-stuff {
     color: #000000; 
-    text-align: center; 
+    text-align: left; 
     font-weight: bold; 
   } 
 
@@ -305,12 +328,12 @@
     display: block; 
     color: #000000; 
     align-items: center; 
-    text-align: center; 
+    text-align: left; 
   } 
 
   #img-stuff { 
     float: left;
-    margin-right: 8vw; 
+    margin-left: 6vw; 
     margin-top: 46.5px; 
     width: auto; 
     height: 45vh; 
@@ -354,7 +377,7 @@
 
     #hours-div {
       /* background-color: #0f60d1;  */
-      height: 120vh !important; 
+      height: 67vh !important; 
     } 
 
     #img-stuff { 
@@ -368,7 +391,7 @@
     #hours-div {
       /* background-color: #0f60d1;  */
       background-color: #1c2e6a;
-      height: 120vh !important; 
+      height: 67vh !important; 
     } 
 
     #image-thing-home {
@@ -434,17 +457,12 @@
     #hours-div {
       /* background-color: #0f60d1;  */
       background-color: #1c2e6a;
-      height: 185vh !important; 
+      height: 107vh !important; 
     } 
 
     .sep {
       height: 10vh !important; 
     } 
-
-    #hours-div-mandarin {
-      /* background-color: #0f60d1;  */
-      height: 185vh; 
-    }
 
     .days-header {
       font-size: 15px; 
@@ -543,7 +561,7 @@
     #hours-div {
       /* background-color: #0f60d1;  */
       background-color: #1c2e6a;
-      height: 200vh !important; 
+      height: 107vh !important; 
     } 
 
     .days-header {

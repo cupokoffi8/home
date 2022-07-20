@@ -13,15 +13,18 @@ export default function Curve() {
 
     return (
         <div id="curve-div">
-            <div data-aos="fade-right" data-aos-duration="1000" className="card-row-here">
-                <div className="the-good-card-pc">
-                <Card className="the-card-good">
-                    <Card.Img src={stuff} variant="top" id="img-stuff"/>
-                    <Stuff />
-                </Card> 
-            </div> 
+        <div data-aos="fade-up" data-aos-duration="1000" className="card-row-here">
+            <div className="the-good-card-pc">
+              <Card className="the-card-good">
+                <Stuff />
+                <Card.Img src={stuff} variant="top" id="img-stuff"/>
+              </Card> 
 
-            <div className="our-favorite-card"> 
+              
+              </div> 
+
+              {/* -------------------------------------------------------------------------------- */}
+              <div className="our-favorite-card"> 
               <Card className="the-card-good">
                 <Card.Img src={stuff} variant="top" id="image-thing-home-stuff"/>
               </Card> 
@@ -32,7 +35,7 @@ export default function Curve() {
               </Card> 
               </div> 
               </div>  
-        </div>
+            </div> 
     </div>
     )
 }

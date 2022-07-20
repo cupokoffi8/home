@@ -8,8 +8,8 @@ function Stuff() {
 
     return (
         <div id="stuff"> 
-          <h1 style={{textAlign:"left"}} className="sub-stuff">Check Out Our "Tchotchke Bin"</h1> 
-          <h3 style={{textAlign:"left"}} className="paragraph-stuff">
+          <h1 className="sub-stuff">Check Out Our "Tchotchke Bin"</h1> 
+          <h3 className="paragraph-stuff">
               From excentric frames to timely photo prints, we designed this area of the 
               gallery to allow you to find yourself a unique item (AKA "Tchotchke") that is 
               sure to dazzle your desires! The contents of the Tchotchke Bin are always 
