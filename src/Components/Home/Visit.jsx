@@ -13,17 +13,17 @@ function Visit() {
               the schedule below, from 10:00 a.m. until 8:00 p.m. Sunday through Saturday. </h3> 
           <div className="the-hours-container"> 
                 {/* Change to "Recent Open Hours" when upcoming hours are not known */}
-                <h3 className="a-head">Recent Open Hours</h3> 
+                <h3 className="a-head">Upcoming Events</h3> 
                 <div className="days">
                   <h2 className="days-header"> 
-                  Friday, July 15th: <br /> 
-                  Saturday, July 16th: <br /> 
+                  Friday, July 22nd: <br /> 
+                  Saturday, July 23rd: <br /> 
                   </h2> 
                 </div>
                 <div className="the-hours">
                   <h2 className="hours-header">
-                  4:00 PM - 7:00 PM<br /> 
-                  10:00 AM - 2:00 PM<br /> 
+                  CLOSED<br /> 
+                  CLOSED<br /> 
                   </h2>
                 </div>
               </div>
