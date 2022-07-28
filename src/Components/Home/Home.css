@@ -20,6 +20,21 @@
     background-size: cover !important; 
     background: url("curve.png"); 
     background-color: transparent; 
+  } 
+
+  #border-div {
+    border: #1c2e6a;
+    border-style: solid; 
+    border-radius: 20px; 
+    border-width: 2px; 
+    width: fit-content; 
+    padding-top: 5 !important; 
+    padding-left: 5 !important; 
+    padding-right: 5 !important; 
+    padding-bottom: 5px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #1c2e6a;
   }
 
   #uh {

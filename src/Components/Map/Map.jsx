@@ -14,6 +14,10 @@ const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
 const mapContainerStyle = {
   height: "40vh",
   width: "60vw",
+  border: 'white', 
+  borderStyle: 'solid', 
+  borderWidth: '2px', 
+  borderRadius: '20px'
 };
 const options = {
   styles: mapStyles,
