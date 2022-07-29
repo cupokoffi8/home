@@ -7,7 +7,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 import { toast } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
-import { Link } from 'react-router-dom'; 
 import HomeImg from "./Images/Home.JPG"; 
 import Landing from "./Landing";
 import Curve from "./Curve"; 
@@ -77,7 +76,7 @@ export default function Home() {
         <p style={{textAlign: "center"}}>
         We will be open on First Friday, August 5, from 4:00 p.m. until 9:00 p.m.
         <br /><br /> 
-        This will be our <span className="flash_me" style={{fontSize: "17px"}}>“FINAL FIRST FRIDAY“</span> event for our gallery at our 
+        This will be our <span className="flash_me">“FINAL FIRST FRIDAY“</span> event for our gallery at our 
         Lancaster location.
         <br /><br />
         We will be closing the onsite gallery at 614 North Duke Street on August 31,

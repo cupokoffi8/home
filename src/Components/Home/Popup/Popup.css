@@ -14,9 +14,13 @@
 
 .popup-inner {
     position: relative; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 32px; 
     width: 90%; 
-    max-width: 840px; 
+    /* max-width: 840px;  */
     background-color: rgb(241, 236, 201); 
     z-index: 999999999; 
     font-weight: bolder;
@@ -30,7 +34,7 @@
 }
 
 .flash_me {
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase; 
     color: rgb(223, 0, 0); 
     animation: flasher 2.5s linear infinite;
@@ -43,3 +47,9 @@
       color: rgb(17, 0, 255); 
     }
   } 
+
+  @media only screen and (max-width: 850px) { 
+    .popup-inner {
+      font-size: smaller;
+    } 
+  }
