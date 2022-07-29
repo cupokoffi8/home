@@ -17,8 +17,9 @@
     padding: 32px; 
     width: 90%; 
     max-width: 840px; 
-    background-color: rgb(165, 207, 255); 
-    z-index: 999999999;
+    background-color: rgb(241, 236, 201); 
+    z-index: 999999999; 
+    font-weight: bolder;
 } 
 
 .close-btn {
@@ -27,3 +28,18 @@
     top: 4vh; 
     right: 4vw; 
 }
+
+.flash_me {
+    font-size: 0.9em;
+    text-transform: uppercase; 
+    color: rgb(223, 0, 0); 
+    animation: flasher 2.5s linear infinite;
+    transition: 0.25s;
+    padding: 2px; 
+  }
+  
+  @keyframes flasher {
+    50% {
+      color: rgb(17, 0, 255); 
+    }
+  } 

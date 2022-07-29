@@ -73,22 +73,30 @@ export default function Home() {
 
       {/* Begin POPUP */}
       <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-        <h3>IMPORTANT INFO</h3>
-        <p>
-        Our gallery is located one block from the Penn Medicine Lancaster General Hospital, 
-        and two blocks from the Clipper Magazine Stadium. There is plenty of free parking on the 
-        streets around our gallery.<br /> 
-        <br /> 
-        In addition to our great American and Asian artists, you can visit our good friends at 
-        the PAVAA Gallery, which is located a few steps from the American Dragon gallery. PAVAA 
-        has beautiful African and Afrocentric art featured for your viewing pleasure.<br /> 
-        <br /> 
-        Together, PAVAA and American Dragon give you the opportunity to enjoy and purchase outstanding 
-        art from around the world, while enjoying beautiful downtown Lancaster.<br /> 
-        <br /> 
-        We hope all of our visitors from New York City, Philadelphia, Baltimore, Washington, and other 
-        areas of the United States, who come here to purchase chicken corn soup and “I love Intercourse” 
-        t-shirts, will find the time to visit our beautiful galleries. 
+        <h3 style={{textDecoration: "underline", textAlign: "center"}}>IMPORTANT INFO</h3>
+        <p style={{textAlign: "center"}}>
+        We will be open on First Friday, August 5, from 4:00 p.m. until 9:00 p.m.
+        <br /><br /> 
+        This will be our <span className="flash_me" style={{fontSize: "17px"}}>“FINAL FIRST FRIDAY“</span> event for our gallery at our 
+        Lancaster location.
+        <br /><br />
+        We will be closing the onsite gallery at 614 North Duke Street on August 31,
+        2022. However, our online store will still be accessible after August 31, and will offer
+        some of our artwork that is currently in our gallery. 
+        <br /><br />
+        Our online shop is getting a BIG upgrade! We hope to add new and
+        exciting artists to our web site in the future. Friends, please continue to
+        access our website. 
+        <br /><br />
+        We will carefully select the best upcoming artist talent as well as current acclaimed 
+        artists from around the world. In addition, Lena Liu will continue to work with Artists 
+        to help them show their talent in various worldwide galleries. Please contact her for additional
+        information related to where you could display your works of art.
+        <br /><br />
+        Starting on August 5, we will be offering a 25% discount on all artwork in the
+        gallery. This offer will be in effect until our closing day of August 31, 2022.
+        <br /><br />
+        We look forward to seeing everyone on August 5.
         </p>
       </Popup>
       {/* End POPUP */} 

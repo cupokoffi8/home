@@ -33,27 +33,35 @@ export default function HomeMandarin() {
       <NavbarMandarin /> 
       <div id="bottom"> 
 
-      {/* Begin POPUP */}
+      {/* 开始弹出窗口 */}
       <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-        <h3>重要更新</h3>
-        <p>
-        我们的画廊距离宾夕法尼亚医学兰开斯特综合医院只有一个街区，
-        距离快船杂志体育场两个街区。路上有很多免费停车位
-        我们画廊周围的街道。<br />
-        <br />
-        除了我们伟大的美国和亚洲艺术家，您还可以访问我们的好朋友
-        PAVAA 画廊，距离 American Dragon 画廊仅几步之遥。帕瓦
-        拥有美丽的非洲和非洲中心艺术，供您观赏。<br />
-        <br />
-        PAVAA 和 American Dragon 一起让您有机会享受和购买优质产品
-        来自世界各地的艺术，同时欣赏美丽的兰开斯特市中心。<br />
-        <br />
-        我们希望来自纽约市、费城、巴尔的摩、华盛顿和其他地区的所有访客
-        美国地区，来这里购买鸡玉米汤和“我爱性交”
-        T 恤，将抽出时间参观我们美丽的画廊。
+        <h3 style={{textDecoration: "underline", textAlign: "center"}}>重要信息</h3>
+        <p style={{textAlign: "center"}}>
+        我们将于 8 月 5 日第一个星期五下午 4:00 开放。直到晚上 9:00
+        <br /><br />
+        这将是我们画廊的 <span className="flash_me" style={{fontSize: "17px"}}>“FINAL FIRST FRIDAY”</span> 活动
+        兰开斯特的位置。
+        <br /><br />
+        我们将于 8 月 31 日关闭位于北杜克街 614 号的现场画廊，
+        2022. 但是，我们的在线商店在 8 月 31 日之后仍然可以访问，并且将提供
+        我们的一些艺术品目前在我们的画廊中。
+        <br /><br />
+        我们的网上商店正在大升级！我们希望增加新的和
+        未来令人兴奋的艺术家访问我们的网站。朋友们请继续
+        访问我们的网站。
+        <br /><br />
+        我们将精心挑选最优秀的即将到来的艺术家人才以及当前备受赞誉的
+        来自世界各地的艺术家。此外，Lena Liu 将继续与 Artists 合作
+        帮助他们在世界各地的画廊展示他们的才华。请与她联系以获取更多信息
+        与您可以在哪里展示您的艺术作品有关的信息。
+        <br /><br />
+        从 8 月 5 日开始，我们将为所有艺术品提供 25% 的折扣
+        画廊。此优惠有效期至 2022 年 8 月 31 日截止日。
+        <br /><br />
+        我们期待在 8 月 5 日与大家见面。
         </p>
       </Popup>
-      {/* End POPUP */} 
+      {/* 结束弹窗 */}
 
         <LandingMandarin /> 
         <HoursMandarin/> 
