@@ -14,6 +14,7 @@ const Result = () => {
 
 function Contact() {
   const [result, showResult] = useState(false); 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
