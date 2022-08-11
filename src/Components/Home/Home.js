@@ -71,7 +71,8 @@ export default function Home() {
       <div id="bottom"> 
 
       {/* Begin POPUP */}
-      <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+
+      {/* <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
         <h3 style={{textDecoration: "underline", textAlign: "center"}}>IMPORTANT INFO</h3>
         <p style={{textAlign: "center"}}>
         We will be open on First Friday, August 5, from 4:00 p.m. until 9:00 p.m.
@@ -97,7 +98,8 @@ export default function Home() {
         <br /><br />
         We look forward to seeing everyone on August 5.
         </p>
-      </Popup>
+      </Popup> */} 
+      
       {/* End POPUP */} 
 
       <Landing /> 
@@ -134,6 +136,8 @@ export default function Home() {
           </p> 
 
           <br />
+          <br /> 
+          <br /> 
           
         </div>
         

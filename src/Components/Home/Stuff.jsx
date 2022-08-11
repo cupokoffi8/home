@@ -8,13 +8,12 @@ function Stuff() {
 
     return (
         <div id="stuff"> 
-          <h1 className="sub-stuff">Check Out Our "Tchotchke Bin"</h1> 
+          <h1 className="sub-stuff">Check Out Our Online Shop</h1> 
           <h3 className="paragraph-stuff">
-              From excentric frames to timely photo prints, we designed this area of the 
-              gallery to allow you to find yourself a unique item (AKA "Tchotchke") that is 
-              sure to dazzle your desires! The contents of the Tchotchke Bin are always 
-              changing throughout each month, but waste no more time reading about it when 
-              you can come find out for yourself! Oivey, what a deal!!
+              From abstract expressionism to excentric pop art, we want to allow you to find 
+              yourself a unique work that resonates with you! The contents of the online shop 
+              are limited, with each painting being the only one of its kind, but waste no more 
+              time reading about it when you can come find out for yourself! 
               </h3> 
         </div>
     );

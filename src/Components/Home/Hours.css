@@ -1,7 +1,8 @@
 #hours-div {
-  /* background-color: #0f60d1;  */
-  background-color: #1c2e6a;
-  height: 78vh; 
+  background-size: cover !important; 
+  background: url("bottom-curve.png"); 
+  background-color: #BDBDBD; 
+  height: 75vh; 
 }
 
 section {
@@ -59,13 +60,18 @@ section {
 #house {
   float: left; 
   margin-right: 10vw; 
-  margin-top: 37.5px; 
+  margin-top: 30.5px; 
   width: auto; 
   height: 30vh; 
+  border-radius: 20px;  
+  border: solid; 
+  border-color: #1c2e6a; 
 } 
 
 #visit {
   max-width: 50vw !important; 
+  margin-top: auto;
+  margin-bottom: auto; 
 }
 
 /* ------V----BOTTOM ROW----V------ */
@@ -275,7 +281,14 @@ section {
   .paragraph {
     color: white; 
     text-align: center; 
-    font-weight: bold; 
+    font-weight: normal; 
+  } 
+
+  .paragraph-description {
+    color: white; 
+    text-align: center; 
+    font-weight: normal; 
+    width: 40vw; 
   } 
 
   #apt {
@@ -300,7 +313,7 @@ section {
   .paragraph-stuff {
     color: #000000; 
     text-align: left; 
-    font-weight: bold; 
+    font-weight: normal; 
   } 
 
   .sub-stuff {
@@ -369,7 +382,6 @@ section {
 
     #hours-div {
       /* background-color: #0f60d1;  */
-      background-color: #1c2e6a;
       height: 67vh !important; 
     } 
 
@@ -379,6 +391,10 @@ section {
 
     #explore {
       margin-top: 4vh; 
+    } 
+
+    .paragraph-description {
+      width: 70vw; 
     }
 
     .sep {
@@ -411,6 +427,9 @@ section {
       margin-bottom: auto;
       width: auto; 
       height: 30vh; 
+      border-radius: 20px;  
+      border: solid; 
+      border-color: #1c2e6a; 
     } 
 
     #visit {
@@ -435,7 +454,6 @@ section {
 
     #hours-div {
       /* background-color: #0f60d1;  */
-      background-color: #1c2e6a;
       height: 107vh !important; 
     } 
 
@@ -539,8 +557,7 @@ section {
 
     #hours-div {
       /* background-color: #0f60d1;  */
-      background-color: #1c2e6a;
-      height: 107vh !important; 
+      height: 125vh !important; 
     } 
 
     .days-header {

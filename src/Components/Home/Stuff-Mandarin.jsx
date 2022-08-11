@@ -8,13 +8,12 @@ function StuffMandarin() {
 
     return (
         <div id="stuff"> 
-          <h1 style={{textAlign:"left"}} className="sub-stuff">看看我们的“Tchotchke Bin”</h1> 
+          <h1 style={{textAlign:"left"}} className="sub-stuff">看看我们的网上商店</h1> 
           <h3 style={{textAlign:"left"}} className="paragraph-stuff">
-          从偏心框架到及时打印照片，我们设计了这个区域
-          画廊，让您找到一个独特的项目（又名“Tchotchke”），它是
-          一定能满足你的欲望！ Tchotchke Bin 的内容总是
-          每个月都在变化，但不要再浪费时间阅读它了
-          你可以自己来了解一下！ Oivey，什么交易！
+              从抽象表现主义到异想天开的波普艺术，我们想让你找到
+              自己是一件能引起你共鸣的独特作品！网上商店的内容
+              是有限的，每幅画都是同类中唯一的一幅，但不要再浪费了
+              是时候阅读它了，你可以亲自来了解一下！
               </h3> 
         </div>
     );

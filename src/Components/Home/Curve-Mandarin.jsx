@@ -5,7 +5,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 import Card from 'react-bootstrap/Card'; 
 import { Link } from 'react-router-dom'; 
-import stuff from './Images/Tchotchke.jpg'; 
+import stuff from './Images/shop.png'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
 import StuffMandarin from './Stuff-Mandarin';
 

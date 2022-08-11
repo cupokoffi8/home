@@ -4,7 +4,7 @@ import './Home.css';
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
 import Card from 'react-bootstrap/Card'; 
-import visit from './Images/home.png'; 
+import visit from '../Artists/Zhengui-Lan/Images/13W.jpg'; 
 import '../The-Gallery/Visit-Us/Visit-Us.css'; 
 import VisitMandarin from './Visit-Mandarin'; 
 

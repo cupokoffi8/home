@@ -34,7 +34,8 @@ export default function HomeMandarin() {
       <div id="bottom"> 
 
       {/* 开始弹出窗口 */}
-      <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+
+      {/* <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
         <h3 style={{textDecoration: "underline", textAlign: "center"}}>重要信息</h3>
         <p style={{textAlign: "center"}}>
         我们将于 8 月 5 日第一个星期五下午 4:00 开放。直到晚上 9:00
@@ -60,7 +61,8 @@ export default function HomeMandarin() {
         <br /><br />
         我们期待在 8 月 5 日与大家见面。
         </p>
-      </Popup>
+      </Popup> */}
+      
       {/* 结束弹窗 */}
 
         <LandingMandarin /> 
@@ -80,6 +82,11 @@ export default function HomeMandarin() {
           我们可以提供各种服务，包括艺术家参观，夏令营，艺术教育和旅游协调。为艺术家提供的每项服务都将根据艺术家的个人展览和其他业务合作进行定制。
           请立即与我们联系以获取更多信息！
           </p> 
+
+          <br /> 
+          <br /> 
+          <br /> 
+          
         </div>
         
       </>
