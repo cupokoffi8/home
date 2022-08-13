@@ -1,9 +1,10 @@
 // This is for nav
 
-import React, { useState, useEffect } from 'react'; 
+import React, { useState, useEffect, useRef } from 'react'; 
 import './App.css';
 import Copyright from './Copyright'; 
-import { HashRouter, Switch, Route } from 'react-router-dom'; 
+import CopyrightMandarin from './Copyright-Mandarin';
+import { HashRouter, Switch, Route, useHistory } from 'react-router-dom'; 
 
 // Import Components 
 
@@ -119,6 +120,17 @@ const App = () => {
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
+  const [url, setUrl] = useState(''); 
+
+  const history = useHistory(); 
+
+    useEffect(() => {
+      return history.listen(() => { 
+         setUrl(window.location.href); 
+         console.log(window.location.href) 
+         console.log(history); 
+      }) 
+   },[history]) 
 
   const fetchProducts = async () => {
     const { data } = await commerce.products.list({
@@ -317,7 +329,7 @@ const App = () => {
 
         </Switch>
       {/* <ScrollButton />  */}
-      <Copyright />
+      {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? <Copyright /> : <CopyrightMandarin />}
     </HashRouter>
     </>
   );
