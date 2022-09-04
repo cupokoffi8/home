@@ -59,15 +59,15 @@ function ZhenghuiLanMandarin() {
               <img src={Wide4} id="painting-zf"></img>
               <h5 id="caption">
                   J016<br />
-                  Ink and Acrylic on Paper<br /> 
-                  17.5" x 41" 
+                  Black Ink on Rice Paper<br /> 
+                  41" x 17.5"
               </h5> 
 
               <img src={Wide3} id="painting-zf"></img>
               <h5 id="caption">
                   J024<br />
-                  Ink and Acrylic on Paper<br /> 
-                  15" x 57" 
+                  Black Ink on Rice Paper<br /> 
+                  57" x 15"
                 </h5>
 
               {/* --v--v--v--v--v--v--v--v-- LONG --v--v--v--v--v--v--v--v-- */}
@@ -80,12 +80,12 @@ function ZhenghuiLanMandarin() {
               <div className="the-words-zl">
               <h5 id="small-caption-ch">
                   J022<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   62" x 17.5" 
                 </h5> 
                 <h5 id="small-caption-ch">
                   J028<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   47" x 15" 
                   </h5> 
                 
@@ -96,7 +96,7 @@ function ZhenghuiLanMandarin() {
               <img src={Long1} id="image-mobile"/>
               <h5 id="caption-mobile">
                   J022<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   62" x 17.5" 
                 </h5> 
 
@@ -105,7 +105,7 @@ function ZhenghuiLanMandarin() {
               <img id="image-mobile" src={Long2}/> 
               <h5 id="caption-mobile">
                   J028<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   47" x 15" 
                 </h5> 
 
@@ -117,14 +117,14 @@ function ZhenghuiLanMandarin() {
               <img src={Wide5} id="painting-zf"></img>
               <h5 id="caption">
                 J010<br />
-                Ink and Acrylic on Paper<br /> 
+                Black Ink on Rice Paper<br /> 
                 26" x 35" 
               </h5>
 
               <img src={Wide6} id="painting-zf"></img>
               <h5 id="caption">
                 J012<br />
-                Ink and Acrylic on Paper<br /> 
+                Black Ink on Rice Paper<br /> 
                 26" x 36" 
               </h5> 
 
@@ -139,12 +139,12 @@ function ZhenghuiLanMandarin() {
               <div className="the-words-zl">
               <h5 id="small-caption-ch">
                   J021<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   62" x 17.5" 
                 </h5> 
                 <h5 id="small-caption-ch">
                   J028<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   47" x 15" 
                   </h5> 
                 
@@ -155,7 +155,7 @@ function ZhenghuiLanMandarin() {
               <img src={Long3} id="image-mobile"/>
               <h5 id="caption-mobile">
                   J022<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   62" x 17.5" 
                 </h5> 
 
@@ -164,7 +164,7 @@ function ZhenghuiLanMandarin() {
               <img id="image-mobile" src={Long4}/> 
               <h5 id="caption-mobile">
                   J032<br />
-                  Ink and Acrylic on Paper<br /> 
+                  Black Ink on Rice Paper<br /> 
                   57" x 15" 
                 </h5> 
 
@@ -176,29 +176,29 @@ function ZhenghuiLanMandarin() {
               <img src={Wide8} id="painting-zf"></img>
               <h5 id="caption">
                   J025<br />
-                  Ink and Acrylic on Paper<br /> 
-                  15" x 57" 
+                  Black Ink on Rice Paper<br /> 
+                  57" x 15" 
               </h5> 
 
               <img src={Wide1} id="painting-zf"></img>
               <h5 id="caption">
                   Wave<br />
                   Acrylic on Canvas<br /> 
-                  52" x 82" 
+                  35.5" x 47" 
               </h5> 
 
               <img src={Wide7} id="painting-zf"></img>
               <h5 id="caption">
                   Go Up<br />
                   Acrylic on Canvas<br /> 
-                  35" x 47" 
+                  47" x 35" 
               </h5> 
 
               <img src={Wide2} id="painting-zf"></img>
               <h5 id="caption">
                   Secluded<br />
-                  Acrylic on Paper Mounted Canvas<br /> 
-                  52" x 82" 
+                  Acrylic on Paper on Mounted Canvas<br /> 
+                  82" x 52"
               </h5> 
 
             </div>

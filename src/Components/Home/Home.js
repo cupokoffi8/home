@@ -52,8 +52,7 @@ export default function Home() {
   
   // ^ End Pop-Up ^ 
 
-  Aos.init({}); 
-  window.scrollTo(0, 0) 
+  Aos.init({});  
 
   const [timedPopup, setTimedPopup] = useState(false); 
 
