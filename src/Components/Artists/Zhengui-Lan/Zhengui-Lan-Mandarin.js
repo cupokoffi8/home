@@ -59,14 +59,14 @@ function ZhenghuiLanMandarin() {
               <img src={Wide4} id="painting-zf"></img>
               <h5 id="caption">
                   J016<br />
-                  Black Ink on Rice Paper<br /> 
+                  Ink and Acrylic on Xuan Paper<br /> 
                   41" x 17.5"
               </h5> 
 
               <img src={Wide3} id="painting-zf"></img>
               <h5 id="caption">
                   J024<br />
-                  Black Ink on Rice Paper<br /> 
+                  Ink and Acrylic on Xuan Paper<br /> 
                   57" x 15"
                 </h5>
 
@@ -80,13 +80,13 @@ function ZhenghuiLanMandarin() {
               <div className="the-words-zl">
               <h5 id="small-caption-ch">
                   J022<br />
-                  Black Ink on Rice Paper<br /> 
+                  Ink and Acrylic on Xuan Paper<br /> 
                   62" x 17.5" 
                 </h5> 
                 <h5 id="small-caption-ch">
                   J028<br />
-                  Black Ink on Rice Paper<br /> 
-                  47" x 15" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  15" x 47" 
                   </h5> 
                 
               </div> 
@@ -96,8 +96,8 @@ function ZhenghuiLanMandarin() {
               <img src={Long1} id="image-mobile"/>
               <h5 id="caption-mobile">
                   J022<br />
-                  Black Ink on Rice Paper<br /> 
-                  62" x 17.5" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  17.5" x 62" 
                 </h5> 
 
               <br id="only-mobile"/> 
@@ -105,8 +105,8 @@ function ZhenghuiLanMandarin() {
               <img id="image-mobile" src={Long2}/> 
               <h5 id="caption-mobile">
                   J028<br />
-                  Black Ink on Rice Paper<br /> 
-                  47" x 15" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  15" x 47" 
                 </h5> 
 
               <br id="only-mobile"/> 
@@ -117,15 +117,15 @@ function ZhenghuiLanMandarin() {
               <img src={Wide5} id="painting-zf"></img>
               <h5 id="caption">
                 J010<br />
-                Black Ink on Rice Paper<br /> 
-                26" x 35" 
+                Ink and Acrylic on Xuan Paper<br /> 
+                35" x 26"
               </h5>
 
               <img src={Wide6} id="painting-zf"></img>
               <h5 id="caption">
                 J012<br />
-                Black Ink on Rice Paper<br /> 
-                26" x 36" 
+                Ink and Acrylic on Xuan Paper<br /> 
+                36" x 26" 
               </h5> 
 
 
@@ -139,13 +139,13 @@ function ZhenghuiLanMandarin() {
               <div className="the-words-zl">
               <h5 id="small-caption-ch">
                   J021<br />
-                  Black Ink on Rice Paper<br /> 
-                  62" x 17.5" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  17.5" x 62"
                 </h5> 
                 <h5 id="small-caption-ch">
                   J028<br />
-                  Black Ink on Rice Paper<br /> 
-                  47" x 15" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  15" x 47" 
                   </h5> 
                 
               </div> 
@@ -155,8 +155,8 @@ function ZhenghuiLanMandarin() {
               <img src={Long3} id="image-mobile"/>
               <h5 id="caption-mobile">
                   J022<br />
-                  Black Ink on Rice Paper<br /> 
-                  62" x 17.5" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  17.5" x 62" 
                 </h5> 
 
               <br id="only-mobile"/> 
@@ -164,8 +164,8 @@ function ZhenghuiLanMandarin() {
               <img id="image-mobile" src={Long4}/> 
               <h5 id="caption-mobile">
                   J032<br />
-                  Black Ink on Rice Paper<br /> 
-                  57" x 15" 
+                  Ink and Acrylic on Xuan Paper<br /> 
+                  15" x 57"
                 </h5> 
 
               <br id="only-mobile"/> 
@@ -176,7 +176,7 @@ function ZhenghuiLanMandarin() {
               <img src={Wide8} id="painting-zf"></img>
               <h5 id="caption">
                   J025<br />
-                  Black Ink on Rice Paper<br /> 
+                  Ink and Acrylic on Xuan Paper<br /> 
                   57" x 15" 
               </h5> 
 
