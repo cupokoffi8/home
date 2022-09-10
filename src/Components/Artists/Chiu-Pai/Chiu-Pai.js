@@ -10,7 +10,7 @@ function ChiuPai() {
 
     return ( 
       <>
-        <Navbar />
+         
           <div className="artist-section"> 
 
           <form method="get" action="#/chiu-pai-mandarin"> 

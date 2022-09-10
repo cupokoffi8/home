@@ -36,7 +36,7 @@ function ContactMandarin() {
 
   return (
     <>
-    <NavbarMandarin /> 
+       
 
     <div className="contact-us"> 
 

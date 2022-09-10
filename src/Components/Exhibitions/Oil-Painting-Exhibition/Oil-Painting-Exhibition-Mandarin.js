@@ -7,7 +7,7 @@ function PleaseWorkMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Oil-Painting-Exhibition"> 
 
           <form method="get" action="#/oil-painting-exhibition"> 

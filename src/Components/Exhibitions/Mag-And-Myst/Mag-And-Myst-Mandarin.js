@@ -9,7 +9,7 @@ function MagAndMystMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Mag-And-Myst"> 
 
           <form method="get" action="#/mag-and-myst"> 

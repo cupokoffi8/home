@@ -18,7 +18,7 @@ function PleaseWork() {
   window.scrollTo(0, 0);
     return (
       <>
-        <Navbar />
+         
           <div className="Oil-Painting-Exhibition"> 
 
           <form method="get" action="#/oil-painting-exhibition-mandarin"> 

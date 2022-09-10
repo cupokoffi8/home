@@ -9,7 +9,7 @@ function ZhaoQing() {
 
     return (
       <>
-        <Navbar />
+         
           <div className="artist-section"> 
 
           <form method="get" action="#/zhao-qing-mandarin"> 

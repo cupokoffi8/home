@@ -40,7 +40,7 @@ function TheGalleryMandarin() {
   addLoadEvent(preloader);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="The-Gallery"> 
 
           <form method="get" action="#/the-gallery"> 

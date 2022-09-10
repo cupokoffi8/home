@@ -8,7 +8,7 @@ import '../../Button.css';
 function VisitUsMandarin() {
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Visit-Us"> 
 
           <form method="get" action="#/about-us"> 

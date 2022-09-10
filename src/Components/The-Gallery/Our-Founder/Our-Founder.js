@@ -7,7 +7,7 @@ function OurFounder() {
   window.scrollTo(0, 0); 
     return (
       <>
-        <Navbar /> 
+          
           <div className="Our-Founder"> 
 
           <form method="get" action="#/our-founder-mandarin"> 

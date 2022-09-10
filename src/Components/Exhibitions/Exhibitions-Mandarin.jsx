@@ -9,7 +9,7 @@ function ExhibitionsMandarin() {
 
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Aritists"> 
 
           <form method="get" action="#/exhibitions"> 

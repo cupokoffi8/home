@@ -14,7 +14,7 @@ function InkStormMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Ink-Storm"> 
 
           <form method="get" action="#/ink-storm"> 

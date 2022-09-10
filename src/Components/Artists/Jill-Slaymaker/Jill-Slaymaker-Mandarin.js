@@ -9,7 +9,7 @@ function JillSlaymakerMandarin() {
 
     return (
       <>
-        <NavbarMandarin />
+          
           <div className="artist-section"> 
 
           <form method="get" action="#/jill-slaymaker"> 

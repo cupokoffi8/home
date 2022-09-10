@@ -9,7 +9,7 @@ function XiaoLiMandarin( ) {
 
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="artist-section"> 
 
           <form method="get" action="#/xiao-li"> 

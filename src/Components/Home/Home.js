@@ -65,8 +65,6 @@ export default function Home() {
 
     return (
       <>
-      <Navbar /> 
-
       <div id="bottom"> 
 
       {/* Begin POPUP */}

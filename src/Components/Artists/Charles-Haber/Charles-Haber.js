@@ -11,7 +11,7 @@ function CharlesHaber() {
 
     return (
       <>
-        <Navbar /> 
+          
           <div className="artist-section"> 
 
           <form method="get" action="#/charles-haber-mandarin"> 

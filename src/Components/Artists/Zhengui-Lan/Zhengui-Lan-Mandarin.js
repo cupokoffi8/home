@@ -25,7 +25,7 @@ function ZhenghuiLanMandarin() {
 
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="artist-section"> 
 
           <form method="get" action="#/zhenghui-lan"> 

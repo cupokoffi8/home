@@ -4,6 +4,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import Copyright from './Copyright'; 
 import CopyrightMandarin from './Copyright-Mandarin';
+import Navbar from './Components/Navbar/Navbar'; 
+import NavbarMandarin from './Components/Navbar-Mandarin/Navbar-Mandarin';
 import { HashRouter, Switch, Route, useHistory } from 'react-router-dom'; 
 
 // Import Components 
@@ -195,6 +197,7 @@ const App = () => {
   return (
     <>
     <HashRouter> 
+    {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? <Navbar /> : <NavbarMandarin />  }
         <Switch>
             
             <Route exact path="/" component={Home} />

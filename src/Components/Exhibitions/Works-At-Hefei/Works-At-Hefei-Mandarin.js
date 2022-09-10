@@ -7,7 +7,7 @@ function WorksMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Works-At-Hefei"> 
 
           <form method="get" action="#/works-at-hefei"> 

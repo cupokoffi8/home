@@ -10,7 +10,7 @@ function SuZi() {
 
     return (
       <>
-        <Navbar />
+         
           <div className="artist-section"> 
 
           <form method="get" action="#/su-zi-mandarin"> 

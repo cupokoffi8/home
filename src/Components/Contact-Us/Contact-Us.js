@@ -35,7 +35,7 @@ function Contact() {
 
   return (
     <>
-    <Navbar />
+     
 
     <div className="contact-us"> 
 

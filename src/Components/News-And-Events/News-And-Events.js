@@ -6,7 +6,7 @@ import '../Button.css';
 function News() {
     return (
       <>
-        <Navbar /> 
+          
           <div className="News"> 
 
           <form method="get" action="#/news-and-events-mandarin"> 

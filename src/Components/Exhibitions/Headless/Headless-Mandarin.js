@@ -7,7 +7,7 @@ function HeadlessMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Headless"> 
 
           <form method="get" action="#/headless"> 

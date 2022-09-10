@@ -9,7 +9,7 @@ function ZenFrescosMandarin() {
 
     return (
       <>
-        <NavbarMandarin />
+          
           <div className="artist-section"> 
 
           <form method="get" action="#/zen-frescos"> 

@@ -7,7 +7,7 @@ function ArtBasel() {
   window.scrollTo(0, 0);
     return (
       <>
-        <Navbar />
+         
           <div className="Art-Basel"> 
 
           <form method="get" action="#/art-basel-mandarin"> 

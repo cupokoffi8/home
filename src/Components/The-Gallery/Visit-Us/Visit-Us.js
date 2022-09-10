@@ -11,7 +11,7 @@ function VisitUs() {
   Aos.init({}); 
     return (
       <>
-        <Navbar /> 
+          
           <div className="Visit-Us"> 
 
           <form method="get" action="#/about-us-mandarin"> 

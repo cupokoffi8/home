@@ -42,7 +42,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
 
   return (
     <>
-    <Navbar />
+     
     <Container>
       <div className={classes.toolbar} />
       <Typography className={classes.title} variant="h3" gutterBottom style={{ textAlign: "center"}}>Your Shopping Cart</Typography>

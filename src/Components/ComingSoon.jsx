@@ -6,7 +6,7 @@ import './Button.css';
 function ComingSoon() {
     return (
       <>
-        <Navbar />
+         
           <div className="ComingSoon">
           <form method="get" action="#/coming-soon-mandarin"> 
             <button id="the-button" type='btn'>普通話</button> 

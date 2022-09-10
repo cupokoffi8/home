@@ -12,7 +12,7 @@ function ApellesZhou() {
 
     return (
       <>
-        <Navbar /> 
+          
           <div className="artist-section"> 
 
           <form method="get" action="#/apelles-zhou-mandarin"> 

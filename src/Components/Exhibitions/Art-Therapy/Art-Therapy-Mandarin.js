@@ -7,7 +7,7 @@ function ArtTherapyMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Art-Therapy">
 
           <form method="get" action="#/art-therapy"> 

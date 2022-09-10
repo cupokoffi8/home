@@ -11,7 +11,7 @@ function MagAndMyst() {
   window.scrollTo(0, 0);
     return (
       <>
-        <Navbar /> 
+          
           <div className="Mag-And-Myst"> 
 
           <form method="get" action="#/mag-and-myst-mandarin"> 

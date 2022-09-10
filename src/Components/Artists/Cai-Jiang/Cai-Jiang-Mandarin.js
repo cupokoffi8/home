@@ -10,7 +10,7 @@ function CaiJiangMandarin() {
 
     return (
       <>
-        <NavbarMandarin />
+          
           <div className="artist-section"> 
 
           <form method="get" action="#/cai-jiang"> 

@@ -8,7 +8,7 @@ function Pennsylvania() {
   window.scrollTo(0, 0); 
     return (
       <>
-        <Navbar /> 
+          
           <div className="Pennsylvania"> 
 
           <form method="get" action="#/pennsylvania-mandarin"> 

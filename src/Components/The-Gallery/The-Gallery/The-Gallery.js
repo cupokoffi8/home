@@ -9,7 +9,7 @@ function TheGallery() {
   window.scrollTo(0, 0); 
     return (
       <>
-        <Navbar /> 
+          
           <div className="The-Gallery"> 
 
           <form method="get" action="#/the-gallery-mandarin"> 

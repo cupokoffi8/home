@@ -7,7 +7,7 @@ function MagnificentMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Magnificent"> 
 
           <form method="get" action="#/magnificent"> 

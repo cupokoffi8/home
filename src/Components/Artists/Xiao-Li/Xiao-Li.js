@@ -9,7 +9,7 @@ function XiaoLi() {
 
     return (
       <>
-        <Navbar />
+         
           <div className="artist-section"> 
 
           <form method="get" action="#/xiao-li-mandarin"> 

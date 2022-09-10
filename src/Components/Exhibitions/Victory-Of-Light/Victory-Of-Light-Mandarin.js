@@ -7,7 +7,7 @@ function VictoryOfLightMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin />  
+            
           <div className="Victory-Of-Light"> 
 
           <form method="get" action="#/victory-of-light"> 

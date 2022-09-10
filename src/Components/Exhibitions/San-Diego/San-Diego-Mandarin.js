@@ -7,7 +7,7 @@ function SanDiegoMandarin() {
   window.scrollTo(0, 0);
     return (
       <>
-        <NavbarMandarin />  
+            
           <div className="SanDiego"> 
 
           <form method="get" action="#/san-diego">

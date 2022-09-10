@@ -10,7 +10,7 @@ function CharlesHaberMandarin() {
 
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="artist-section"> 
 
           <form method="get" action="#/charles-haber"> 

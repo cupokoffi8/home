@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 function ArtService() {
     return (
       <>
-        <Navbar /> 
+          
           <div className="Art-Service">
           <form method="get" action="#/art-service-mandarin">
             <button id="the-button" type='btn'>普通話</button> 

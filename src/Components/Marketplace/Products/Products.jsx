@@ -13,7 +13,7 @@ const Products = ({ products, onAddToCart }) => {
 
   return (
     <>
-    <Navbar /> 
+      
     <main className={classes.content}> 
       <div className={classes.toolbar} />
       <Grid container justify="center" spacing={4}>

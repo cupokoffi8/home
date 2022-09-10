@@ -5,7 +5,7 @@ import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin';
 function ArtServiceMandarin() {
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Art-Service">
           <form method="get" action="#/art-service">
             <button id="the-button" type='btn'>English</button> 

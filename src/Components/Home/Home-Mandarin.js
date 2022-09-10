@@ -30,7 +30,6 @@ export default function HomeMandarin() {
 
     return (
       <>
-      <NavbarMandarin /> 
       <div id="bottom"> 
 
       {/* 开始弹出窗口 */}

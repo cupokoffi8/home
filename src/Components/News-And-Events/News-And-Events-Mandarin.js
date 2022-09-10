@@ -6,7 +6,7 @@ import '../Button.css';
 function NewsMandarin() {
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="News"> 
 
           <form method="get" action="#/news-and-events"> 

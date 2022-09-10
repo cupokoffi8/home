@@ -10,7 +10,7 @@ function AparnaBanerjee() {
 
     return (
       <>
-        <Navbar /> 
+          
           <div className="artist-section"> 
 
           <form method="get" action="#/aparna-banerjee-mandarin"> 

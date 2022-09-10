@@ -25,7 +25,7 @@ function ZhenghuiLan() {
 
     return (
       <>
-        <Navbar />
+         
           <div className="artist-section"> 
 
           <form method="get" action="#/zhenghui-lan-mandarin"> 

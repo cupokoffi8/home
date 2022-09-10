@@ -19,7 +19,7 @@ function AngelCruzMandarin() {
 
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="artist-section"> 
 
           <form method="get" action="#/angel-cruz"> 

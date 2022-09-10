@@ -9,7 +9,7 @@ function Exhibitions() {
 
     return (
       <>
-        <Navbar /> 
+          
           <div className="Aritists"> 
 
           <form method="get" action="#/exhibitions-mandarin"> 

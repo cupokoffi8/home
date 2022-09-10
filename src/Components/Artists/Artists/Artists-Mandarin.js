@@ -7,7 +7,7 @@ function AritistsMandarin() {
   window.scrollTo(0, 0); 
     return (
       <>
-        <NavbarMandarin /> 
+           
           <div className="Aritists"> 
 
           <form method="get" action="#/artists"> 
