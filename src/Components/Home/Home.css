@@ -550,6 +550,12 @@
     line-height: 1.7rem !important; 
   } 
 
+  @media only screen and (min-width: 2800px) { 
+    #curve-div {
+      height: 135vh; 
+    } 
+  }
+
   @media only screen and (max-height: 850px) { 
     #bottom-1 {
       height: 60vh; 
