@@ -243,6 +243,8 @@ section {
   } 
 
   .sub {
+    font-weight: bold !important;
+    font-size: x-large;
     display: block; 
     color: white; 
     align-items: center; 
@@ -316,7 +318,9 @@ section {
     font-weight: normal; 
   } 
 
-  .sub-stuff {
+  .sub-stuff { 
+    font-weight: bold !important;
+    font-size: x-large;
     display: block; 
     color: #000000; 
     align-items: center; 

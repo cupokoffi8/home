@@ -24,7 +24,7 @@ class CopyrightMandarin extends React.Component {
             <br />
             <br /> 
             <br /> 
-            <h1 style={{display: "flex", justifyContent: "center", color: "white", textAlign: "center"}} className="font-poppins text-white font-semibold text-base mt-6">加入我们的时事通讯！</h1>
+            <h1 style={{fontSize: "x-large", fontWeight: "bold", display: "flex", justifyContent: "center", color: "white", textAlign: "center"}} className="font-poppins text-white font-semibold text-base mt-6">加入我们的时事通讯！</h1>
             <div style={{display: "flex", justifyContent: "center"}}>
                 <form action={ URL } method="POST" noValidate>
                   <input type="hidden" name="u" value=""/>

@@ -197,7 +197,7 @@ const App = () => {
   return (
     <>
     <HashRouter> 
-    {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? <Navbar /> : <NavbarMandarin />  }
+      <Navbar />
         <Switch>
             
             <Route exact path="/" component={Home} />
