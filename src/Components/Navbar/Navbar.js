@@ -1,239 +1,38 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import TgDropdown from './TG-Dropdown';
-import EDropdown from './E-Dropdown';
-import ADropdown from './A-Dropdown';
-import { IconButton, Badge } from '@material-ui/core'; 
-import { ShoppingCart } from '@material-ui/icons'; 
+import React, { useState, useRef } from 'react'; 
+import { FaBars, FaTimes } from "react-icons/fa"; 
+import { Link } from 'react-router-dom'; 
+import logo from "./logo.png"; 
+import "./Navbar.css"; 
 
+export default function Navbar() {
+  const navRef = useRef(); 
 
-const Navbar = ({}) => {
-  const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
-  const [dropdown2, setDropdown2] = useState(false);
-  const [dropdown3, setDropdown3] = useState(false); 
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  // Start 1
-
-  const onMouseEnter1 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    } else {
-      setDropdown(true);
-      setDropdown2(false);
-      setDropdown3(false);
-    }
-  };
-
-  const onMouseLeave1 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    } else {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    }
-  };
-
-  // Start 2
-
-  const onMouseEnter2 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    } else {
-      setDropdown(false);
-      setDropdown2(true);
-      setDropdown3(false);
-    }
-  };
-
-  const onMouseLeave2 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    } else {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    }
-  }; 
-
-  // Start 3
-
-  const onMouseEnter3 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    } else {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(true);
-    }
-  };
-
-  const onMouseLeave3 = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    } else {
-      setDropdown(false);
-      setDropdown2(false);
-      setDropdown3(false);
-    }
-  };
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav") 
+  }
 
   return (
-    <>
-      <nav className='navbar' style={{ marginRight: "6.5px"}}>
-      <Link to='/' className='mobile-logo'>
-        <img src="./logo.png" width="72" height="72" alt="Logo" className='mobile-logo' style={{ marginTop: "25px" }} href="/"></img>
+    <header>
+      <nav ref={navRef}> 
+      <Link to='/'>
+        <img src={logo} width="72" height="72" alt="Logo" className='mobile-logo' href="/"></img>
           </Link>
-          <input className='menu-btn' type='checkbox' id='menu-btn'/> 
-                <label className='menu-icon' for='menu-btn'>
-                    <span className='nav-icon'></span>
-                </label> 
-
-          {/*className={click ? 'nav-menu active' : 'nav-menu'}*/}
-        <ul className='menu'>
-
-          {/* Shopping Cart */}
-          <li className='nav-item-move'>  
-          <Link to='cart' className='active'>
-            <IconButton className='shopping-cart-button' component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-              <Badge color="secondary">
-                <ShoppingCart />
-              </Badge>
-            </IconButton>
-            </Link> 
-          </li> 
-
-          {/* Exhibitions */}
-          <li
-            className='nav-item-1'
-            onMouseEnter={onMouseEnter2}
-            onMouseLeave={onMouseLeave2}
-          >
-            <Link
-              to='/exhibitions'
-              className='active-1'
-              onClick={closeMobileMenu}
-            >
-              Exhibitions {/* <i className='fas fa-caret-down' /> */}
-            </Link>
-            {dropdown2 && <EDropdown />}
-          </li> 
-
-          {/* Artists */}
-          <li
-            className='nav-item-1'
-            onMouseEnter={onMouseEnter3}
-            onMouseLeave={onMouseLeave3}
-          >
-            <Link
-              to='/artists'
-              className='active-1'
-              onClick={closeMobileMenu}
-            >
-              Artists {/* <i className='fas fa-caret-down' /> */}
-            </Link>
-            {dropdown3 && <ADropdown />}
-          </li>
-
-          <Link to='/' className='navbar-logo' style={{}} onClick={closeMobileMenu}>
-          <img src="./logo.png" width="78" height="78" alt="Logo" className='logo' href="/"></img> 
-          </Link> 
-
-          {/* The Gallery Section */}
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter1}
-            onMouseLeave={onMouseLeave1}
-          >
-            <Link
-              to='/about-us'
-              className='active'
-              onClick={closeMobileMenu}
-            >
-              About Us {/* <i className='fas fa-caret-down' /> */}
-            </Link>
-            {dropdown && <TgDropdown />}
-          </li>
-
-{/* ------------------------------------------------------------------------- */}
-          {/* Art Service */}
-          {/* <li className='nav-item'>
-            <Link
-              to='/art-service'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Services 
-            </Link>
-          </li> */}
-{/* ------------------------------------------------------------------------- */} 
-
-          {/* Shop */}
-          <li className='nav-item'>
-            <Link
-              to='/shop'
-              className='active'
-              onClick={closeMobileMenu}
-            >
-              Shop 
-            </Link>
-          </li> 
-
-          {/* E-Mobile */}
-          <li className='nav-item-2'>
-            <Link
-              to='/exhibitions'
-              className='active-2'
-              onClick={closeMobileMenu}
-            >
-              Exhibitions 
-            </Link>
-          </li> 
-
-          {/* A-Mobile */}
-          <li className='nav-item-2'>
-            <Link
-              to='/artists'
-              className='active-2'
-              onClick={closeMobileMenu}
-            >
-              Artists 
-            </Link>
-          </li> 
-
-          {/* Contact Us */}
-          <li className='nav-item'>
-            <Link
-              to='/contact-us'
-              className='active'
-              onClick={closeMobileMenu}
-            >
-              Contact Us 
-            </Link>
-          </li> 
-
-        </ul> 
-
-      </nav>
-    </>
-  );
-};
-
-export default Navbar;
+        <a href="/#/cart">Cart</a>
+        <a href="/#/exhibitions">Exhibitions</a>
+        <a href="/#/artists">Artists</a>
+        <Link to='/'>
+        <img src={logo} width="72" height="72" alt="Logo" className='logo' style={{ marginTop: "40px" }} href="/"></img>
+          </Link>
+        <a href="/#/about-us">About Us</a>
+        <a href="/#/shop">Shop</a>
+        <a href="/#/contact-us">Contact Us</a>
+        <button style={{ float: "right !important" }} className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes /> 
+        </button>
+      </nav> 
+      <button className="nav-btn" onClick={showNavbar}>
+        <FaBars /> 
+      </button>
+    </header>
+  )
+}
