@@ -1,6 +1,5 @@
 import React from 'react'; 
 import '../Components/Home/Home.css'; 
-import Navbar from '../Components/Navbar-Mandarin/Navbar-Mandarin'; 
 import './Button.css'; 
 
 function ComingSoonMandarin() {

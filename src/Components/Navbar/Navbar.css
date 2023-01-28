@@ -50,11 +50,11 @@ header .nav-btn {
   font-size: 1.8rem; 
 } 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1070px) {
   header .nav-btn {
     visibility: visible; 
     opacity: 1; 
-    float:inline-end;
+    padding-top: 20px; 
   } 
 
   .logo {

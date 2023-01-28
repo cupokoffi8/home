@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './Visit-Us.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin';
 import Card from 'react-bootstrap/Card'; 
 import { Link } from 'react-router-dom'; 
 import '../../Button.css'; 

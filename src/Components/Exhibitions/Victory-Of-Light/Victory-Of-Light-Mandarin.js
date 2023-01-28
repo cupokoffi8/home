@@ -1,6 +1,5 @@
 import React from 'react'; 
-import './Victory-Of-Light.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+import './Victory-Of-Light.css';  
 import '../../Button.css'; 
 
 function VictoryOfLightMandarin() {

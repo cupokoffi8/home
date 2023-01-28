@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './Works-At-Hefei.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
 function WorksMandarin() { 

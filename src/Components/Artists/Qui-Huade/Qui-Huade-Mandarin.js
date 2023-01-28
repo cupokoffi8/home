@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Qui-Huade.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin';
+
 import '../../Button.css'; 
 
 function QuiHuadeMandarin( ) {

@@ -1,6 +1,5 @@
 import React from 'react'; 
 import '../../Exhibitions/Art-Therapy/Art-Therapy.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../../Button.css'; 
 
 function OurFounderMandarin() { 

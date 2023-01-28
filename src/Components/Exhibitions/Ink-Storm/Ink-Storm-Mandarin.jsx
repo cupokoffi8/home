@@ -5,7 +5,7 @@ import '../../Artists/Aparna-Banerjee/Aparna-Banerjee.css';
 import '../../Artists/Chiu-Pai/Chiu-Pai.css'; 
 import Aos from 'aos'; 
 import 'aos/dist/aos.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+ 
 import '../../Button.css'; 
 
 function InkStormMandarin() { 

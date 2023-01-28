@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './Chiu-Pai.css'; 
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+ 
 import '../../Button.css'; 
 
 function ChiuPaiMandarin() {

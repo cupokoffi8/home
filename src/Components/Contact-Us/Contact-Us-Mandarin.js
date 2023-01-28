@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import emailjs from 'emailjs-com'; 
 import Map from '../Map/Map'; 
 import './Contact-Us.css'; 
-import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin'; 
+ 
 import '../Button.css'; 
 
 const Result = () => {
