@@ -15,7 +15,7 @@ function Landing() {
           <div id="landing-div"> 
 
             <form method="get" action="#/mandarin">
-            <button style={{ borderColor: "white", color: "white" }} id="the-button" type='btn'>普通話</button> 
+            <button id="the-button" type='btn'>普通話</button> 
             </form> 
 
             <h1 data-aos="fade-down" data-aos-duration="1800" className='gallery'>American Dragon International Fine Art Gallery</h1>

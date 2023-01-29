@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './Cai-Jiang.css'; 
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 
 function CaiJiangMandarin() {

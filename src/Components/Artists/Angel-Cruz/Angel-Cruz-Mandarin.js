@@ -1,7 +1,7 @@
 import React from 'react'; 
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import '../Artists/Artists.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 import Image1 from './Images/1.jpg'; 
 import Image2 from './Images/Stress.png'; 

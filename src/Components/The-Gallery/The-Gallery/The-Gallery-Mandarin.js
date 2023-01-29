@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './The-Gallery.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import ImageSlider from '../LancasterSlider'; 
 import '../../Button.css'; 
 import { SliderData } from '../SliderItems'; 

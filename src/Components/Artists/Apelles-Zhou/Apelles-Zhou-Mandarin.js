@@ -3,7 +3,7 @@ import './Apelles-Zhou.css';
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import '../Chiu-Pai/Chiu-Pai.css'; 
 import '../Charles-Haber/Charles-Haber.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 
 function ApellesZhouMandarin() { 

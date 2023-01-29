@@ -4,7 +4,7 @@ import '../Apelles-Zhou/Apelles-Zhou.css';
 import '../Aparna-Banerjee/Aparna-Banerjee.css'; 
 import '../Charles-Haber/Charles-Haber.css'; 
 import './Zhenghui-Lan.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 import Long1 from './Images/1L.jpg'; 
 import Long2 from './Images/2L.jpg'; 

@@ -1,6 +1,6 @@
 import React from 'react'; 
 import '../Zen-Frescos/Zen-Frescos.css'
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 
 function JillSlaymakerMandarin() {

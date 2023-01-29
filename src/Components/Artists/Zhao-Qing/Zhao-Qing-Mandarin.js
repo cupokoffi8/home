@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Zhao-Qing.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 
 function ZhaoQingMandarin() { 

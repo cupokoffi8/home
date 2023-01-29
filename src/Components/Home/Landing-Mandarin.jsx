@@ -15,7 +15,7 @@ function LandingMandarin() {
           <div id="landing-div"> 
 
             <form method="get" action="#/">
-            <button style={{ borderColor: "white", color: "white" }} id="the-button" type='btn'>English</button> 
+            <button id="the-button" type='btn'>English</button> 
             </form> 
 
             <h1 data-aos="fade-down" data-aos-duration="1800" className='gallery'>歡迎來到美國龍國際美術</h1>

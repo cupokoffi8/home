@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './Exhibitions.css'; 
-import NavbarMandarin from '../Navbar-Mandarin/Navbar-Mandarin'; 
 import '../Button.css'; 
 
 function ExhibitionsMandarin() { 

@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Oil-Painting-Exhibition.css'; 
-import NavbarMandarin from '../../Navbar-Mandarin/Navbar-Mandarin'; 
+
 import '../../Button.css'; 
 
 function PleaseWorkMandarin() {

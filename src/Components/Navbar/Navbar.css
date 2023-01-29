@@ -12,6 +12,10 @@
 
 .mobile-logo {
   display: none; 
+} 
+
+.ml {
+  display: none; 
 }
 
 header {
@@ -52,9 +56,11 @@ header .nav-btn {
 
 @media only screen and (max-width: 1070px) {
   header .nav-btn {
+    justify-content: right; 
     visibility: visible; 
     opacity: 1; 
     padding-top: 20px; 
+    margin-right: -10px;
   } 
 
   .logo {
@@ -65,8 +71,20 @@ header .nav-btn {
     display: block; 
   } 
 
+  .ml {
+      max-height: 50px !important; 
+      width: auto;
+      margin-top: 20px;
+      height: auto;
+      position: relative;
+      margin-right: auto !important;
+      margin-left: -10px !important;
+      display:block; 
+
+  }
+
   header {
-    justify-content: right; 
+    justify-content: space-between;
   } 
 
   header nav {
@@ -99,4 +117,18 @@ header .nav-btn {
   nav a {
     font-size: 1.5rem;
   }
-}
+} 
+
+@media only screen and (max-width: 362px) {
+
+  .ml {
+    max-height: 30px !important; 
+    width: auto;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+    margin-left: -10px !important;
+    display:block; 
+  }
+
+} 

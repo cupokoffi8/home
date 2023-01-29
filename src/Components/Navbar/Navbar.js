@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa"; 
 import { Link } from 'react-router-dom'; 
 import logo from "./logo.png"; 
+import ml from "./ml.png"; 
 import "./Navbar.css"; 
 import { ShoppingCart } from '@material-ui/icons'; 
 
@@ -15,8 +16,11 @@ export default function Navbar() {
 
   return (
     <header>
+      <Link to={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'}>
+        <img src={ml} width="72" height="72" alt="Logo" className='ml' href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'} />
+          </Link>
       <nav ref={navRef}> 
-      <Link onClick={showNavbar} to='/'>
+      <Link onClick={showNavbar} to={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'}>
         <img src={logo} width="72" height="72" alt="Logo" className='mobile-logo' href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'} />
           </Link>
         <a onClick={showNavbar} href="/#/cart"><ShoppingCart style={{ marginTop: "5px" }} /></a>
@@ -26,7 +30,7 @@ export default function Navbar() {
         <a onClick={showNavbar} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? "/#/artists" : "/#/artists-mandarin"} style={{ fontWeight: "bold", textTransform: "uppercase" }} >
         {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? 'Artists' : '艺术家们'}
         </a>
-        <Link to='/'>
+        <Link to={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'}>
         <img src={logo} width="72" height="72" alt="Logo" className='logo' style={{ marginTop: "20px" }} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'} />
           </Link>
         <a onClick={showNavbar} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? "/#/about-us" : "/#/about-us-mandarin"} style={{ fontWeight: "bold", textTransform: "uppercase" }} >
