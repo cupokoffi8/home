@@ -46,7 +46,6 @@ import Pennsylvania from './Components/Exhibitions/Locations/United-States/Penns
 import InkStorm from './Components/Exhibitions/Ink-Storm/Ink-Storm'; 
 
   // The Gallery 
-import HomeGallery from './Components/The-Gallery/Home/Home-Gallery'; 
 import OurFounder from './Components/The-Gallery/Our-Founder/Our-Founder';
 import TheGallery from './Components/The-Gallery/The-Gallery/The-Gallery'; 
 import VisitUs from './Components/The-Gallery/Visit-Us/Visit-Us'; 
