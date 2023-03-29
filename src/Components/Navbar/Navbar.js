@@ -31,7 +31,7 @@ export default function Navbar() {
         {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? 'Artists' : '艺术家们'}
         </a>
         <Link to={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'}>
-        <img src={logo} width="72" height="72" alt="Logo" className='logo' style={{ marginTop: "20px" }} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'} />
+        <img src={logo} width="72" height="72" alt="Logo" className='logo' href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? '/' : '/mandarin'} />
           </Link>
         <a onClick={showNavbar} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? "/#/about-us" : "/#/about-us-mandarin"} style={{ fontWeight: "bold", textTransform: "uppercase" }} >
         {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? 'About' : '关于我们'}

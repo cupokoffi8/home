@@ -21,7 +21,7 @@
 header {
   display: flex; 
   justify-content: center; 
-  height: 80px; 
+  height: 60px; 
   padding: 0 2rem; 
   background-color: var(--mainColor); 
   color: var(--textColor); 
@@ -123,12 +123,11 @@ header .nav-btn {
 
   .ml {
     max-height: 30px !important; 
-    width: auto;
-    margin-top: 30px;
+    width: auto; 
     height: auto;
     position: relative;
     margin-left: -10px !important;
     display:block; 
-  }
+  } 
 
 } 
