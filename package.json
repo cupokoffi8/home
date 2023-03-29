@@ -19,6 +19,7 @@
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
     "axios": "^0.26.1",
+    "caniuse-lite": "^1.0.30001472",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "emailjs-com": "^3.2.0",
