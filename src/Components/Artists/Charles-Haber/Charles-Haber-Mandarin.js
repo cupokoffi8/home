@@ -129,6 +129,8 @@ function CharlesHaberMandarin() {
               <img src="./WINTER-LADY.jpeg" id="image-mobile"></img> 
               <h5 id="caption-mobile">Winter Lady</h5> 
 
+            <br /> 
+
           </div> 
           </> 
     );

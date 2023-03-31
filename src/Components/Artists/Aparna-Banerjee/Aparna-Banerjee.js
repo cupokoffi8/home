@@ -51,10 +51,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Acrylic on Paper</h5> 
               <h5 id="caption-ab-22">Acrylic on Paper</h5> 
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$3,100.00</h5>
-              <h5 id="caption-ab-22">$3,100.00</h5>
-              </div>
 
               <div className="the-paintings">
               <img src="./AB3.jpeg" id="painting-ab"></img> 
@@ -453,6 +449,8 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Noble Woman</h5> 
               <h5 id="caption-mobile">36” x 47” [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
+
+              <br /> 
 
           </div> 
           </> 

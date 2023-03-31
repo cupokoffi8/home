@@ -446,6 +446,8 @@ function AparnaBanerjeeMandarin() {
               <h5 id="caption-mobile">36” x 47” [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
 
+            <br /> 
+
           </div> 
           </> 
     );
