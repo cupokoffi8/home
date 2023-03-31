@@ -74,7 +74,7 @@ header .nav-btn {
   .ml {
       max-height: 50px !important; 
       width: auto;
-      margin-top: 20px;
+      margin-top: 12px;
       height: auto;
       position: relative;
       margin-right: auto !important;
@@ -123,6 +123,8 @@ header .nav-btn {
 
   .ml {
     max-height: 30px !important; 
+    margin-bottom: 10px; 
+    margin-top: 20px; 
     width: auto; 
     height: auto;
     position: relative;
