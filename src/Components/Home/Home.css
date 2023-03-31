@@ -13,13 +13,35 @@
     background-size: cover !important; 
     /* background: url("5570863.jpg");  */
     background: linear-gradient( to bottom, rgba(18, 18, 18, 0.644) 0%, rgba(70, 70, 71, 0.8) 100% ), url("gallery.jpg");
+  } 
+
+  .custom-shape-divider-top-1680282774 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-top-1680282774 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 269px;
+  }
+
+  .custom-shape-divider-top-1680282774 .shape-fill {
+    fill: #BDBDBD;
   }
 
   #curve-div {
-    height: 105vh; 
-    background-size: cover !important; 
+    height: 55vh; 
+    /* background-size: cover !important; 
     background: url("curve.png"); 
-    background-color: transparent; 
+    background-color: transparent;  */ 
+    background-color: #bdbdbd;  
   } 
 
   #border-div {
@@ -514,7 +536,7 @@
 
   #fung-shway {
     display: block; 
-    margin-top: 50px; 
+    margin-top: 350px; 
     margin-bottom: 50px; 
     margin-left: auto !important; 
     margin-right: auto !important; 
@@ -622,6 +644,7 @@
     }
 
     #fung-shway {
+      margin-top: 230px;
       margin-left: 5px;
       margin-right: 5px; 
       height: auto !important; 
@@ -712,6 +735,31 @@
       padding-left: 5px; 
       padding-bottom: 5px; 
      } 
+
+     #curve-div {
+      height: 98vh;
+     }
+
+     .custom-shape-divider-top-1680282774 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+    }
+  
+    .custom-shape-divider-top-1680282774 svg {
+      position: relative;
+      display: block;
+      width: calc(220% + 3.3px);
+      height: 269px;
+    }
+  
+    .custom-shape-divider-top-1680282774 .shape-fill {
+      fill: #BDBDBD;
+    }
   }
 
   @media only screen and (max-width: 720px) {

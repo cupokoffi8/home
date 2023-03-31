@@ -143,7 +143,7 @@ function ZhenghuiLanMandarin() {
                   17.5" x 62"
                 </h5> 
                 <h5 id="small-caption-ch">
-                  J028<br />
+                  J032<br />
                   Ink and Acrylic on Xuan Paper<br /> 
                   15" x 47" 
                   </h5> 
@@ -154,7 +154,7 @@ function ZhenghuiLanMandarin() {
 
               <img src={Long3} id="image-mobile"/>
               <h5 id="caption-mobile">
-                  J022<br />
+                  J021<br />
                   Ink and Acrylic on Xuan Paper<br /> 
                   17.5" x 62" 
                 </h5> 
