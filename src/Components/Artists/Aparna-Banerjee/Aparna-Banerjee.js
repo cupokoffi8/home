@@ -73,10 +73,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,950.00</h5>
-              <h5 id="caption-ab-22">$2,950.00</h5> 
-              </div>
 
               <div className="the-paintings">
               <img src="./pp.png" id="painting-ab-sold"></img>   
@@ -94,10 +90,6 @@ function AparnaBanerjee() {
               <div className="the-words">
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
-              </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,950.00</h5>
-              <h5 id="caption-ab-22">$2,950.00</h5>
               </div>
 
               <div className="the-paintings">
@@ -117,10 +109,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$3,100.00</h5> 
-              <h5 id="caption-ab-22">$2,200.00</h5> 
-              </div>
 
               <div className="the-paintings">
               <img src="./AB9.jpeg" id="painting-ab"></img> 
@@ -138,10 +126,6 @@ function AparnaBanerjee() {
               <div className="the-words">
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
-              </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,200.00</h5>
-              <h5 id="caption-ab-22">$2,200.00</h5>
               </div>
 
               <div className="the-paintings">
@@ -161,10 +145,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,200.00</h5>
-              <h5 id="caption-ab-22">$2,200.00</h5>
-              </div>
 
               <div className="the-paintings">
               <img src="./AB13.jpeg" id="painting-ab"></img> 
@@ -182,10 +162,6 @@ function AparnaBanerjee() {
               <div className="the-words">
               <h5 id="caption-ab-11">Acrylic on Paper</h5> 
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
-              </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,200.00</h5>
-              <h5 id="caption-ab-22">$2,200.00</h5>
               </div>
 
               <div className="the-paintings">
@@ -205,10 +181,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5>
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,200.00</h5>
-              <h5 id="caption-ab-22">$2,950.00</h5>
-              </div>
 
               <div className="the-paintings">
               <img src="./AB17.jpeg" id="painting-ab"></img> 
@@ -226,10 +198,6 @@ function AparnaBanerjee() {
               <div className="the-words">
               <h5 id="caption-ab-11">Acrylic on Paper</h5>
               <h5 id="caption-ab-22">Acrylic on Paper</h5> 
-              </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$2,200.00</h5>
-              <h5 id="caption-ab-22">$2,950.00</h5>
               </div>
 
               <div className="the-paintings">
@@ -249,10 +217,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Oil on Canvas</h5>
               <h5 id="caption-ab-22">Oil on Canvas</h5> 
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$8,650.00</h5>
-              <h5 id="caption-ab-22">$9,100.00</h5> 
-              </div>
 
               <div className="the-paintings">
               <img src="./F3.jpeg" id="painting-ab"></img> 
@@ -270,10 +234,6 @@ function AparnaBanerjee() {
               <div className="the-words">
               <h5 id="caption-ab-11">Oil on Canvas</h5>
               <h5 id="caption-ab-22">Oil on Canvas</h5>
-              </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$8,650.00</h5>
-              <h5 id="caption-ab-22">$5,800.00</h5> 
               </div>
 
               <div className="the-paintings">
@@ -293,10 +253,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Oil on Canvas</h5>
               <h5 id="caption-ab-22">Oil on Canvas</h5>
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$4,560.00</h5>
-              <h5 id="caption-ab-22">$4,560.00</h5> 
-              </div>
 
               <div className="the-paintings">
               <img src="./F7.jpeg" id="painting-ab"></img> 
@@ -315,10 +271,6 @@ function AparnaBanerjee() {
               <h5 id="caption-ab-11">Oil on Canvas</h5>
               <h5 id="caption-ab-22">Oil on Canvas</h5> 
               </div>
-              <div className="the-wordss">
-              <h5 id="caption-ab-11">$4,560.00</h5> 
-              <h5 id="caption-ab-22">$10,100.00</h5> 
-              </div>
 
               {/* List of Paintings [Phone] */} 
 
@@ -326,7 +278,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Recollect</h5> 
               <h5 id="caption-mobile">22” x 30” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$3,100.00</h5> 
 
               <br id="only-mobile"/> 
 
@@ -334,39 +285,34 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">The Mask</h5> 
               <h5 id="caption-mobile">22” x 30” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$3,100.00</h5> 
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./AB3.jpeg"/>
               <h5 id="caption-mobile">Who Am I?</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
-              <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,950.00</h5> 
+              <h5 id="caption-mobile">Acrylic on Paper</h5>  
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./AB4.jpeg"/>
               <h5 id="caption-mobile">Spirit</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
-              <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,950.00</h5> 
+              <h5 id="caption-mobile">Acrylic on Paper</h5>  
 
               <br id="only-mobile"/>
 
               <img id="image-mobile-sold" src="./pp.png"/> 
               <h5 id="caption-mobile">Lost Cat</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
-              <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,950.00</h5> 
+              <h5 id="caption-mobile">Acrylic on Paper</h5>  
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./AB6.jpeg"/>
               <h5 id="caption-mobile">Lost in Space</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
-              <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,950.00</h5> 
+              <h5 id="caption-mobile">Acrylic on Paper</h5>  
 
               <br id="only-mobile"/>
 
@@ -374,7 +320,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Why?</h5> 
               <h5 id="caption-mobile">22” x 30” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$3,100.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -382,7 +327,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Windy</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -390,7 +334,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Red</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -398,7 +341,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Yellow</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -406,7 +348,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Blue</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -414,7 +355,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Note</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -422,7 +362,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">You Think</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -430,7 +369,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Maybe</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -438,15 +376,13 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Tattoo Girl</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./AB16.jpeg"/>
               <h5 id="caption-mobile">Flower Shower</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
-              <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,950.00</h5> 
+              <h5 id="caption-mobile">Acrylic on Paper</h5>  
 
               <br id="only-mobile"/>
 
@@ -454,23 +390,20 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Simple</h5> 
               <h5 id="caption-mobile">15” x 22” [Framed]</h5> 
               <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,200.00</h5> 
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./AB18.jpeg"/>
               <h5 id="caption-mobile">Huggy Bear</h5> 
               <h5 id="caption-mobile">22” x 30” [No Frame]</h5> 
-              <h5 id="caption-mobile">Acrylic on Paper</h5> 
-              <h5 id="caption-mobile">$2,950.00</h5> 
+              <h5 id="caption-mobile">Acrylic on Paper</h5>  
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./F1.jpeg"/>
               <h5 id="caption-mobile">Blooming Beauty</h5> 
               <h5 id="caption-mobile">33” x 46” [No Frame]</h5> 
-              <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$8,650.00</h5> 
+              <h5 id="caption-mobile">Oil on Canvas</h5>  
 
               <br id="only-mobile"/>
 
@@ -478,23 +411,20 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Pond Flowers</h5> 
               <h5 id="caption-mobile">46" x 53" [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$9,100.00</h5> 
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./F3.jpeg"/>
               <h5 id="caption-mobile">Raindrops</h5> 
               <h5 id="caption-mobile">36” x 47” [No Frame]</h5> 
-              <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$8,650.00</h5> 
+              <h5 id="caption-mobile">Oil on Canvas</h5>  
 
               <br id="only-mobile"/>
 
               <img id="image-mobile" src="./F4.jpeg"/>
               <h5 id="caption-mobile">Gorgeous</h5> 
               <h5 id="caption-mobile">29" x 46" [No Frame]</h5> 
-              <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$5,800.00</h5> 
+              <h5 id="caption-mobile">Oil on Canvas</h5>  
 
               <br id="only-mobile"/>
 
@@ -502,7 +432,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Beautiful</h5> 
               <h5 id="caption-mobile">30” x 48” [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$4,560.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -510,7 +439,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Flowers in the Storm</h5> 
               <h5 id="caption-mobile">30” x 48” [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$4,560.00</h5> 
 
               <br id="only-mobile"/>
 
@@ -518,7 +446,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Perfect</h5> 
               <h5 id="caption-mobile">29” x 46” [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$4,560.00</h5> 
 
               <br id="only-mobile"/> 
 
@@ -526,7 +453,6 @@ function AparnaBanerjee() {
               <h5 id="caption-mobile">Noble Woman</h5> 
               <h5 id="caption-mobile">36” x 47” [No Frame]</h5> 
               <h5 id="caption-mobile">Oil on Canvas</h5> 
-              <h5 id="caption-mobile">$10,100.00</h5> 
 
           </div> 
           </> 
