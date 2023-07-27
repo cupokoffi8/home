@@ -8,6 +8,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } 
 
+  .address:hover {
+    color: white !important; 
+    background-color: #02064a; 
+    border-radius: 5px;
+  }
+
   #landing-div {
     height: 100vh; 
     background-size: cover !important; 
