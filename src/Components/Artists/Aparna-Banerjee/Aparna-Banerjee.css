@@ -129,7 +129,6 @@
     display: block; 
     font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
     text-align: center; 
-    height: 4px !important;
     font-size: 18px !important; 
     font-weight: bold !important;  
     color: black !important; 
@@ -174,8 +173,7 @@
         display: block; 
         margin-left: auto; 
         margin-right: auto; 
-        margin-top: 5px; 
-        height: 5px; 
+        margin-top: 10px; 
         text-align: center; 
         text-decoration: none; 
         font-family: 'Roboto', Helvetica, Arial, sans-serif !important; 
