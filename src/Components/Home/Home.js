@@ -13,29 +13,6 @@ import Popup from "./Popup/Popup";
 
 const POPUP_LOCAL_STORAGE_KEY = "popupShownBefore";
 
-// TOP OF SCREEN TOAST NOTIFICATION
-const PopUpMessage = ({ closeToast }) => {
-  return (
-    <>
-      <h5 style={{ textAlign: "center" }} id="caption-pp-u">
-        NEW ARTISTS
-      </h5>
-
-      <h5 style={{ textAlign: "center" }} id="caption-pp">
-        We are featuring TWO new artists at our Lancaster gallery:
-      </h5>
-
-      <a id="caption-pp-l" href="#/angel-cruz">
-        Angel Cruz
-      </a>
-      <a id="caption-pp-l" href="#/zhenghui-lan">
-        Lan Zhenghui
-      </a>
-    </>
-  );
-};
-// END
-
 toast.configure();
 
 export default function Home() {
@@ -60,7 +37,8 @@ export default function Home() {
     <>
       <div id="bottom">
         {/* Begin POPUP */}
-          <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+
+          {/* <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
             <h3 style={{ textDecoration: "underline", textAlign: "center" }}>
               NEW EXHIBITION - SUMMER 2023
             </h3>
@@ -83,7 +61,8 @@ export default function Home() {
               <br />
               We look forward to seeing you there!
             </p>
-          </Popup>
+          </Popup> */}
+
         {/* End POPUP */}
         <Landing />
         <Hours />

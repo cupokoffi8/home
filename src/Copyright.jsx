@@ -60,7 +60,7 @@ class Copyright extends React.Component {
               </div>
               <br />
               <br /> 
-              <p id="copyright"> American Dragon International Fine Art © Copyright 2023 </p> 
+              <p id="copyright"> American Dragon International Fine Art © Copyright {new Date().getFullYear()} </p> 
               <br /> 
               <br /> 
               </div>
