@@ -55,16 +55,6 @@ function TheGalleryMandarin() {
               Lancaster, Pennsylvania 
             </h5>
 
-            <img id="image-thing-at" src="TG2.png" /> 
-            <h5 id="caption">
-              New York City, New York  
-            </h5>
-
-            <img id="image-thing-at" src="TG3.png" /> 
-            <h5 id="caption">
-              New York City, New York  
-            </h5>
-
             <img id="image-thing-at" src="TG4.png" /> 
             <h5 id="caption">
               Hangzhou, China 
