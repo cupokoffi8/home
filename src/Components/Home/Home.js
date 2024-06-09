@@ -9,7 +9,6 @@ import "react-toastify/dist/ReactToastify.css";
 import HomeImg from "./Images/Home.JPG";
 import Landing from "./Landing";
 import Curve from "./Curve";
-import Popup from "./Popup/Popup";
 
 const POPUP_LOCAL_STORAGE_KEY = "popupShownBefore";
 
