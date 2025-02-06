@@ -101,8 +101,8 @@ function AritistsMandarin() {
             <h5 id="caption-card">奎華德</h5> 
             </a>
 
-            <a id="link" href="#/su-zi-mandarin">  
-            <h5 id="caption-card">蘇子</h5> 
+            <a id="link" href="#/zhen-zhong-duan-mandarin">  
+            <h5 id="caption-card">段振中</h5> 
             </a>
 
             <a id="link" href="#/xiao-li-mandarin"> 

@@ -105,8 +105,8 @@ function Aritists() {
             <h5 id="caption-card">Qui Huade</h5> 
             </a> 
 
-            <a id="link" href="#/su-zi">
-            <h5 id="caption-card">Su Zi</h5> 
+            <a id="link" href="#/zhen-zhong-duan">
+            <h5 id="caption-card">Zhen Zhong Duan</h5> 
             </a> 
 
             <a id="link" href="#/xiao-li">
