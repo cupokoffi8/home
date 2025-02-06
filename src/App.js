@@ -28,7 +28,7 @@ import XiaoLi from './Components/Artists/Xiao-Li/Xiao-Li';
 import ZenFrescos from './Components/Artists/Zen-Frescos/Zen-Frescos'; 
 import ZhaoQing from './Components/Artists/Zhao-Qing/Zhao-Qing'; 
 import ZhenghuiLan from './Components/Artists/Zhengui-Lan/Zhenghui-Lan'; 
-
+import ZhenZhongDuan from './Components/Artists/Zhen-Zhong-Duan/Zhen-Zhong-Duan';
 
   // Exhibitions 
 import Exhibitions from './Components/Exhibitions/Exhibitions'; 
@@ -82,7 +82,8 @@ import SuZiMandarin from './Components/Artists/Su-Zi/Su-Zi-Mandarin';
 import XiaoLiMandarin from './Components/Artists/Xiao-Li/Xiao-Li-Mandarin'; 
 import ZenFrescosMandarin from './Components/Artists/Zen-Frescos/Zen-Frescos-Mandarin'; 
 import ZhaoQingMandarin from './Components/Artists/Zhao-Qing/Zhao-Qing-Mandarin'; 
-import ZhenghuiLanMandarin from './Components/Artists/Zhengui-Lan/Zhengui-Lan-Mandarin'; 
+import ZhenghuiLanMandarin from './Components/Artists/Zhengui-Lan/Zhengui-Lan-Mandarin';
+import ZhenZhongDuanMandarin from './Components/Artists/Zhen-Zhong-Duan/Zhen-Zhong-Duan-Mandarin'; 
 
 // Exhibitions-M  
 import ExhibitionsMandarin from './Components/Exhibitions/Exhibitions-Mandarin'; 
@@ -116,22 +117,25 @@ import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-Stat
 import InkStormMandarin from './Components/Exhibitions/Ink-Storm/Ink-Storm-Mandarin';
 
 const App = () => { 
+
+  /*
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
+  */
   const [url, setUrl] = useState(''); 
+
 
   const history = useHistory(); 
 
     useEffect(() => {
       return history.listen(() => { 
          setUrl(window.location.href); 
-         console.log(window.location.href) 
-         console.log(history); 
       }) 
    },[history]) 
 
+  /*
   const fetchProducts = async () => {
     const { data } = await commerce.products.list({
       limit: 200,
@@ -191,6 +195,7 @@ const App = () => {
     fetchProducts();
     fetchCart(); 
   }, []); 
+  */
 
   return (
     <>
@@ -210,6 +215,7 @@ const App = () => {
             <Route path="/jill-slaymaker" component={JillSlaymaker} /> 
             <Route path="/qui-huade" component={QuiHuade} /> 
             <Route path="/su-zi" component={SuZi} /> 
+            <Route path="/zhen-zhong-duan" component={ZhenZhongDuan} />
             <Route path="/xiao-li" component={XiaoLi} /> 
             <Route path="/zen-frescos" component={ZenFrescos} /> 
             <Route path="/zhao-qing" component={ZhaoQing} /> 
@@ -236,7 +242,8 @@ const App = () => {
             <Route path="/the-gallery" component={TheGallery} /> 
             <Route path="/about-us" component={VisitUs} /> 
 
-            {/* Marketplace */} 
+            {/* Marketplace OLD */} 
+            {/*
             <Route path="/shop" component={Products}>  
               <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
             </Route>
@@ -246,9 +253,10 @@ const App = () => {
             <Route path="/checkout" exact>
               <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
             </Route> 
+            */}
 
-            {/* Coming Soon */} 
-            <Route path="/coming-soon" component={ComingSoon} /> 
+            {/* Marketplace */} 
+            <Route path="/shop" component={ComingSoon} /> 
 
             {/* Art Service */}
             <Route path="/art-service" component={ArtService} /> 
@@ -274,7 +282,8 @@ const App = () => {
             <Route path="/chiu-pai-mandarin" component={ChiuPaiMandarin} />  
             <Route path="/jill-slaymaker-mandarin" component={JillSlaymakerMandarin} /> 
             <Route path="/qui-huade-mandarin" component={QuiHuadeMandarin} />  
-            <Route path="/su-zi-mandarin" component={SuZiMandarin} /> 
+            <Route path="/su-zi-mandarin" component={SuZiMandarin} />
+            <Route path="/zhen-zhong-duan-mandarin" component={ZhenZhongDuanMandarin} /> 
             <Route path="/xiao-li-mandarin" component={XiaoLiMandarin} /> 
             <Route path="/zen-frescos-mandarin" component={ZenFrescosMandarin} />  
             <Route path="/zhao-qing-mandarin" component={ZhaoQingMandarin} /> 
@@ -302,7 +311,8 @@ const App = () => {
             <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
             <Route path="/about-us-mandarin" component={VisitUsMandarin} /> 
 
-            {/* Marketplace-M */} 
+            {/* Marketplace-M OLD */} 
+            {/*
             <Route path="/shop" component={Products}>  
               <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
             </Route>
@@ -312,9 +322,10 @@ const App = () => {
             <Route path="/checkout" exact>
               <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
             </Route> 
+            */}
 
-            {/* Coming Soon-M  */}
-            <Route path="/coming-soon-mandarin" component={ComingSoonMandarin} />  
+            {/* Marketplace-M  */}
+            <Route path="/shop-mandarin" component={ComingSoonMandarin} />  
 
             {/* Art Service-M */}
 

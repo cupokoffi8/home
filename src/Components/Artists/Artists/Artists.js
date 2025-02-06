@@ -56,8 +56,8 @@ function Aritists() {
             </div> 
 
             <div className="card-row-artists">
-            <a id="link" href="#/su-zi">
-            <h5 id="caption-card-a-l">Su Zi</h5> 
+            <a id="link" href="#/zhen-zhong-duan">
+            <h5 id="caption-card-a-l">Zhen Zhong Duan</h5>
             </a>
             <a id="link" href="#/xiao-li">
             <h5 id="caption-card-a-m">Xiao Li</h5> 
