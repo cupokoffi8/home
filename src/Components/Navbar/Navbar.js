@@ -36,7 +36,7 @@ export default function Navbar() {
         <a onClick={showNavbar} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? "/#/about-us" : "/#/about-us-mandarin"} style={{ fontWeight: "bold", textTransform: "uppercase" }} >
         {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? 'About' : '关于我们'}
         </a>
-        <a onClick={showNavbar} href="/#/shop" style={{ fontWeight: "bold", textTransform: "uppercase" }} >
+        <a onClick={showNavbar} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? "/#/shop" : "/#/shop-mandarin"} style={{ fontWeight: "bold", textTransform: "uppercase" }} >
         {(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? 'Shop' : '店铺'}
         </a>
         <a onClick={showNavbar} href={(window.location.href.slice(window.location.href.length - 8) !== 'mandarin') ? "/#/contact-us" : "/#/contact-us-mandarin"} style={{ fontWeight: "bold", textTransform: "uppercase" }} >
