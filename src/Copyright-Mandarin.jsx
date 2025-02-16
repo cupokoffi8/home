@@ -47,6 +47,7 @@ class CopyrightMandarin extends React.Component {
                     btnName="Email me"
                     type="submit" 
                     name="subscribe" 
+                    value="提交"
                     id="mc-embedded-subscribe" 
                     />
 
