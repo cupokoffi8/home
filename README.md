@@ -3,6 +3,8 @@
 Welcome to the **American Dragon International Fine Art Gallery** website repository. This project serves as the official website for the gallery, showcasing fine art from international artists.  
 
 ## 🌟 Live Website  
+
+DOMAIN NEEDS TO BE RENEWED. CURRENTLY WEBSITE IS LIVE AT **[www.cupokoffi8.github.io/home](www.cupokoffi8.github.io/home)**
 Visit the website here: **[www.americandragonfineart.com](https://www.americandragonfineart.com)**  
 
 ## 📌 Overview  
