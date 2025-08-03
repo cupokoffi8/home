@@ -179,7 +179,7 @@ const App = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:9000/store/products', {
+      const response = await fetch(`${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/products`, {
         headers,
         credentials: 'include',
       });
@@ -194,7 +194,7 @@ const App = () => {
 
   const fetchExistingCart = async (id) => {
     try {
-      const response = await fetch(`http://localhost:9000/store/carts/${id}`, {
+      const response = await fetch(`${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts/${id}`, {
         headers,
         credentials: 'include',
       });
@@ -208,7 +208,7 @@ const App = () => {
 
   const fetchCart = async () => {
     try {
-      const response = await fetch('http://localhost:9000/store/carts', {
+      const response = await fetch('${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts', {
         method: 'POST',
         headers,
         credentials: 'include',
@@ -234,7 +234,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:9000/store/carts/${cart.id}/line-items`,
+        `${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts/${cart.id}/line-items`,
         {
           method: 'POST',
           headers,
@@ -275,7 +275,7 @@ const App = () => {
 
   try {
     const response = await fetch(
-      `http://localhost:9000/store/carts/${cart.id}/line-items/${lineItemId}`,
+      `${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts/${cart.id}/line-items/${lineItemId}`,
       {
         method: 'POST',
         headers,
@@ -300,7 +300,7 @@ const App = () => {
 
   const handleRemoveFromCart = async (lineItemId) => {
   try {
-    const res = await fetch(`http://localhost:9000/store/carts/${cartId}/line-items/${lineItemId}`, {
+    const res = await fetch(`${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts/${cartId}/line-items/${lineItemId}`, {
       method: 'DELETE',
       headers,
       credentials: 'include',
@@ -310,7 +310,7 @@ const App = () => {
 
     if (data.deleted) {
       // Re-fetch cart after successful deletion
-      const cartRes = await fetch(`http://localhost:9000/store/carts/${cartId}`, {
+      const cartRes = await fetch(`${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts/${cartId}`, {
         method: 'GET',
         headers,
         credentials: 'include',
@@ -339,7 +339,7 @@ const App = () => {
 
   const refreshCart = async () => {
   try {
-    const res = await fetch('http://localhost:9000/store/carts', {
+    const res = await fetch('${process.env.REACT_APP_MEDUSA_BACKEND_URL}/store/carts', {
       method: 'POST',
       headers,
       credentials: 'include',
@@ -361,7 +361,7 @@ const App = () => {
 
 
   const handleCompleteCheckout = async (cartId) => {
-    const MEDUSA_BACKEND_URL = process.env.REACT_APP_MEDUSA_BACKEND_URL || 'http://localhost:9000';
+    const MEDUSA_BACKEND_URL = process.env.REACT_APP_MEDUSA_BACKEND_URL || '${process.env.REACT_APP_MEDUSA_BACKEND_URL}';
   
     try {
       const res = await fetch(`${MEDUSA_BACKEND_URL}/store/carts/${cartId}/complete`, {
