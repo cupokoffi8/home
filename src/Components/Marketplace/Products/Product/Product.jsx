@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Card,
   CardMedia,
@@ -8,14 +7,13 @@ import {
   IconButton
 } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
-import { Link } from 'react-router-dom';
 import './Product.css';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import useStyles from './styles';
 
-const PopUpMessage = ({ closeToast }) => (
+const PopUpMessageGood = ({ closeToast }) => (
   <>
     <h5 className="added">Item Added to Cart</h5>
     <a
@@ -28,27 +26,49 @@ const PopUpMessage = ({ closeToast }) => (
   </>
 );
 
+const PopUpMessageBad = ({ closeToast }) => (
+  <>
+    <h5 className="added">Error Adding to Cart</h5>
+  </>
+);
+
 const Product = ({ product, onAddToCart }) => {
   toast.configure();
-
   const classes = useStyles();
 
-  const notify = () => {
-    toast.success(<PopUpMessage />, {
+  const notifySuccess = () => {
+    toast.success(<PopUpMessageGood />, {
       position: toast.POSITION.TOP_CENTER,
-      autoClose: 6000,
-      color: 'green'
+      autoClose: 6000
     });
   };
 
-  const handleAddToCart = () => {
-    // Pass variant ID instead of product ID, because Medusa's cart uses variant_id
+  const notifyError = () => {
+    toast.error(<PopUpMessageBad />, {
+      position: toast.POSITION.TOP_CENTER,
+      autoClose: 6000
+    });
+  };
+
+  const handleAddToCart = async () => {
     const variantId = product.variants?.[0]?.id;
-    if (variantId) {
-      onAddToCart(variantId, 1);
-      notify();
-    } else {
+
+    if (!variantId) {
       console.warn("Product has no variant");
+      notifyError();
+      return;
+    }
+
+    try {
+      const result = await onAddToCart(variantId, 1);
+      if (result?.status === "success" || result?.completed) {
+        notifySuccess();
+      } else {
+        throw new Error("Cart update was unsuccessful");
+      }
+    } catch (error) {
+      console.error("Error adding to cart:", error);
+      notifyError();
     }
   };
 
