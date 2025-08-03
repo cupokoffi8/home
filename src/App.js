@@ -13,7 +13,10 @@ import Home from './Components/Home/Home';
 import ComingSoon from './Components/ComingSoon'; 
 import ScrollButton from './Components/ScrollButton'; 
 
-  // Artists
+// Axios
+import axios from 'axios';
+
+// Artists
 import Artists from './Components/Artists/Artists/Artists'; 
 import AngelCruz from './Components/Artists/Angel-Cruz/Angel-Cruz';
 import AparnaBanerjee from './Components/Artists/Aparna-Banerjee/Aparna-Banerjee'; 
@@ -30,7 +33,7 @@ import ZhaoQing from './Components/Artists/Zhao-Qing/Zhao-Qing';
 import ZhenghuiLan from './Components/Artists/Zhengui-Lan/Zhenghui-Lan'; 
 import ZhenZhongDuan from './Components/Artists/Zhen-Zhong-Duan/Zhen-Zhong-Duan';
 
-  // Exhibitions 
+// Exhibitions 
 import Exhibitions from './Components/Exhibitions/Exhibitions'; 
 import ArtBasel from './Components/Exhibitions/Art-Basel/Art-Basel';
 import ArtTherapy from './Components/Exhibitions/Art-Therapy/Art-Therapy';
@@ -45,18 +48,18 @@ import NewYork from './Components/Exhibitions/Locations/United-States/New-York';
 import Pennsylvania from './Components/Exhibitions/Locations/United-States/Pennsylvania'; 
 import InkStorm from './Components/Exhibitions/Ink-Storm/Ink-Storm'; 
 
-  // The Gallery 
+// The Gallery 
 import OurFounder from './Components/The-Gallery/Our-Founder/Our-Founder';
 import TheGallery from './Components/The-Gallery/The-Gallery/The-Gallery'; 
 import VisitUs from './Components/The-Gallery/Visit-Us/Visit-Us'; 
 
-  // Art Service 
+// Art Service 
 import ArtService from './Components/Art-Service/Art-Service'; 
 
-  // News and Events 
+// News and Events 
 import News from './Components/News-And-Events/News-And-Events'; 
 
-  // Contact Us 
+// Contact Us 
 import Contact from './Components/Contact-Us/Contact-Us'; 
 
 // ----------------------------- Chinese ----------------------------- 
@@ -112,90 +115,190 @@ import ContactMandarin from './Components/Contact-Us/Contact-Us-Mandarin';
 import Cart from './Components/Marketplace/Cart/Cart'; 
 import Products from './Components/Marketplace/Products/Products' 
 import Checkout from './Components/Marketplace/CheckoutForm/Checkout/Checkout';
-import { commerce } from './Components/lib/commerce'; 
 import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-States/Pennsylvania-Mandarin'; 
 import InkStormMandarin from './Components/Exhibitions/Ink-Storm/Ink-Storm-Mandarin';
 
-const App = () => { 
-
-  /*
+const App = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
+  const [cartId, setCartId] = useState(() => localStorage.getItem("cart_id"));
   const [order, setOrder] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
-  */
-  const [url, setUrl] = useState(''); 
+  const [url, setUrl] = useState('');
 
+  const history = useHistory();
 
-  const history = useHistory(); 
-
-    useEffect(() => {
-      return history.listen(() => { 
-         setUrl(window.location.href); 
-      }) 
-   },[history]) 
-
-  /*
-  const fetchProducts = async () => {
-    const { data } = await commerce.products.list({
-      limit: 200,
-      page: 1,
-    });
-
-    setProducts(data);
-  };
-
-  const fetchCart = async () => {
-    setCart(await commerce.cart.retrieve());
-  };
-
-  const handleAddToCart = async (productId, quantity) => {
-    const item = await commerce.cart.add(productId, quantity);
-
-    setCart(item.cart);
-  };
-
-  const handleUpdateCartQty = async (lineItemId, quantity) => {
-    const response = await commerce.cart.update(lineItemId, { quantity });
-
-    setCart(response.cart);
-  };
-
-  const handleRemoveFromCart = async (lineItemId) => {
-    const response = await commerce.cart.remove(lineItemId);
-
-    setCart(response.cart);
-  };
-
-  const handleEmptyCart = async () => {
-    const response = await commerce.cart.empty();
-
-    setCart(response.cart);
-  };
-
-  const refreshCart = async () => {
-    const newCart = await commerce.cart.refresh();
-
-    setCart(newCart);
-  };
-
-  const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
-    try {
-      const incomingOrder = await commerce.checkout.capture(checkoutTokenId, newOrder);
-
-      setOrder(incomingOrder);
-
-      refreshCart();
-    } catch (error) {
-      setErrorMessage(error.data.error.message);
-    }
+  const headers = {
+    'Content-Type': 'application/json',
+    'x-publishable-api-key': process.env.REACT_APP_MEDUSA_API_KEY,
   };
 
   useEffect(() => {
+    return history.listen(() => {
+      setUrl(window.location.href);
+    });
+  }, [history]);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch('http://localhost:9000/store/products', {
+        headers,
+        credentials: 'include',
+      });
+
+      const { products: data } = await response.json();
+      console.log({ data });
+      setProducts(data);
+    } catch (err) {
+      console.error('Failed to fetch products:', err);
+    }
+  };
+
+  const fetchExistingCart = async (id) => {
+    try {
+      const response = await fetch(`http://localhost:9000/store/carts/${id}`, {
+        headers,
+        credentials: 'include',
+      });
+
+      const data = await response.json();
+      setCart(data.cart);
+    } catch (err) {
+      console.error('Failed to fetch existing cart:', err);
+    }
+  };
+
+  const fetchCart = async () => {
+    try {
+      const response = await fetch('http://localhost:9000/store/carts', {
+        method: 'POST',
+        headers,
+        credentials: 'include',
+        body: JSON.stringify({}),
+      });
+
+      const data = await response.json();
+      console.log('Created cart:', data);
+      setCart(data.cart);
+      setCartId(data.cart.id);
+      localStorage.setItem('cart_id', data.cart.id);
+    } catch (err) {
+      console.error('Failed to create new cart:', err);
+    }
+  };
+
+  const handleAddToCart = async (productId, quantity) => {
+    if (!cart || !cart.id) {
+      console.error('Cart is not ready yet.');
+      return;
+    }
+
+    try {
+      const response = await fetch(`http://localhost:9000/store/carts/${cart.id}/line-items`, {
+        method: 'POST',
+        headers,
+        credentials: 'include',
+        body: JSON.stringify({
+          variant_id: productId,
+          quantity,
+        }),
+      });
+
+      const data = await response.json();
+      console.log('Cart after add:', data);
+      setCart(data.cart);
+    } catch (err) {
+      console.error('Error adding to cart:', err);
+    }
+  };
+
+  const handleUpdateCartQty = async (lineItemId, quantity) => {
+    try {
+      const res = await fetch(`http://localhost:9000/store/carts/${cartId}/line-items/${lineItemId}`, {
+        method: 'POST',
+        headers,
+        credentials: 'include',
+        body: JSON.stringify({ quantity }),
+      });
+
+      const data = await res.json();
+      setCart(data.cart);
+    } catch (err) {
+      console.error('Failed to update cart quantity:', err);
+    }
+  };
+
+  const handleRemoveFromCart = async (lineItemId) => {
+    try {
+      const res = await fetch(`http://localhost:9000/store/carts/${cartId}/line-items/${lineItemId}`, {
+        method: 'DELETE',
+        headers,
+        credentials: 'include',
+      });
+
+      const data = await res.json();
+      setCart(data.cart);
+    } catch (err) {
+      console.error('Failed to remove item from cart:', err);
+    }
+  };
+
+  const handleEmptyCart = async () => {
+    try {
+      for (const item of cart.items) {
+        await handleRemoveFromCart(item.id);
+      }
+    } catch (err) {
+      console.error('Failed to empty cart:', err);
+    }
+  };
+
+  const refreshCart = async () => {
+    try {
+      const res = await fetch('http://localhost:9000/store/carts', {
+        method: 'POST',
+        headers,
+        credentials: 'include',
+        body: JSON.stringify({}),
+      });
+
+      const data = await res.json();
+      setCart(data.cart);
+    } catch (err) {
+      console.error('Failed to refresh cart:', err);
+    }
+  };
+
+  const handleCompleteCheckout = async (cartId) => {
+    const MEDUSA_BACKEND_URL = process.env.REACT_APP_MEDUSA_BACKEND_URL || 'http://localhost:9000';
+  
+    try {
+      const res = await fetch(`${MEDUSA_BACKEND_URL}/store/carts/${cartId}/complete`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-publishable-api-key': process.env.REACT_APP_MEDUSA_API_KEY,
+        },
+        credentials: 'include',
+      });
+  
+      const data = await res.json();
+      setOrder(data.data || data);
+      await refreshCart(); // Reset cart after checkout
+    } catch (error) {
+      console.error('Checkout error:', error);
+      setErrorMessage(error.message || 'Checkout failed.');
+    }
+  };  
+
+  useEffect(() => {
     fetchProducts();
-    fetchCart(); 
-  }, []); 
-  */
+    if (!cartId) {
+      fetchCart();
+    } else {
+      fetchExistingCart(cartId);
+    }
+  }, []);
 
   return (
     <>
@@ -242,8 +345,7 @@ const App = () => {
             <Route path="/the-gallery" component={TheGallery} /> 
             <Route path="/about-us" component={VisitUs} /> 
 
-            {/* Marketplace OLD */} 
-            {/*
+            {/* Marketplace */}
             <Route path="/shop" component={Products}>  
               <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
             </Route>
@@ -251,12 +353,8 @@ const App = () => {
               <Cart cart={cart} onUpdateCartQty={handleUpdateCartQty} onRemoveFromCart={handleRemoveFromCart} onEmptyCart={handleEmptyCart} />
             </Route>
             <Route path="/checkout" exact>
-              <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
-            </Route> 
-            */}
-
-            {/* Marketplace */} 
-            <Route path="/shop" component={ComingSoon} /> 
+              <Checkout cart={cart} order={order} onCaptureCheckout={handleCompleteCheckout} error={errorMessage} />
+            </Route>
 
             {/* Art Service */}
             <Route path="/art-service" component={ArtService} /> 
@@ -272,7 +370,6 @@ const App = () => {
             <Route path="/mandarin" component={HomeMandarin} /> 
 
             {/* Artists-M */}
-
             <Route path="/angel-cruz-mandarin" component={AngelCruzMandarin} /> 
             <Route path="/apelles-zhou-mandarin" component={ApellesZhouMandarin} /> 
             <Route path="/aparna-banerjee-mandarin" component={AparnaBanerjeeMandarin} />  
@@ -290,7 +387,6 @@ const App = () => {
             <Route path="/zhenghui-lan-mandarin" component={ZhenghuiLanMandarin} />  
 
             {/* Exhibitions-M */} 
-
             <Route path="/exhibitions-mandarin" component={ExhibitionsMandarin} /> 
             <Route path="/art-basel-mandarin" component={ArtBaselMandarin} /> 
             <Route path="/art-therapy-mandarin" component={ArtTherapyMandarin} />  
@@ -306,37 +402,20 @@ const App = () => {
             <Route path="/ink-storm-mandarin" component={InkStormMandarin} /> 
 
             {/* The Gallery-M */} 
-
             <Route path="/our-founder-mandarin" component={OurFounderMandarin} /> 
             <Route path="/the-gallery-mandarin" component={TheGalleryMandarin} /> 
             <Route path="/about-us-mandarin" component={VisitUsMandarin} /> 
-
-            {/* Marketplace-M OLD */} 
-            {/*
-            <Route path="/shop" component={Products}>  
-              <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
-            </Route>
-            <Route path="/cart" component={Cart}> 
-              <Cart cart={cart} onUpdateCartQty={handleUpdateCartQty} onRemoveFromCart={handleRemoveFromCart} onEmptyCart={handleEmptyCart} />
-            </Route>
-            <Route path="/checkout" exact>
-              <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
-            </Route> 
-            */}
 
             {/* Marketplace-M  */}
             <Route path="/shop-mandarin" component={ComingSoonMandarin} />  
 
             {/* Art Service-M */}
-
             <Route path="/art-service-mandarin" component={ArtServiceMandarin} /> 
 
             {/* News And Events-M */} 
-
             <Route path="/news-and-events-mandarin" component={NewsMandarin} />  
 
             {/* Contact Us-M */}
-
             <Route path="/contact-us-mandarin" component={ContactMandarin} /> 
 
         </Switch>

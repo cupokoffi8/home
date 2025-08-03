@@ -9,7 +9,7 @@ const Products = ({ products, onAddToCart }) => {
 
   const classes = useStyles(); 
 
-  if (!products.length) return <p className={classes.loading}>Loading...</p>; 
+  if (!products || !products.length) return <p className={classes.loading}>Loading...</p>;
 
   return (
     <>
