@@ -44,7 +44,7 @@ class Copyright extends React.Component {
                 </label>
                 <input
                     style={{display: "inline-block", background: "linear-gradient(101.12deg, #ff0000 27.35%, #c21313 99.99%, #ff1c1c 100%, #ff0000 100%)", fontFamily: "Poppins", fontWeight: "bold", color: "white", borderRadius: "5px", padding: "12.5px"}} 
-                    btnName="Email me"
+                    btnname="Email me"
                     type="submit" 
                     name="subscribe" 
                     value="Submit"
@@ -54,7 +54,14 @@ class Copyright extends React.Component {
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="">
 
                     <label htmlFor="b_email" />
-                    <input type="email" name="b_email" tabIndex="-1" value="" placeholder="Email" id="b_email"/>
+                      <input
+                        type="email"
+                        name="b_email"
+                        tabIndex="-1"
+                        defaultValue=""
+                        placeholder="Email"
+                        id="b_email"
+                      />
                 </div>
               </form>
               </div>
