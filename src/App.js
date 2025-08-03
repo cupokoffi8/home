@@ -16,6 +16,9 @@ import ScrollButton from './Components/ScrollButton';
 // Axios
 import axios from 'axios';
 
+// Toast
+import { toast } from 'react-toastify';
+
 // Artists
 import Artists from './Components/Artists/Artists/Artists'; 
 import AngelCruz from './Components/Artists/Angel-Cruz/Angel-Cruz';
@@ -133,6 +136,41 @@ const App = () => {
     'x-publishable-api-key': process.env.REACT_APP_MEDUSA_API_KEY,
   };
 
+  const PopUpMessageGood = ({ closeToast }) => (
+    <>
+      <h5 className="added">Item Added to Cart</h5>
+      <a
+        style={{ textDecoration: 'none', fontWeight: 'bold' }}
+        href="#/cart"
+        className="view-cart"
+      >
+        View Cart
+      </a>
+    </>
+  );
+
+  const PopUpMessageBad = ({ closeToast }) => (
+    <>
+      <h5 className="added">Error Adding to Cart</h5>
+    </>
+  );
+
+  toast.configure();
+
+  const notifySuccess = () => {
+      toast.success(<PopUpMessageGood />, {
+        position: toast.POSITION.TOP_CENTER,
+        autoClose: 6000
+      });
+    };
+  
+  const notifyError = () => {
+      toast.error(<PopUpMessageBad />, {
+        position: toast.POSITION.TOP_CENTER,
+        autoClose: 6000
+      });
+    };
+
   useEffect(() => {
     return history.listen(() => {
       setUrl(window.location.href);
@@ -190,25 +228,42 @@ const App = () => {
   const handleAddToCart = async (productId, quantity) => {
     if (!cart || !cart.id) {
       console.error('Cart is not ready yet.');
+      notifyError();
       return;
     }
 
     try {
-      const response = await fetch(`http://localhost:9000/store/carts/${cart.id}/line-items`, {
-        method: 'POST',
-        headers,
-        credentials: 'include',
-        body: JSON.stringify({
-          variant_id: productId,
-          quantity,
-        }),
-      });
+      const response = await fetch(
+        `http://localhost:9000/store/carts/${cart.id}/line-items`,
+        {
+          method: 'POST',
+          headers,
+          credentials: 'include',
+          body: JSON.stringify({
+            variant_id: productId,
+            quantity,
+          }),
+        }
+      );
 
       const data = await response.json();
+
       console.log('Cart after add:', data);
-      setCart(data.cart);
+
+      if (!response.ok || data?.type === 'error') {
+        throw new Error(data.message || 'Cart update failed');
+      }
+
+      if (data.cart) {
+        setCart(data.cart);
+        notifySuccess();
+      } else {
+        throw new Error('No cart returned');
+      }
+
     } catch (err) {
       console.error('Error adding to cart:', err);
+      notifyError();
     }
   };
 
