@@ -15,21 +15,16 @@ import useStyles from './styles';
 const Product = ({ product, onAddToCart }) => {
   const classes = useStyles();
 
-  const handleAddToCart = async () => {
-    const variantId = product.variants?.[0]?.id;
+  const handleOnAddToCart = async () => {
+  const variantId = product.variants?.[0]?.id;
 
-    if (!variantId) {
-      console.warn("Product has no variant");
-      return;
-    }
+  if (!variantId) {
+    console.warn("Product has no variant");
+    return;
+  }
 
     try {
-      const result = await onAddToCart(variantId, 1);
-      if (result?.status === "success" || result?.completed) {
-        console.log("Successfully added to cart");
-      } else {
-        throw new Error("Cart update was unsuccessful");
-      }
+      await onAddToCart(variantId, 1); 
     } catch (error) {
       console.error("Error adding to cart:", error);
     }
@@ -64,7 +59,7 @@ const Product = ({ product, onAddToCart }) => {
         />
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
-        <IconButton aria-label="Add to Cart" onClick={handleAddToCart}>
+        <IconButton aria-label="Add to Cart" onClick={handleOnAddToCart}>
           <AddShoppingCart />
         </IconButton>
       </CardActions>

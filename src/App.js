@@ -268,61 +268,97 @@ const App = () => {
   };
 
   const handleUpdateCartQty = async (lineItemId, quantity) => {
-    try {
-      const res = await fetch(`http://localhost:9000/store/carts/${cartId}/line-items/${lineItemId}`, {
+  if (!cart || !cart.id) {
+    console.error("Cart is not ready yet.");
+    return;
+  }
+
+  try {
+    const response = await fetch(
+      `http://localhost:9000/store/carts/${cart.id}/line-items/${lineItemId}`,
+      {
         method: 'POST',
         headers,
         credentials: 'include',
         body: JSON.stringify({ quantity }),
-      });
+      }
+    );
 
-      const data = await res.json();
+    const data = await response.json();
+
+    if (data.cart) {
+      console.log('Cart updated:', data.cart);
       setCart(data.cart);
+      } else {
+        console.error('Unexpected response when updating cart quantity:', data);
+      }
     } catch (err) {
       console.error('Failed to update cart quantity:', err);
     }
   };
 
+
   const handleRemoveFromCart = async (lineItemId) => {
-    try {
-      const res = await fetch(`http://localhost:9000/store/carts/${cartId}/line-items/${lineItemId}`, {
-        method: 'DELETE',
+  try {
+    const res = await fetch(`http://localhost:9000/store/carts/${cartId}/line-items/${lineItemId}`, {
+      method: 'DELETE',
+      headers,
+      credentials: 'include',
+    });
+
+    const data = await res.json();
+
+    if (data.deleted) {
+      // Re-fetch cart after successful deletion
+      const cartRes = await fetch(`http://localhost:9000/store/carts/${cartId}`, {
+        method: 'GET',
         headers,
         credentials: 'include',
       });
 
-      const data = await res.json();
-      setCart(data.cart);
+      const cartData = await cartRes.json();
+      setCart(cartData.cart);
+      } else {
+        console.warn('Unexpected response while removing item:', data);
+      }
     } catch (err) {
       console.error('Failed to remove item from cart:', err);
     }
   };
 
+
+
   const handleEmptyCart = async () => {
-    try {
-      for (const item of cart.items) {
-        await handleRemoveFromCart(item.id);
-      }
-    } catch (err) {
-      console.error('Failed to empty cart:', err);
+  if (!cart || !cart.items || cart.items.length === 0) return;
+
+    for (const item of cart.items) {
+      await Promise.all(cart.items.map(item => handleRemoveFromCart(item.id)));
     }
   };
 
-  const refreshCart = async () => {
-    try {
-      const res = await fetch('http://localhost:9000/store/carts', {
-        method: 'POST',
-        headers,
-        credentials: 'include',
-        body: JSON.stringify({}),
-      });
 
-      const data = await res.json();
+  const refreshCart = async () => {
+  try {
+    const res = await fetch('http://localhost:9000/store/carts', {
+      method: 'POST',
+      headers,
+      credentials: 'include',
+      body: JSON.stringify({}),
+    });
+
+    const data = await res.json();
+
+    if (data.cart) {
       setCart(data.cart);
+      localStorage.setItem('cart_id', data.cart.id);
+      } else {
+        console.error('Unexpected response while refreshing cart:', data);
+      }
     } catch (err) {
       console.error('Failed to refresh cart:', err);
     }
   };
+
 
   const handleCompleteCheckout = async (cartId) => {
     const MEDUSA_BACKEND_URL = process.env.REACT_APP_MEDUSA_BACKEND_URL || 'http://localhost:9000';
