@@ -44,8 +44,8 @@ function Aritists() {
             </div>
 
             <div className="card-row-artists">
-            <a id="link" href="#/jill-slaymaker">
-            <h5 id="caption-card-a-l">Jill Slaymaker</h5> 
+            <a id="link" href="#/zhen-zhong-duan">
+            <h5 id="caption-card-a-l">Zhen Zhong Duan</h5>
             </a>
             <a id="link" href="#/zhenghui-lan">
             <h5 id="caption-card-a-m">Lan Zhenghui</h5>
@@ -56,11 +56,8 @@ function Aritists() {
             </div> 
 
             <div className="card-row-artists">
-            <a id="link" href="#/zhen-zhong-duan">
-            <h5 id="caption-card-a-l">Zhen Zhong Duan</h5>
-            </a>
             <a id="link" href="#/xiao-li">
-            <h5 id="caption-card-a-m">Xiao Li</h5> 
+            <h5 id="caption-card-a-l">Xiao Li</h5> 
             </a>
             <a id="link" href="#/zen-frescos">
             <h5 id="caption-card-a-r">Zen Frescos</h5> 
@@ -91,10 +88,6 @@ function Aritists() {
 
             <a id="link" href="#/chiu-pai">
             <h5 id="caption-card">Chiu Pai</h5> 
-            </a> 
-
-            <a id="link" href="#/jill-slaymaker">
-            <h5 id="caption-card">Jill Slaymaker</h5> 
             </a> 
 
             <a id="link" href="#/zhenghui-lan">

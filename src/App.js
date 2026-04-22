@@ -97,6 +97,8 @@ import ArtTherapyMandarin from './Components/Exhibitions/Art-Therapy/Art-Therapy
 import WorksMandarin from './Components/Exhibitions/Works-At-Hefei/Works-At-Hefei-Mandarin'; 
 import PleaseWorkMandarin from './Components/Exhibitions/Oil-Painting-Exhibition/Oil-Painting-Exhibition-Mandarin'; 
 import NewYorkMandarin from './Components/Exhibitions/Locations/United-States/New-York-Mandarin'; 
+import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-States/Pennsylvania-Mandarin'; 
+import InkStormMandarin from './Components/Exhibitions/Ink-Storm/Ink-Storm-Mandarin';
 
 // The Gallery-M 
 import OurFounderMandarin from './Components/The-Gallery/Our-Founder/Our-Founder-Mandarin'; 
@@ -108,13 +110,6 @@ import NewsMandarin from './Components/News-And-Events/News-And-Events-Mandarin'
 
 // Contact Us-M 
 import ContactMandarin from './Components/Contact-Us/Contact-Us-Mandarin'; 
-
-import Cart from './Components/Marketplace/Cart/Cart'; 
-import Products from './Components/Marketplace/Products/Products' 
-import Checkout from './Components/Marketplace/CheckoutForm/Checkout/Checkout';
-import { commerce } from './Components/lib/commerce'; 
-import PennsylvaniaMandarin from './Components/Exhibitions/Locations/United-States/Pennsylvania-Mandarin'; 
-import InkStormMandarin from './Components/Exhibitions/Ink-Storm/Ink-Storm-Mandarin';
 
 const App = () => { 
 

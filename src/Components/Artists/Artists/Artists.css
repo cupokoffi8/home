@@ -1,3 +1,12 @@
+.artist {
+    display: block; 
+    color: black; 
+    margin-top: 20px;  
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
 .header-none {
     display: none; 
 }

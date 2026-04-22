@@ -44,8 +44,8 @@ function AritistsMandarin() {
             </div>
 
             <div className="card-row-artists">
-            <a id="link" href="#/jill-slaymaker-mandarin">
-            <h5 id="caption-card-a-l">吉尔·斯莱梅克</h5> 
+            <a id="link" href="#/zhenghui-lan-mandarin">
+            <h5 id="caption-card-a-l">蓝正辉</h5>
             </a>
             <a id="link" href="#/qui-huade-mandarin">
             <h5 id="caption-card-a-m">奎華德</h5> 
@@ -61,9 +61,6 @@ function AritistsMandarin() {
             </a>
             <a id="link" href="#/zen-frescos-mandarin">
             <h5 id="caption-card-a-m">禅意壁画</h5> 
-            </a>
-            <a id="link" href="#/zhenghui-lan-mandarin">
-            <h5 id="caption-card-a-r">蓝正辉</h5>
             </a>
             </div> 
 
@@ -91,10 +88,6 @@ function AritistsMandarin() {
 
             <a id="link" href="#/chiu-pai-mandarin"> 
             <h5 id="caption-card">邱白</h5> 
-            </a> 
-
-            <a id="link" href="#/jill-slaymaker-mandarin">
-            <h5 id="caption-card">吉尔·斯莱梅克</h5> 
             </a> 
 
             <a id="link" href="#/qui-huade-mandarin"> 
